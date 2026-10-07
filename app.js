@@ -13,6 +13,12 @@ const PRIORITIES = [
   ["예산", { weather: 1, cost: 2.5, dist: 1 }],
   ["가까운 곳", { weather: 1, cost: 1, dist: 2.5 }],
 ];
+// 주제 필터: [표시 이름, 데이터 태그...]. "festival"은 축제 기간이 있는 항목.
+const THEMES = [
+  ["🐑 동물 먹이주기", "feeding"], ["🐾 동물", "animals"], ["🎨 체험·만들기", "craft"],
+  ["🔭 과학·우주", "science"], ["🏛️ 박물관·전시", "museum"], ["🏊 물놀이", "water"], ["🛷 눈썰매", "snow"],
+  ["🌳 꽃·숲·단풍", "nature", "bloom", "foliage"], ["🎠 놀이공원", "play"], ["🦀 갯벌", "tide"], ["🎉 축제", "festival"],
+];
 const FAMILY = [["adult", "어른"], ["baby", "영유아 (0~3세)"], ["kid", "유아 (4~7세)"], ["school", "초등학생"]];
 const WEEKDAY = ["일", "월", "화", "수", "목", "금", "토"];
 const FUEL_PER_KM = 150; // 기름값 대략 (원/km)
@@ -20,7 +26,7 @@ const FUEL_PER_KM = 150; // 기름값 대략 (원/km)
 const state = {
   origin: 0, coords: null,
   family: { adult: 2, baby: 0, kid: 1, school: 1 },
-  budget: 4, distance: 3, priority: 0,
+  budget: 4, distance: 3, priority: 0, themes: [],
   day: 0, compare: [], limit: 20,
 };
 let places = [];
@@ -45,14 +51,15 @@ function el(tag, props = {}, ...kids) {
 // ── 저장 ──────────────────────────────────────────────
 function save() {
   try {
-    const { origin, family, budget, distance, priority } = state;
-    localStorage.setItem("weekend", JSON.stringify({ origin, family, budget, distance, priority }));
+    const { origin, family, budget, distance, priority, themes } = state;
+    localStorage.setItem("weekend", JSON.stringify({ origin, family, budget, distance, priority, themes }));
   } catch {}
 }
 function load() {
   try {
     const s = JSON.parse(localStorage.getItem("weekend") || "null");
     if (s) Object.assign(state, s);
+    if (!Array.isArray(state.themes)) state.themes = [];
   } catch {}
 }
 
@@ -111,6 +118,134 @@ async function fetchWeather(points) {
       pm25: dust[d] ? dust[d].pm25 / dust[d].n : null,
     }));
   });
+}
+
+// ── 리뷰·요청 (구글 시트 CSV) ─────────────────────────
+let reviews = {};   // placeId -> [{date, stars, text, ages}] 최신순
+let requests = [];
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [], cell = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (q) {
+      if (ch === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+      else if (ch === '"') q = false;
+      else cell += ch;
+    } else if (ch === '"') q = true;
+    else if (ch === ",") { row.push(cell); cell = ""; }
+    else if (ch === "\n" || ch === "\r") {
+      if (ch === "\r" && text[i + 1] === "\n") i++;
+      row.push(cell); rows.push(row); row = []; cell = "";
+    } else cell += ch;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  return rows.filter((r) => r.some((c) => c.trim()));
+}
+
+// 헤더 글에 키워드가 들어 있는 열 번호를 찾는다 (폼 질문 제목이 조금 달라도 동작)
+function columns(header, spec) {
+  const out = {};
+  for (const [key, words] of Object.entries(spec))
+    out[key] = header.findIndex((h) => words.some((w) => h.replace(/\s/g, "").toLowerCase().includes(w.toLowerCase())));
+  return out;
+}
+
+const parseDate = (s) => {
+  const m = String(s).match(/(\d{4})[./-]\s*(\d{1,2})[./-]\s*(\d{1,2})/);
+  return m ? `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}` : "";
+};
+
+async function fetchCsv(url) {
+  if (!url) return null;
+  try {
+    const res = await fetch(url, { cache: "no-cache" });
+    if (!res.ok) throw new Error(res.status);
+    return parseCsv(await res.text());
+  } catch { return null; }
+}
+
+async function loadReviews(url = window.REVIEWS?.csvUrl) {
+  const rows = await fetchCsv(url);
+  reviews = {};
+  if (!rows || rows.length < 2) return;
+  const c = columns(rows[0], { date: ["타임", "시간", "날짜"], id: ["ID", "아이디"], stars: ["별점", "점수"],
+    text: ["한줄", "평", "후기", "리뷰"], ages: ["나이", "연령"] });
+  if (c.id < 0 || c.text < 0) return;
+  for (const r of rows.slice(1)) {
+    const id = (r[c.id] || "").trim();
+    if (!id || !(r[c.text] || "").trim()) continue;
+    (reviews[id] ||= []).push({
+      date: c.date >= 0 ? parseDate(r[c.date]) : "",
+      stars: c.stars >= 0 ? Math.max(0, Math.min(5, parseInt(r[c.stars], 10) || 0)) : 0,
+      text: r[c.text].trim(),
+      ages: c.ages >= 0 ? (r[c.ages] || "").trim() : "",
+    });
+  }
+  for (const list of Object.values(reviews)) list.sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
+}
+
+async function loadRequests(url = window.REQUESTS?.csvUrl) {
+  const rows = await fetchCsv(url);
+  requests = [];
+  if (!rows || rows.length < 2) return;
+  const c = columns(rows[0], { date: ["타임", "시간", "날짜"], text: ["내용", "요청", "문의"], nick: ["닉네임", "이름"],
+    status: ["상태"], reply: ["답변", "회신"] });
+  if (c.text < 0) return;
+  requests = rows.slice(1).filter((r) => (r[c.text] || "").trim()).map((r) => ({
+    date: c.date >= 0 ? parseDate(r[c.date]) : "",
+    text: r[c.text].trim(),
+    nick: c.nick >= 0 ? (r[c.nick] || "").trim() : "",
+    status: c.status >= 0 ? (r[c.status] || "").trim() || "접수" : "접수",
+    reply: c.reply >= 0 ? (r[c.reply] || "").trim() : "",
+  })).reverse();
+}
+
+function reviewFormUrl(p) {
+  const { formUrl, entries } = window.REVIEWS || {};
+  if (!formUrl) return null;
+  const u = new URL(formUrl);
+  if (entries?.id) u.searchParams.set(entries.id, p.id);
+  if (entries?.name) u.searchParams.set(entries.name, p.name);
+  return u.toString();
+}
+
+const stars = (n) => "★".repeat(n) + "☆".repeat(5 - n);
+
+function reviewBlock(p) {
+  const list = reviews[p.id] || [];
+  if (!list.length) return null;
+  const r = list[0];
+  const avg = (list.reduce((a, b) => a + b.stars, 0) / list.length).toFixed(1);
+  return el("div", { class: "review" },
+    el("div", { class: "review-head" },
+      el("span", { class: "stars", "aria-label": `별점 ${r.stars}점` }, stars(r.stars)),
+      el("span", { class: "muted" }, `우리 리뷰 ${list.length}개 · 평균 ${avg}`)),
+    el("p", { class: "review-text" }, `"${r.text}"`),
+    el("p", { class: "review-meta" }, [r.date, r.ages].filter(Boolean).join(" · ")));
+}
+
+function renderRequests() {
+  const { formUrl, csvUrl } = window.REQUESTS || {};
+  const sec = $("requests");
+  if (!formUrl && !csvUrl) { sec.hidden = true; return; }
+  sec.hidden = false;
+  $("requestForm").hidden = !formUrl;
+  if (formUrl) $("requestForm").href = formUrl;
+  const list = $("requestList");
+  if (!requests.length) {
+    list.replaceChildren(el("li", { class: "empty" }, "아직 요청이 없어요. 첫 번째로 남겨 보세요!"));
+    return;
+  }
+  const cls = { 접수: "st-new", 진행중: "st-doing", 완료: "st-done", 보류: "st-hold" };
+  list.replaceChildren(...requests.slice(0, 30).map((q) =>
+    el("li", { class: "request" },
+      el("div", { class: "request-head" },
+        el("span", { class: "status " + (cls[q.status] || "st-new") }, q.status),
+        el("span", { class: "muted" }, [q.nick || "익명", q.date].filter(Boolean).join(" · "))),
+      el("p", {}, q.text),
+      q.reply ? el("p", { class: "reply" }, "↳ " + q.reply) : null)));
 }
 
 // ── 점수 계산 ─────────────────────────────────────────
@@ -202,6 +337,11 @@ function openCheck(p, day) {
   return { open: true, why: `${WEEKDAY[day.weekday]}요일 영업 · ${p.hours}` };
 }
 
+function matchesTheme(p) {
+  if (!state.themes.length) return true;
+  return state.themes.some((i) => THEMES[i].slice(1).some((t) => (t === "festival" ? !!p.period : p.tags.includes(t))));
+}
+
 function suitsAges(p) {
   const f = state.family;
   const ages = ["baby", "kid", "school"].filter((a) => f[a] > 0);
@@ -216,7 +356,7 @@ function evaluate() {
   const maxMin = DISTANCES[state.distance][1];
   const wts = PRIORITIES[state.priority][1];
 
-  const all = places.map((p, i) => {
+  const all = places.filter(matchesTheme).map((p, i) => {
     const w = weather?.[p.cell]?.[state.day] ?? null;
     const t = trip(p);
     const c = cost(p, t.km);
@@ -270,6 +410,11 @@ function renderControls() {
   chips("budget", BUDGETS, state.budget, (i) => { state.budget = i; changed(); });
   chips("distance", DISTANCES, state.distance, (i) => { state.distance = i; changed(); });
   chips("priority", PRIORITIES, state.priority, (i) => { state.priority = i; changed(); });
+  $("theme").replaceChildren(...THEMES.map(([label], i) =>
+    el("button", { type: "button", "aria-pressed": String(state.themes.includes(i)), onclick: () => {
+      state.themes = state.themes.includes(i) ? state.themes.filter((x) => x !== i) : [...state.themes, i];
+      changed();
+    } }, label)));
 }
 
 function setFamily(k, d) {
@@ -368,10 +513,13 @@ function card(r, rank) {
       el("p", {}, `입장료 ${r.cost.known ? won(r.cost.ticket) : "정보 없음"} + 주차 ${r.cost.parking == null ? "정보 없음" : won(r.cost.parking)}`
         + ` + 기름값(왕복) ${won(r.cost.fuel)}`)),
     p.tip ? el("p", { class: "tip" }, "💡 " + p.tip) : null,
+    reviewBlock(p),
     p.modified ? el("p", { class: "verified" }, `정보 수정일 ${p.modified} · 출발 전 운영 여부를 한 번 더 확인하세요`) : null,
     el("div", { class: "actions" },
       el("a", { href: "https://map.kakao.com/?q=" + encodeURIComponent(p.name), target: "_blank", rel: "noopener" }, "🗺 지도"),
-      el("a", { href: "https://map.naver.com/p/search/" + encodeURIComponent(p.name), target: "_blank", rel: "noopener" }, "💬 리뷰 보기"),
+      reviewFormUrl(p) ? el("a", { href: reviewFormUrl(p), target: "_blank", rel: "noopener" }, "✍️ 리뷰 남기기") : null,
+      el("a", { href: "https://map.naver.com/p/search/" + encodeURIComponent(p.name), target: "_blank", rel: "noopener" },
+        reviews[p.id] ? "💬 네이버 리뷰" : "💬 리뷰 보기"),
       p.homepage ? el("a", { href: p.homepage, target: "_blank", rel: "noopener" }, "🔗 누리집") : null,
       p.tel ? el("a", { href: "tel:" + p.tel.replace(/[^\d]/g, "") }, "☎ 전화") : null,
       el("button", {
@@ -382,7 +530,8 @@ function card(r, rank) {
 
 function renderList(excluded) {
   const day = days[state.day];
-  $("count").textContent = `${WEEKDAY[day.weekday]}요일 추천 ${ranked.length}곳`;
+  $("count").textContent = `${WEEKDAY[day.weekday]}요일 추천 ${ranked.length}곳`
+    + (state.themes.length ? ` · ${state.themes.map((i) => THEMES[i][0].replace(/^\S+\s/, "")).join(", ")}` : "");
   const shown = ranked.slice(0, state.limit);
   $("list").replaceChildren(...(ranked.length
     ? [...shown.map((r, i) => card(r, i + 1)),
@@ -439,7 +588,11 @@ function renderCompare() {
       line("🕘 운영", rows.map((r) => r.open.why)),
       line("🗓 쉬는 날", rows.map((r) => r.p.restText || (r.p.closedDays.length ? r.p.closedDays.map((d) => WEEKDAY[d]).join("·") + "요일" : "정보 없음"))),
       line("🏠 실내/야외", rows.map((r) => ({ indoor: "실내", outdoor: "야외", mixed: "실내+야외" }[r.p.setting]))),
-      line("💡 팁", rows.map((r) => r.p.tip || "-"))));
+      line("💡 팁", rows.map((r) => r.p.tip || "-")),
+      Object.keys(reviews).length ? line("⭐ 우리 리뷰", rows.map((r) => {
+        const l = reviews[r.p.id];
+        return l ? `${stars(Math.round(l.reduce((a, b) => a + b.stars, 0) / l.length))} (${l.length}개)` : "아직 없음";
+      }), best((r) => (reviews[r.p.id] ? reviews[r.p.id].reduce((a, b) => a + b.stars, 0) / reviews[r.p.id].length : -1))) : null));
   $("compare").hidden = false;
 }
 
@@ -520,7 +673,8 @@ async function init() {
     $("count").textContent = "장소 데이터를 불러오지 못했어요.";
     return;
   }
-  await loadWeather();
+  await Promise.all([loadWeather(), loadReviews(), loadRequests()]);
+  renderRequests();
   state.day = defaultDay();
   renderDays();
   evaluate();

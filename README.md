@@ -47,6 +47,23 @@ python scripts/test_fetch_places.py
 
 GitHub 저장소 Settings → Secrets and variables → Actions에 `TOUR_API_KEY`를 등록하세요.
 
+## 우리 가족 리뷰 · 요청 게시판 (구글 폼 + 구글 시트)
+외부 리뷰 API가 없어서, 리뷰와 요청은 구글 폼으로 받고 구글 시트를 사이트가 읽어옵니다.
+설정은 [reviews-config.js](reviews-config.js)에 적습니다. 비워 두면 해당 기능은 꺼집니다.
+
+1. 구글 폼 2개를 만들고 응답을 같은 시트에 연결합니다 (폼마다 시트 탭이 하나씩 생깁니다).
+   - 리뷰 폼 질문: `장소 ID`, `장소 이름`, `별점`(1~5), `한 줄 평`, `아이 나이`
+   - 요청 폼 질문: `요청 내용`, `닉네임`(선택)
+   - 요청 시트 탭에는 `상태`, `답변` 열을 직접 추가해 운영자가 채웁니다. 상태는 `접수`/`진행중`/`완료`/`보류`.
+2. 시트 공유를 **링크가 있는 모든 사용자 – 뷰어**로 바꿉니다.
+3. 각 탭의 CSV 주소를 설정에 넣습니다. `gid`는 탭을 열었을 때 주소창의 `gid=` 값입니다.
+   `https://docs.google.com/spreadsheets/d/<시트ID>/gviz/tq?tqx=out:csv&gid=<탭gid>`
+4. 리뷰 폼은 "미리 채워진 링크"를 만들어 `장소 ID`, `장소 이름` 항목의 `entry.숫자`를 설정에 넣습니다.
+   카드의 "리뷰 남기기"를 누르면 그 장소가 미리 채워진 폼이 열립니다.
+
+열 이름은 키워드로 찾으므로 질문 제목이 조금 달라도 됩니다 (예: "별점" 포함, "한 줄 평"·"후기" 포함).
+형식 예시는 [data/reviews.sample.csv](data/reviews.sample.csv), [data/requests.sample.csv](data/requests.sample.csv).
+
 ## 다음 단계
-- [ ] TourAPI 키로 실제 응답 확인 후 파싱 규칙 보정
-- [ ] GitHub Pages 배포
+- [ ] 구글 폼·시트 연결
+- [ ] 수집 대상 지역 확대 (강원·충청 등)

@@ -43,6 +43,11 @@
       </div>
 
       <div class="row">
+        <span class="label">🎯 주제 <small>(여러 개 가능)</small></span>
+        <div class="chips" id="theme"></div>
+      </div>
+
+      <div class="row">
         <span class="label">⭐ 가장 중요한 것</span>
         <div class="chips" id="priority"></div>
       </div>
@@ -78,6 +83,15 @@
         <ul id="excluded"></ul>
       </details>
     </section>
+
+    <section id="requests" class="requests" hidden aria-labelledby="req-title">
+      <div class="result-head">
+        <h2 id="req-title" class="section-title">📮 이런 거 고쳐 주세요</h2>
+        <a id="requestForm" class="btn" href="#" target="_blank" rel="noopener" hidden>✍️ 요청 남기기</a>
+      </div>
+      <p class="muted">불편한 점, 추가하고 싶은 지역이나 장소를 알려주세요. 답변은 여기에 달아 드려요.</p>
+      <ul class="request-list" id="requestList"></ul>
+    </section>
   </main>
 
   <div class="tray" id="tray" hidden>
@@ -92,6 +106,7 @@
        거리와 시간은 직선거리 기준 추정치예요. 사진: 한국관광공사.</p>
   </footer>
 
+  <script src="reviews-config.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

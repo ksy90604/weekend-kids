@@ -51,6 +51,8 @@ FESTIVAL_EXCLUDE = re.compile(
 
 INDOOR_WORDS = re.compile(r"박물관|과학관|미술관|전시관|체험관|기념관|아쿠아리움|수족관|키즈카페|도서관|천문|동굴|실내")
 TAG_RULES = [
+    ("feeding", r"먹이\s*주기|먹이\s*체험|먹이를\s*주|목장|양떼|팜랜드|동물농장"),
+    ("craft", r"만들기|공방|체험|클래스|워크숍|원데이"),
     ("water", r"물놀이|수영장|워터|해수욕장|계곡"),
     ("snow", r"눈썰매|스키|썰매"),
     ("bloom", r"수목원|식물원|꽃|정원"),
@@ -62,7 +64,7 @@ TAG_RULES = [
     ("nature", r"공원|숲|생태|자연|수목원|계곡"),
     ("play", r"놀이|테마파크|랜드|키즈"),
 ]
-EMOJI = {"water": "🏊", "snow": "🛷", "animals": "🐾", "science": "🔭", "museum": "🏛️", "tide": "🦀",
+EMOJI = {"feeding": "🐑", "water": "🏊", "snow": "🛷", "animals": "🐾", "science": "🔭", "museum": "🏛️", "tide": "🦀",
          "bloom": "🌷", "foliage": "🍁", "play": "🎠", "nature": "🌳"}
 WEEKDAYS = {"일": 0, "월": 1, "화": 2, "수": 3, "목": 4, "금": 5, "토": 6}
 
@@ -382,6 +384,11 @@ def reprocess() -> int:
             continue
         rest = p.get("restText") or ""
         p["closedDays"], p["closedDates"] = parse_closed_days(rest), parse_closed_dates(rest)
+        # 주제 태그는 규칙이 늘어날 수 있으니 이름·소개글로 다시 매긴다 (기존 태그는 유지)
+        _, tags, emoji, _ = classify(p["name"], p.get("tip") or "", p.get("contentTypeId", "12"))
+        p["tags"] = sorted(set(p.get("tags") or []) | set(tags))
+        if p.get("emoji", "📍") == "📍":
+            p["emoji"] = emoji
         if p.get("seasonText"):
             p["months"] = parse_months(p["seasonText"])
         kept.append(p)
