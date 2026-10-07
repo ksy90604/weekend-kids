@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>주말 어디 가지?</title>
+  <meta name="description" content="날씨, 예산, 거리, 영업 여부를 한 번에 비교해서 아이와 갈 곳을 추천해 드려요.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>🧺 주말 어디 가지?</h1>
+      <p>날씨, 예산, 거리, 그날 여는지까지 한 번에 비교해 드려요.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" aria-labelledby="set-title">
+      <h2 id="set-title" class="sr-only">조건 설정</h2>
+
+      <div class="row">
+        <span class="label">📍 출발지</span>
+        <div class="inline">
+          <select id="origin" aria-label="출발지"></select>
+          <button type="button" id="locate" class="ghost">내 위치</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <span class="label">👨‍👩‍👧 함께 가는 사람</span>
+        <div class="steppers" id="family"></div>
+      </div>
+
+      <div class="row">
+        <span class="label">💰 예산 <small>(입장료+주차+기름값)</small></span>
+        <div class="chips" id="budget"></div>
+      </div>
+
+      <div class="row">
+        <span class="label">🚗 이동 시간</span>
+        <div class="chips" id="distance"></div>
+      </div>
+
+      <div class="row">
+        <span class="label">⭐ 가장 중요한 것</span>
+        <div class="chips" id="priority"></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="day-title">
+      <h2 id="day-title" class="section-title">📅 언제 가세요?</h2>
+      <div class="days" id="days" role="tablist" aria-label="날짜"></div>
+      <p class="day-summary" id="daySummary"></p>
+    </section>
+
+    <section id="compare" class="compare" hidden aria-labelledby="cmp-title">
+      <div class="compare-head">
+        <h2 id="cmp-title" class="section-title">⚖️ 나란히 비교</h2>
+        <button type="button" id="closeCompare" class="ghost">닫기</button>
+      </div>
+      <div class="table-scroll"><table id="compareTable"></table></div>
+    </section>
+
+    <section aria-live="polite">
+      <div class="result-head">
+        <h2 id="count" class="section-title">날씨 불러오는 중…</h2>
+        <button type="button" id="pick" class="fun">🎲 그냥 골라줘!</button>
+      </div>
+      <ol class="cards" id="list"></ol>
+      <details class="excluded" id="excludedBox" hidden>
+        <summary id="excludedTitle"></summary>
+        <ul id="excluded"></ul>
+      </details>
+    </section>
+  </main>
+
+  <div class="tray" id="tray" hidden>
+    <span id="trayText"></span>
+    <button type="button" id="openCompare">비교하기</button>
+    <button type="button" id="clearCompare" class="ghost">비우기</button>
+  </div>
+
+  <footer class="wrap foot">
+    <p><span id="dataNote"></span> 공휴일엔 운영이 다를 수 있어요.</p>
+    <p class="muted">날씨: <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> ·
+       거리와 시간은 직선거리 기준 추정치예요.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
