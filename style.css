@@ -84,7 +84,13 @@ select { border-radius: 10px; }
 .stepper output { min-width: 1.2em; text-align: center; font-weight: 700; }
 
 .section-title { font-size: 1.2rem; margin: 26px 0 10px; }
-.days { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.days-row { display: flex; gap: 12px; align-items: stretch; }
+.days { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; flex: 1; min-width: 0; }
+.date-pick {
+  flex: 0 0 auto; display: grid; align-content: center; gap: 4px; font-size: 0.8rem; font-weight: 700;
+  padding: 6px 10px; border: 1.5px dashed var(--line); border-radius: 14px; background: var(--surface);
+}
+.date-pick input { font: inherit; font-weight: 400; border: 0; background: transparent; color: var(--text); min-height: 32px; }
 .day {
   flex: 0 0 auto; display: grid; justify-items: center; gap: 0; border-radius: 14px;
   padding: 8px 12px; min-width: 64px; line-height: 1.3;
@@ -106,6 +112,16 @@ select { border-radius: 10px; }
   box-shadow: var(--shadow); transition: transform 0.2s, box-shadow 0.2s;
 }
 .card.top { border: 2px solid var(--accent); }
+.card.has-photo { display: flex; gap: 18px; align-items: stretch; }
+.card .body { flex: 1; min-width: 0; }
+.card .photo {
+  flex: 0 0 150px; width: 150px; min-height: 150px; object-fit: cover;
+  border-radius: 12px; margin-left: -4px; background: var(--line);
+}
+@media (max-width: 600px) {
+  .card.has-photo { flex-direction: column; gap: 10px; }
+  .card .photo { flex: none; width: 100%; height: 170px; margin-left: 0; }
+}
 .card.picked { animation: pop 0.6s ease; box-shadow: 0 0 0 4px var(--ok); }
 @keyframes pop { 0% { transform: scale(1); } 40% { transform: scale(1.03); } 100% { transform: scale(1); } }
 .card-head { display: flex; align-items: center; gap: 10px; }

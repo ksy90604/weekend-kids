@@ -75,8 +75,8 @@ async function fetchWeatherChunk(points) {
   const lon = points.map((p) => p[1]).join(",");
   const base = `latitude=${lat}&longitude=${lon}&timezone=Asia%2FSeoul`;
   const [fc, aq] = await Promise.all([
-    fetch(`https://api.open-meteo.com/v1/forecast?${base}&forecast_days=7&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max`).then((r) => r.json()),
-    fetch(`https://air-quality-api.open-meteo.com/v1/air-quality?${base}&forecast_days=5&hourly=pm10,pm2_5`).then((r) => r.json()).catch(() => null),
+    fetch(`https://api.open-meteo.com/v1/forecast?${base}&forecast_days=16&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max`).then((r) => r.json()),
+    fetch(`https://air-quality-api.open-meteo.com/v1/air-quality?${base}&forecast_days=7&hourly=pm10,pm2_5`).then((r) => r.json()).catch(() => null),
   ]);
   const fcs = Array.isArray(fc) ? fc : [fc];
   const aqs = aq ? (Array.isArray(aq) ? aq : [aq]) : [];
@@ -283,9 +283,24 @@ function changed() {
   evaluate();
 }
 
+function pickDate(iso) {
+  let i = days.findIndex((d) => d.date === iso);
+  if (i < 0) {
+    days.push({ date: iso, weekday: new Date(iso + "T00:00").getDay() });
+    i = days.length - 1;
+  }
+  state.day = i;
+  renderDays();
+  evaluate();
+}
+
 function renderDays() {
   const base = weather?.[0];
-  $("days").replaceChildren(...days.map((d, i) => {
+  const shown = days.map((d, i) => [d, i]).filter(([, i]) => i < 7 || i === state.day);
+  const picker = $("datePick");
+  picker.min = days[0].date;
+  picker.value = days[state.day].date;
+  $("days").replaceChildren(...shown.map(([d, i]) => {
     const w = base?.[i];
     const [icon] = w ? WMO(w.code) : ["", ""];
     const weekend = d.weekday === 0 || d.weekday === 6;
@@ -296,11 +311,13 @@ function renderDays() {
     },
       el("span", { class: "dow" }, i === 0 ? "오늘" : WEEKDAY[d.weekday]),
       el("span", { class: "date" }, `${+d.date.slice(5, 7)}/${+d.date.slice(8)}`),
-      el("span", { class: "icon" }, icon),
-      w ? el("span", { class: "temp" }, `${Math.round(w.tmax)}°`) : null);
+      el("span", { class: "icon" }, w ? icon : "📅"),
+      w ? el("span", { class: "temp" }, `${Math.round(w.tmax)}°`) : el("span", { class: "temp" }, "예보 전"));
   }));
   const w = base?.[state.day];
-  if (w) {
+  if (!w) {
+    $("daySummary").textContent = "이 날은 아직 날씨 예보가 없어요. 영업 여부와 비용·거리만으로 비교해요. (예보는 16일 앞까지)";
+  } else {
     const [icon, label] = WMO(w.code);
     const dust = dustLevel(w);
     $("daySummary").textContent =
@@ -327,7 +344,10 @@ function weatherText(w) {
 function card(r, rank) {
   const { p } = r;
   const inCompare = state.compare.includes(p.id);
-  return el("li", { class: "card" + (rank === 1 ? " top" : ""), id: "card-" + p.id },
+  return el("li", { class: "card" + (rank === 1 ? " top" : "") + (p.image ? " has-photo" : ""), id: "card-" + p.id },
+    p.image ? el("img", { class: "photo", src: p.image, alt: "", loading: "lazy",
+      onerror: (e) => { e.target.remove(); } }) : null,
+    el("div", { class: "body" },
     el("div", { class: "card-head" },
       el("span", { class: "rank" }, rank),
       el("span", { class: "emoji", "aria-hidden": "true" }, p.emoji),
@@ -351,12 +371,13 @@ function card(r, rank) {
     p.modified ? el("p", { class: "verified" }, `정보 수정일 ${p.modified} · 출발 전 운영 여부를 한 번 더 확인하세요`) : null,
     el("div", { class: "actions" },
       el("a", { href: "https://map.kakao.com/?q=" + encodeURIComponent(p.name), target: "_blank", rel: "noopener" }, "🗺 지도"),
+      el("a", { href: "https://map.naver.com/p/search/" + encodeURIComponent(p.name), target: "_blank", rel: "noopener" }, "💬 리뷰 보기"),
       p.homepage ? el("a", { href: p.homepage, target: "_blank", rel: "noopener" }, "🔗 누리집") : null,
       p.tel ? el("a", { href: "tel:" + p.tel.replace(/[^\d]/g, "") }, "☎ 전화") : null,
       el("button", {
         type: "button", class: inCompare ? "on" : "", "aria-pressed": String(inCompare),
         onclick: () => toggleCompare(p.id),
-      }, inCompare ? "✓ 비교함에 담김" : "+ 비교 담기")));
+      }, inCompare ? "✓ 비교함에 담김" : "+ 비교 담기"))));
 }
 
 function renderList(excluded) {
@@ -453,7 +474,7 @@ async function loadWeather() {
   } catch {
     weather = null;
     const today = new Date();
-    days = Array.from({ length: 7 }, (_, i) => {
+    days = Array.from({ length: 16 }, (_, i) => {
       const d = new Date(today); d.setDate(d.getDate() + i);
       return { date: d.toLocaleDateString("sv-SE"), weekday: d.getDay() };
     });
@@ -487,6 +508,7 @@ async function init() {
   $("closeCompare").addEventListener("click", () => { $("compare").hidden = true; });
   $("clearCompare").addEventListener("click", () => { state.compare = []; $("compare").hidden = true; evaluate(); });
   $("pick").addEventListener("click", pickRandom);
+  $("datePick").addEventListener("change", (e) => { if (e.target.value) pickDate(e.target.value); });
 
   try {
     const data = await (await fetch("data/places.json", { cache: "no-cache" })).json();
