@@ -3,9 +3,9 @@
 // 설정 방법은 README의 "우리 가족 리뷰"와 "요청 게시판" 항목을 보세요.
 window.REVIEWS = {
   // 구글 폼 "미리 채워진 링크"의 주소 (viewform 까지)
-  formUrl: "",
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfnCtCsQ-qofixh1b0qzx5EguOns8H6M-CtgStofLXcIJsObQ/viewform",
   // 미리 채워진 링크에서 확인한 항목 ID. 예: { id: "entry.123456", name: "entry.789012" }
-  entries: { id: "", name: "" },
+  entries: { id: "entry.1623087827", name: "entry.90020160" },
   // 응답 시트를 "웹에 게시"한 CSV 주소 (output=csv 로 끝남)
   csvUrl: "",
 };
