@@ -171,11 +171,12 @@ async function loadReviews(url = window.REVIEWS?.csvUrl) {
   reviews = {};
   if (!rows || rows.length < 2) return;
   const c = columns(rows[0], { date: ["타임", "시간", "날짜"], id: ["ID", "아이디"], stars: ["별점", "점수"],
-    text: ["한줄", "평", "후기", "리뷰"], ages: ["나이", "연령"], nick: ["닉네임", "작성자"], photos: ["사진", "이미지", "첨부"] });
+    text: ["한줄", "평", "후기", "리뷰"], ages: ["나이", "연령"], nick: ["닉네임", "작성자"], photos: ["사진", "이미지", "첨부"], hide: ["숨김", "삭제", "비공개"] });
   if (c.id < 0 || c.text < 0) return;
   for (const r of rows.slice(1)) {
     const id = (r[c.id] || "").trim();
     if (!id || !(r[c.text] || "").trim()) continue;
+    if (c.hide >= 0 && (r[c.hide] || "").trim()) continue; // 숨김 열에 아무 값이나 있으면 표시 안 함
     (reviews[id] ||= []).push({
       date: c.date >= 0 ? parseDate(r[c.date]) : "",
       stars: c.stars >= 0 ? Math.max(0, Math.min(5, parseInt(r[c.stars], 10) || 0)) : 0,
@@ -193,9 +194,9 @@ async function loadRequests(url = window.REQUESTS?.csvUrl) {
   requests = [];
   if (!rows || rows.length < 2) return;
   const c = columns(rows[0], { date: ["타임", "시간", "날짜"], text: ["내용", "요청", "문의"], nick: ["닉네임", "이름"],
-    status: ["상태"], reply: ["답변", "회신"] });
+    status: ["상태"], reply: ["답변", "회신"], hide: ["숨김", "삭제", "비공개"] });
   if (c.text < 0) return;
-  requests = rows.slice(1).filter((r) => (r[c.text] || "").trim()).map((r) => ({
+  requests = rows.slice(1).filter((r) => (r[c.text] || "").trim() && !(c.hide >= 0 && (r[c.hide] || "").trim())).map((r) => ({
     date: c.date >= 0 ? parseDate(r[c.date]) : "",
     text: r[c.text].trim(),
     nick: c.nick >= 0 ? (r[c.nick] || "").trim() : "",
