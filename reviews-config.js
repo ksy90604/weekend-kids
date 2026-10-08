@@ -7,7 +7,8 @@ window.REVIEWS = {
   // 미리 채워진 링크에서 확인한 항목 ID. 예: { id: "entry.123456", name: "entry.789012" }
   entries: { id: "entry.1919307592", name: "entry.232855612" },
   // 응답 시트(링크가 있는 모든 사용자-뷰어)의 CSV 주소. gid 는 응답 탭의 gid.
-  csvUrl: "https://docs.google.com/spreadsheets/d/14GQ1buJ4odIQr1aEeo4TV6BmiDFwBYtl2MTH74IzOs4/gviz/tq?tqx=out:csv&gid=475770353",
+  // 응답 원본 시트는 비공개(이메일 포함). 공개 시트가 IMPORTRANGE+QUERY 로 이메일 열을 뺀 사본을 보여 준다.
+  csvUrl: "https://docs.google.com/spreadsheets/d/1LkEQ5ZVuZnYWu54gfV4_-_Icf9kkAlQ2fL1ZtXt24YY/gviz/tq?tqx=out:csv&gid=0",
 };
 window.REQUESTS = {
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc0dbdVS5Miz3WB3GOdUbuABYnhWxgU_123UpCIsJVFZQkxyg/viewform",
