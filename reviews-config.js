@@ -12,8 +12,8 @@ window.REVIEWS = {
 };
 // 장소 제안: 구글 폼으로 받고, GitHub Actions 가 카카오 지도 검색으로 검증해 자동 등록 (scripts/verify_proposals.py)
 window.PROPOSALS = {
-  formUrl: "",
-  csvUrl: "",
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfBJ8n3_TiERy8LuopqKB4B1RVcNIgg5bAIL5DfElU0XT1EDQ/viewform",
+  csvUrl: "https://docs.google.com/spreadsheets/d/1zFo24EAuaHT03LpqfQWU0bsMef7j7D0X6e0Iu-gj9Yw/gviz/tq?tqx=out:csv&gid=1788344943",
 };
 window.REQUESTS = {
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc0dbdVS5Miz3WB3GOdUbuABYnhWxgU_123UpCIsJVFZQkxyg/viewform",
