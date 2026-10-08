@@ -49,6 +49,12 @@ class UnitTest(unittest.TestCase):
         self.assertTrue(vp.region_ok("서울 송파구", "서울 송파구 올림픽로 1"))
         self.assertFalse(vp.region_ok("강원 춘천", "경기 가평군 1"))
         self.assertTrue(vp.region_ok("", "아무 주소"))
+        # 전체 주소를 적어도 행정구역만 비교한다
+        self.assertEqual(vp.region_words("경기도 용인시 처인구 양지면 대대로 110 (대대리 96-1)"), ["경기", "용인", "처인"])
+        self.assertTrue(vp.region_ok("경기도 용인시 처인구 양지면 대대로 110 (대대리 96-1)", "경기 용인시 처인구 양지면 대대로 110", ""))
+        self.assertTrue(vp.region_ok("서울특별시 송파구", "", "서울 송파구 잠실동 1"))
+        self.assertTrue(vp.region_ok("용인", "경기 용인시 처인구 1"))
+        self.assertFalse(vp.region_ok("경기도 수원시", "경기 용인시 처인구 1"))
 
     def test_col(self):
         self.assertEqual(vp.col(row("x", nick="감자"), "닉네임"), "감자")

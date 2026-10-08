@@ -108,14 +108,37 @@ def haversine(lat1, lon1, lat2, lon2) -> float:
     return 2 * R * math.asin(math.sqrt(d))
 
 
-def region_ok(region: str, address: str) -> bool:
-    """제안자가 적은 지역(예: '경기 가평', '서울 송파구')의 단어가 주소에 들어 있는지."""
-    if not region:
+ADMIN_SUFFIX = re.compile(r"(특별시|광역시|특별자치시|특별자치도|도|시|군|구|읍|면|동|리)$")
+
+
+def region_words(region: str) -> list[str]:
+    """제안자가 적은 지역에서 행정구역 단어만 뽑는다. '경기 가평' → ['경기','가평'],
+    '경기도 용인시 처인구 양지면 대대로 110 (대대리 96-1)' → ['경기','용인','처인','양지']"""
+    text = re.sub(r"\([^)]*\)", " ", region)              # 괄호 안(지번 등) 제거
+    words = []
+    for w in re.split(r"[\s,/]+", text):
+        if not w or re.search(r"\d", w):                   # 번지·숫자는 제외
+            continue
+        if words and not ADMIN_SUFFIX.search(w) and len(words) >= 2:
+            break                                           # 행정구역 뒤의 도로명부터는 무시
+        base = ADMIN_SUFFIX.sub("", w)
+        if len(base) >= 1:
+            words.append(base if len(base) >= 2 else w)
+        if len(words) >= 3:
+            break
+    return words
+
+
+def region_ok(region: str, *addresses: str) -> bool:
+    """제안자가 적은 지역의 행정구역 단어가 지도 주소(도로명 또는 지번)에 모두 들어 있는지."""
+    words = region_words(region) if region else []
+    if not words:
         return True
-    words = [w for w in re.split(r"[\s,/]+", region) if len(w) >= 2]
-    words = [re.sub(r"(특별시|광역시|특별자치도|도|시|군|구)$", "", w) or w for w in words]
-    addr = address.replace(" ", "")
-    return all(w.replace(" ", "") in addr for w in words)
+    for addr in addresses:
+        a = (addr or "").replace(" ", "")
+        if a and all(w in a for w in words):
+            return True
+    return False
 
 
 def find_match(api: Client, name: str, region: str) -> tuple[dict | None, str]:
@@ -136,7 +159,7 @@ def find_match(api: Client, name: str, region: str) -> tuple[dict | None, str]:
     if best is None or best_score < MIN_SIMILARITY:
         return None, f"이름이 맞는 곳을 찾지 못했어요 (가장 비슷한 곳: {best['place_name'] if best else '-'})"
     addr = best.get("road_address_name") or best.get("address_name") or ""
-    if not region_ok(region, addr):
+    if not region_ok(region, best.get("road_address_name", ""), best.get("address_name", "")):
         return None, f"지역이 달라요 (지도 주소: {addr})"
     cat = best.get("category_name", "")
     if BAD_CATEGORY.search(cat) or EXCLUDE_WORDS.search(best.get("place_name", "")):
@@ -208,8 +231,9 @@ def run(api: Client, rows: list[dict], dry_run: bool = False) -> dict:
     for row in rows:
         key = proposal_key(row)
         name = col(row, "장소이름", "이름", "장소명")
-        if not name or key in done:
+        if not name or done.get(key, {}).get("status") == "등록":
             continue
+        done.pop(key, None)  # 반려였던 제안은 다시 검토 (규칙 개선 반영)
         if col(row, "숨김", "삭제"):
             continue
         region = col(row, "지역", "주소", "위치")
