@@ -10,6 +10,6 @@ window.REVIEWS = {
   csvUrl: "https://docs.google.com/spreadsheets/d/14GQ1buJ4odIQr1aEeo4TV6BmiDFwBYtl2MTH74IzOs4/gviz/tq?tqx=out:csv&gid=475770353",
 };
 window.REQUESTS = {
-  formUrl: "",
-  csvUrl: "",
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc0dbdVS5Miz3WB3GOdUbuABYnhWxgU_123UpCIsJVFZQkxyg/viewform",
+  csvUrl: "https://docs.google.com/spreadsheets/d/1oZLCUMIY-NNloTYZYRfs1rD_NpBgqcr5zg-XQ9mTHNE/gviz/tq?tqx=out:csv&gid=1339568842",
 };
