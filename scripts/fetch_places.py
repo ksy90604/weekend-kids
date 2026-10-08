@@ -51,13 +51,13 @@ FESTIVAL_EXCLUDE = re.compile(
 
 INDOOR_WORDS = re.compile(r"박물관|과학관|미술관|전시관|체험관|기념관|아쿠아리움|수족관|키즈카페|도서관|천문|동굴|실내")
 TAG_RULES = [
-    ("feeding", r"먹이\s*주기|먹이\s*체험|먹이를\s*주|목장|양떼|팜랜드|동물농장"),
+    ("feeding", r"먹이\s*주기|먹이\s*체험|먹이를\s*주|목장|양떼|팜랜드|동물농장|동물\s*체험|동물을\s*만|조랑말|승마|염소|토끼|알파카|당나귀|사슴|젖소|송아지"),
     ("craft", r"만들기|공방|체험|클래스|워크숍|원데이"),
     ("water", r"물놀이|수영장|워터|해수욕장|계곡"),
     ("snow", r"눈썰매|스키|썰매"),
     ("bloom", r"수목원|식물원|꽃|정원"),
     ("foliage", r"수목원|숲|자연휴양림|산림"),
-    ("animals", r"동물|목장|농장|아쿠아리움|수족관"),
+    ("animals", r"동물|목장|아쿠아리움|수족관|사파리|조랑말|염소|토끼|알파카|사슴|곤충|새|나비"),
     ("science", r"과학|천문|우주"),
     ("museum", r"박물관|미술관|전시관|기념관"),
     ("tide", r"갯벌"),
@@ -387,7 +387,8 @@ def reprocess() -> int:
         p["closedDays"], p["closedDates"] = parse_closed_days(rest), parse_closed_dates(rest)
         # 주제 태그는 규칙이 늘어날 수 있으니 이름·소개글로 다시 매긴다 (기존 태그는 유지)
         _, tags, emoji, _ = classify(p["name"], p.get("tip") or "", p.get("contentTypeId", "12"))
-        p["tags"] = sorted(set(p.get("tags") or []) | set(tags))
+        # 'animals'는 예전 규칙이 '농장'만 보고도 붙였으므로 새 규칙으로 다시 판단한다
+        p["tags"] = sorted((set(p.get("tags") or []) - {"animals"}) | set(tags))
         if p.get("emoji", "📍") == "📍":
             p["emoji"] = emoji
         if p.get("seasonText"):

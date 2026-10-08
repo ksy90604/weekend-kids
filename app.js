@@ -440,7 +440,7 @@ function evaluate() {
   const maxMin = DISTANCES[state.distance][1];
   const wts = PRIORITIES[state.priority][1];
 
-  const all = places.filter((p) => matchesTheme(p) && (matchesQuery(p) || p.id === state.focusId)).map((p, i) => {
+  const all = places.filter((p) => (matchesTheme(p) && matchesQuery(p)) || p.id === state.focusId).map((p, i) => {
     const w = weather?.[p.cell]?.[state.day] ?? null;
     const t = trip(p);
     const c = cost(p, t.km);
@@ -682,9 +682,14 @@ function pinnedCard(r) {
   node.classList.add("picked", "pinned");
   node.querySelector(".body").prepend(
     el("div", { class: "pin-note" },
-      r.out.length
-        ? el("span", {}, `⚠️ 이 장소는 지금 고른 조건에서 빠져 있어요: ${r.out.join(", ")}`)
-        : el("span", {}, `📌 찾으시는 장소예요 (지금 조건으로 ${ranked.indexOf(r) + 1}위)`),
+      (() => {
+        const why = [...r.out];
+        if (!matchesTheme(r.p)) why.unshift(`고른 주제(${state.themes.map((i) => THEMES[i][0].replace(/^\S+\s/, "")).join(", ")})에 해당하지 않아요`);
+        if (!matchesQuery(r.p)) why.unshift(`검색어 "${state.q}"와 안 맞아요`);
+        return why.length
+          ? el("span", {}, `⚠️ 이 장소는 지금 고른 조건에서 빠져 있어요: ${why.join(", ")}`)
+          : el("span", {}, `📌 찾으시는 장소예요 (지금 조건으로 ${ranked.indexOf(r) + 1}위)`);
+      })(),
       el("button", { type: "button", class: "ghost", onclick: () => { state.focusId = null; evaluate(); } }, "고정 해제")));
   return node;
 }

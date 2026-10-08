@@ -287,7 +287,6 @@
    },
    "setting": "outdoor",
    "tags": [
-    "animals",
     "nature"
    ],
    "emoji": "🐾",
@@ -557,6 +556,7 @@
    },
    "setting": "outdoor",
    "tags": [
+    "animals",
     "play"
    ],
    "emoji": "🎠",
@@ -744,9 +744,10 @@
    "modified": "2026-06-30",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft"
    ],
-   "emoji": "📍",
+   "emoji": "🐾",
    "ages": [
     "baby",
     "kid",
@@ -1352,7 +1353,6 @@
    "modified": "2026-04-06",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "feeding",
     "nature",
@@ -1927,6 +1927,7 @@
    "modified": "2025-09-04",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "foliage",
     "nature"
    ],
@@ -2032,7 +2033,6 @@
    "modified": "2026-04-14",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft"
    ],
    "emoji": "🐾",
@@ -2174,7 +2174,6 @@
    "modified": "2026-07-14",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft"
    ],
    "emoji": "🐾",
@@ -2247,7 +2246,6 @@
    "modified": "2026-04-22",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "feeding",
     "play"
@@ -2283,6 +2281,7 @@
    "modified": "2026-03-05",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "craft",
     "nature"
    ],
@@ -2623,7 +2622,6 @@
    "modified": "2026-09-04",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "nature",
     "play"
    ],
@@ -3525,6 +3523,7 @@
    "modified": "2026-08-25",
    "setting": "indoor",
    "tags": [
+    "animals",
     "museum"
    ],
    "emoji": "🏛️",
@@ -4303,7 +4302,6 @@
    "modified": "2026-09-30",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "nature",
@@ -4457,7 +4455,6 @@
    "modified": "2026-02-24",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "foliage",
@@ -4533,6 +4530,7 @@
    "modified": "2026-07-23",
    "setting": "indoor",
    "tags": [
+    "animals",
     "museum",
     "nature"
    ],
@@ -4569,6 +4567,7 @@
    "modified": "2026-05-15",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "craft",
     "nature"
    ],
@@ -4603,7 +4602,6 @@
    "modified": "2026-02-11",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "feeding",
@@ -4681,6 +4679,7 @@
    "tags": [
     "animals",
     "craft",
+    "feeding",
     "nature"
    ],
    "emoji": "🐾",
@@ -5086,6 +5085,7 @@
    "modified": "2025-07-21",
    "setting": "indoor",
    "tags": [
+    "animals",
     "foliage",
     "nature"
    ],
@@ -5494,7 +5494,6 @@
    "modified": "2026-07-08",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft"
    ],
    "emoji": "🐾",
@@ -5562,7 +5561,6 @@
    "modified": "2025-09-22",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "tide"
    ],
@@ -5706,7 +5704,6 @@
    "modified": "2026-09-16",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "foliage",
     "nature"
@@ -5741,7 +5738,6 @@
    "modified": "2026-08-07",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "foliage",
@@ -5820,7 +5816,6 @@
    "modified": "2026-05-07",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "feeding",
@@ -6046,7 +6041,6 @@
    "modified": "2026-05-22",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "foliage",
     "nature",
     "water"
@@ -6230,7 +6224,6 @@
    "modified": "2026-03-09",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "foliage",
@@ -6267,7 +6260,6 @@
    "modified": "2025-12-29",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "museum",
@@ -6454,7 +6446,6 @@
    "modified": "2026-03-23",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "feeding",
     "nature",
@@ -6957,7 +6948,6 @@
    "modified": "2026-03-11",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft"
    ],
@@ -7252,7 +7242,6 @@
    "modified": "2026-10-01",
    "setting": "indoor",
    "tags": [
-    "animals",
     "museum",
     "nature"
    ],
@@ -7510,7 +7499,6 @@
    "modified": "2026-05-21",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "foliage",
     "nature"
    ],
@@ -7615,6 +7603,7 @@
    "modified": "2025-09-09",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft",
     "museum"
    ],
@@ -7724,7 +7713,6 @@
    "modified": "2026-10-07",
    "setting": "mixed",
    "tags": [
-    "animals",
     "craft",
     "nature"
    ],
@@ -7901,7 +7889,6 @@
    "modified": "2026-04-30",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft"
    ],
    "emoji": "🐾",
@@ -8819,6 +8806,7 @@
    "modified": "2026-01-21",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "play"
    ],
    "emoji": "🎠",
@@ -9585,6 +9573,7 @@
    "modified": "2026-06-19",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "craft",
     "foliage",
     "nature"
@@ -9620,6 +9609,7 @@
    "modified": "2025-07-25",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "bloom",
     "foliage",
     "nature"
@@ -9809,7 +9799,6 @@
    "modified": "2026-09-21",
    "setting": "mixed",
    "tags": [
-    "animals",
     "foliage",
     "nature",
     "play"
@@ -10694,7 +10683,6 @@
    "modified": "2026-04-15",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "nature",
     "play"
@@ -10730,6 +10718,7 @@
    "modified": "2026-02-27",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "craft",
     "museum",
     "nature",
@@ -10881,6 +10870,7 @@
    "tags": [
     "animals",
     "craft",
+    "feeding",
     "play",
     "snow",
     "water"
@@ -11887,7 +11877,6 @@
    "modified": "2026-01-23",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft"
    ],
    "emoji": "🐾",
@@ -12693,6 +12682,7 @@
    "modified": "2026-07-23",
    "setting": "indoor",
    "tags": [
+    "animals",
     "museum",
     "nature"
    ],
@@ -13017,7 +13007,6 @@
    "modified": "2026-03-05",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft"
    ],
    "emoji": "🐾",
@@ -13199,6 +13188,7 @@
    "modified": "2026-09-15",
    "setting": "indoor",
    "tags": [
+    "animals",
     "museum"
    ],
    "emoji": "🏛️",
@@ -13309,7 +13299,6 @@
    "modified": "2026-04-30",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "foliage",
     "nature",
@@ -13518,6 +13507,7 @@
    "modified": "2025-11-17",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft",
     "museum",
     "nature"
@@ -13595,6 +13585,7 @@
    "modified": "2026-10-07",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft",
     "museum",
     "nature",
@@ -13635,6 +13626,7 @@
    "modified": "2026-03-11",
    "setting": "indoor",
    "tags": [
+    "animals",
     "museum",
     "nature"
    ],
@@ -13933,6 +13925,7 @@
    "modified": "2026-09-23",
    "setting": "indoor",
    "tags": [
+    "animals",
     "museum"
    ],
    "emoji": "🏛️",
@@ -14417,7 +14410,6 @@
    "modified": "2026-03-09",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "foliage",
@@ -14454,6 +14446,7 @@
    "modified": "2026-04-20",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "bloom",
     "nature"
    ],
@@ -14533,6 +14526,7 @@
    "modified": "2025-12-22",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "craft",
     "nature",
     "play"
@@ -14572,7 +14566,6 @@
    "modified": "2025-12-03",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "museum",
     "nature",
@@ -14801,7 +14794,6 @@
    "modified": "2026-03-05",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "foliage",
     "nature",
@@ -14839,7 +14831,6 @@
    "modified": "2026-09-30",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "foliage",
     "nature"
@@ -14989,6 +14980,7 @@
    },
    "setting": "outdoor",
    "tags": [
+    "animals",
     "nature"
    ],
    "emoji": "🌳",
@@ -15059,7 +15051,6 @@
    "modified": "2026-04-21",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "nature"
    ],
    "emoji": "🐾",
@@ -15346,6 +15337,7 @@
    "modified": "2025-10-23",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "bloom",
     "craft",
     "foliage",
@@ -15637,6 +15629,7 @@
    "modified": "2026-06-18",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft",
     "museum",
     "nature",
@@ -16092,7 +16085,6 @@
    "modified": "2026-07-02",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "foliage",
     "nature"
@@ -16127,6 +16119,7 @@
    "modified": "2026-08-12",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft",
     "nature"
    ],
@@ -16203,6 +16196,7 @@
    "tags": [
     "animals",
     "craft",
+    "feeding",
     "nature"
    ],
    "emoji": "🐾",
@@ -16820,6 +16814,7 @@
    "modified": "2026-08-12",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft",
     "foliage",
     "museum",
@@ -17083,6 +17078,7 @@
    "modified": "2026-06-05",
    "setting": "indoor",
    "tags": [
+    "animals",
     "craft",
     "nature"
    ],
@@ -18232,6 +18228,7 @@
    "modified": "2026-06-23",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "craft",
     "foliage",
     "nature",
@@ -18486,7 +18483,6 @@
    "modified": "2026-04-14",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "nature",
     "play"
@@ -18524,7 +18520,6 @@
    "modified": "2026-03-19",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "foliage",
     "nature"
@@ -19093,7 +19088,6 @@
    "modified": "2025-10-23",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "nature"
@@ -19240,7 +19234,6 @@
    "modified": "2025-09-04",
    "setting": "mixed",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "nature",
@@ -19347,6 +19340,7 @@
    "modified": "2025-10-30",
    "setting": "indoor",
    "tags": [
+    "animals",
     "museum",
     "nature"
    ],
@@ -19467,9 +19461,10 @@
    },
    "setting": "outdoor",
    "tags": [
+    "animals",
     "craft"
    ],
-   "emoji": "📍",
+   "emoji": "🐾",
    "ages": [
     "baby",
     "kid",
@@ -19616,8 +19611,10 @@
     "end": "2026-12-31"
    },
    "setting": "outdoor",
-   "tags": [],
-   "emoji": "📍",
+   "tags": [
+    "animals"
+   ],
+   "emoji": "🐾",
    "ages": [
     "baby",
     "kid",
@@ -19648,7 +19645,6 @@
    "modified": "2026-04-02",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "craft",
     "play"
    ],
@@ -19686,8 +19682,10 @@
     "end": "2026-10-24"
    },
    "setting": "outdoor",
-   "tags": [],
-   "emoji": "📍",
+   "tags": [
+    "animals"
+   ],
+   "emoji": "🐾",
    "ages": [
     "baby",
     "kid",
@@ -19799,7 +19797,6 @@
    "modified": "2026-07-30",
    "setting": "mixed",
    "tags": [
-    "animals",
     "craft",
     "play"
    ],
@@ -20051,6 +20048,7 @@
    "modified": "2026-04-30",
    "setting": "outdoor",
    "tags": [
+    "animals",
     "foliage",
     "nature",
     "play"
@@ -21109,7 +21107,6 @@
    "modified": "2026-04-22",
    "setting": "outdoor",
    "tags": [
-    "animals",
     "bloom",
     "craft",
     "museum",
@@ -21183,7 +21180,6 @@
    "modified": "2026-10-06",
    "setting": "indoor",
    "tags": [
-    "animals",
     "craft",
     "museum",
     "science"
@@ -21523,6 +21519,7 @@
    "tags": [
     "animals",
     "craft",
+    "feeding",
     "nature"
    ],
    "emoji": "🐾",

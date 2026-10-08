@@ -54,6 +54,16 @@ class ParseTest(unittest.TestCase):
             self.assertTrue(fp.is_kid_friendly({"title": name}), name)
 
 
+class ClassifyTest(unittest.TestCase):
+    def test_tags(self):
+        _, tags, _, _ = fp.classify("한터농원(한터조랑말농장)", "아이들이 농작물을 심어보고 동물을 만져보고 타보며", "12")
+        self.assertIn("feeding", tags)
+        self.assertIn("animals", tags)
+        _, tags, _, _ = fp.classify("양수리딸기체험농장", "딸기 수확 체험", "12")
+        self.assertNotIn("animals", tags)
+        self.assertIn("craft", tags)
+
+
 class FakeClient(fp.Client):
     """정해진 응답을 돌려주는 가짜 API."""
 
