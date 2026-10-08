@@ -9,9 +9,15 @@
 </head>
 <body>
   <header class="hero">
-    <div class="wrap">
-      <h1>🧺 주말 어디 가지?</h1>
-      <p>날씨, 예산, 거리, 그날 여는지까지 한 번에 비교해 드려요.</p>
+    <div class="wrap hero-inner">
+      <div>
+        <h1>🧺 주말 어디 가지?</h1>
+        <p>날씨, 예산, 거리, 그날 여는지까지 한 번에 비교해 드려요.</p>
+      </div>
+      <nav class="top-nav" aria-label="바로 가기">
+        <a href="#results" class="nav-btn">🔎 추천 보기</a>
+        <a href="#requests" class="nav-btn" id="navRequests" hidden>📮 고쳐 주세요</a>
+      </nav>
     </div>
   </header>
 
@@ -72,7 +78,7 @@
       <div class="table-scroll"><table id="compareTable"></table></div>
     </section>
 
-    <section aria-live="polite">
+    <section id="results" aria-live="polite">
       <div class="result-head">
         <h2 id="count" class="section-title">날씨 불러오는 중…</h2>
         <button type="button" id="pick" class="fun">🎲 그냥 골라줘!</button>

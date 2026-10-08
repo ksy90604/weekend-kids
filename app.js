@@ -229,8 +229,9 @@ function reviewBlock(p) {
 function renderRequests() {
   const { formUrl, csvUrl } = window.REQUESTS || {};
   const sec = $("requests");
-  if (!formUrl && !csvUrl) { sec.hidden = true; return; }
+  if (!formUrl && !csvUrl) { sec.hidden = true; $("navRequests").hidden = true; return; }
   sec.hidden = false;
+  $("navRequests").hidden = false;
   $("requestForm").hidden = !formUrl;
   if (formUrl) $("requestForm").href = formUrl;
   const list = $("requestList");

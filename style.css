@@ -50,7 +50,18 @@ a { color: var(--sky); }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 .hero { background: linear-gradient(120deg, var(--hero1), var(--hero2)); padding: 28px 0 22px; }
+.hero-inner { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px; }
 .hero h1 { margin: 0; font-size: 1.9rem; }
+.top-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+.nav-btn {
+  display: inline-flex; align-items: center; min-height: 40px; padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 255, 255, 0.75); color: var(--text); text-decoration: none; font-weight: 700;
+  border: 1.5px solid rgba(0, 0, 0, 0.08);
+}
+.nav-btn[hidden] { display: none; }
+@media (prefers-color-scheme: dark) { .nav-btn { background: rgba(0, 0, 0, 0.35); border-color: rgba(255, 255, 255, 0.15); } }
+html { scroll-behavior: smooth; }
+#requests, #results { scroll-margin-top: 12px; }
 .hero p { margin: 4px 0 0; }
 
 button, select {
