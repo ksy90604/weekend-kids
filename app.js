@@ -27,7 +27,7 @@ const state = {
   origin: 0, coords: null,
   family: { adult: 2, baby: 0, kid: 1, school: 1 },
   budget: 4, distance: 3, priority: 0, themes: [],
-  day: 0, compare: [], limit: 20, focusId: null,
+  day: 0, compare: [], limit: 20, focusId: null, q: "",
 };
 let places = [];
 let days = [];        // [{date, weekday}]
@@ -415,6 +415,12 @@ function openCheck(p, day) {
   return { open: true, why: `${WEEKDAY[day.weekday]}요일 영업 · ${p.hours}` };
 }
 
+function matchesQuery(p) {
+  const q = state.q.replace(/\s/g, "").toLowerCase();
+  if (!q) return true;
+  return `${p.name}${p.area}${p.tip || ""}`.replace(/\s/g, "").toLowerCase().includes(q);
+}
+
 function matchesTheme(p) {
   if (!state.themes.length) return true;
   return state.themes.some((i) => THEMES[i].slice(1).some((t) => (t === "festival" ? !!p.period : p.tags.includes(t))));
@@ -434,7 +440,7 @@ function evaluate() {
   const maxMin = DISTANCES[state.distance][1];
   const wts = PRIORITIES[state.priority][1];
 
-  const all = places.filter(matchesTheme).map((p, i) => {
+  const all = places.filter((p) => matchesTheme(p) && (matchesQuery(p) || p.id === state.focusId)).map((p, i) => {
     const w = weather?.[p.cell]?.[state.day] ?? null;
     const t = trip(p);
     const c = cost(p, t.km);
@@ -620,7 +626,7 @@ function card(r, rank) {
 
 function renderList(excluded) {
   const day = days[state.day];
-  $("count").textContent = `${WEEKDAY[day.weekday]}요일 추천 ${ranked.length}곳`
+  $("count").textContent = `${WEEKDAY[day.weekday]}요일 추천 ${ranked.length}곳` + (state.q ? ` · "${state.q}" 검색` : "")
     + (state.themes.length ? ` · ${state.themes.map((i) => THEMES[i][0].replace(/^\S+\s/, "")).join(", ")}` : "");
   const shown = ranked.slice(0, state.limit);
   const pinned = state.focusId ? evaluated.find((r) => r.p.id === state.focusId) : null;
@@ -685,6 +691,7 @@ function pinnedCard(r) {
 
 function focusPlace(id) {
   state.focusId = id;
+  if (!places.some((p) => p.id === id)) { alert("이 장소는 지금 데이터에 없어요. 다음 자동 갱신 뒤에 다시 확인해 주세요."); return; }
   history.replaceState(null, "", "#/");
   setView("home");
   state.limit = Math.max(state.limit, 20);
@@ -844,6 +851,13 @@ async function init() {
   $("closeCompare").addEventListener("click", () => { $("compare").hidden = true; });
   $("clearCompare").addEventListener("click", () => { state.compare = []; $("compare").hidden = true; evaluate(); });
   $("pick").addEventListener("click", pickRandom);
+  $("q").addEventListener("input", (e) => {
+    state.q = e.target.value.trim();
+    $("qClear").hidden = !state.q;
+    state.limit = 20;
+    evaluate();
+  });
+  $("qClear").addEventListener("click", () => { $("q").value = ""; state.q = ""; $("qClear").hidden = true; evaluate(); });
   $("datePick").addEventListener("change", (e) => { if (e.target.value) pickDate(e.target.value); });
 
   try {

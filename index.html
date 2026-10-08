@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>주말 어디 가지?</title>
   <meta name="description" content="날씨, 예산, 거리, 영업 여부를 한 번에 비교해서 아이와 갈 곳을 추천해 드려요.">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261008b">
 </head>
 <body data-view="home">
   <button type="button" class="menu-btn" id="menuBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="sidebar">☰</button>
@@ -54,6 +54,14 @@
       <div class="row">
         <span class="label">🚗 이동 시간</span>
         <div class="chips" id="distance"></div>
+      </div>
+
+      <div class="row">
+        <span class="label">🔍 이름으로 찾기</span>
+        <div class="inline search-row">
+          <input type="search" id="q" placeholder="예: 농장, 아쿠아리움, 과천" autocomplete="off" aria-label="장소 이름이나 지역으로 찾기">
+          <button type="button" id="qClear" class="ghost" hidden>지우기</button>
+        </div>
       </div>
 
       <div class="row">
@@ -150,7 +158,7 @@
        거리와 시간은 직선거리 기준 추정치예요. 사진: 한국관광공사.</p>
   </footer>
 
-  <script src="reviews-config.js"></script>
-  <script src="app.js"></script>
+  <script src="reviews-config.js?v=20261008b"></script>
+  <script src="app.js?v=20261008b"></script>
 </body>
 </html>
