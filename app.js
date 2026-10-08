@@ -350,6 +350,7 @@ function cost(p, km) {
 }
 
 const md = (iso) => `${+iso.slice(5, 7)}/${+iso.slice(8, 10)}`;
+const isStale = (iso) => !iso || (Date.now() - new Date(iso).getTime()) > 180 * 86400e3;
 
 function openCheck(p, day) {
   const month = +day.date.slice(5, 7);
@@ -524,7 +525,8 @@ function card(r, rank) {
       el("span", { class: "rank" }, rank),
       el("span", { class: "emoji", "aria-hidden": "true" }, p.emoji),
       el("div", { class: "title" },
-        el("h3", {}, p.period ? el("span", { class: "badge" }, "축제") : null, p.name),
+        el("h3", {}, p.period ? el("span", { class: "badge" }, "축제") : null,
+          p.custom ? el("span", { class: "badge badge-custom" }, "직접 등록") : null, p.name),
         el("p", { class: "sub" }, `${p.area} · ${{ indoor: "실내", outdoor: "야외", mixed: "실내+야외" }[p.setting]}`
           + (p.reserve ? " · 예약 필요" : ""))),
       el("div", { class: "total", title: "종합 점수" }, el("strong", {}, r.total), el("small", {}, "점"))),
@@ -541,7 +543,11 @@ function card(r, rank) {
         + ` + 기름값(왕복) ${won(r.cost.fuel)}`)),
     p.tip ? el("p", { class: "tip" }, "💡 " + p.tip) : null,
     reviewBlock(p),
-    p.modified ? el("p", { class: "verified" }, `정보 수정일 ${p.modified} · 출발 전 운영 여부를 한 번 더 확인하세요`) : null,
+    p.custom
+      ? el("p", { class: "verified" + (isStale(p.verifiedAt) ? " stale" : "") },
+        isStale(p.verifiedAt) ? `⚠️ 정보 확인일 ${p.verifiedAt || "없음"} · 오래돼서 운영 여부를 꼭 확인하세요`
+          : `정보 확인일 ${p.verifiedAt} · 운영자가 직접 등록한 곳이에요`)
+      : p.modified ? el("p", { class: "verified" }, `정보 수정일 ${p.modified} · 출발 전 운영 여부를 한 번 더 확인하세요`) : null,
     el("div", { class: "actions" },
       el("a", { href: "https://map.kakao.com/?q=" + encodeURIComponent(p.name), target: "_blank", rel: "noopener" }, "🗺 지도"),
       reviewFormUrl(p) ? el("a", { href: reviewFormUrl(p), target: "_blank", rel: "noopener" }, "✍️ 리뷰 남기기") : null,
@@ -725,7 +731,12 @@ async function init() {
 
   try {
     const data = await (await fetch("data/places.json", { cache: "no-cache" })).json();
-    places = data.items.map(normalize);
+    const custom = await fetch("data/custom-places.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ items: [] }));
+    const ids = new Set(data.items.map((p) => p.id));
+    places = [
+      ...data.items,
+      ...(custom.items || []).filter((p) => p.id && p.name && p.lat && p.lon && !ids.has(p.id)).map((p) => ({ ...p, custom: true })),
+    ].map(normalize);
     $("dataNote").innerHTML = data.isSample
       ? "⚠️ 장소 정보(가격·운영시간)는 <strong>연습용 샘플</strong>이에요. 방문 전 꼭 공식 누리집에서 확인하세요."
       : `장소 정보: ${data.source} (${data.updatedAt} 갱신). 임시 휴관은 늦게 반영될 수 있으니 출발 전 확인하세요.`;

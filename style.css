@@ -200,6 +200,8 @@ select { border-radius: 10px; }
 .breakdown p { margin: 4px 0 0; font-size: 0.85rem; }
 .tip { margin: 8px 0; font-size: 0.9rem; }
 .verified { margin: 0 0 8px; font-size: 0.78rem; color: var(--muted); }
+.badge-custom { background: var(--good); color: #fff; }
+.verified.stale { color: var(--bad); font-weight: 700; }
 .badge { display: inline-block; margin-right: 6px; padding: 0 8px; border-radius: 99px; background: var(--accent); color: var(--accent-text); font-size: 0.75rem; vertical-align: middle; }
 .more { text-align: center; list-style: none; }
 .actions { display: flex; gap: 8px; flex-wrap: wrap; }

@@ -1,0 +1,47 @@
+{
+  "_설명": "직접 등록하는 장소의 형식 예시입니다. 실제 장소는 custom-places.json 에 적으세요. 이 파일은 사이트에서 읽지 않습니다.",
+  "_필드": {
+    "id": "고유 ID. 'custom-' 로 시작하고 영문·숫자·하이픈만 (필수)",
+    "name": "장소 이름 (필수)",
+    "area": "지역 표시, 예: 경기 용인 (필수)",
+    "lat / lon": "위도 / 경도 (필수). 카카오맵에서 장소 검색 → 공유 → 주소 복사하면 좌표가 들어 있어요",
+    "emoji": "카드 아이콘",
+    "setting": "indoor(실내) / outdoor(야외) / mixed(둘 다)",
+    "tags": "주제. feeding(먹이주기) animals craft(체험·만들기) science museum water snow bloom foliage nature play tide 중 여러 개",
+    "ages": "baby(0~3세) kid(4~7세) school(초등) 중 어울리는 것",
+    "price": "{ adult: 어른 요금, child: 어린이 요금 } 원 단위. 무료면 0. 모르면 null",
+    "parking": "주차비(원). 무료면 0, 모르면 null",
+    "closedDays": "매주 쉬는 요일. 0=일 1=월 … 6=토. 예: [1] 은 월요일 휴무",
+    "closedDates": "매년 쉬는 날짜. 예: [\"01-01\", \"12-25\"]",
+    "months": "특정 달에만 열면 그 달 목록. 예: [6,7,8]. 연중이면 생략",
+    "hours": "이용 시간 글",
+    "tel / homepage / image": "전화, 누리집, 사진 주소 (선택)",
+    "tip": "한 줄 소개",
+    "reserve": "예약 필수면 true",
+    "verifiedAt": "정보를 마지막으로 확인한 날짜 (필수). 180일이 지나면 카드에 '확인 필요' 표시가 떠요"
+  },
+  "items": [
+    {
+      "id": "custom-example-farm",
+      "name": "(예시) 푸른들 동물농장",
+      "area": "경기 가평",
+      "lat": 37.8315,
+      "lon": 127.5105,
+      "emoji": "🐑",
+      "setting": "outdoor",
+      "tags": ["feeding", "animals", "craft"],
+      "ages": ["baby", "kid", "school"],
+      "price": { "adult": 12000, "child": 10000 },
+      "parking": 0,
+      "closedDays": [1],
+      "closedDates": ["01-01"],
+      "hours": "10:00~17:30",
+      "tel": "031-000-0000",
+      "homepage": "https://example.com",
+      "image": "",
+      "tip": "염소·토끼 먹이주기와 치즈 만들기 체험. 장화 대여 가능.",
+      "reserve": false,
+      "verifiedAt": "2026-10-08"
+    }
+  ]
+}

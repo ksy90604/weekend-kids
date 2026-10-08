@@ -47,6 +47,12 @@ python scripts/test_fetch_places.py
 
 GitHub 저장소 Settings → Secrets and variables → Actions에 `TOUR_API_KEY`를 등록하세요.
 
+## 직접 등록하는 장소
+관광공사 데이터에 없는 키즈카페·체험 공방·작은 농장 등은 [data/custom-places.json](data/custom-places.json)에 적습니다.
+형식은 [data/custom-places.example.json](data/custom-places.example.json)을 보세요. 저장해서 push 하면 바로 사이트에 합쳐져요.
+- 카드에 "직접 등록" 배지가 붙고, `verifiedAt`(확인일)이 180일을 넘으면 "운영 여부 확인" 경고가 떠요.
+- 좌표는 카카오맵에서 장소 검색 → 공유 → 주소 복사 로 얻을 수 있어요.
+
 ## 우리 가족 리뷰 · 요청 게시판 (구글 폼 + 구글 시트)
 외부 리뷰 API가 없어서, 리뷰와 요청은 구글 폼으로 받고 구글 시트를 사이트가 읽어옵니다.
 설정은 [reviews-config.js](reviews-config.js)에 적습니다. 비워 두면 해당 기능은 꺼집니다.
