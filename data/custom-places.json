@@ -1,4 +1,37 @@
 {
   "_설명": "관광공사 데이터에 없는 곳을 직접 등록하는 파일. 형식은 custom-places.example.json 참고. 저장(push)하면 바로 사이트에 반영돼요.",
-  "items": []
+  "items": [
+    {
+      "id": "custom-k949142585",
+      "name": "마이애니멀스토리in평강랜드",
+      "area": "경기 포천시",
+      "lat": 38.04997,
+      "lon": 127.30619,
+      "emoji": "🐑",
+      "setting": "outdoor",
+      "tags": [
+        "feeding",
+        "animals",
+        "play"
+      ],
+      "ages": [
+        "baby",
+        "kid",
+        "school"
+      ],
+      "price": null,
+      "parking": null,
+      "closedDays": [],
+      "closedDates": [],
+      "restText": null,
+      "hours": "이용시간 확인 필요",
+      "tel": null,
+      "homepage": "http://place.map.kakao.com/949142585",
+      "address": "경기 포천시 영북면 우물목길 171-18",
+      "tip": "동물 먹이주기",
+      "proposedBy": "익명",
+      "verifiedAt": "2026-10-08",
+      "source": "proposal"
+    }
+  ]
 }
