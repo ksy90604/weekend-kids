@@ -41,7 +41,7 @@ STATUS = ROOT / "data" / "proposals-status.json"
 KST = dt.timezone(dt.timedelta(hours=9))
 
 KAKAO_URL = "https://dapi.kakao.com/v2/local/search/keyword.json"
-BAD_CATEGORY = re.compile(r"술집|유흥|주점|호프|바\b|클럽|모텔|호텔|숙박|성인|카지노|노래방|PC방|당구|사우나|찜질")
+BAD_CATEGORY = re.compile(r"술집|유흥|주점|호프|바\b|클럽|모텔|호텔|숙박|성인|카지노|노래방|PC방|당구|사우나|찜질|부동산|아파트|주거|오피스텔")
 MIN_SIMILARITY = 0.6
 DUP_RADIUS_KM = 0.5
 
@@ -124,7 +124,7 @@ def similarity(a: str, b: str) -> float:
     score = difflib.SequenceMatcher(None, na, nb).ratio()
     ca, cb = core(a), core(b)
     if len(ca) >= 2 and len(cb) >= 2:
-        if ca in cb or cb in ca:
+        if (ca in cb or cb in ca) and min(len(ca), len(cb)) >= 3:
             score = max(score, 0.9)
         else:
             score = max(score, difflib.SequenceMatcher(None, ca, cb).ratio())

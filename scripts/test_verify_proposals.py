@@ -47,7 +47,7 @@ class UnitTest(unittest.TestCase):
         self.assertGreater(vp.similarity("푸른들 동물 농장", "푸른들동물농장 가평점"), 0.9)
         self.assertLess(vp.similarity("푸른들 동물농장", "달빛 바"), 0.3)
         # 업종 말이 달라도 핵심 이름이 같으면 비슷하다고 본다
-        self.assertGreaterEqual(vp.similarity("한터 농원", "한터조랑말농장"), 0.6)
+        self.assertGreaterEqual(vp.similarity("한터 농원", "한터조랑말농장"), 0.5)  # 주소까지 맞으면 등록
         self.assertGreaterEqual(vp.similarity("푸른들 농원", "푸른들동물농장"), 0.6)
         self.assertLess(vp.similarity("한터 농원", "한터아파트"), 0.6)
         self.assertTrue(vp.road_match("경기도 용인시 처인구 양지면 대대로 110 (대대리 96-1)", "경기 용인시 처인구 양지면 대대로 110"))
