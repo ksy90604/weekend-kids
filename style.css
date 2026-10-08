@@ -214,6 +214,10 @@ select { border-radius: 10px; }
 .stars { color: var(--ok); letter-spacing: 1px; font-size: 1rem; }
 .review-text { margin: 4px 0 2px; }
 .review-meta { margin: 0; font-size: 0.78rem; color: var(--muted); }
+.more-reviews { margin-top: 6px; font-size: 0.85rem; }
+.more-reviews summary { cursor: pointer; color: var(--accent); }
+.more-reviews ul { margin: 6px 0 0; padding-left: 4px; list-style: none; display: grid; gap: 4px; }
+.more-reviews .stars { font-size: 0.85rem; }
 
 .requests { margin-top: 0; }
 .btn {
