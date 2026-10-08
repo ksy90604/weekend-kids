@@ -27,12 +27,13 @@ const state = {
   origin: 0, coords: null,
   family: { adult: 2, baby: 0, kid: 1, school: 1 },
   budget: 4, distance: 3, priority: 0, themes: [],
-  day: 0, compare: [], limit: 20,
+  day: 0, compare: [], limit: 20, focusId: null,
 };
 let places = [];
 let days = [];        // [{date, weekday}]
 let weather = null;   // weather[placeIdx][dayIdx] = {code,tmax,tmin,pop,pm10,pm25}
 let ranked = [];
+let evaluated = [];  // 조건과 상관없이 모든 장소의 평가 결과 (고정 카드용)
 
 const $ = (id) => document.getElementById(id);
 const won = (n) => (n === 0 ? "무료" : n.toLocaleString("ko-KR") + "원");
@@ -249,9 +250,9 @@ function renderProposals() {
       el("p", {}, el("strong", {}, q.name), q.region ? ` · ${q.region}` : ""),
       q.why ? el("p", { class: "where" }, q.why) : null,
       q.status === "등록됨" ? el("p", { class: "reply" }, `↳ "${q.matched || q.name}"(으)로 등록했어요. `,
-        el("a", { class: "go", href: "#/", onclick: () => { state.q = ""; setTimeout(() => $("card-" + q.placeId)?.scrollIntoView({ block: "center" }), 300); } }, "추천 목록에서 보기 →")) : null,
+        el("a", { class: "go", href: "#/", onclick: (e) => { e.preventDefault(); focusPlace(q.placeId); } }, "이 장소 보기 →")) : null,
       q.status === "반려" ? el("p", { class: "reply" }, "↳ " + q.reason + " ",
-        q.placeId ? el("a", { class: "go", href: "#/", onclick: () => { setTimeout(() => $("card-" + q.placeId)?.scrollIntoView({ block: "center" }), 300); } }, "추천 목록에서 보기 →") : null) : null)));
+        q.placeId ? el("a", { class: "go", href: "#/", onclick: (e) => { e.preventDefault(); focusPlace(q.placeId); } }, "이 장소 보기 →") : null) : null)));
 }
 
 function reviewFormUrl(p) {
@@ -346,7 +347,7 @@ function weatherScore(p, w, month) {
     if (nice) add(-10, "날씨가 좋아 야외도 아까워요");
   } else {
     const k = p.setting === "mixed" ? 0.4 : 1;
-    if (wet) add(-55 * k, `비 예보 (강수확률 ${w.pop}%)`);
+    if (wet) add(-55 * k, w.pop >= 60 ? `비 예보 (강수확률 ${w.pop}%)` : `${WMO(w.code)[1]} 예보`);
     if (snowy && !snow) add(-30 * k, "눈 예보");
     if (dusty) add(-40 * k, `미세먼지 ${dust[0]}`);
     if (hot && !water) add(-25 * k, `한낮 ${Math.round(w.tmax)}°C, 더위 주의`);
@@ -452,10 +453,14 @@ function evaluate() {
       out.push(budget === 0 && !c.known ? "무료인지 확인 안 됨" : `예산 초과 (${won(c.total)})`);
     if (t.minutes > maxMin) out.push(`이동 약 ${t.minutes}분`);
     if (!suitsAges(p)) out.push("아이 나이와 안 맞아요");
-    if (ws.score < 25) out.push("이날 날씨와 안 맞아요");
+    if (ws.score < 25) {
+      const bad = ws.notes.find((n) => n.startsWith("👎"));
+      out.push("날씨 " + (bad ? bad.slice(2) : "안 맞음"));
+    }
     return { p, w, trip: t, cost: c, open: o, ws, costScore, distScore, total, out };
   });
 
+  evaluated = all;
   ranked = all.filter((r) => !r.out.length).sort((a, b) => b.total - a.total);
   renderList(all.filter((r) => r.out.length));
   if (!$("compare").hidden) renderCompare();
@@ -618,17 +623,76 @@ function renderList(excluded) {
   $("count").textContent = `${WEEKDAY[day.weekday]}요일 추천 ${ranked.length}곳`
     + (state.themes.length ? ` · ${state.themes.map((i) => THEMES[i][0].replace(/^\S+\s/, "")).join(", ")}` : "");
   const shown = ranked.slice(0, state.limit);
-  $("list").replaceChildren(...(ranked.length
-    ? [...shown.map((r, i) => card(r, i + 1)),
+  const pinned = state.focusId ? evaluated.find((r) => r.p.id === state.focusId) : null;
+  $("list").replaceChildren(...(ranked.length || pinned
+    ? [pinned ? pinnedCard(pinned) : null,
+       ...shown.filter((r) => r !== pinned).map((r, i) => card(r, i + 1)),
        ranked.length > shown.length ? el("li", { class: "more" }, el("button", {
          type: "button", class: "ghost", onclick: () => { state.limit += 20; evaluate(); },
        }, `더 보기 (${ranked.length - shown.length}곳 남음)`)) : null].filter(Boolean)
     : [el("li", { class: "empty" }, "조건에 맞는 곳이 없어요. 예산이나 이동 시간을 늘려 보세요.")]));
-  $("excludedBox").hidden = !excluded.length;
-  $("excludedTitle").textContent = `이날은 빠진 곳 ${excluded.length}곳 보기`;
-  $("excluded").replaceChildren(...excluded.map((r) =>
-    el("li", {}, `${r.p.emoji} ${r.p.name} — ${r.out.join(", ")}`)));
+  renderExcluded(excluded);
   renderTray();
+}
+
+// 빠진 이유를 짧은 분류로 바꾼다. [분류 이름, 아이콘, 자세한 글]
+function reasonTag(text) {
+  if (text.startsWith("축제 기간 아님")) return ["축제 기간 아님", "📅", text.replace("축제 기간 아님 ", "")];
+  if (text.includes("월에만 운영")) return ["운영 기간 아님", "📅", text];
+  if (text.includes("휴무")) return ["쉬는 날", "🕘", text];
+  if (text.startsWith("예산 초과")) return ["예산 초과", "💰", text.replace("예산 초과 ", "")];
+  if (text.startsWith("무료인지")) return ["요금 확인 안 됨", "💰", ""];
+  if (text.startsWith("이동 약")) return ["너무 멀어요", "🚗", text.replace("이동 ", "")];
+  if (text.startsWith("아이 나이")) return ["아이 나이와 안 맞음", "👶", ""];
+  if (text.startsWith("날씨")) return ["날씨가 안 맞아요", "🌧", text.replace("날씨 ", "")];
+  return ["기타", "•", text];
+}
+
+function renderExcluded(excluded) {
+  $("excludedBox").hidden = !excluded.length;
+  if (!excluded.length) return;
+  // 첫 번째 이유로 묶는다
+  const groups = new Map();
+  for (const r of excluded) {
+    const [label, icon, detail] = reasonTag(r.out[0]);
+    if (!groups.has(label)) groups.set(label, { icon, items: [] });
+    groups.get(label).items.push({ r, detail, more: r.out.slice(1).map((t) => reasonTag(t)[0]) });
+  }
+  const order = [...groups.entries()].sort((a, b) => b[1].items.length - a[1].items.length);
+  $("excludedTitle").textContent = `이날은 빠진 곳 ${excluded.length}곳 · `
+    + order.map(([label, g]) => `${g.icon} ${label} ${g.items.length}`).join(" · ");
+  $("excluded").replaceChildren(...order.map(([label, g]) =>
+    el("li", { class: "ex-group" },
+      el("h4", {}, `${g.icon} ${label} (${g.items.length})`),
+      el("ul", {}, g.items.map(({ r, detail, more }) =>
+        el("li", {}, `${r.p.emoji} ${r.p.name}`,
+          detail ? el("span", { class: "muted" }, ` · ${detail}`) : null,
+          more.length ? el("span", { class: "muted" }, ` (+${more.join(", ")})`) : null))))));
+}
+
+// ── 장소 고정(바로가기) ────────────────────────────────
+function pinnedCard(r) {
+  const node = card(r, "📌");
+  node.classList.add("picked", "pinned");
+  node.querySelector(".body").prepend(
+    el("div", { class: "pin-note" },
+      r.out.length
+        ? el("span", {}, `⚠️ 이 장소는 지금 고른 조건에서 빠져 있어요: ${r.out.join(", ")}`)
+        : el("span", {}, `📌 찾으시는 장소예요 (지금 조건으로 ${ranked.indexOf(r) + 1}위)`),
+      el("button", { type: "button", class: "ghost", onclick: () => { state.focusId = null; evaluate(); } }, "고정 해제")));
+  return node;
+}
+
+function focusPlace(id) {
+  state.focusId = id;
+  history.replaceState(null, "", "#/");
+  setView("home");
+  state.limit = Math.max(state.limit, 20);
+  evaluate();
+  // 사진이 늦게 뜨며 위치가 밀리므로 두 번 맞춘다
+  const go = () => $("card-" + id)?.scrollIntoView({ block: "start" });
+  setTimeout(go, 50);
+  setTimeout(go, 600);
 }
 
 // ── 비교 ──────────────────────────────────────────────

@@ -160,7 +160,8 @@ def parse_closed_days(text: str) -> list[int]:
         for m in re.finditer(r"([일월화수목금토](?:\s*[,·및]\s*[일월화수목금토])*)\s*요일", seg):
             for ch in re.findall(r"[일월화수목금토]", m.group(1)):
                 days.add(WEEKDAYS[ch])
-    return sorted(days)
+    # "매주 월요일~일요일"처럼 7일 모두 휴무로 읽히면 입력 오류다. 모르는 것으로 두고 원문만 보여 준다.
+    return sorted(days) if len(days) < 7 else []
 
 
 def parse_closed_dates(text: str) -> list[str]:

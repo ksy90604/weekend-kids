@@ -19,6 +19,7 @@ class ParseTest(unittest.TestCase):
         self.assertEqual(fp.parse_closed_days("매주 월요일~목요일※ 연휴 시 운영"), [1, 2, 3, 4])
         self.assertEqual(fp.parse_closed_days("매달 둘째 화요일 (3월 / 6월~8월 / 11월)"), [])
         self.assertEqual(fp.parse_closed_days("매주 월요일 (공휴일인 경우 다음의 첫번째 평일)/ 1월 1일"), [1])
+        self.assertEqual(fp.parse_closed_days("매주 월요일~일요일 / 법정공휴일"), [])  # 7일 전부면 입력 오류
 
     def test_closed_dates(self):
         self.assertEqual(fp.parse_closed_dates("매주 월요일, 1월 1일, 12월 25일"), ["01-01", "12-25"])
