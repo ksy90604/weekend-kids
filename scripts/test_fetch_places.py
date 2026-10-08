@@ -96,7 +96,7 @@ class FakeClient(fp.Client):
             if p["contentTypeId"] == "15":
                 return [{"playtime": "10:00~18:00", "usetimefestival": "무료"}]
             return [{"restdateculture": "매주 월요일, 1월 1일", "usetimeculture": "10:00~18:00",
-                     "usefee": "어른 4,000원 / 어린이 2,000원", "parkingfee": "무료"}]
+                     "usefee": "어른 4,000원 / 어린이 2,000원", "parkingfee": "무료", "parkingculture": "가능 (50대)"}]
         raise AssertionError(op)
 
 
@@ -112,6 +112,8 @@ class FlowTest(unittest.TestCase):
         self.assertEqual(museum["closedDates"], ["01-01"])
         self.assertEqual(museum["price"], {"adult": 4000, "child": 2000})
         self.assertEqual(museum["setting"], "indoor")
+        self.assertEqual(museum["parking"], 0)
+        self.assertEqual(museum["parkingText"], "가능 (50대) / 무료")
         fest = next(p for p in data["items"] if p["id"] == "9")
         self.assertEqual(fest["period"], {"start": "2026-10-01", "end": "2026-10-20"})
         self.assertEqual(fest["price"], {"adult": 0, "child": 0})

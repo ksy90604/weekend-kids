@@ -70,10 +70,10 @@ WEEKDAYS = {"일": 0, "월": 1, "화": 2, "수": 3, "목": 4, "금": 5, "토": 6
 
 # 상세(intro) 응답의 필드명은 콘텐츠 타입마다 접미사가 다르다.
 INTRO_FIELDS = {
-    "12": {"rest": "restdate", "time": "usetime", "fee": None, "parking": "parking", "season": "useseason", "baby": "chkbabycarriage", "tel": "infocenter"},
-    "14": {"rest": "restdateculture", "time": "usetimeculture", "fee": "usefee", "parking": "parkingfee", "season": None, "baby": "chkbabycarriageculture", "tel": "infocenterculture"},
-    "28": {"rest": "restdateleports", "time": "usetimeleports", "fee": "usefeeleports", "parking": "parkingfeeleports", "season": "openperiod", "baby": "chkbabycarriageleports", "tel": "infocenterleports"},
-    "15": {"rest": None, "time": "playtime", "fee": "usetimefestival", "parking": None, "season": None, "baby": None, "tel": "sponsor1tel"},
+    "12": {"rest": "restdate", "time": "usetime", "fee": None, "parking": "parking", "parkingText": "parking", "season": "useseason", "baby": "chkbabycarriage", "tel": "infocenter"},
+    "14": {"rest": "restdateculture", "time": "usetimeculture", "fee": "usefee", "parking": "parkingfee", "parkingText": "parkingculture", "season": None, "baby": "chkbabycarriageculture", "tel": "infocenterculture"},
+    "28": {"rest": "restdateleports", "time": "usetimeleports", "fee": "usefeeleports", "parking": "parkingfeeleports", "parkingText": "parkingleports", "season": "openperiod", "baby": "chkbabycarriageleports", "tel": "infocenterleports"},
+    "15": {"rest": None, "time": "playtime", "fee": "usetimefestival", "parking": None, "parkingText": None, "season": None, "baby": None, "tel": "sponsor1tel"},
 }
 
 
@@ -286,6 +286,8 @@ def fetch_detail(api: Client, place: dict) -> dict:
     return {
         "setting": setting, "tags": tags, "emoji": emoji, "ages": ages,
         "price": fee, "parking": parse_parking(pick("parking")),
+        # 주차 가능 여부 글 ("가능", "없음", "소형 50대" 등). 요금 글과 합쳐 둔다.
+        "parkingText": " / ".join(t for t in (pick("parkingText"), pick("parking") if f.get("parking") != f.get("parkingText") else "") if t) or None,
         "closedDays": parse_closed_days(rest), "closedDates": parse_closed_dates(rest),
         "months": parse_months(season), "restText": rest or None, "seasonText": season or None,
         "hours": parse_hours(pick("time")),
@@ -343,7 +345,7 @@ def run(api: Client) -> dict:
     places, pending = [], []
     for p in candidates.values():
         old = cache.get(p["id"])
-        if old and old.get("modified") == p["modified"] and old.get("detailFetched"):
+        if old and old.get("modified") == p["modified"] and old.get("detailFetched") and "parkingText" in old:
             places.append({**old, **p})
         else:
             pending.append(p)

@@ -128,6 +128,8 @@ select { border-radius: 10px; }
 .label small { display: block; font-weight: 400; color: var(--muted); font-size: 0.78rem; }
 .inline, .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .search-row { flex: 1; }
+.origin-box { display: grid; gap: 8px; }
+.addr-note { margin: 0; font-size: 0.82rem; }
 .search-row input { flex: 1 1 200px; font: inherit; min-height: 40px; padding: 6px 14px; border: 1.5px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--text); }
 .steppers { display: flex; flex-wrap: wrap; gap: 8px 16px; }
 .stepper { display: inline-flex; align-items: center; gap: 6px; }

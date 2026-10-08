@@ -19,14 +19,15 @@ const THEMES = [
   ["🔭 과학·우주", "science"], ["🏛️ 박물관·전시", "museum"], ["🏊 물놀이", "water"], ["🛷 눈썰매", "snow"],
   ["🌳 꽃·숲·단풍", "nature", "bloom", "foliage"], ["🎠 놀이공원", "play"], ["🦀 갯벌", "tide"], ["🎉 축제", "festival"],
 ];
+const PARKING = [["상관없음", "any"], ["주차 가능", "yes"], ["무료 주차", "free"]];
 const FAMILY = [["adult", "어른"], ["baby", "영유아 (0~3세)"], ["kid", "유아 (4~7세)"], ["school", "초등학생"]];
 const WEEKDAY = ["일", "월", "화", "수", "목", "금", "토"];
 const FUEL_PER_KM = 150; // 기름값 대략 (원/km)
 
 const state = {
-  origin: 0, coords: null,
+  sido: "서울", sigungu: "종로구", coords: null, originName: "",
   family: { adult: 2, baby: 0, kid: 1, school: 1 },
-  budget: 4, distance: 3, priority: 0, themes: [],
+  budget: 4, distance: 3, priority: 0, themes: [], parking: 0,
   day: 0, compare: [], limit: 20, focusId: null, q: "",
 };
 let places = [];
@@ -52,8 +53,8 @@ function el(tag, props = {}, ...kids) {
 // ── 저장 ──────────────────────────────────────────────
 function save() {
   try {
-    const { origin, family, budget, distance, priority, themes } = state;
-    localStorage.setItem("weekend", JSON.stringify({ origin, family, budget, distance, priority, themes }));
+    const { sido, sigungu, coords, originName, family, budget, distance, priority, themes, parking } = state;
+    localStorage.setItem("weekend", JSON.stringify({ sido, sigungu, coords, originName, family, budget, distance, priority, themes, parking }));
   } catch {}
 }
 function load() {
@@ -61,6 +62,7 @@ function load() {
     const s = JSON.parse(localStorage.getItem("weekend") || "null");
     if (s) Object.assign(state, s);
     if (!Array.isArray(state.themes)) state.themes = [];
+    if (typeof state.sido !== "string") { state.sido = "서울"; state.sigungu = "종로구"; }
   } catch {}
 }
 
@@ -415,6 +417,25 @@ function openCheck(p, day) {
   return { open: true, why: `${WEEKDAY[day.weekday]}요일 영업 · ${p.hours}` };
 }
 
+// 주차 정보: "yes"(있음) / "no"(없음) / "free"(무료) / null(모름)
+function parkingInfo(p) {
+  const t = (p.parkingText || "").replace(/\s/g, "");
+  if (p.parking === 0) return "free";
+  if (p.parking > 0) return "yes";
+  if (/불가|없음|없습니다|불가능|주차장없/.test(t)) return "no";
+  if (/무료/.test(t) && !/유료/.test(t)) return "free";
+  if (/가능|있음|있습니다|주차장|대|\d+대|유료/.test(t)) return "yes";
+  return null;
+}
+
+function parkingReason(p) {
+  const need = PARKING[state.parking][1];
+  if (need === "any") return null;
+  const info = parkingInfo(p);
+  if (need === "yes") return info === "no" ? "주차 불가" : info === null ? "주차 정보 없음" : null;
+  return info === "free" ? null : info === null ? "주차 정보 없음" : info === "no" ? "주차 불가" : "유료 주차";
+}
+
 function matchesQuery(p) {
   const q = state.q.replace(/\s/g, "").toLowerCase();
   if (!q) return true;
@@ -459,6 +480,8 @@ function evaluate() {
       out.push(budget === 0 && !c.known ? "무료인지 확인 안 됨" : `예산 초과 (${won(c.total)})`);
     if (t.minutes > maxMin) out.push(`이동 약 ${t.minutes}분`);
     if (!suitsAges(p)) out.push("아이 나이와 안 맞아요");
+    const pr = parkingReason(p);
+    if (pr) out.push(pr);
     if (ws.score < 25) {
       const bad = ws.notes.find((n) => n.startsWith("👎"));
       out.push("날씨 " + (bad ? bad.slice(2) : "안 맞음"));
@@ -473,8 +496,58 @@ function evaluate() {
 }
 
 // ── 화면 ──────────────────────────────────────────────
+let regions = {};  // data/regions.json: { 서울: { name, areas: { 강남구: [lat, lon] } } }
+
 function originCoords() {
-  return state.coords ?? ORIGINS[state.origin].slice(1);
+  if (state.coords) return state.coords;
+  const pt = regions[state.sido]?.areas?.[state.sigungu];
+  if (pt) return pt;
+  const first = Object.values(regions[state.sido]?.areas || {})[0];
+  return first || [37.5665, 126.978];
+}
+
+function originName() {
+  if (state.coords) return state.originName || "내 위치";
+  return `${state.sido} ${state.sigungu}`;
+}
+
+function renderOrigin() {
+  const sido = $("sido"), sigungu = $("sigungu");
+  sido.replaceChildren(...Object.keys(regions).map((k) => el("option", { value: k }, k)));
+  sido.value = state.sido in regions ? state.sido : Object.keys(regions)[0];
+  const areas = Object.keys(regions[sido.value]?.areas || {});
+  sigungu.replaceChildren(...areas.map((k) => el("option", { value: k }, k)));
+  sigungu.value = areas.includes(state.sigungu) ? state.sigungu : areas[0];
+  $("originLabel").textContent = state.coords ? `· ${originName()}` : "";
+}
+
+async function geocodeAddress(q) {
+  const url = "https://nominatim.openstreetmap.org/search?" + new URLSearchParams(
+    { q, format: "jsonv2", countrycodes: "kr", limit: 1, "accept-language": "ko" });
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(res.status);
+  const data = await res.json();
+  if (!data.length) return null;
+  return { lat: +data[0].lat, lon: +data[0].lon, name: data[0].display_name.split(",").slice(0, 3).join(",").trim() };
+}
+
+async function setOriginByAddress() {
+  const q = $("addr").value.trim();
+  const note = $("addrNote");
+  if (!q) return;
+  note.hidden = false;
+  note.textContent = "주소를 찾는 중…";
+  try {
+    const hit = await geocodeAddress(q);
+    if (!hit) { note.textContent = `"${q}"을(를) 찾지 못했어요. 동 이름이나 큰 건물 이름으로 다시 해 보세요.`; return; }
+    state.coords = [hit.lat, hit.lon];
+    state.originName = hit.name;
+    note.textContent = `출발지를 "${hit.name}"(으)로 잡았어요.`;
+    save(); renderOrigin();
+    await loadWeather(); renderDays(); evaluate();
+  } catch {
+    note.textContent = "주소 검색 서비스에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.";
+  }
 }
 
 function chips(id, options, current, onPick) {
@@ -483,10 +556,7 @@ function chips(id, options, current, onPick) {
 }
 
 function renderControls() {
-  $("origin").replaceChildren(
-    ...(state.coords ? [el("option", { value: "-1" }, "📍 내 위치")] : []),
-    ...ORIGINS.map(([n], i) => el("option", { value: i }, n)));
-  $("origin").value = state.coords ? "-1" : state.origin;
+  renderOrigin();
 
   $("family").replaceChildren(...FAMILY.map(([k, label]) =>
     el("div", { class: "stepper" },
@@ -498,6 +568,7 @@ function renderControls() {
   chips("budget", BUDGETS, state.budget, (i) => { state.budget = i; changed(); });
   chips("distance", DISTANCES, state.distance, (i) => { state.distance = i; changed(); });
   chips("priority", PRIORITIES, state.priority, (i) => { state.priority = i; changed(); });
+  chips("parking", PARKING, state.parking, (i) => { state.parking = i; changed(); });
   $("theme").replaceChildren(...THEMES.map(([label], i) =>
     el("button", { type: "button", "aria-pressed": String(state.themes.includes(i)), onclick: () => {
       state.themes = state.themes.includes(i) ? state.themes.filter((x) => x !== i) : [...state.themes, i];
@@ -554,7 +625,7 @@ function renderDays() {
     const [icon, label] = WMO(w.code);
     const dust = dustLevel(w);
     $("daySummary").textContent =
-      `${icon} ${ORIGINS[state.origin] && !state.coords ? ORIGINS[state.origin][0] : "내 위치"} 기준 ${label}, ` +
+      `${icon} ${originName()} 기준 ${label}, ` +
       `${Math.round(w.tmin)}~${Math.round(w.tmax)}°C, 강수확률 ${w.pop}%` +
       (dust ? `, 미세먼지 ${dust[0]}` : ", 미세먼지 예보 전");
   }
@@ -596,7 +667,10 @@ function card(r, rank) {
       meter("💰 비용", r.costScore, r.cost.known ? `약 ${won(r.cost.total)}` : "입장료 확인 필요"),
       meter("🚗 거리", r.distScore, `${r.trip.km}km · 약 ${r.trip.minutes}분`),
       el("div", { class: "meter open" }, el("span", { class: "m-label" }, "🕘 운영"),
-        el("span", { class: "m-text" }, "✅ " + r.open.why + (p.restText ? ` (쉬는 날: ${p.restText})` : "")))),
+        el("span", { class: "m-text" }, "✅ " + r.open.why + (p.restText ? ` (쉬는 날: ${p.restText})` : ""))),
+      el("div", { class: "meter open" }, el("span", { class: "m-label" }, "🅿️ 주차"),
+        el("span", { class: "m-text" }, { free: "무료", yes: "가능" + (p.parking ? ` (${won(p.parking)})` : ""), no: "불가" }[parkingInfo(p)] || "정보 없음",
+          p.parkingText ? el("span", { class: "muted" }, ` · ${p.parkingText.slice(0, 60)}`) : null))),
     r.ws.notes.length ? el("ul", { class: "notes" }, r.ws.notes.map((n) => el("li", {}, n))) : null,
     el("details", { class: "breakdown" },
       el("summary", {}, "비용 자세히"),
@@ -650,6 +724,7 @@ function reasonTag(text) {
   if (text.startsWith("무료인지")) return ["요금 확인 안 됨", "💰", ""];
   if (text.startsWith("이동 약")) return ["너무 멀어요", "🚗", text.replace("이동 ", "")];
   if (text.startsWith("아이 나이")) return ["아이 나이와 안 맞음", "👶", ""];
+  if (text.startsWith("주차") || text.startsWith("유료 주차")) return [text, "🅿️", ""];
   if (text.startsWith("날씨")) return ["날씨가 안 맞아요", "🌧", text.replace("날씨 ", "")];
   return ["기타", "•", text];
 }
@@ -835,17 +910,27 @@ async function init() {
   window.addEventListener("hashchange", () => setView(viewFromHash()));
   setView(viewFromHash());
 
-  $("origin").addEventListener("change", async (e) => {
-    const v = +e.target.value;
-    if (v >= 0) { state.origin = v; state.coords = null; }
+  const pickRegion = async () => {
+    state.coords = null; state.originName = "";
+    $("addrNote").hidden = true;
     changed();
     await loadWeather(); renderDays(); evaluate();
+  };
+  $("sido").addEventListener("change", (e) => {
+    state.sido = e.target.value;
+    state.sigungu = Object.keys(regions[state.sido]?.areas || {})[0] || "";
+    pickRegion();
   });
+  $("sigungu").addEventListener("change", (e) => { state.sigungu = e.target.value; pickRegion(); });
+  $("addrGo").addEventListener("click", setOriginByAddress);
+  $("addr").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); setOriginByAddress(); } });
   $("locate").addEventListener("click", () => {
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(async (pos) => {
       state.coords = [pos.coords.latitude, pos.coords.longitude];
-      renderControls();
+      state.originName = "내 위치";
+      $("addrNote").hidden = true;
+      save(); renderControls();
       await loadWeather(); renderDays(); evaluate();
     }, () => alert("위치를 가져오지 못했어요. 출발지를 직접 골라 주세요."));
   });
@@ -866,6 +951,8 @@ async function init() {
   $("datePick").addEventListener("change", (e) => { if (e.target.value) pickDate(e.target.value); });
 
   try {
+    regions = await fetch("data/regions.json", { cache: "no-cache" }).then((r) => r.json());
+    renderOrigin();
     const data = await (await fetch("data/places.json", { cache: "no-cache" })).json();
     const custom = await fetch("data/custom-places.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ items: [] }));
     const ids = new Set(data.items.map((p) => p.id));
