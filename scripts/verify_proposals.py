@@ -25,6 +25,7 @@ import math
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -45,6 +46,10 @@ MIN_SIMILARITY = 0.6
 DUP_RADIUS_KM = 0.5
 
 
+class KakaoError(RuntimeError):
+    """키·권한 문제처럼 재시도해도 소용없는 오류. 실행을 멈추고 Actions 를 실패로 표시한다."""
+
+
 class Client:
     def __init__(self, key: str):
         self.key = key
@@ -52,8 +57,16 @@ class Client:
     def search(self, query: str, size: int = 10) -> list[dict]:
         q = urllib.parse.urlencode({"query": query, "size": size})
         req = urllib.request.Request(f"{KAKAO_URL}?{q}", headers={"Authorization": f"KakaoAK {self.key}"})
-        with urllib.request.urlopen(req, timeout=20) as r:
-            return json.loads(r.read().decode("utf-8")).get("documents", [])
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                return json.loads(r.read().decode("utf-8")).get("documents", [])
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", "replace")[:300]
+            hint = {
+                401: "REST API 키가 잘못됐어요. 카카오 디벨로퍼스 → 앱 키 → 'REST API 키'를 GitHub Secrets KAKAO_REST_KEY 에 넣었는지 확인하세요.",
+                403: "앱에서 카카오맵이 꺼져 있어요. 카카오 디벨로퍼스 → 내 애플리케이션 → 제품 설정 → 카카오맵 → '활성화 설정' ON.",
+            }.get(e.code, "")
+            raise KakaoError(f"카카오 API HTTP {e.code}: {body}\n{hint}") from e
 
 
 # ── 입력 읽기 ───────────────────────────────────────
@@ -241,7 +254,9 @@ def run(api: Client, rows: list[dict], dry_run: bool = False) -> dict:
                  "date": col(row, "타임", "시간", "날짜")[:13], "checkedAt": today}
         try:
             doc, why = find_match(api, name, region)
-        except Exception as e:  # 네트워크 오류 등은 다음 실행 때 다시 시도
+        except KakaoError:
+            raise
+        except Exception as e:  # 일시적 네트워크 오류는 다음 실행 때 다시 시도
             print(f"[보류] {name}: {e}", file=sys.stderr)
             continue
         if doc is None:
@@ -283,7 +298,11 @@ def main() -> int:
         return 1
     rows = fetch_csv(url)
     print(f"[제안] {len(rows)}건 읽음")
-    run(Client(key), rows, dry_run=args.dry_run)
+    try:
+        run(Client(key), rows, dry_run=args.dry_run)
+    except KakaoError as e:
+        print(f"[실패] {e}", file=sys.stderr)
+        return 1
     return 0
 
 
