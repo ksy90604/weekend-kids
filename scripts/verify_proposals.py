@@ -37,6 +37,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "reviews-config.js"
 PLACES = ROOT / "data" / "places.json"
 CUSTOM = ROOT / "data" / "custom-places.json"
+KAKAO = ROOT / "data" / "kakao-places.json"
 STATUS = ROOT / "data" / "proposals-status.json"
 KST = dt.timezone(dt.timedelta(hours=9))
 
@@ -55,7 +56,10 @@ class Client:
         self.key = key
 
     def search(self, query: str, size: int = 10) -> list[dict]:
-        q = urllib.parse.urlencode({"query": query, "size": size})
+        return self.search_page(query, page=1, size=size)
+
+    def search_page(self, query: str, page: int = 1, size: int = 15) -> list[dict]:
+        q = urllib.parse.urlencode({"query": query, "size": size, "page": page})
         req = urllib.request.Request(f"{KAKAO_URL}?{q}", headers={"Authorization": f"KakaoAK {self.key}"})
         try:
             with urllib.request.urlopen(req, timeout=20) as r:
@@ -267,7 +271,7 @@ def run(api: Client, rows: list[dict], dry_run: bool = False) -> dict:
     custom.setdefault("items", [])
     status = load_json(STATUS, {"items": []})
     done = {s["key"]: s for s in status.get("items", [])}
-    existing = places + custom["items"]
+    existing = places + custom["items"] + load_json(KAKAO, {"items": []}).get("items", [])
 
     new_status, added = [], 0
     for row in rows:

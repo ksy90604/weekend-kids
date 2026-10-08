@@ -412,6 +412,7 @@ function openCheck(p, day) {
     return { open: true, why: `🎉 축제 기간 ${md(p.period.start)}~${md(p.period.end)} · ${p.hours}` };
   }
   if (p.months && !p.months.includes(month)) return { open: false, why: `${p.months[0]}~${p.months.at(-1)}월에만 운영` };
+  if (p.unknownHours) return { open: true, why: "운영시간 정보 없음 · 전화로 확인하세요", unknown: true };
   if (p.closedDates.includes(day.date.slice(5))) return { open: false, why: `${md(day.date)} 휴무일` };
   if (p.closedDays.includes(day.weekday)) return { open: false, why: `${p.closedDays.map((d) => WEEKDAY[d]).join("·")}요일 휴무` };
   return { open: true, why: `${WEEKDAY[day.weekday]}요일 영업 · ${p.hours}` };
@@ -657,8 +658,8 @@ function card(r, rank) {
       el("span", { class: "emoji", "aria-hidden": "true" }, p.emoji),
       el("div", { class: "title" },
         el("h3", {}, p.period ? el("span", { class: "badge" }, "축제") : null,
-          p.custom ? el("span", { class: "badge " + (p.source === "proposal" ? "badge-visitor" : "badge-custom") },
-            p.source === "proposal" ? "방문자 등록" : "직접 등록") : null, p.name),
+          p.custom ? el("span", { class: "badge " + ({ proposal: "badge-visitor", kakao: "badge-map" }[p.source] || "badge-custom") },
+            { proposal: "방문자 등록", kakao: "지도 검색" }[p.source] || "직접 등록") : null, p.name),
         el("p", { class: "sub" }, `${p.area} · ${{ indoor: "실내", outdoor: "야외", mixed: "실내+야외" }[p.setting]}`
           + (p.reserve ? " · 예약 필요" : ""))),
       el("div", { class: "total", title: "종합 점수" }, el("strong", {}, r.total), el("small", {}, "점"))),
@@ -667,7 +668,7 @@ function card(r, rank) {
       meter("💰 비용", r.costScore, r.cost.known ? `약 ${won(r.cost.total)}` : "입장료 확인 필요"),
       meter("🚗 거리", r.distScore, `${r.trip.km}km · 약 ${r.trip.minutes}분`),
       el("div", { class: "meter open" }, el("span", { class: "m-label" }, "🕘 운영"),
-        el("span", { class: "m-text" }, "✅ " + r.open.why + (p.restText ? ` (쉬는 날: ${p.restText})` : ""))),
+        el("span", { class: "m-text" }, (r.open.unknown ? "❔ " : "✅ ") + r.open.why + (p.restText ? ` (쉬는 날: ${p.restText})` : ""))),
       el("div", { class: "meter open" }, el("span", { class: "m-label" }, "🅿️ 주차"),
         el("span", { class: "m-text" }, { free: "무료", yes: "가능" + (p.parking ? ` (${won(p.parking)})` : ""), no: "불가" }[parkingInfo(p)] || "정보 없음",
           p.parkingText ? el("span", { class: "muted" }, ` · ${p.parkingText.slice(0, 60)}`) : null))),
@@ -681,6 +682,8 @@ function card(r, rank) {
     p.custom
       ? el("p", { class: "verified" + (isStale(p.verifiedAt) ? " stale" : "") },
         isStale(p.verifiedAt) ? `⚠️ 정보 확인일 ${p.verifiedAt || "없음"} · 오래돼서 운영 여부를 꼭 확인하세요`
+          : p.source === "kakao"
+            ? `카카오 지도에서 ${p.verifiedAt} 자동 수집 · 운영시간·요금·휴무는 전화나 지도에서 꼭 확인하세요`
           : p.source === "proposal"
             ? `정보 확인일 ${p.verifiedAt} · ${p.proposedBy || "방문자"}님이 제안해 지도 확인 후 등록된 곳이에요. 운영시간·요금은 꼭 확인하세요`
             : `정보 확인일 ${p.verifiedAt} · 운영자가 직접 등록한 곳이에요`)
@@ -954,12 +957,16 @@ async function init() {
     regions = await fetch("data/regions.json", { cache: "no-cache" }).then((r) => r.json());
     renderOrigin();
     const data = await (await fetch("data/places.json", { cache: "no-cache" })).json();
-    const custom = await fetch("data/custom-places.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ items: [] }));
+    const [custom, kakao] = await Promise.all(["data/custom-places.json", "data/kakao-places.json"].map((u) =>
+      fetch(u, { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ items: [] }))));
     const ids = new Set(data.items.map((p) => p.id));
+    const ok = (p) => p.id && p.name && p.lat && p.lon && !ids.has(p.id);
     places = [
       ...data.items,
-      ...(custom.items || []).filter((p) => p.id && p.name && p.lat && p.lon && !ids.has(p.id)).map((p) => ({ ...p, custom: true })),
+      ...(custom.items || []).filter(ok).map((p) => ({ ...p, custom: true })),
+      ...(kakao.items || []).filter(ok).map((p) => ({ ...p, custom: true })),
     ].map(normalize);
+    if (kakao.items?.length) $("dataNote").append(` 키즈카페·체험농장 ${kakao.items.length}곳은 카카오 지도 검색(${kakao.updatedAt} 수집)에서 가져왔고 운영시간·요금 정보가 없어요.`);
     $("dataNote").innerHTML = data.isSample
       ? "⚠️ 장소 정보(가격·운영시간)는 <strong>연습용 샘플</strong>이에요. 방문 전 꼭 공식 누리집에서 확인하세요."
       : `장소 정보: ${data.source} (${data.updatedAt} 갱신). 임시 휴관은 늦게 반영될 수 있으니 출발 전 확인하세요.`;

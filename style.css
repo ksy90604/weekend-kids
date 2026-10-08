@@ -212,6 +212,7 @@ select { border-radius: 10px; }
 .verified { margin: 0 0 8px; font-size: 0.78rem; color: var(--muted); }
 .badge-custom { background: var(--good); color: #fff; }
 .badge-visitor { background: var(--sky); color: #fff; }
+.badge-map { background: #f2b632; color: #2a2622; }
 .request .where { font-size: 0.85rem; color: var(--muted); margin-top: 2px !important; }
 .request .go { display: inline-block; margin-top: 6px; font-weight: 700; }
 .verified.stale { color: var(--bad); font-weight: 700; }
