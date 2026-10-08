@@ -123,6 +123,7 @@ async function fetchWeather(points) {
 // ── 리뷰·요청 (구글 시트 CSV) ─────────────────────────
 let reviews = {};   // placeId -> [{date, stars, text, ages}] 최신순
 let requests = [];
+let proposals = [];  // 시트의 제안 + 검증 결과 합친 목록 (최신순)
 
 function parseCsv(text) {
   const rows = [];
@@ -203,6 +204,53 @@ async function loadRequests(url = window.REQUESTS?.csvUrl) {
     status: c.status >= 0 ? (r[c.status] || "").trim() || "접수" : "접수",
     reply: c.reply >= 0 ? (r[c.reply] || "").trim() : "",
   })).reverse();
+}
+
+async function loadProposals(url = window.PROPOSALS?.csvUrl) {
+  proposals = [];
+  const [rows, status] = await Promise.all([
+    fetchCsv(url),
+    fetch("data/proposals-status.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ items: [] })),
+  ]);
+  if (!rows || rows.length < 2) return;
+  const c = columns(rows[0], { date: ["타임", "시간", "날짜"], name: ["장소이름", "장소명", "이름"], region: ["지역", "주소", "위치"],
+    why: ["이유", "소개", "설명", "추천"], nick: ["닉네임", "작성자"], hide: ["숨김", "삭제"] });
+  if (c.name < 0) return;
+  const byKey = {};
+  for (const s of status.items || []) byKey[s.key] = s;
+  proposals = rows.slice(1)
+    .filter((r) => (r[c.name] || "").trim() && !(c.hide >= 0 && (r[c.hide] || "").trim()))
+    .map((r) => {
+      const key = `${(c.date >= 0 ? r[c.date] : "").trim()}|${r[c.name].trim()}`;
+      const s = byKey[key] || {};
+      return {
+        name: r[c.name].trim(), region: c.region >= 0 ? (r[c.region] || "").trim() : "",
+        why: c.why >= 0 ? (r[c.why] || "").trim() : "", nick: (c.nick >= 0 ? r[c.nick] : "").trim() || "익명",
+        date: c.date >= 0 ? parseDate(r[c.date]) : "",
+        status: s.status === "등록" ? "등록됨" : s.status === "반려" ? "반려" : "검토 중",
+        reason: s.reason || "", placeId: s.placeId || "", matched: s.matched || "",
+      };
+    }).reverse();
+}
+
+function renderProposals() {
+  const { formUrl, csvUrl } = window.PROPOSALS || {};
+  $("proposalForm").hidden = !formUrl;
+  if (formUrl) $("proposalForm").href = formUrl;
+  const list = $("proposalList");
+  if (!formUrl && !csvUrl) { list.replaceChildren(el("li", { class: "empty" }, "장소 제안을 준비하고 있어요.")); return; }
+  if (!proposals.length) { list.replaceChildren(el("li", { class: "empty" }, "아직 제안이 없어요. 첫 번째로 알려 주세요!")); return; }
+  const cls = { "검토 중": "st-doing", "등록됨": "st-done", "반려": "st-hold" };
+  list.replaceChildren(...proposals.slice(0, 50).map((q) =>
+    el("li", { class: "request" },
+      el("div", { class: "request-head" },
+        el("span", { class: "status " + cls[q.status] }, q.status),
+        el("span", { class: "muted" }, [q.nick, q.date].filter(Boolean).join(" · "))),
+      el("p", {}, el("strong", {}, q.name), q.region ? ` · ${q.region}` : ""),
+      q.why ? el("p", { class: "where" }, q.why) : null,
+      q.status === "등록됨" ? el("p", { class: "reply" }, `↳ "${q.matched || q.name}"(으)로 등록했어요. `,
+        el("a", { class: "go", href: "#/", onclick: () => { state.q = ""; setTimeout(() => $("card-" + q.placeId)?.scrollIntoView({ block: "center" }), 300); } }, "추천 목록에서 보기 →")) : null,
+      q.status === "반려" ? el("p", { class: "reply" }, "↳ " + q.reason) : null)));
 }
 
 function reviewFormUrl(p) {
@@ -526,7 +574,8 @@ function card(r, rank) {
       el("span", { class: "emoji", "aria-hidden": "true" }, p.emoji),
       el("div", { class: "title" },
         el("h3", {}, p.period ? el("span", { class: "badge" }, "축제") : null,
-          p.custom ? el("span", { class: "badge badge-custom" }, "직접 등록") : null, p.name),
+          p.custom ? el("span", { class: "badge " + (p.source === "proposal" ? "badge-visitor" : "badge-custom") },
+            p.source === "proposal" ? "방문자 등록" : "직접 등록") : null, p.name),
         el("p", { class: "sub" }, `${p.area} · ${{ indoor: "실내", outdoor: "야외", mixed: "실내+야외" }[p.setting]}`
           + (p.reserve ? " · 예약 필요" : ""))),
       el("div", { class: "total", title: "종합 점수" }, el("strong", {}, r.total), el("small", {}, "점"))),
@@ -546,7 +595,9 @@ function card(r, rank) {
     p.custom
       ? el("p", { class: "verified" + (isStale(p.verifiedAt) ? " stale" : "") },
         isStale(p.verifiedAt) ? `⚠️ 정보 확인일 ${p.verifiedAt || "없음"} · 오래돼서 운영 여부를 꼭 확인하세요`
-          : `정보 확인일 ${p.verifiedAt} · 운영자가 직접 등록한 곳이에요`)
+          : p.source === "proposal"
+            ? `정보 확인일 ${p.verifiedAt} · ${p.proposedBy || "방문자"}님이 제안해 지도 확인 후 등록된 곳이에요. 운영시간·요금은 꼭 확인하세요`
+            : `정보 확인일 ${p.verifiedAt} · 운영자가 직접 등록한 곳이에요`)
       : p.modified ? el("p", { class: "verified" }, `정보 수정일 ${p.modified} · 출발 전 운영 여부를 한 번 더 확인하세요`) : null,
     el("div", { class: "actions" },
       el("a", { href: "https://map.kakao.com/?q=" + encodeURIComponent(p.name), target: "_blank", rel: "noopener" }, "🗺 지도"),
@@ -630,20 +681,21 @@ function renderCompare() {
 }
 
 // ── 화면(메뉴) 전환 ───────────────────────────────────
-const VIEWS = ["home", "requests", "about"];
+const VIEWS = ["home", "requests", "proposals", "about"];
 
 function setView(view) {
   if (!VIEWS.includes(view)) view = "home";
   document.body.dataset.view = view;
   document.querySelectorAll(".side-nav a").forEach((a) => a.classList.toggle("active", a.dataset.view === view));
-  document.title = { home: "주말 어디 가지?", requests: "문의·요청 게시판 · 주말 어디 가지?", about: "이 사이트는 · 주말 어디 가지?" }[view];
+  document.title = { home: "주말 어디 가지?", requests: "문의·요청 게시판 · 주말 어디 가지?",
+    proposals: "장소 제안 · 주말 어디 가지?", about: "이 사이트는 · 주말 어디 가지?" }[view];
   closeMenu();
   window.scrollTo({ top: 0 });
 }
 
 function viewFromHash() {
   const h = location.hash.replace(/^#\/?/, "");
-  return h === "requests" ? "requests" : h === "about" ? "about" : "home";
+  return VIEWS.includes(h) ? h : "home";
 }
 
 function openMenu() {
@@ -744,8 +796,9 @@ async function init() {
     $("count").textContent = "장소 데이터를 불러오지 못했어요.";
     return;
   }
-  await Promise.all([loadWeather(), loadReviews(), loadRequests()]);
+  await Promise.all([loadWeather(), loadReviews(), loadRequests(), loadProposals()]);
   renderRequests();
+  renderProposals();
   state.day = defaultDay();
   renderDays();
   evaluate();

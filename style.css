@@ -90,9 +90,12 @@ body { padding-left: var(--side); }
 }
 
 /* ── 화면 전환 ── */
-body[data-view="home"] .view-requests, body[data-view="home"] .view-about { display: none; }
-body[data-view="requests"] .view-home, body[data-view="requests"] .view-about { display: none; }
-body[data-view="about"] .view-home, body[data-view="about"] .view-requests { display: none; }
+.view-home, .view-requests, .view-about, .view-proposals { display: none; }
+body[data-view="home"] .view-home { display: block; }
+body[data-view="home"] .hero.view-home { display: block; }
+body[data-view="requests"] .view-requests { display: block; }
+body[data-view="about"] .view-about { display: block; }
+body[data-view="proposals"] .view-proposals { display: block; }
 body:not([data-view="home"]) .tray { display: none; }
 .page-title { font-size: 1.5rem; margin-top: 28px; }
 .legend { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 0; }
@@ -201,6 +204,9 @@ select { border-radius: 10px; }
 .tip { margin: 8px 0; font-size: 0.9rem; }
 .verified { margin: 0 0 8px; font-size: 0.78rem; color: var(--muted); }
 .badge-custom { background: var(--good); color: #fff; }
+.badge-visitor { background: var(--sky); color: #fff; }
+.request .where { font-size: 0.85rem; color: var(--muted); margin-top: 2px !important; }
+.request .go { display: inline-block; margin-top: 6px; font-weight: 700; }
 .verified.stale { color: var(--bad); font-weight: 700; }
 .badge { display: inline-block; margin-right: 6px; padding: 0 8px; border-radius: 99px; background: var(--accent); color: var(--accent-text); font-size: 0.75rem; vertical-align: middle; }
 .more { text-align: center; list-style: none; }

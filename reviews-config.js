@@ -10,6 +10,11 @@ window.REVIEWS = {
   // 응답 원본 시트는 비공개(이메일 포함). 공개 시트가 IMPORTRANGE+QUERY 로 이메일 열을 뺀 사본을 보여 준다.
   csvUrl: "https://docs.google.com/spreadsheets/d/1LkEQ5ZVuZnYWu54gfV4_-_Icf9kkAlQ2fL1ZtXt24YY/gviz/tq?tqx=out:csv&gid=0",
 };
+// 장소 제안: 구글 폼으로 받고, GitHub Actions 가 카카오 지도 검색으로 검증해 자동 등록 (scripts/verify_proposals.py)
+window.PROPOSALS = {
+  formUrl: "",
+  csvUrl: "",
+};
 window.REQUESTS = {
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc0dbdVS5Miz3WB3GOdUbuABYnhWxgU_123UpCIsJVFZQkxyg/viewform",
   csvUrl: "https://docs.google.com/spreadsheets/d/1oZLCUMIY-NNloTYZYRfs1rD_NpBgqcr5zg-XQ9mTHNE/gviz/tq?tqx=out:csv&gid=1339568842",

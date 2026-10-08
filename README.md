@@ -29,7 +29,7 @@ AI 챗봇에 물어보면 이미 문 닫은 곳을 추천하기도 했습니다.
 | 장소 600곳 날씨를 매번 조회하면 느리다 | 좌표를 약 10km 격자로 묶어 호출 수를 1/5로 줄이고, 카드는 20개씩 렌더링 |
 | 리뷰·게시판 API가 없다 | 구글 폼으로 받고 구글 시트를 CSV로 읽음. 열 이름을 키워드로 찾아 질문 제목이 바뀌어도 동작 |
 | 리뷰에 로그인을 요구하면 이메일이 시트에 쌓인다 | 응답 시트는 비공개로 두고, `IMPORTRANGE`+`QUERY`로 이메일 열만 뺀 공개 시트를 사이트가 읽음 |
-| 관광공사에 없는 작은 업체 | 운영자가 JSON으로 직접 등록. 확인일이 180일 넘으면 경고 |
+| 관광공사에 없는 작은 업체 | 운영자가 JSON으로 직접 등록하거나, **방문자가 폼으로 제안** → GitHub Actions가 **카카오 지도 검색으로 실재 여부·지역·중복·업종을 자동 검증**해 통과하면 좌표·전화까지 채워 등록. 결과(등록/반려 사유)는 사이트에 표시 |
 | 어르신·휴대폰 사용자 | 큰 터치 영역, 키보드 탐색, 다크 모드, 모바일 레이아웃, 접근성 속성 |
 
 ## 기술
@@ -82,6 +82,20 @@ GitHub 저장소 Settings → Secrets and variables → Actions에 `TOUR_API_KEY
 관광공사 데이터에 없는 곳은 [data/custom-places.json](data/custom-places.json)에 적습니다.
 형식은 [data/custom-places.example.json](data/custom-places.example.json)을 보세요. push 하면 바로 사이트에 합쳐집니다.
 좌표는 카카오맵에서 장소 검색 → 공유 → 주소 복사로 얻을 수 있습니다.
+
+## 방문자 장소 제안 → 자동 검증 등록
+1. 구글 폼(질문: `장소 이름`, `지역 (시/군/구)`, `추천 이유`, `쉬는 날 (선택)`, `이용 시간 (선택)`, `요금 (선택)`, `닉네임 (선택)`) → 응답 시트를 뷰어 공개 → `reviews-config.js`의 `PROPOSALS`에 폼 링크와 CSV 주소 등록
+2. [카카오 디벨로퍼스](https://developers.kakao.com)에서 앱을 만들고 **REST API 키**를 GitHub Secrets에 `KAKAO_REST_KEY`로 등록
+3. `.github/workflows/verify-proposals.yml`이 6시간마다 `scripts/verify_proposals.py`를 실행
+   - 카카오 키워드 검색 → 이름 유사도 0.6 이상 + 제안한 지역이 주소에 포함 + 술집·숙박 등 업종 제외 + 기존 장소와 500m 안 중복 제외
+   - 통과: `data/custom-places.json`에 추가(좌표·주소·전화·지도 링크 자동), 반려: 사유 기록
+   - 결과는 `data/proposals-status.json`에 쌓이고 사이트 "장소 제안하기" 화면에 표시
+4. 잘못 등록된 곳은 `custom-places.json`에서 지우면 됨. 제안 시트의 `숨김` 열에 값을 적으면 그 제안은 무시
+
+```bash
+python scripts/test_verify_proposals.py          # 검증 로직 테스트 (키 불필요)
+KAKAO_REST_KEY=키 python scripts/verify_proposals.py --dry-run
+```
 
 ## 리뷰 · 요청 게시판 (구글 폼 + 구글 시트)
 설정은 [reviews-config.js](reviews-config.js)에 적습니다. 비워 두면 해당 기능은 꺼집니다.
