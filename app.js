@@ -250,7 +250,8 @@ function renderProposals() {
       q.why ? el("p", { class: "where" }, q.why) : null,
       q.status === "등록됨" ? el("p", { class: "reply" }, `↳ "${q.matched || q.name}"(으)로 등록했어요. `,
         el("a", { class: "go", href: "#/", onclick: () => { state.q = ""; setTimeout(() => $("card-" + q.placeId)?.scrollIntoView({ block: "center" }), 300); } }, "추천 목록에서 보기 →")) : null,
-      q.status === "반려" ? el("p", { class: "reply" }, "↳ " + q.reason) : null)));
+      q.status === "반려" ? el("p", { class: "reply" }, "↳ " + q.reason + " ",
+        q.placeId ? el("a", { class: "go", href: "#/", onclick: () => { setTimeout(() => $("card-" + q.placeId)?.scrollIntoView({ block: "center" }), 300); } }, "추천 목록에서 보기 →") : null) : null)));
 }
 
 function reviewFormUrl(p) {
