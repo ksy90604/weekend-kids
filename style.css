@@ -214,6 +214,9 @@ select { border-radius: 10px; }
 .stars { color: var(--ok); letter-spacing: 1px; font-size: 1rem; }
 .review-text { margin: 4px 0 2px; }
 .review-meta { margin: 0; font-size: 0.78rem; color: var(--muted); }
+.review-photos { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; }
+.review-photos img { width: 96px; height: 96px; object-fit: cover; border-radius: 10px; background: var(--line); display: block; }
+.more-reviews .review-photos img { width: 64px; height: 64px; }
 .more-reviews { margin-top: 6px; font-size: 0.85rem; }
 .more-reviews summary { cursor: pointer; color: var(--accent); }
 .more-reviews ul { margin: 6px 0 0; padding-left: 4px; list-style: none; display: grid; gap: 4px; }

@@ -171,7 +171,7 @@ async function loadReviews(url = window.REVIEWS?.csvUrl) {
   reviews = {};
   if (!rows || rows.length < 2) return;
   const c = columns(rows[0], { date: ["타임", "시간", "날짜"], id: ["ID", "아이디"], stars: ["별점", "점수"],
-    text: ["한줄", "평", "후기", "리뷰"], ages: ["나이", "연령"], nick: ["닉네임", "작성자"] });
+    text: ["한줄", "평", "후기", "리뷰"], ages: ["나이", "연령"], nick: ["닉네임", "작성자"], photos: ["사진", "이미지", "첨부"] });
   if (c.id < 0 || c.text < 0) return;
   for (const r of rows.slice(1)) {
     const id = (r[c.id] || "").trim();
@@ -182,6 +182,7 @@ async function loadReviews(url = window.REVIEWS?.csvUrl) {
       text: r[c.text].trim(),
       ages: c.ages >= 0 ? (r[c.ages] || "").trim() : "",
       nick: c.nick >= 0 ? (r[c.nick] || "").trim() : "",
+      photos: c.photos >= 0 ? driveIds(r[c.photos]) : [],
     });
   }
   for (const list of Object.values(reviews)) list.sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
@@ -214,6 +215,19 @@ function reviewFormUrl(p) {
 
 const stars = (n) => "★".repeat(n) + "☆".repeat(5 - n);
 
+// 구글 폼 파일 업로드 셀("https://drive.google.com/open?id=..., ...")에서 파일 ID만 뽑는다.
+function driveIds(cell) {
+  return [...String(cell || "").matchAll(/(?:[?&]id=|\/d\/)([\w-]{20,})/g)].map((m) => m[1]).slice(0, 4);
+}
+
+function photoStrip(ids) {
+  if (!ids.length) return null;
+  return el("div", { class: "review-photos" }, ids.map((id) =>
+    el("a", { href: `https://drive.google.com/file/d/${id}/view`, target: "_blank", rel: "noopener" },
+      el("img", { src: `https://drive.google.com/thumbnail?id=${id}&sz=w320`, alt: "리뷰 사진", loading: "lazy",
+        onerror: (e) => { e.target.closest("a").remove(); } }))));
+}
+
 function reviewBlock(p) {
   const list = reviews[p.id] || [];
   if (!list.length) return null;
@@ -224,12 +238,14 @@ function reviewBlock(p) {
       el("span", { class: "stars", "aria-label": `별점 ${r.stars}점` }, stars(r.stars)),
       el("span", { class: "muted" }, `우리 리뷰 ${list.length}개 · 평균 ${avg}`)),
     el("p", { class: "review-text" }, `"${r.text}"`),
+    photoStrip(r.photos),
     el("p", { class: "review-meta" }, [r.nick || "익명", r.date, r.ages].filter(Boolean).join(" · ")),
     list.length > 1 ? el("details", { class: "more-reviews" },
       el("summary", {}, `리뷰 ${list.length - 1}개 더 보기`),
       el("ul", {}, list.slice(1, 6).map((x) => el("li", {},
         el("span", { class: "stars" }, stars(x.stars)), ` "${x.text}" `,
-        el("span", { class: "muted" }, [x.nick || "익명", x.date].filter(Boolean).join(" · ")))))) : null);
+        el("span", { class: "muted" }, [x.nick || "익명", x.date].filter(Boolean).join(" · ")),
+        photoStrip(x.photos))))) : null);
 }
 
 function renderRequests() {
