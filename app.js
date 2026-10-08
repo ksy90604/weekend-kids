@@ -228,13 +228,16 @@ function reviewBlock(p) {
 
 function renderRequests() {
   const { formUrl, csvUrl } = window.REQUESTS || {};
-  const sec = $("requests");
-  if (!formUrl && !csvUrl) { sec.hidden = true; $("navRequests").hidden = true; return; }
-  sec.hidden = false;
-  $("navRequests").hidden = false;
   $("requestForm").hidden = !formUrl;
   if (formUrl) $("requestForm").href = formUrl;
+  const open = requests.filter((q) => q.status !== "완료" && q.status !== "보류").length;
+  $("navCount").hidden = !open;
+  $("navCount").textContent = open;
   const list = $("requestList");
+  if (!formUrl && !csvUrl) {
+    list.replaceChildren(el("li", { class: "empty" }, "게시판을 준비하고 있어요."));
+    return;
+  }
   if (!requests.length) {
     list.replaceChildren(el("li", { class: "empty" }, "아직 요청이 없어요. 첫 번째로 남겨 보세요!"));
     return;
@@ -597,6 +600,34 @@ function renderCompare() {
   $("compare").hidden = false;
 }
 
+// ── 화면(메뉴) 전환 ───────────────────────────────────
+const VIEWS = ["home", "requests", "about"];
+
+function setView(view) {
+  if (!VIEWS.includes(view)) view = "home";
+  document.body.dataset.view = view;
+  document.querySelectorAll(".side-nav a").forEach((a) => a.classList.toggle("active", a.dataset.view === view));
+  document.title = { home: "주말 어디 가지?", requests: "문의·요청 게시판 · 주말 어디 가지?", about: "이 사이트는 · 주말 어디 가지?" }[view];
+  closeMenu();
+  window.scrollTo({ top: 0 });
+}
+
+function viewFromHash() {
+  const h = location.hash.replace(/^#\/?/, "");
+  return h === "requests" ? "requests" : h === "about" ? "about" : "home";
+}
+
+function openMenu() {
+  $("sidebar").classList.add("open");
+  $("backdrop").hidden = false;
+  $("menuBtn").setAttribute("aria-expanded", "true");
+}
+function closeMenu() {
+  $("sidebar").classList.remove("open");
+  $("backdrop").hidden = true;
+  $("menuBtn").setAttribute("aria-expanded", "false");
+}
+
 // ── 시작 ──────────────────────────────────────────────
 function pickRandom() {
   const pool = ranked.slice(0, 5);
@@ -640,6 +671,11 @@ async function init() {
   load();
   state.compare = [];
   renderControls();
+
+  $("menuBtn").addEventListener("click", () => ($("sidebar").classList.contains("open") ? closeMenu() : openMenu()));
+  $("backdrop").addEventListener("click", closeMenu);
+  window.addEventListener("hashchange", () => setView(viewFromHash()));
+  setView(viewFromHash());
 
   $("origin").addEventListener("change", async (e) => {
     const v = +e.target.value;

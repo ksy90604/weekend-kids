@@ -7,22 +7,29 @@
   <meta name="description" content="날씨, 예산, 거리, 영업 여부를 한 번에 비교해서 아이와 갈 곳을 추천해 드려요.">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="hero">
-    <div class="wrap hero-inner">
-      <div>
-        <h1>🧺 주말 어디 가지?</h1>
-        <p>날씨, 예산, 거리, 그날 여는지까지 한 번에 비교해 드려요.</p>
-      </div>
-      <nav class="top-nav" aria-label="바로 가기">
-        <a href="#results" class="nav-btn">🔎 추천 보기</a>
-        <a href="#requests" class="nav-btn" id="navRequests" hidden>📮 고쳐 주세요</a>
-      </nav>
+<body data-view="home">
+  <button type="button" class="menu-btn" id="menuBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="sidebar">☰</button>
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <aside class="sidebar" id="sidebar" aria-label="메뉴">
+    <a class="brand" href="#/">🧺<span>주말 어디 가지?</span></a>
+    <nav class="side-nav">
+      <a href="#/" data-view="home"><span class="ico">🔎</span>추천 찾기</a>
+      <a href="#/requests" data-view="requests"><span class="ico">📮</span>문의·요청 게시판<span class="badge-count" id="navCount" hidden></span></a>
+      <a href="#/about" data-view="about"><span class="ico">ℹ️</span>이 사이트는</a>
+    </nav>
+    <p class="side-foot">장소: 한국관광공사<br>날씨: Open-Meteo</p>
+  </aside>
+
+  <header class="hero view-home">
+    <div class="wrap">
+      <h1>🧺 주말 어디 가지?</h1>
+      <p>날씨, 예산, 거리, 그날 여는지까지 한 번에 비교해 드려요.</p>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="panel" aria-labelledby="set-title">
+    <section class="panel view-home" aria-labelledby="set-title">
       <h2 id="set-title" class="sr-only">조건 설정</h2>
 
       <div class="row">
@@ -59,7 +66,7 @@
       </div>
     </section>
 
-    <section aria-labelledby="day-title">
+    <section class="view-home" aria-labelledby="day-title">
       <h2 id="day-title" class="section-title">📅 언제 가세요?</h2>
       <div class="days-row">
         <div class="days" id="days" role="tablist" aria-label="날짜"></div>
@@ -70,7 +77,7 @@
       <p class="day-summary" id="daySummary"></p>
     </section>
 
-    <section id="compare" class="compare" hidden aria-labelledby="cmp-title">
+    <section id="compare" class="compare view-home" hidden aria-labelledby="cmp-title">
       <div class="compare-head">
         <h2 id="cmp-title" class="section-title">⚖️ 나란히 비교</h2>
         <button type="button" id="closeCompare" class="ghost">닫기</button>
@@ -78,7 +85,7 @@
       <div class="table-scroll"><table id="compareTable"></table></div>
     </section>
 
-    <section id="results" aria-live="polite">
+    <section id="results" class="view-home" aria-live="polite">
       <div class="result-head">
         <h2 id="count" class="section-title">날씨 불러오는 중…</h2>
         <button type="button" id="pick" class="fun">🎲 그냥 골라줘!</button>
@@ -90,13 +97,30 @@
       </details>
     </section>
 
-    <section id="requests" class="requests" hidden aria-labelledby="req-title">
+    <section id="requests" class="requests view-requests" aria-labelledby="req-title">
       <div class="result-head">
-        <h2 id="req-title" class="section-title">📮 이런 거 고쳐 주세요</h2>
+        <h2 id="req-title" class="section-title page-title">📮 문의·요청 게시판</h2>
         <a id="requestForm" class="btn" href="#" target="_blank" rel="noopener" hidden>✍️ 요청 남기기</a>
       </div>
-      <p class="muted">불편한 점, 추가하고 싶은 지역이나 장소를 알려주세요. 답변은 여기에 달아 드려요.</p>
+      <p class="muted">불편한 점, 추가하고 싶은 지역이나 장소, 잘못된 정보를 알려주세요. 처리 상태와 답변을 여기에 적어 드려요.</p>
+      <div class="legend">
+        <span class="status st-new">접수</span><span class="status st-doing">진행중</span>
+        <span class="status st-done">완료</span><span class="status st-hold">보류</span>
+      </div>
       <ul class="request-list" id="requestList"></ul>
+    </section>
+
+    <section id="about" class="view-about" aria-labelledby="about-title">
+      <h2 id="about-title" class="section-title page-title">ℹ️ 이 사이트는</h2>
+      <div class="about-card">
+        <p>주말마다 "아이들이랑 어디 가지?" 고민하다가 만들었어요. 날씨, 예산, 이동 시간, 그날 영업하는지를 한 번에 비교해 줍니다.</p>
+        <ul>
+          <li><strong>장소</strong>: 한국관광공사 TourAPI에서 매일 새벽 자동으로 받아요. 목록에서 사라진 곳은 자동으로 빠집니다.</li>
+          <li><strong>날씨·미세먼지</strong>: Open-Meteo 예보(16일), 장소마다 따로 조회해요.</li>
+          <li><strong>리뷰</strong>: 다녀온 분들이 직접 남긴 한 줄 평이에요. 카드의 "리뷰 남기기"로 참여할 수 있어요.</li>
+        </ul>
+        <p class="muted">가격·운영시간은 공공데이터 기준이라 현장과 다를 수 있어요. 출발 전 공식 누리집이나 전화로 한 번 더 확인해 주세요.</p>
+      </div>
     </section>
   </main>
 
