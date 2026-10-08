@@ -106,13 +106,40 @@ def norm(s: str) -> str:
     return re.sub(r"[\s\(\)\[\]\-_.,·'\"‘’]|점$", "", s).lower()
 
 
+# '농원'·'체험장'처럼 업종을 나타내는 흔한 말. 제안자는 '한터 농원', 지도는 '한터조랑말농장'처럼 다르게 부르는 일이 많다.
+GENERIC = re.compile(r"(키즈카페|테마파크|자연휴양림|체험농장|체험장|체험|농원|농장|목장|카페|놀이터|공원|박물관|과학관|미술관|"
+                     r"수목원|식물원|동물원|랜드|파크|마을|센터|본점|지점|점)")
+
+
+def core(s: str) -> str:
+    return GENERIC.sub("", norm(s))
+
+
 def similarity(a: str, b: str) -> float:
-    a, b = norm(a), norm(b)
-    if not a or not b:
+    na, nb = norm(a), norm(b)
+    if not na or not nb:
         return 0.0
-    if a in b or b in a:
+    if na in nb or nb in na:
         return 1.0
-    return difflib.SequenceMatcher(None, a, b).ratio()
+    score = difflib.SequenceMatcher(None, na, nb).ratio()
+    ca, cb = core(a), core(b)
+    if len(ca) >= 2 and len(cb) >= 2:
+        if ca in cb or cb in ca:
+            score = max(score, 0.9)
+        else:
+            score = max(score, difflib.SequenceMatcher(None, ca, cb).ratio())
+    return score
+
+
+ROAD = re.compile(r"([가-힣A-Za-z0-9]+(?:로|길))\s*(\d+(?:-\d+)?)")
+
+
+def road_match(region: str, address: str) -> bool:
+    """제안자가 '대대로 110'처럼 도로명+번호를 적었고 지도 주소에도 같은 게 있으면 같은 곳으로 본다."""
+    m = ROAD.search(region or "")
+    if not m:
+        return False
+    return (m.group(1) + m.group(2)) in (address or "").replace(" ", "")
 
 
 def haversine(lat1, lon1, lat2, lon2) -> float:
@@ -167,6 +194,8 @@ def find_match(api: Client, name: str, region: str) -> tuple[dict | None, str]:
     best, best_score = None, 0.0
     for d in seen:
         score = similarity(name, d.get("place_name", ""))
+        if road_match(region, d.get("road_address_name", "")) and score >= 0.3:
+            score = max(score, 0.95)  # 주소가 같으면 이름이 조금 달라도 같은 곳
         if score > best_score:
             best, best_score = d, score
     if best is None or best_score < MIN_SIMILARITY:
@@ -250,8 +279,9 @@ def run(api: Client, rows: list[dict], dry_run: bool = False) -> dict:
         if col(row, "숨김", "삭제"):
             continue
         region = col(row, "지역", "주소", "위치")
+        stamp = re.search(r"(\d{4})[./-]\s*(\d{1,2})[./-]\s*(\d{1,2})", col(row, "타임", "시간", "날짜"))
         entry = {"key": key, "name": name, "nick": col(row, "닉네임", "작성자") or "익명",
-                 "date": col(row, "타임", "시간", "날짜")[:13], "checkedAt": today}
+                 "date": f"{stamp[1]}-{int(stamp[2]):02d}-{int(stamp[3]):02d}" if stamp else "", "checkedAt": today}
         try:
             doc, why = find_match(api, name, region)
         except KakaoError:

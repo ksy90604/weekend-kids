@@ -25,6 +25,9 @@ class FakeClient(vp.Client):
             return [doc("222", "늘솔길공원양떼목장", "인천 남동구 논현동 1", 126.72, 37.44)]
         if "달빛" in query:
             return [doc("333", "달빛 바", "서울 마포구 1", 126.92, 37.55, cat="음식점 > 술집 > 바")]
+        if "한터" in query:
+            return [doc("555", "한터조랑말농장", "경기 용인시 처인구 양지면 대대로 110", 127.30, 37.20, cat="여행 > 관광,명소 > 농장"),
+                    doc("556", "한터아파트", "경기 용인시 처인구 양지면 대대로 200", 127.31, 37.21, cat="부동산 > 주거시설 > 아파트")]
         if "별빛" in query:
             return [doc("444", "별빛키즈카페", "서울 송파구 1", 127.10, 37.51, cat="문화,예술 > 키즈카페")]
         return []
@@ -43,6 +46,12 @@ class UnitTest(unittest.TestCase):
         self.assertEqual(vp.similarity("푸른들 동물농장", "푸른들동물농장"), 1.0)
         self.assertGreater(vp.similarity("푸른들 동물 농장", "푸른들동물농장 가평점"), 0.9)
         self.assertLess(vp.similarity("푸른들 동물농장", "달빛 바"), 0.3)
+        # 업종 말이 달라도 핵심 이름이 같으면 비슷하다고 본다
+        self.assertGreaterEqual(vp.similarity("한터 농원", "한터조랑말농장"), 0.6)
+        self.assertGreaterEqual(vp.similarity("푸른들 농원", "푸른들동물농장"), 0.6)
+        self.assertLess(vp.similarity("한터 농원", "한터아파트"), 0.6)
+        self.assertTrue(vp.road_match("경기도 용인시 처인구 양지면 대대로 110 (대대리 96-1)", "경기 용인시 처인구 양지면 대대로 110"))
+        self.assertFalse(vp.road_match("경기도 용인시 처인구 양지면 대대로 110", "경기 용인시 처인구 양지면 대대로 200"))
 
     def test_region(self):
         self.assertTrue(vp.region_ok("경기 가평", "경기 가평군 가평읍 1"))
@@ -111,6 +120,12 @@ class FlowTest(unittest.TestCase):
             vp.STATUS.write_text(json.dumps(status), encoding="utf-8")
             again = vp.run(FakeClient(), rows)
             self.assertEqual(len(again["items"]), 1)
+
+    def test_road_address_match(self):
+        status, custom = self.run_flow([row("한터 농원", "경기도 용인시 처인구 양지면 대대로 110 (대대리 96-1)", when="2026/10/08 오후 1:30:27")])
+        self.assertEqual(status["items"][0]["status"], "등록", status["items"][0].get("reason"))
+        self.assertEqual(custom["items"][0]["name"], "한터조랑말농장")
+        self.assertEqual(status["items"][0]["date"], "2026-10-08")
 
     def test_kids_cafe_registers(self):
         status, custom = self.run_flow([row("별빛 키즈카페", "서울 송파")])
