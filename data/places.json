@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11 06:25",
+ "updatedAt": "2026-10-12 06:42",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -165,50 +165,6 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "대한불교조계종이 주최하는 국제선명상대회와 선명상축제는 국민 정신건강 증진을 위하여 진행하고 있으며, 지난 2024년부터 시작하여 올해로 3회를 맞이하였다. 올해는 [AI시대의 선명상]이라는 주제하에…",
-   "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "4099133",
-   "contentTypeId": "15",
-   "name": "2026 로컬 그라운드 연남",
-   "area": "서울특별시 마포구",
-   "lat": 37.56286,
-   "lon": 126.92541,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/13/4115113_image2_1.jpg",
-   "tel": "010-7621-3714",
-   "modified": "2026-09-23",
-   "period": {
-    "start": "2026-10-11",
-    "end": "2026-10-11"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "foliage",
-    "animals",
-    "nature"
-   ],
-   "emoji": "🍁",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "16:00~20:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "로컬 그라운드 연남은 연남동 골목과 지역 상권을 무대로 펼쳐지는 로컬 문화축제이다. 연남동만의 개성 있는 공간과 상점, 문화 콘텐츠를 하나의 축제로 연결하여 방문객에게 골목 곳곳을 걷고 머물며 즐기…",
    "detailFetched": "2026-10-09"
   },
   {
@@ -532,46 +488,6 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "예로부터 우리 선조들은 이름난 큰 산이나 하천과 바다에 나라와 고을의 안녕을 빌고 복을 구하는 제사를 지냈다. 바다의 경우, 조선시대에 인천과 순천, 강릉 등에서 제사를 지냈는데, 이 중 인천도호부…",
-   "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3011445",
-   "contentTypeId": "15",
-   "name": "2026 크리에이티브X성수",
-   "area": "서울특별시 성동구",
-   "lat": 37.54225,
-   "lon": 127.05947,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/57/4101257_image2_1.jpg",
-   "tel": "02-2204-7507",
-   "modified": "2026-08-19",
-   "period": {
-    "start": "2026-10-05",
-    "end": "2026-10-11"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "animals",
-    "play"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "프로그램별로 상이함",
-   "babyCarriage": null,
-   "homepage": "https://www.creativexseongsu.co.kr",
-   "tip": "크리에이티브X성수는 '역동적 포용성'을 바탕으로 문화, 기술, 기업이 가진 서브컬처의 혁신(새로움)을 포용하며, 문화경험의 미래를 선도하는 글로벌 문화창조산업축제이다. 첨단 문화기술을 통해 미래 창…",
    "detailFetched": "2026-10-09"
   },
   {
@@ -2396,49 +2312,6 @@
    "babyCarriage": null,
    "homepage": "https://blog.naver.com/yongsic14",
    "tip": "고씨딸기체험농원은 인천 계양역 인근에 위치한 체험형 농장으로 서울역에서 약 30분 거리에 있어 접근성이 뛰어나며 인천국제공항과도 가까워 국내외 여행객이 방문하기 좋다. 신선한 딸기를 직접 수확하는 …",
-   "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "1725993",
-   "contentTypeId": "15",
-   "name": "고양가을꽃축제",
-   "area": "경기도 고양시",
-   "lat": 37.65382,
-   "lon": 126.76865,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/34/4110534_image2_1.JPG",
-   "tel": "031-908-7750",
-   "modified": "2026-09-23",
-   "period": {
-    "start": "2026-10-01",
-    "end": "2026-10-11"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "bloom",
-    "nature"
-   ],
-   "emoji": "🌷",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "09:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://gief.or.kr/main/?mc_code=171010",
-   "tip": "선선한 바람과 함께 가을빛으로 물드는 일산호수공원에서 ‘2026고양가을꽃축제’​가 열린다. 올해 축제는 ‘가을 빠레뜨(Autumn Palette)’​를 주제로, 팔레트 위에 펼쳐진 다채로운 물감처럼…",
    "detailFetched": "2026-10-09"
   },
   {
@@ -4707,45 +4580,6 @@
    "homepage": "https://www.guro.go.kr/www/contents.do?key=2980&",
    "tip": "궁동저수지생태공원은 옛 궁동저수지의 열악한 환경 개선과 더불어 친환경적인 공간을 조성하여 구로구 지역 주민에게 휴식 공간을 제공하고자 조성되었다. 이곳은 생태탐방로, 산책로, 전통 한식 정자, 휴게…",
    "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "1998564",
-   "contentTypeId": "15",
-   "name": "궁중문화축전",
-   "area": "서울특별시 종로구",
-   "lat": 37.57877,
-   "lon": 126.97698,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/82/4108782_image2_1.jpg",
-   "tel": "1522-2295",
-   "modified": "2026-09-09",
-   "period": {
-    "start": "2026-10-07",
-    "end": "2026-10-11"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "nature"
-   ],
-   "emoji": "🌳",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "프로그램별 상이",
-   "babyCarriage": null,
-   "homepage": "https://www.kh.or.kr/fest",
-   "tip": "‘궁중문화축전’은 매년 봄·가을 서울의 5대 궁궐(경복궁·창덕궁·덕수궁·창경궁·경희궁)과 종묘에서 펼쳐지는 국내 최대 국가유산 축제다. 궁궐을 무대로 공연·전시·체험·의례 재현 등 한국 전통문화를 …",
-   "detailFetched": "2026-10-09"
   },
   {
    "id": "131519",
@@ -7142,7 +6976,7 @@
    "lat": 37.57232,
    "lon": 126.75645,
    "image": null,
-   "tel": "아라종합안내센터 1899-3650",
+   "tel": null,
    "modified": "2026-10-10",
    "setting": "outdoor",
    "tags": [
@@ -10568,45 +10402,6 @@
    "detailFetched": "2026-10-10"
   },
   {
-   "id": "1398149",
-   "contentTypeId": "15",
-   "name": "삼랑성역사문화축제",
-   "area": "인천광역시 강화군",
-   "lat": 37.63143,
-   "lon": 126.48644,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/15/4112915_image2_1.jpg",
-   "tel": "032-937-0125",
-   "modified": "2026-10-07",
-   "period": {
-    "start": "2026-10-03",
-    "end": "2026-10-11"
-   },
-   "setting": "outdoor",
-   "tags": [],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 4000,
-    "child": 4000
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "09:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://samrangseong.org/",
-   "tip": "전등사를 둘러싼 삼랑성은 외적의 침입을 막기위해 단군의 세아들이 쌓았다는 전설이 있다. 고려때 몽골의 침략을 피해 강화도로 천도한 뒤 삼랑성 가궐에서 항몽의지를 불태우며 120일 동안 대불정오설도량…",
-   "detailFetched": "2026-10-09"
-  },
-  {
    "id": "130931",
    "contentTypeId": "14",
    "name": "삼성출판박물관",
@@ -13753,49 +13548,6 @@
    "homepage": "https://oidomuseum.siheung.go.kr/",
    "tip": "오이도는 서해안 최대 패총유적지이자 다양한 신석기시대 유물의 출토지로, 선사시대 해안생활문화유산으로서 보존가치를 인정받는 곳이다. 이러한 오이도 유적을 보호하고 활용하기 위해 2018년 오이도 선사…",
    "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "2828336",
-   "contentTypeId": "15",
-   "name": "시흥월곶포구축제",
-   "area": "경기도 시흥시",
-   "lat": 37.38736,
-   "lon": 126.74028,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/77/4089877_image2_1.jpg",
-   "tel": "031-310-4794",
-   "modified": "2026-10-08",
-   "period": {
-    "start": "2026-10-09",
-    "end": "2026-10-11"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "bloom",
-    "animals"
-   ],
-   "emoji": "🌷",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~22:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "도심속 바다에서 경험하는 다양한 포구체험을 즐길 수 있는 바다축제인 [시흥월곶포구축제]는 도시와 바다가 어우러진 생생한 포구체험과 어민이 직접 잡은 신선한 제철 수산물을 활용한 먹거리 등 풍성한 프…",
-   "detailFetched": "2026-10-09"
   },
   {
    "id": "2605803",
