@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-13 09:27",
+ "updatedAt": "2026-10-15 06:29",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
   {
    "id": "2987791",
    "contentTypeId": "15",
-   "name": "2026 DMZ OPEN 페스티벌",
+   "name": "2026 DMZ OPEN Festival",
    "area": "경기도 파주시",
    "lat": 37.89201,
    "lon": 126.74475,
    "image": "https://tong.visitkorea.or.kr/cms/resource/23/4116823_image2_1.jpg",
    "tel": "02-6288-9245",
-   "modified": "2026-10-02",
+   "modified": "2026-10-13",
    "period": {
     "start": "2026-10-12",
     "end": "2026-11-29"
@@ -42,7 +42,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/dmzopen_official/",
    "tip": "DMZ OPEN Festival은 비무장지대(DMZ)가 지닌 평화·생태·역사적 가치를 예술, 학술 등 다양한 방식으로 경험할 수 있도록 구성한 경기도의 대표 복합 문화 행사이다. 단순히 DMZ를 분…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "4117084",
@@ -246,6 +246,49 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "3552019",
+   "contentTypeId": "15",
+   "name": "2026 뷰티썸 수원",
+   "area": "경기도 수원시",
+   "lat": 37.28583,
+   "lon": 127.05945,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/86/4114586_image2_1.jpg",
+   "tel": "02-6121-6229",
+   "modified": "2026-09-22",
+   "period": {
+    "start": "2026-11-05",
+    "end": "2026-11-07"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "animals",
+    "play"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 10000,
+    "child": 10000
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~17:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "탐색을 넘어 결정을 내리는 곳, K-뷰티의 모든 가치가 하나로 연결되는 〈2026 뷰티썸 수원(BeautySum Korea Suwon 2026)〉은 오는 11월 5일(목)부터 7일(토)까지 3일간 …",
+   "detailFetched": "2026-10-15"
+  },
+  {
    "id": "4115205",
    "contentTypeId": "15",
    "name": "2026 서울 펫림픽",
@@ -408,6 +451,48 @@
    "detailFetched": "2026-10-10"
   },
   {
+   "id": "4124907",
+   "contentTypeId": "15",
+   "name": "2026 쉬엄쉬엄모닝",
+   "area": "서울특별시 강동구",
+   "lat": 37.54525,
+   "lon": 127.11798,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/08/4124908_image2_1.jpg",
+   "tel": "1644-6155",
+   "modified": "2026-10-14",
+   "period": {
+    "start": "2026-10-18",
+    "end": "2026-11-29"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "animals",
+    "nature"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "06:00~10:30",
+   "babyCarriage": null,
+   "homepage": "https://www.instagram.com/siumsium.morning/",
+   "tip": "누구나 자신의 속도로 즐기는 주말 아침, ‘쉬엄쉬엄모닝’이 열린다. 걷기·달리기·자전거는 물론 유아차와 반려견 동반까지, 자신의 체력에 맞춰 원하는 방식으로 참여할 수 있는 서울형 아침 운동 프로그…",
+   "detailFetched": "2026-10-15"
+  },
+  {
    "id": "3019085",
    "contentTypeId": "15",
    "name": "2026 이천펫축제",
@@ -499,7 +584,7 @@
    "lat": 37.39483,
    "lon": 127.73729,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/3563615_image2_1.jpg",
-   "tel": "031-775-6945",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -906,11 +991,11 @@
    "contentTypeId": "28",
    "name": "[북악하늘길 3산책로] 북카페~숲속다리",
    "area": "서울특별시 성북구",
-   "lat": 37.60682,
+   "lat": 37.6063,
    "lon": 126.9859,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/33/1868133_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-04-03",
+   "image": null,
+   "tel": "서울 성북구청 공원녹지과 02-2241-3664",
+   "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -928,13 +1013,13 @@
    "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": null,
+   "restText": "연중무휴",
    "seasonText": null,
-   "hours": "이용시간 정보 없음",
+   "hours": "상시 개방",
    "babyCarriage": null,
    "homepage": null,
    "tip": "북악하늘길은 서울특별시 성북구에 위치한 북악산 능선과 산자락을 이어서 만든 산책길을 말한다. 이 구간은 1968년 북한 특수부대 소속 김신조 외 30명의 무장공비가 청와대를 습격하기 위해 이용했던 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "1195655",
@@ -1128,49 +1213,6 @@
    "detailFetched": "2026-10-10"
   },
   {
-   "id": "1806376",
-   "contentTypeId": "15",
-   "name": "강동바람꽃축제 X 강동북페스티벌",
-   "area": "서울특별시 강동구",
-   "lat": 37.55122,
-   "lon": 127.15734,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/97/4121697_image2_1.jpg",
-   "tel": "02-440-0516 / 02-2045-7911",
-   "modified": "2026-10-12",
-   "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-17"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "bloom",
-    "animals"
-   ],
-   "emoji": "🌷",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://www.gdlibrary.or.kr/",
-   "tip": "2026 강동바람꽃축제 × 17th 강동북페스티벌은 ‘읽고, 마시고, 예술하라’를 주제로 책과 예술, 음악과 공연, 전시와 로컬 콘텐츠를 한자리에서 만나는 문화축제이다. 김애란·성해나 작가와의 만남…",
-   "detailFetched": "2026-10-13"
-  },
-  {
    "id": "1307813",
    "contentTypeId": "15",
    "name": "강동선사문화축제",
@@ -1179,7 +1221,7 @@
    "lon": 127.1306,
    "image": "https://tong.visitkorea.or.kr/cms/resource/75/4114675_image2_1.JPG",
    "tel": "02-3425-5247",
-   "modified": "2026-09-22",
+   "modified": "2026-10-13",
    "period": {
     "start": "2026-10-16",
     "end": "2026-10-18"
@@ -1208,8 +1250,8 @@
    "hours": "10:00~21:00",
    "babyCarriage": null,
    "homepage": "https://www.gdsunsa.com/",
-   "tip": "*하기 축제 먹거리 내용은 전년도(2025년) 축제 내용으로, 2026년도 축제 먹거리 내용은 업데이트 중에 있습니다.*제31회 강동선사문화축제는 서울 강동구 암사동 일대에서 개최되는 선사문화 주제…",
-   "detailFetched": "2026-10-09"
+   "tip": "제31회 강동선사문화축제는 서울 강동구 암사동 일대에서 개최되는 선사문화 주제의 역사문화축제이다. 서울을 대표하는 신석기시대 유적인 서울 암사동 유적을 중심으로, 선사시대의 생활문화와 역사적 가치를…",
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "3536896",
@@ -1443,7 +1485,7 @@
    "lat": 37.77368,
    "lon": 126.43527,
    "image": "https://tong.visitkorea.or.kr/cms/resource/21/3383821_image2_1.JPG",
-   "tel": "032-934-7887",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -1633,6 +1675,47 @@
    "detailFetched": "2026-10-10"
   },
   {
+   "id": "3113995",
+   "contentTypeId": "15",
+   "name": "경기‧양주‧지작사 드론봇 페스티벌",
+   "area": "경기도 양주시",
+   "lat": 37.83355,
+   "lon": 126.9898,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image2_1.JPG",
+   "tel": "031-8082-6161",
+   "modified": "2026-10-14",
+   "period": {
+    "start": "2026-10-30",
+    "end": "2026-11-01"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft"
+   ],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "09:00~21:00",
+   "babyCarriage": null,
+   "homepage": "https://www.yangju.go.kr/",
+   "tip": "경기‧양주‧지작사 드론봇 페스티벌은 경기도, 양주시, 지상작전사령부가 공동 주최하는 민ㆍ관ㆍ군 상생 페스티벌이다. 2026년 10월 30일부터 11월 1일까지 3일간 양주시 광적면 가납리비행장에서 …",
+   "detailFetched": "2026-10-15"
+  },
+  {
    "id": "128226",
    "contentTypeId": "12",
    "name": "경기도 민물고기 생태학습관",
@@ -1679,7 +1762,7 @@
    "lat": 37.17844,
    "lon": 127.06273,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/3002961_image2_1.jpg",
-   "tel": "031-288-1004",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -2218,7 +2301,7 @@
    "lat": 38.00108,
    "lon": 126.99215,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/3064992_image2_1.jpg",
-   "tel": "※ 네이버 톡톡으로만 문의 가능",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "outdoor",
    "tags": [
@@ -2975,8 +3058,8 @@
    "lat": 37.42104,
    "lon": 126.86271,
    "image": "https://tong.visitkorea.or.kr/cms/resource/78/4121378_image2_1.png",
-   "tel": "02-2090-1414",
-   "modified": "2026-10-12",
+   "tel": "070-4277-8902",
+   "modified": "2026-10-13",
    "period": {
     "start": "2026-10-16",
     "end": "2026-10-17"
@@ -3008,7 +3091,7 @@
    "babyCarriage": null,
    "homepage": "https://www.gm.go.kr/",
    "tip": "2026년 제4회 광명동굴 빛 축제는 광명동굴 일원에서 개최되는 참여형 빛 축제이다. 올해 축제는 ‘빛의 숲, 깨어나는 생명’을 주제로 빛과 생명이 어우러지는 공간을 조성하고, 시민과 방문객이 다양…",
-   "detailFetched": "2026-10-13"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "3011251",
@@ -3119,6 +3202,47 @@
    "homepage": null,
    "tip": "구로리공원은 서울시 구로구 구로동에 위치한 어린이 공원이다. 기존의 단조롭고 노후된 어린이 공원을 창의력을 키울 수 있는 공원으로 새롭게 단장하여 조성되었다. 어린이가 이용할 수 있는 다양한 시설과…",
    "detailFetched": "2026-10-10"
+  },
+  {
+   "id": "2618971",
+   "contentTypeId": "15",
+   "name": "구로청소년축제",
+   "area": "서울특별시 구로구",
+   "lat": 37.4949,
+   "lon": 126.82635,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/06/3562606_image2_1.jpg",
+   "tel": "02-860-3386",
+   "modified": "2026-10-13",
+   "period": {
+    "start": "2026-10-17",
+    "end": "2026-10-17"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "science"
+   ],
+   "emoji": "🔭",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "11:00~18:00",
+   "babyCarriage": null,
+   "homepage": "https://blog.naver.com/onon0313",
+   "tip": "2026년 제11회 구로 청소년 축제는 10월 17일(토) 우신고등학교 운동장에서 개최되는 청소년 문화축제이다. 올해 축제의 슬로건은 ‘일상에서 이륙, 힐링으로 착륙’으로, 청소년들의 꿈과 열정에서…",
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "3007378",
@@ -3524,7 +3648,7 @@
    "lat": 37.47835,
    "lon": 127.00904,
    "image": "https://tong.visitkorea.or.kr/cms/resource/74/3540474_image2_1.jpg",
-   "tel": "02-580-3130",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -3933,11 +4057,11 @@
    "contentTypeId": "12",
    "name": "국립아세안자연휴양림",
    "area": "경기도 양주시",
-   "lat": 37.77388,
-   "lon": 126.94219,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/53/3409253_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-03-24",
+   "lat": 37.77382,
+   "lon": 126.94218,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/53/3409253_image2_1.jpg",
+   "tel": "031-871-2796",
+   "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -3963,9 +4087,9 @@
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": "없음",
-   "homepage": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=0104",
+   "homepage": "https://www.foresttrip.go.kr/",
    "tip": "장흥유원지의 인근에 위치하고 있는 아세안자연휴양림은 서울을 비롯한 인천 일산 의정부 등에서 1시간 이내의 근거리에 있어 수도권에서 가장 접근성이 좋은 자연휴양림이다. 또한 한·아세안 간의 우호증진과…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "2554095",
@@ -4738,48 +4862,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "2761411",
-   "contentTypeId": "15",
-   "name": "금천하모니축제",
-   "area": "서울특별시 금천구",
-   "lat": 37.45644,
-   "lon": 126.89551,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/92/3483192_image2_1.jpg",
-   "tel": "070-4118-3420",
-   "modified": "2026-10-07",
-   "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "nature"
-   ],
-   "emoji": "🌳",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~20:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "금천하모니축제는 2003년부터 시작해 20년 넘게 매해 열리는 금천구 대표 축제이다. 올해는 '울림의 하모니, 마음을 잇는 멜로디'라는 슬로건을 가지고 '음악'을 소재로 주민들이 쉬고 즐기고 화합하…",
-   "detailFetched": "2026-10-09"
-  },
-  {
    "id": "2782664",
    "contentTypeId": "14",
    "name": "기차왕국박물관카페",
@@ -4864,9 +4946,9 @@
    "area": "서울특별시 강동구",
    "lat": 37.54126,
    "lon": 127.15682,
-   "image": null,
-   "tel": null,
-   "modified": "2026-02-24",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/63/4123063_image2_1.jpg",
+   "tel": "길동생태공원 02-472-2770",
+   "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -4891,11 +4973,11 @@
    "months": null,
    "restText": "매주 월요일",
    "seasonText": null,
-   "hours": "09:00~16:00",
+   "hours": "08:00~18:00",
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "길동생태공원은 여의도 샛강생태공원에 이어 국내에서 두 번째로 조성된 생태공원이다. 도심 속 생물에게 서식처를 제공하고 종 다양성을 높이기 위한 생태공간이자 자연 체험을 통해 생태계를 이해하며 환경보…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "2553377",
@@ -6739,6 +6821,48 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "4123034",
+   "contentTypeId": "15",
+   "name": "동대문구 청소년 페스티벌",
+   "area": "서울특별시 동대문구",
+   "lat": 37.58059,
+   "lon": 127.06698,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/42/4123042_image2_1.jpg",
+   "tel": "02-2127-4231",
+   "modified": "2026-10-13",
+   "period": {
+    "start": "2026-10-17",
+    "end": "2026-10-17"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "nature"
+   ],
+   "emoji": "🌳",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "12:00~17:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "제4회 텐 페스타(TEN FESTA)는 2026년 10월 17일 토요일 오후 1시부터 5시까지 배봉산 근린공원 열린광장에서 개최된다. 본 행사는 동대문구청이 주최하며, 관내 청소년 및 지역주민 약 …",
+   "detailFetched": "2026-10-15"
+  },
+  {
    "id": "4121348",
    "contentTypeId": "15",
    "name": "동두천시 책문화축제",
@@ -7173,7 +7297,7 @@
    "lat": 37.5749,
    "lon": 126.99064,
    "image": "https://tong.visitkorea.or.kr/cms/resource/39/3540839_image2_1.jpg",
-   "tel": "02-741-5447",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -8373,11 +8497,11 @@
    "contentTypeId": "12",
    "name": "물봉선어린이공원",
    "area": "경기도 수원시",
-   "lat": 37.29415,
-   "lon": 127.05392,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/34/3539134_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-19",
+   "lat": 37.2941,
+   "lon": 127.0539,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/34/3539134_image2_1.jpg",
+   "tel": "수원특례시 영통구청 공원녹지과 031-5191-8331",
+   "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -8400,11 +8524,11 @@
    "months": null,
    "restText": "매주 월요일 / 우천 시",
    "seasonText": null,
-   "hours": "11:00~17:00",
+   "hours": "11:00~18:00",
    "babyCarriage": null,
    "homepage": null,
    "tip": "물봉선어린이공원은 여름철에 물놀이장으로 운영된다. 시설이 높지 않고 수심도 얕아 아이들이 물놀이하기 좋다. 물놀이장 근처에 벤치와 운동시설 등 편의시설도 마련되어 있다. 물놀이장은 45분간 가동된 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "128986",
@@ -8909,7 +9033,7 @@
    "lat": 37.564,
    "lon": 126.9726,
    "image": "https://tong.visitkorea.or.kr/cms/resource/19/3533219_image2_1.jpg",
-   "tel": "02-319-5578",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -9431,7 +9555,7 @@
    "lat": 37.51364,
    "lon": 126.80175,
    "image": "https://tong.visitkorea.or.kr/cms/resource/70/4119570_image2_1.jpg",
-   "tel": "032-684-9057~8",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -9668,7 +9792,7 @@
    "lat": 37.5008,
    "lon": 126.79739,
    "image": "https://tong.visitkorea.or.kr/cms/resource/05/3502805_image2_1.jpg",
-   "tel": "032-614-2678",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -9859,7 +9983,7 @@
    "lat": 37.62142,
    "lon": 127.03856,
    "image": "https://tong.visitkorea.or.kr/cms/resource/35/3589335_image2_1.jpg",
-   "tel": "꿈의숲 아트센터 02-2289-5401",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -10190,7 +10314,7 @@
    "lat": 37.45369,
    "lon": 127.07524,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3540597_image2_1.jpg",
-   "tel": "02-577-0001",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -10260,6 +10384,48 @@
    "homepage": "http://museum.buddhism.or.kr",
    "tip": "불교중앙박물관은 대한불교조계종에서 설립하여 2007년 3월 17일 개관한 불교전문 박물관이다. 불교의 문화와 역사, 전국 각 사찰에서 수장하기 어려운 불교문화유산을 보존하고 전시하기 위해서 만들었다…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "4099101",
+   "contentTypeId": "15",
+   "name": "불취무귀야시장 시즌2",
+   "area": "경기도 수원시",
+   "lat": 37.27775,
+   "lon": 127.01847,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/22/4123922_image2_1.jpg",
+   "tel": "031-8001-1101",
+   "modified": "2026-10-14",
+   "period": {
+    "start": "2026-10-10",
+    "end": "2026-10-31"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "animals"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "17:00~22:00",
+   "babyCarriage": null,
+   "homepage": "https://sscf2016.or.kr/",
+   "tip": "“취하지 않으면 돌아가지 못하리!” 정조대왕의 역사적 이야기를 담은 왕의 야시장 〈불취무귀〉가 더욱 풍성해진 시즌2로 돌아온다. 2026년 10월 10일부터 31일까지 매주 토요일, 총 4회에 걸쳐…",
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "2765498",
@@ -11492,7 +11658,7 @@
    "lat": 37.56984,
    "lon": 126.97076,
    "image": "https://tong.visitkorea.or.kr/cms/resource/87/2661487_image2_1.JPG",
-   "tel": "02-724-0274~6",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -11524,42 +11690,6 @@
    "homepage": null,
    "tip": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의…",
    "detailFetched": "2026-10-13"
-  },
-  {
-   "id": "229057",
-   "contentTypeId": "15",
-   "name": "서울와우북페스티벌",
-   "area": "서울특별시 마포구",
-   "lat": 37.55643,
-   "lon": 126.92627,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/76/4117576_image2_1.jpg",
-   "tel": "02-312-1590",
-   "modified": "2026-10-06",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~21:30",
-   "babyCarriage": null,
-   "homepage": "https://wowlab.or.kr/wowbook-festival/2026-wowfestival/",
-   "tip": "제22회 서울와우북페스티벌은 2026년 10월 16일(금)부터 10월 18일(일)까지 3일간 서울 마포구 홍대 앞 일대에서 열리는 책 축제이다. 올해의 주제는 \"변하는, 변하지 않는\"이다. 이 축제…",
-   "detailFetched": "2026-10-09"
   },
   {
    "id": "2678273",
@@ -11936,11 +12066,11 @@
    "contentTypeId": "12",
    "name": "설곡옻샘체험마을",
    "area": "경기도 가평군",
-   "lat": 37.61995,
-   "lon": 127.5135,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/88/3546988_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-10-23",
+   "lat": 37.6199,
+   "lon": 127.51348,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/88/3546988_image2_1.jpg",
+   "tel": "031-584-9339",
+   "modified": "2026-10-13",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -11966,7 +12096,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "경기도 가평군 설악면에 설곡리 작은 계곡에 숙박과 식사가 가능한 설곡옻샘체험마을이 자리 잡고 있다. 주변에는 900m에 달하는 고산들로 둘러싸인 원시림의 자연생태계가 보전되고 있는 가평군의 최남쪽 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "127170",
@@ -12753,11 +12883,11 @@
    "contentTypeId": "12",
    "name": "소풍동물원",
    "area": "경기도 평택시",
-   "lat": 37.10893,
-   "lon": 127.05919,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/83/3559083_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-10-30",
+   "lat": 37.10888,
+   "lon": 127.05917,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/83/3559083_image2_1.jpg",
+   "tel": "0507-1343-3550",
+   "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -12781,11 +12911,11 @@
    "months": null,
    "restText": "연중무휴",
    "seasonText": null,
-   "hours": "10:00~22:00",
+   "hours": "10:00~18:00",
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/sopoong_zoo/",
    "tip": "평택시 진위면에 위치한 소풍동물원은 규모는 작지만 어린이들이 다양한 체험놀이를 할 수 있는 곳이다. 당일 캠핑과 동물체험을 한 번에 즐길 수 있다. 스릴 넘치는 깡통열차, 신나는 바이킹, 썰매장, …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "2758152",
@@ -12937,48 +13067,6 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "서울시 최초로 조성된 자연휴양림 수락 휴는 노원구청에서 운영하며 울창한 수락산 자연의 품 속에서 숙박하여 온전한 힐링을 느껴볼 수 있는 치유와 휴식의 공간이다. '하늘', '햇살', '별빛'을 테마…",
-   "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3544911",
-   "contentTypeId": "15",
-   "name": "수봉산 페스티벌",
-   "area": "인천광역시 미추홀구",
-   "lat": 37.45983,
-   "lon": 126.66329,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/40/4116440_image2_1.jpg",
-   "tel": "032-880-7976",
-   "modified": "2026-10-07",
-   "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "nature"
-   ],
-   "emoji": "🌳",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "14:00~20:30",
-   "babyCarriage": null,
-   "homepage": "https://www.michuhol.go.kr/",
-   "tip": "2021년부터 시작된 수봉산 페스티벌은 인천 미추홀구의 대표적인 문화축제로, 수봉산의 자연경관과 다채로운 문화예술을 한자리에서 즐길 수 있는 관광연계형 축제이다. 수봉산을 찾은 주민과 관광객이 자연…",
    "detailFetched": "2026-10-09"
   },
   {
@@ -15269,7 +15357,7 @@
    "lat": 37.5164,
    "lon": 126.8633,
    "image": "https://tong.visitkorea.or.kr/cms/resource/54/3432554_image2_1.jpg",
-   "tel": "02-2021-8900",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -15722,7 +15810,7 @@
    "lat": 37.82181,
    "lon": 127.16074,
    "image": "https://tong.visitkorea.or.kr/cms/resource/16/3003816_image2_1.jpg",
-   "tel": "0507-1354-8323",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "outdoor",
    "tags": [
@@ -16071,7 +16159,7 @@
    "lon": 127.65575,
    "image": "https://tong.visitkorea.or.kr/cms/resource/47/4104747_image2_1.jpg",
    "tel": "031-881-9693",
-   "modified": "2026-08-26",
+   "modified": "2026-10-13",
    "period": {
     "start": "2026-10-23",
     "end": "2026-10-25"
@@ -16101,8 +16189,8 @@
    "hours": "10:00~21:00",
    "babyCarriage": null,
    "homepage": "http://ogoknaru.yjfestival.or.kr/",
-   "tip": "*하기 축제 먹거리 내용은 전년도(2025년) 축제 내용으로, 2026년도 축제 내용은 업데이트 중에 있습니다.*2026 여주오곡나루축제는 쌀과 고구마 등 여주의 농특산물을 조선시대 조포나루를 통해…",
-   "detailFetched": "2026-10-09"
+   "tip": "2026 여주오곡나루축제는 쌀과 고구마 등 여주의 농특산물을 조선시대 조포나루를 통해 임금님께 진상하던 역사적 배경을 바탕으로 개최되는 전통문화축제이다. 주요 프로그램으로 진상 퍼레이드, 가마솥 여…",
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "710258",
@@ -16188,7 +16276,7 @@
    "lon": 127.06145,
    "image": "https://tong.visitkorea.or.kr/cms/resource/43/4117543_image2_1.jpg",
    "tel": "031-839-4259",
-   "modified": "2026-10-06",
+   "modified": "2026-10-14",
    "period": {
     "start": "2026-10-16",
     "end": "2026-10-25"
@@ -16216,7 +16304,48 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "제8회 연천국화축제는 연천군이 주최하고 연천군농업기술센터가 주관하여 연천 전곡리 유적 일원에서 개최하는 가을 국화축제이다. 2026년 축제의 주제는 ‘고구려의 숨결, 국화꽃으로 피어나다’이며, 전곡…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-15"
+  },
+  {
+   "id": "2591661",
+   "contentTypeId": "15",
+   "name": "연천율무축제",
+   "area": "경기도 연천군",
+   "lat": 38.01459,
+   "lon": 127.06136,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/82/4105782_image2_1.jpg",
+   "tel": "031-839-2314",
+   "modified": "2026-10-13",
+   "period": {
+    "start": "2026-10-23",
+    "end": "2026-10-25"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft"
+   ],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~17:00",
+   "babyCarriage": null,
+   "homepage": "https://www.yeoncheon.go.kr/",
+   "tip": "연천율무축제는 연천군의 대표 농특산물인 율무와 지역의 다양한 청정 먹거리를 주제로 열리는 지역 축제이다. 남쪽의 비옥한 토지와 북쪽의 깨끗한 물에서 정성껏 생산된 연천 율무를 비롯한 농특산물을 한자…",
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "3544787",
@@ -16840,7 +16969,7 @@
    "lat": 37.13063,
    "lon": 127.51316,
    "image": "https://tong.visitkorea.or.kr/cms/resource/55/3064955_image2_1.jpg",
-   "tel": "0507-1320-3367",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "outdoor",
    "tags": [
@@ -18019,6 +18148,44 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "4121364",
+   "contentTypeId": "14",
+   "name": "월리를 찾아라 체험관",
+   "area": "서울특별시 마포구",
+   "lat": 37.55201,
+   "lon": 126.92375,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/11/4121811_image2_1.jpg",
+   "tel": "02-6959-1396",
+   "modified": "2026-10-13",
+   "setting": "indoor",
+   "tags": [
+    "craft",
+    "play"
+   ],
+   "emoji": "🎠",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 25000,
+    "child": 25000
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": "연중무휴",
+   "seasonText": null,
+   "hours": "10:00~21:00",
+   "babyCarriage": null,
+   "homepage": "https://ps.smartinfini.com/whereswally40th",
+   "tip": "월리를 찾아라 체험관은 40주년을 맞아 서울 홍대로 찾아온 월리와 친구들의 세계관을 현실에 구현한 체험관이다. 체험자는 탐험가가 되어 홍대의 3개 공간(플레이스1, 플레이스2, 플레이스 3)에서 1…",
+   "detailFetched": "2026-10-15"
+  },
+  {
    "id": "2554142",
    "contentTypeId": "14",
    "name": "유금와당박물관",
@@ -19121,11 +19288,11 @@
    "contentTypeId": "12",
    "name": "인천대공원 반려동물 놀이터",
    "area": "인천광역시 남동구",
-   "lat": 37.45775,
-   "lon": 126.7493,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/51/3590851_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-01-02",
+   "lat": 37.45769,
+   "lon": 126.74929,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/51/3590851_image2_1.jpg",
+   "tel": "반려동물 놀이터 안내소 070-8877-2500",
+   "modified": "2026-10-13",
    "setting": "outdoor",
    "tags": [
     "animals",
@@ -19150,9 +19317,9 @@
    "seasonText": null,
    "hours": "10:00~20:00",
    "babyCarriage": null,
-   "homepage": "https://www.incheon.go.kr/park/park010218",
+   "homepage": "https://www.incheon.go.kr/park",
    "tip": "반려견과 반려인이 마음껏 뛰어놀 수 있는 반려동물 놀이터가 2018년 인천대공원에 문을 열었다. 이곳은 인천에 처음으로 조성된 반려동물 놀이터로 대형견과 중·소형견 놀이터가 분리되어 있으며, 흥미로…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "3015077",
@@ -19435,7 +19602,7 @@
    "lat": 37.49089,
    "lon": 126.50804,
    "image": "https://tong.visitkorea.or.kr/cms/resource/75/3533575_image2_1.jpg",
-   "tel": "032-880-0792",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -20074,47 +20241,6 @@
    "homepage": null,
    "tip": "의정부시 ‘장암숲 늘품길’의 경계숲길 장암동 동막골 굴다리 입구부터 아일랜드캐슬을 잇는 작은 길이지만, 지역 주민에겐 ‘나만 아는 봄길’로 불린다. 화려하지 않아도 계절을 놓치지 않는 길, 일상의 …",
    "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "790211",
-   "contentTypeId": "15",
-   "name": "장애인문화예술축제 A+ Festival",
-   "area": "서울특별시 강서구",
-   "lat": 37.56601,
-   "lon": 126.82693,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/45/4116345_image2_1.jpg",
-   "tel": "02-304-6211",
-   "modified": "2026-10-12",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "13:00~21:00",
-   "babyCarriage": null,
-   "homepage": "https://aplusfestival.or.kr/",
-   "tip": "2026 장애인문화예술축제 A+ Festival은 장애예술인과 비장애예술인, 시민 모두가 예술을 매개로 소통하고 함께 어우러지는 문화예술축제이다. ‘찬란하게 빛나는, 별나라 이야기’를 주제로 서로 …",
-   "detailFetched": "2026-10-13"
   },
   {
    "id": "3447439",
@@ -20946,7 +21072,7 @@
    "lat": 37.5849,
    "lon": 126.99984,
    "image": "https://tong.visitkorea.or.kr/cms/resource/26/3540826_image2_1.jpg",
-   "tel": "02-743-8787~8",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -21216,11 +21342,11 @@
    "contentTypeId": "12",
    "name": "청강 만화역사박물관",
    "area": "경기도 이천시",
-   "lat": 37.2051,
-   "lon": 127.35562,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/20/3392220_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-03-25",
+   "lat": 37.20505,
+   "lon": 127.35561,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/20/3392220_image2_1.jpg",
+   "tel": "031-639-5790",
+   "modified": "2026-10-13",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -21234,19 +21360,16 @@
    "price": null,
    "parking": null,
    "parkingText": "가능",
-   "closedDays": [
-    0,
-    6
-   ],
+   "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": "매주 토요일, 일요일 / 공휴일",
+   "restText": "주말 / 공휴일",
    "seasonText": null,
    "hours": "09:00~17:00",
    "babyCarriage": "없음",
-   "homepage": "https://museum.ck.ac.kr/",
+   "homepage": null,
    "tip": "1996년 청강문화산업대학교 개교 이래 꾸준히 수집해온 희귀만화 자료를 기본으로 만화의 역사를 테마 별 주제로 하여 2002년 12월 10일 개관하였으며, 출판물 및 육필 원고 등 2천여 종의 국내…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "2665254",
@@ -22234,11 +22357,11 @@
    "contentTypeId": "12",
    "name": "크라운해태 키즈뮤지엄",
    "area": "서울특별시 용산구",
-   "lat": 37.54076,
-   "lon": 126.97366,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/30/3399730_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-04-08",
+   "lat": 37.54071,
+   "lon": 126.97364,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/30/3399730_image2_1.JPG",
+   "tel": "02-709-7403",
+   "modified": "2026-10-13",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -22264,9 +22387,9 @@
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": "없음",
-   "homepage": "https://www.instagram.com/chkidsmuseum/",
+   "homepage": "https://www.instagram.com/chkidsmuseum",
    "tip": "크라운해태 키즈뮤지엄은 제과 전문그룹 크라운 해태가 운영하는 어린이 체험공간이다. 부모와 아이가 함께 다양한 놀이를 통해 창의력과 사고력을 배우고 협력과 소통의 능력을 성장시키는 곳이다. 전시공간 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "128601",
@@ -22677,7 +22800,7 @@
    "lat": 37.45935,
    "lon": 127.32999,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/3082228_image2_1.JPG",
-   "tel": "010-9031-6645",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "outdoor",
    "tags": [
@@ -22710,11 +22833,11 @@
    "contentTypeId": "12",
    "name": "퇴촌식물원",
    "area": "경기도 광주시",
-   "lat": 37.46735,
-   "lon": 127.32609,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/33/3527333_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-04",
+   "lat": 37.4673,
+   "lon": 127.32608,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/33/3527333_image2_1.jpg",
+   "tel": "0507-1402-6517",
+   "modified": "2026-10-14",
    "setting": "mixed",
    "tags": [
     "craft",
@@ -22737,9 +22860,9 @@
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": null,
-   "homepage": "http://www.yasanghwa.com/default/",
+   "homepage": "http://www.yasanghwa.com",
    "tip": "퇴촌식물원은 3,000평 규모의 개인식물원으로 1500여 종의 관상수, 유실수, 야생화, 희귀 식물들을 키우고 판매하는 식물가든센터로 운영되고 있다. 다양한 식물들로 꾸며진 아름다운 정원 속 특색 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "752431",
@@ -22823,7 +22946,7 @@
    "lat": 37.71485,
    "lon": 126.6869,
    "image": "https://tong.visitkorea.or.kr/cms/resource/52/3540652_image2_1.jpg",
-   "tel": "031-955-3727",
+   "tel": null,
    "modified": "2026-10-12",
    "setting": "indoor",
    "tags": [
@@ -23296,7 +23419,7 @@
    "lon": 127.20858,
    "image": "https://tong.visitkorea.or.kr/cms/resource/47/4114547_image2_1.jpeg",
    "tel": "031-538-3030",
-   "modified": "2026-10-07",
+   "modified": "2026-10-14",
    "period": {
     "start": "2026-09-12",
     "end": "2026-11-01"
@@ -23325,7 +23448,7 @@
    "babyCarriage": null,
    "homepage": "https://www.pocheon-gardenfesta.kr/",
    "tip": "'2026 포천 한탄강 가든페스타'는 포천 한탄강 생태경관단지에서 열리는 계절꽃과 자연을 주제로 한 대규모 생태・정원 축제이다. 유네스코 세계지질공원으로 등재 된 한탄강 지역의 광활한 자연 경관과 …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "3011153",
@@ -24718,15 +24841,56 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "3547712",
+   "contentTypeId": "15",
+   "name": "한미친선 문화 한마당",
+   "area": "경기 평택시",
+   "lat": 37.08076,
+   "lon": 127.05093,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/91/4118191_image2_1.jpg",
+   "tel": "02-3488-8375",
+   "modified": "2026-10-13",
+   "period": {
+    "start": "2026-10-24",
+    "end": "2026-10-25"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft"
+   ],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "13:00~20:00",
+   "babyCarriage": null,
+   "homepage": "https://linktr.ee/2026rokus.pief",
+   "tip": "2026 한미친선 문화 한마당은 2026년 10월 24일(토)부터 25일(일)까지 평택 K-55 정문 앞 신장쇼핑몰 일대에서 개최되는 행사이다. 본 행사는 한국과 미국 양국의 문화 교류와 우호 증진…",
+   "detailFetched": "2026-10-15"
+  },
+  {
    "id": "3046380",
    "contentTypeId": "12",
    "name": "한반도생태평화 종합관광센터",
    "area": "경기도 파주시",
-   "lat": 37.891,
-   "lon": 126.73989,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/65/3046365_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-07-24",
+   "lat": 37.89094,
+   "lon": 126.73988,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/65/3046365_image2_1.jpg",
+   "tel": "임진각 관광안내소 031-953-4744",
+   "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -24751,9 +24915,9 @@
    "seasonText": null,
    "hours": "상시 개방",
    "babyCarriage": null,
-   "homepage": "https://pajuutc.or.kr/ouz/fclty/peace/hanbando/contents.do",
+   "homepage": "https://pajuutc.or.kr",
    "tip": "한반도생태평화 종합관광센터는 대한민국 대표 DMZ 평화 관광지를 중심 거점으로 육성하고자 건립된 곳이다. 파주시에서 추진하는 한반도 생태평화벨트사업의 일환으로 연간 300만 명의 내외국 관광객이 방…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-15"
   },
   {
    "id": "3085198",
@@ -25701,49 +25865,6 @@
    "babyCarriage": "불가",
    "homepage": "https://www.hwadamsup.com",
    "tip": "화담숲은 LG 상록재단이 공익사업의 일환으로 설립·운영하는 수목원이며, 2006년 4월 조성 승인을 받아 경기도 광주시 도척면 도웅리에 조성되었다. 정식 개원은 2013년으로, 16개의 테마원과 국…",
-   "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "1621746",
-   "contentTypeId": "15",
-   "name": "화도진 축제",
-   "area": "인천광역시 제물포구",
-   "lat": 37.47647,
-   "lon": 126.63192,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/46/4119046_image2_1.jpg",
-   "tel": "032-745-3202",
-   "modified": "2026-10-07",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-10-17"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "nature",
-    "play"
-   ],
-   "emoji": "🌳",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~21:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "화도진축제는 인천 제물포구의 대표적인 역사문화축제로, 조선시대 외세 침략에 대비해 설치된 군영인 화도진의 역사와 전통을 기리고 계승하기 위해 매년 열린다. 인천에서 가장 오래된 군영축제이자 지역 대…",
    "detailFetched": "2026-10-09"
   },
   {
