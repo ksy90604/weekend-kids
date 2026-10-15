@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15 06:29",
+ "updatedAt": "2026-10-16 06:10",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -459,7 +459,7 @@
    "lon": 127.11798,
    "image": "https://tong.visitkorea.or.kr/cms/resource/08/4124908_image2_1.jpg",
    "tel": "1644-6155",
-   "modified": "2026-10-14",
+   "modified": "2026-10-15",
    "period": {
     "start": "2026-10-18",
     "end": "2026-11-29"
@@ -486,11 +486,11 @@
    "months": null,
    "restText": null,
    "seasonText": null,
-   "hours": "06:00~10:30",
+   "hours": "07:00~10:00",
    "babyCarriage": null,
-   "homepage": "https://www.instagram.com/siumsium.morning/",
+   "homepage": null,
    "tip": "누구나 자신의 속도로 즐기는 주말 아침, ‘쉬엄쉬엄모닝’이 열린다. 걷기·달리기·자전거는 물론 유아차와 반려견 동반까지, 자신의 체력에 맞춰 원하는 방식으로 참여할 수 있는 서울형 아침 운동 프로그…",
-   "detailFetched": "2026-10-15"
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "3019085",
@@ -994,7 +994,7 @@
    "lat": 37.6063,
    "lon": 126.9859,
    "image": null,
-   "tel": "서울 성북구청 공원녹지과 02-2241-3664",
+   "tel": null,
    "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
@@ -4060,7 +4060,7 @@
    "lat": 37.77382,
    "lon": 126.94218,
    "image": "https://tong.visitkorea.or.kr/cms/resource/53/3409253_image2_1.jpg",
-   "tel": "031-871-2796",
+   "tel": null,
    "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
@@ -4947,7 +4947,7 @@
    "lat": 37.54126,
    "lon": 127.15682,
    "image": "https://tong.visitkorea.or.kr/cms/resource/63/4123063_image2_1.jpg",
-   "tel": "길동생태공원 02-472-2770",
+   "tel": null,
    "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
@@ -5405,8 +5405,8 @@
    "lat": 37.47048,
    "lon": 126.82746,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/4002156_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-01-20",
+   "tel": "02-2060-4855",
+   "modified": "2026-10-15",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -5431,7 +5431,7 @@
    "babyCarriage": "없음",
    "homepage": "http://www.bcstp.co.kr",
    "tip": "남부수자원생태공원은 하수처리시설이었던 곳을 시민들을 위한 친수공간으로 탈바꿈시킨 공원이다. 공원 내에는 다목적 잔디광장, 어린이 놀이시설 등의 공원시설과 테니스장, 풋살장, 배드민턴장, 농구장 등의…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "1603482",
@@ -5783,6 +5783,48 @@
    "homepage": "https://www.nowonlib.kr/",
    "tip": "2026 노원 야외도서관 낭만보장은 ‘AI 시대 결국, 사람’을 주제로 책과 독서, 문화 프로그램을 야외 공간에서 함께 운영하는 독서문화행사이다. 인공지능과 알고리즘이 일상생활에 폭넓게 활용되는 환…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "2862358",
+   "contentTypeId": "15",
+   "name": "노원달빛산책",
+   "area": "서울특별시 노원구",
+   "lat": 37.64944,
+   "lon": 127.06569,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/35/3547735_image2_1.jpg",
+   "tel": "02-2289-346102-2116-7143",
+   "modified": "2026-10-15",
+   "period": {
+    "start": "2026-10-16",
+    "end": "2026-11-08"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "animals",
+    "nature"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "17:30~22:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "친환경 생태하천인 당현천에 대중성과 예술성을 동시에 갖춘 등(燈)·빛 조각 작품을 전시하고 작품 제작 및 해설 등 구민이 직접 참여하는 콘텐츠를 기획·운영하는, 노원구만의 주제의식을 갖춘 야간 공공…",
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "2745731",
@@ -7069,11 +7111,11 @@
    "contentTypeId": "12",
    "name": "동탄어린이천문대",
    "area": "경기도 오산시",
-   "lat": 37.17885,
-   "lon": 127.03064,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/79/2753379_image2_1.jpeg",
-   "tel": null,
-   "modified": "2025-03-31",
+   "lat": 37.1788,
+   "lon": 127.03062,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/79/2753379_image2_1.jpeg",
+   "tel": "0507-1422-3241",
+   "modified": "2026-10-15",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -7097,9 +7139,9 @@
    "seasonText": null,
    "hours": "14:00~23:00",
    "babyCarriage": "없음",
-   "homepage": "http://cafe.naver.com/astrocamp3",
+   "homepage": null,
    "tip": "동탄어린이천문대는 경기도 오산시 지곶동에 있다. 2012년 설립되었고 야외 관측소와 야간 관측돔이 있으며 다양한 체험 프로그램을 운영한다. 또한 직접 개발한 천문프로그램을 통해 어린이들에게 우주 속…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "130417",
@@ -7213,6 +7255,48 @@
    "homepage": "https://www.younhees.com",
    "tip": "두물머리생태학교는 경기도 양평군 양수리 두물머리에 위치하고 있으며, 49,587㎡의 넓은 대지 위에 각종 야생화를 비롯한 초본류와 연꽃밭을 비롯한 수생식물, 느티나무숲 등의 나무숲으로 이루어져 있다…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "3377402",
+   "contentTypeId": "15",
+   "name": "드림파크 국화축제",
+   "area": "인천광역시 검단구",
+   "lat": 37.57309,
+   "lon": 126.64811,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/22/4126822_image2_1.jpg",
+   "tel": "032-560-9940",
+   "modified": "2026-10-15",
+   "period": {
+    "start": "2026-10-16",
+    "end": "2026-10-25"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "bloom"
+   ],
+   "emoji": "🌷",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~18:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "야생화단지와 어우러지는 다채로운 가을꽃을 테마로 한 대군락 꽃밭(가을꽃밭, 계절꽃밭)과 전시작품(국화분재, 토피어리, 조형물 등), 체험, 공연 등 지역주민과 함께 만들고, 다함께 즐길 수 있는 행…",
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "2654539",
@@ -8500,7 +8584,7 @@
    "lat": 37.2941,
    "lon": 127.0539,
    "image": "https://tong.visitkorea.or.kr/cms/resource/34/3539134_image2_1.jpg",
-   "tel": "수원특례시 영통구청 공원녹지과 031-5191-8331",
+   "tel": null,
    "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
@@ -12069,7 +12153,7 @@
    "lat": 37.6199,
    "lon": 127.51348,
    "image": "https://tong.visitkorea.or.kr/cms/resource/88/3546988_image2_1.jpg",
-   "tel": "031-584-9339",
+   "tel": null,
    "modified": "2026-10-13",
    "setting": "outdoor",
    "tags": [
@@ -12886,7 +12970,7 @@
    "lat": 37.10888,
    "lon": 127.05917,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3559083_image2_1.jpg",
-   "tel": "0507-1343-3550",
+   "tel": null,
    "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
@@ -13068,6 +13152,48 @@
    "homepage": null,
    "tip": "서울시 최초로 조성된 자연휴양림 수락 휴는 노원구청에서 운영하며 울창한 수락산 자연의 품 속에서 숙박하여 온전한 힐링을 느껴볼 수 있는 치유와 휴식의 공간이다. '하늘', '햇살', '별빛'을 테마…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "3544911",
+   "contentTypeId": "15",
+   "name": "수봉산 페스티벌",
+   "area": "인천광역시 미추홀구",
+   "lat": 37.45983,
+   "lon": 126.66329,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/40/4116440_image2_1.jpg",
+   "tel": "032-880-7976",
+   "modified": "2026-10-15",
+   "period": {
+    "start": "2026-10-17",
+    "end": "2026-10-18"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "nature"
+   ],
+   "emoji": "🌳",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "14:00~20:30",
+   "babyCarriage": null,
+   "homepage": "https://www.michuhol.go.kr/",
+   "tip": "2021년부터 시작된 수봉산 페스티벌은 인천 미추홀구의 대표적인 문화축제로, 수봉산의 자연경관과 다채로운 문화예술을 한자리에서 즐길 수 있는 관광연계형 축제이다. 수봉산을 찾은 주민과 관광객이 자연…",
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "3351028",
@@ -15616,11 +15742,11 @@
    "contentTypeId": "12",
    "name": "양평양떼목장",
    "area": "경기도 양평군",
-   "lat": 37.51546,
-   "lon": 127.62887,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/67/3337867_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-03-18",
+   "lat": 37.5154,
+   "lon": 127.62885,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/67/3337867_image2_1.jpg",
+   "tel": "031-774-4512",
+   "modified": "2026-10-15",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -15646,9 +15772,9 @@
    "seasonText": null,
    "hours": "09:30~17:30",
    "babyCarriage": "없음",
-   "homepage": "https://www.instagram.com/yp_sheepranch/",
+   "homepage": "https://www.instagram.com",
    "tip": "양평역에서 16km 정도 떨어진 곳에 있는 양떼목장이다. 건초 먹이기와 아기동물과 교감하기 등의 체험프로그램이 있어 하나씩 받아서 각자 먹이 주기 체험을 할 수 있다. 동물을 구경하면서 아름다운 자…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "3014805",
@@ -16315,7 +16441,7 @@
    "lon": 127.06136,
    "image": "https://tong.visitkorea.or.kr/cms/resource/82/4105782_image2_1.jpg",
    "tel": "031-839-2314",
-   "modified": "2026-10-13",
+   "modified": "2026-10-15",
    "period": {
     "start": "2026-10-23",
     "end": "2026-10-25"
@@ -16345,7 +16471,7 @@
    "babyCarriage": null,
    "homepage": "https://www.yeoncheon.go.kr/",
    "tip": "연천율무축제는 연천군의 대표 농특산물인 율무와 지역의 다양한 청정 먹거리를 주제로 열리는 지역 축제이다. 남쪽의 비옥한 토지와 북쪽의 깨끗한 물에서 정성껏 생산된 연천 율무를 비롯한 농특산물을 한자…",
-   "detailFetched": "2026-10-15"
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "3544787",
@@ -16464,6 +16590,48 @@
    "homepage": null,
    "tip": "영등포구 미래인재 과학축제는 2026년 10월 17일 서울특별시 영등포구에 위치한 영등포공원에서 개최되는 과학 교육 행사이다. 이 축제의 주요 참여 대상은 아동, 청소년 및 동반 가족이다. 행사 프…",
    "detailFetched": "2026-10-13"
+  },
+  {
+   "id": "3387201",
+   "contentTypeId": "15",
+   "name": "영등포선유도원축제",
+   "area": "서울특별시 영등포구",
+   "lat": 37.54224,
+   "lon": 126.90243,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/79/4127479_image2_1.jpg",
+   "tel": "02-2629-2261",
+   "modified": "2026-10-15",
+   "period": {
+    "start": "2026-10-24",
+    "end": "2026-10-25"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "animals",
+    "nature"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "12:00~20:00",
+   "babyCarriage": null,
+   "homepage": "https://www.ydpcf.or.kr/festival/seonyudo.do",
+   "tip": "선유도공원은 차가운 폐정수장 구조물 위에 푸른 자연을 피워낸 곳이다. 영등포선유도원축제는 우리나라 최초의 환경재생 생태공원인 선유도공원의 정취, 자연과 예술의 조화를 느낄 수 있도록 기획된 축제이다…",
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "2782227",
@@ -17711,11 +17879,11 @@
    "contentTypeId": "12",
    "name": "우면산자연생태공원",
    "area": "서울특별시 서초구",
-   "lat": 37.46925,
-   "lon": 127.01711,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/96/3540696_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-18",
+   "lat": 37.4692,
+   "lon": 127.0171,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/96/3540696_image2_1.jpg",
+   "tel": "서초구청 푸른도시과 02-2155-6883",
+   "modified": "2026-10-15",
    "setting": "outdoor",
    "tags": [
     "nature"
@@ -17736,9 +17904,9 @@
    "seasonText": null,
    "hours": "상시 개방",
    "babyCarriage": null,
-   "homepage": "https://www.seocho.go.kr/site/seocho/04/10405010900002015070703.jsp",
+   "homepage": "https://www.seocho.go.kr",
    "tip": "우면산은 높이 293m로 서초구 우면동과 서초동, 양재동 등지의 도심에서 쉽게 오를 수 있는 산이다. 산모양이 소가 졸고 있는 모양이라 하여 우면산이라 이름이 붙여졌다. 우면산의 남쪽 기슭은 청동기…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "130710",
@@ -17898,11 +18066,11 @@
    "contentTypeId": "28",
    "name": "워커힐숲길",
    "area": "서울특별시 광진구",
-   "lat": 37.55522,
-   "lon": 127.11079,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/72/2780772_image2_1.png",
+   "lat": 37.55517,
+   "lon": 127.11077,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/11/4126211_image2_1.jpg",
    "tel": null,
-   "modified": "2025-05-27",
+   "modified": "2026-10-15",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -17922,13 +18090,13 @@
    "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": null,
+   "restText": "연중무휴",
    "seasonText": null,
-   "hours": "이용시간 정보 없음",
+   "hours": "상시 개방",
    "babyCarriage": null,
    "homepage": null,
    "tip": "서울 광진구 워커힐숲길은 그랜드워커힐 호텔 인근에 있는 산책로로 워커힐 주차장부터 아차산 생태공원까지 총 774m의 산책로이다. 봄철 벚꽃길로도 유명하지만, 특히 도로변을 오색으로 물들인 가로수가 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-16"
   },
   {
    "id": "128138",
@@ -18155,7 +18323,7 @@
    "lat": 37.55201,
    "lon": 126.92375,
    "image": "https://tong.visitkorea.or.kr/cms/resource/11/4121811_image2_1.jpg",
-   "tel": "02-6959-1396",
+   "tel": null,
    "modified": "2026-10-13",
    "setting": "indoor",
    "tags": [
@@ -19291,7 +19459,7 @@
    "lat": 37.45769,
    "lon": 126.74929,
    "image": "https://tong.visitkorea.or.kr/cms/resource/51/3590851_image2_1.jpg",
-   "tel": "반려동물 놀이터 안내소 070-8877-2500",
+   "tel": null,
    "modified": "2026-10-13",
    "setting": "outdoor",
    "tags": [
@@ -21345,7 +21513,7 @@
    "lat": 37.20505,
    "lon": 127.35561,
    "image": "https://tong.visitkorea.or.kr/cms/resource/20/3392220_image2_1.jpg",
-   "tel": "031-639-5790",
+   "tel": null,
    "modified": "2026-10-13",
    "setting": "indoor",
    "tags": [
@@ -22360,7 +22528,7 @@
    "lat": 37.54071,
    "lon": 126.97364,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3399730_image2_1.JPG",
-   "tel": "02-709-7403",
+   "tel": null,
    "modified": "2026-10-13",
    "setting": "outdoor",
    "tags": [
@@ -22836,7 +23004,7 @@
    "lat": 37.4673,
    "lon": 127.32608,
    "image": "https://tong.visitkorea.or.kr/cms/resource/33/3527333_image2_1.jpg",
-   "tel": "0507-1402-6517",
+   "tel": null,
    "modified": "2026-10-14",
    "setting": "mixed",
    "tags": [
@@ -24889,7 +25057,7 @@
    "lat": 37.89094,
    "lon": 126.73988,
    "image": "https://tong.visitkorea.or.kr/cms/resource/65/3046365_image2_1.jpg",
-   "tel": "임진각 관광안내소 031-953-4744",
+   "tel": null,
    "modified": "2026-10-14",
    "setting": "outdoor",
    "tags": [
