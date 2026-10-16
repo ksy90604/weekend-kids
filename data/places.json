@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16 06:10",
+ "updatedAt": "2026-10-17 05:48",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -92,9 +92,9 @@
    "area": "경기도 파주시",
    "lat": 37.78328,
    "lon": 126.69469,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/67/4116867_image2_1.jpg",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/50/4127750_image2_1.jpg",
    "tel": "031-870-9110",
-   "modified": "2026-10-01",
+   "modified": "2026-10-16",
    "period": {
     "start": "2026-03-14",
     "end": "2026-12-26"
@@ -124,7 +124,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "2026 국립극장 쏙쏙들이 페스티벌은 국립극장 무대예술지원센터에서 진행하는 축제 프로그램이다. 본 행사는 시민들이 일상 속에서 공연예술을 쉽게 접할 수 있도록 기획된 행사이다. 해당 페스티벌은 매월…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "3377038",
@@ -1094,6 +1094,46 @@
    "detailFetched": "2026-10-10"
   },
   {
+   "id": "4127713",
+   "contentTypeId": "15",
+   "name": "《소장품, 시대의 장면들》",
+   "area": "서울특별시 종로구",
+   "lat": 37.5805,
+   "lon": 127.00326,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/18/4127718_image2_1.jpg",
+   "tel": "02-760-4850",
+   "modified": "2026-10-16",
+   "period": {
+    "start": "2026-10-16",
+    "end": "2026-12-06"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "museum"
+   ],
+   "emoji": "🏛️",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "11:00~19:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "《소장품, 시대의 장면들》은 아르코미술관 소장품 가운데 70점을 선별해, 한국 현대미술의 주요한 흐름과 아르코미술관의 전시 역사 속에서 소장품이 지닌 의미와 가치를 조명한다. 1970년대부터 200…",
+   "detailFetched": "2026-10-17"
+  },
+  {
    "id": "130105",
    "contentTypeId": "14",
    "name": "가천박물관",
@@ -1179,11 +1219,11 @@
    "contentTypeId": "14",
    "name": "가회민화박물관",
    "area": "서울특별시 종로구",
-   "lat": 37.58154,
-   "lon": 126.98528,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/90/3355090_image2_1.png",
-   "tel": null,
-   "modified": "2025-10-23",
+   "lat": 37.58149,
+   "lon": 126.98526,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/90/3355090_image2_1.png",
+   "tel": "02-741-0466",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -1198,7 +1238,7 @@
     "child": 5000
    },
    "parking": null,
-   "parkingText": "불가능",
+   "parkingText": null,
    "closedDays": [
     1
    ],
@@ -1208,9 +1248,9 @@
    "seasonText": null,
    "hours": "10:00~18:00",
    "babyCarriage": null,
-   "homepage": "http://www.gahoemuseum.org/",
+   "homepage": null,
    "tip": "우리 겨레는 반만년이라는 유구한 세월 동안 외래문화를 수용하면서도 전통문화의 주체성과 독자성을 잘 지켜왔다. 그러나 오늘날 산업이 발달하고 생활양식이 급변하면서 우리의 전통문화는 점차 퇴색되어만 가…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "1307813",
@@ -1675,47 +1715,6 @@
    "detailFetched": "2026-10-10"
   },
   {
-   "id": "3113995",
-   "contentTypeId": "15",
-   "name": "경기‧양주‧지작사 드론봇 페스티벌",
-   "area": "경기도 양주시",
-   "lat": 37.83355,
-   "lon": 126.9898,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image2_1.JPG",
-   "tel": "031-8082-6161",
-   "modified": "2026-10-14",
-   "period": {
-    "start": "2026-10-30",
-    "end": "2026-11-01"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "09:00~21:00",
-   "babyCarriage": null,
-   "homepage": "https://www.yangju.go.kr/",
-   "tip": "경기‧양주‧지작사 드론봇 페스티벌은 경기도, 양주시, 지상작전사령부가 공동 주최하는 민ㆍ관ㆍ군 상생 페스티벌이다. 2026년 10월 30일부터 11월 1일까지 3일간 양주시 광적면 가납리비행장에서 …",
-   "detailFetched": "2026-10-15"
-  },
-  {
    "id": "128226",
    "contentTypeId": "12",
    "name": "경기도 민물고기 생태학습관",
@@ -2151,11 +2150,11 @@
    "contentTypeId": "28",
    "name": "경춘선숲길",
    "area": "서울특별시 노원구",
-   "lat": 37.63162,
-   "lon": 127.06942,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/58/2650858_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-05-23",
+   "lat": 37.63157,
+   "lon": 127.0694,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/56/4126256_image2_1.jpg",
+   "tel": "경춘선숲길 방문자센터 02-3783-5977",
+   "modified": "2026-10-16",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -2173,13 +2172,13 @@
    "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": null,
+   "restText": "연중무휴",
    "seasonText": null,
-   "hours": "이용시간 정보 없음",
+   "hours": "상시 개방",
    "babyCarriage": null,
-   "homepage": "https://parks.seoul.go.kr/parks/detailView.do?pIdx=1380",
+   "homepage": "https://gil.seoul.go.kr/",
    "tip": "경춘선숲길은 옛 경춘선이 오가던 철로를 단장해 뉴트로 명소로 자리 잡고 있다. 일제강점기 때 경춘철도주식회사에 의해 1939년 7월 25일 사설철도로 개통하여 2010년 12월 20일을 71년간의 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "128988",
@@ -2560,47 +2559,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3383613",
-   "contentTypeId": "15",
-   "name": "고양행주한우 숯불구이축제",
-   "area": "경기도 고양시",
-   "lat": 37.65467,
-   "lon": 126.83276,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/73/4066273_image2_1.JPG",
-   "tel": "031-960-3034,3050",
-   "modified": "2026-05-20",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-11-01"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "play"
-   ],
-   "emoji": "🎠",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": "http://gyfestival.kr/",
-   "tip": "행주한우 숯불구이 축제는 고양특례시를 대표하는 명품 한우 브랜드 ‘행주한우’의 우수성을 널리 알리고 시민과 함께 즐거움을 나누기 위해 마련된 지역 축제이다. 철저한 품질관리로 생산된 안전하고 건강한…",
-   "detailFetched": "2026-10-10"
-  },
-  {
    "id": "2867659",
    "contentTypeId": "12",
    "name": "곤지암반디숲",
@@ -2909,14 +2867,14 @@
   },
   {
    "id": "130938",
-   "contentTypeId": "12",
+   "contentTypeId": "14",
    "name": "광나루안전체험관",
    "area": "서울특별시 광진구",
-   "lat": 37.55131,
-   "lon": 127.07716,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/02/3540002_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-12-18",
+   "lat": 37.55126,
+   "lon": 127.07715,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/02/3540002_image2_1.jpg",
+   "tel": "02-2049-4061",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -2928,19 +2886,26 @@
     "kid",
     "school"
    ],
-   "price": null,
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
    "parking": null,
    "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
+   "closedDays": [
+    1
+   ],
+   "closedDates": [
+    "01-01"
+   ],
    "months": null,
-   "restText": null,
+   "restText": "매주 월요일 / 1월 1일 / 설·추석 당일",
    "seasonText": null,
    "hours": "09:00~17:00",
    "babyCarriage": null,
-   "homepage": "https://fire.seoul.go.kr/gwangnaru/main/main.do",
+   "homepage": "https://fire.seoul.go.kr",
    "tip": "서울어린이대공원 정문 옆에 위치한 광나루안전체험관은 화재나 지진, 태풍 등 각종 재난 상황을 가상으로 설정하여 일반 시민들이 직접 체험하면서 안전교육을 받을 수 있는 국내 최초의 재난 체험관이다. …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "814195",
@@ -5405,7 +5370,7 @@
    "lat": 37.47048,
    "lon": 126.82746,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/4002156_image2_1.jpg",
-   "tel": "02-2060-4855",
+   "tel": null,
    "modified": "2026-10-15",
    "setting": "outdoor",
    "tags": [
@@ -7114,7 +7079,7 @@
    "lat": 37.1788,
    "lon": 127.03062,
    "image": "https://tong.visitkorea.or.kr/cms/resource/79/2753379_image2_1.jpeg",
-   "tel": "0507-1422-3241",
+   "tel": null,
    "modified": "2026-10-15",
    "setting": "indoor",
    "tags": [
@@ -8348,11 +8313,11 @@
    "contentTypeId": "14",
    "name": "목인박물관 목석원",
    "area": "서울특별시 종로구",
-   "lat": 37.58907,
-   "lon": 126.96331,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/15/3540815_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-18",
+   "lat": 37.58902,
+   "lon": 126.96329,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/15/3540815_image2_1.jpg",
+   "tel": "02-722-5055",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "animals",
@@ -8364,11 +8329,11 @@
     "school"
    ],
    "price": {
-    "adult": 10000,
-    "child": 10000
+    "adult": 12000,
+    "child": 12000
    },
    "parking": null,
-   "parkingText": "가능",
+   "parkingText": null,
    "closedDays": [
     1
    ],
@@ -8378,9 +8343,9 @@
    "seasonText": null,
    "hours": "10:30~19:00",
    "babyCarriage": null,
-   "homepage": "http://www.mokinmuseum.com/",
+   "homepage": "http://www.mokinmuseum.com",
    "tip": "2006년 종로구 인사동에서 개관한 목인박물관은 2019년 부암동으로 이전하여 목인박물관 목석원으로 재개관하였다. 목인이란, 전통 인물 및 각종 동물의 모습을 조각한 목 조각상을 말한다. 목인박물관…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "2781609",
@@ -9954,8 +9919,8 @@
    "lat": 37.51207,
    "lon": 126.73785,
    "image": "https://tong.visitkorea.or.kr/cms/resource/37/3073237_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-03-25",
+   "tel": "032-515-6471",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -9986,7 +9951,7 @@
    "babyCarriage": "없음",
    "homepage": "https://portal.icbp.go.kr/bphm/",
    "tip": "부평역사박물관은 부평의 역사와 문화를 알리고, 지역민에게 다양한 문화 체험의 기회를 제공하기 위해 2007년에 개관하였다. 박물관은 1층에 기획전시실과 기증전시실, 2층에 부평역사실과 농경문화실로 …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "2764942",
@@ -9996,8 +9961,8 @@
    "lat": 37.55102,
    "lon": 126.76844,
    "image": "https://tong.visitkorea.or.kr/cms/resource/89/4002089_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-01-20",
+   "tel": "032-678-4855~7",
+   "modified": "2026-10-16",
    "setting": "outdoor",
    "tags": [
     "nature"
@@ -10020,7 +9985,7 @@
    "babyCarriage": "없음",
    "homepage": "http://www.bcstp.co.kr/",
    "tip": "북부수자원생태공원은 수질 개선을 목적으로 하수종말처리장을 건립하고, 수자원생태공원이라는 개념을 도입하여 혐오시설이 아닌 시민들을 위한 쉼터 공간으로 활용되고 있다. 하수처리시설과 체육시설, 공원시설…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "822384",
@@ -10741,11 +10706,11 @@
    "contentTypeId": "14",
    "name": "삼성출판박물관",
    "area": "서울특별시 종로구",
-   "lat": 37.60875,
-   "lon": 126.95711,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/50/3540850_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-18",
+   "lat": 37.6087,
+   "lon": 126.9571,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/50/3540850_image2_1.jpg",
+   "tel": "02-394-6544",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "bloom",
@@ -10761,7 +10726,7 @@
     "child": 3000
    },
    "parking": 0,
-   "parkingText": "가능 / 무료",
+   "parkingText": "무료",
    "closedDays": [
     0,
     6
@@ -10772,9 +10737,9 @@
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": null,
-   "homepage": "http://www.ssmop.org/",
-   "tip": "삼성출판박물관은 우리나라에 처음으로 세워진 출판·인쇄 전문 박물관이다. 세계 최초의 금속활자를 발명하고 출판문화를 꽃피운 문화민족으로서 자긍심을 일깨우고 이와 관련된 사회 교육활동을 펼치자는 목적으…",
-   "detailFetched": "2026-10-10"
+   "homepage": "http://www.ssmop.org",
+   "tip": "삼성출판박물관은 우리나라에 처음으로 세워진 출판·인쇄 전문 박물관이다. 세계 최초의 금속활자를 발명하고 출판문화를 꽃피운 문화민족으로서 자긍심을 일깨우고 이와 관련된 사회 교육 활동을 펼치자는 목적…",
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "130448",
@@ -11822,11 +11787,11 @@
    "contentTypeId": "14",
    "name": "서울특별시교육청 어린이도서관",
    "area": "서울특별시 종로구",
-   "lat": 37.57584,
-   "lon": 126.96872,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/44/3414044_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-08-05",
+   "lat": 37.57579,
+   "lon": 126.96871,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/44/3414044_image2_1.jpg",
+   "tel": "02-731-2300",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "science",
@@ -11842,7 +11807,7 @@
     "child": 0
    },
    "parking": null,
-   "parkingText": "가능",
+   "parkingText": null,
    "closedDays": [
     0
    ],
@@ -11852,9 +11817,9 @@
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": null,
-   "homepage": "https://childlib.sen.go.kr/childlib/index.do?getC_blank",
+   "homepage": "https://childlib.sen.go.kr/childlib",
    "tip": "서울특별시교육청 어린이도서관은 1979년 세계 어린이의 해를 기념하여 설립된 우리나라의 유일한 어린이 전용 공립도서관으로 인왕산 자락의 사직공원 안에 있다. 국내에서 발행되는 어린이와 관련된 각종 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "2674763",
@@ -12335,47 +12300,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3348362",
-   "contentTypeId": "15",
-   "name": "성북거리문화축제 다다페스타",
-   "area": "서울특별시 성북구",
-   "lat": 37.61822,
-   "lon": 127.05109,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/37/4113337_image2_1.JPG",
-   "tel": "02-6906-9298",
-   "modified": "2026-09-28",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-10-31"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://dadafesta.github.io/",
-   "tip": "제3회 성북거리문화축제 다다페스타는 성북구의 거리와 그 거리문화를 특색있게 소개하고 즐기는 행사로 다양한 주민들과 함께 만들어가는 지역밀착형 축제이다. 올해는 특별히 성북구의 장위뉴타운 일대에서 개…",
-   "detailFetched": "2026-10-10"
-  },
-  {
    "id": "3043911",
    "contentTypeId": "14",
    "name": "성북선잠박물관",
@@ -12582,9 +12506,9 @@
    "area": "인천광역시 영종구",
    "lat": 37.49966,
    "lon": 126.48047,
-   "image": null,
-   "tel": null,
-   "modified": "2026-06-30",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/41/4024041_image2_1.jpg",
+   "tel": "032-760-7773",
+   "modified": "2026-10-16",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -12607,9 +12531,9 @@
    "seasonText": null,
    "hours": "상시 개방",
    "babyCarriage": "없음",
-   "homepage": "https://cafe.naver.com/wpforest/",
+   "homepage": "https://www.yeongjong.go.kr/tour",
    "tip": "세계로 통하는 인천국제공항이 있는 영종도 운서동에 있는 자연 친화적인 공원으로 주민들을 위한 휴식처 역할을 하고 있다. 이곳은 이름처럼 세계 평화의 염원을 담아서 2009년 복권기금과 인천국제공항공…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "3012425",
@@ -13930,11 +13854,11 @@
    "contentTypeId": "14",
    "name": "신문박물관",
    "area": "서울특별시 종로구",
-   "lat": 37.56988,
-   "lon": 126.97765,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/15/3556615_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-12-12",
+   "lat": 37.56982,
+   "lon": 126.97763,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/15/3556615_image2_1.jpg",
+   "tel": "02-2020-1880",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -13949,7 +13873,7 @@
     "child": 4000
    },
    "parking": 1000,
-   "parkingText": "가능 / 동아미디어센터 지하주차장 1시간 무료 / 1시간 이후 10분당 1,000원",
+   "parkingText": "동아미디어센터 지하주차장 1시간 무료 / 1시간 이후 10분당 1,000원",
    "closedDays": [
     1
    ],
@@ -13957,13 +13881,13 @@
     "01-01"
    ],
    "months": null,
-   "restText": "매주 월요일 / 1월 1일 / 설·추석 연휴 / ※ 봄과 가을의 경우, 3월, 9월 첫째 주 화요일~일요일 정기 휴관",
+   "restText": "매주 월요일 / 1월 1일 / 설·추석 연휴※ 봄과 가을의 경우, 3월, 9월 첫째 주 화요일~일요일 정기 휴관",
    "seasonText": null,
    "hours": "10:00~18:30",
    "babyCarriage": null,
-   "homepage": "http://www.presseum.or.kr/",
+   "homepage": "http://www.presseum.or.kr",
    "tip": "신문박물관은 우리나라 최초의 근대 신문인 한성순보 창간(1883) 이래 한국 신문 140년의 역사를 한눈에 조망할 수 있는 공간으로 세기의 경계를 지나던 2000년 동아일보사가 한국 신문의 역사를 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "3012162",
@@ -15438,6 +15362,48 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "3384023",
+   "contentTypeId": "15",
+   "name": "양천가족 거리축제",
+   "area": "서울특별시 양천구",
+   "lat": 37.51999,
+   "lon": 126.85286,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/74/4128374_image2_1.JPG",
+   "tel": "010-8792-7604",
+   "modified": "2026-10-16",
+   "period": {
+    "start": "2026-10-25",
+    "end": "2026-10-25"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "science",
+    "play"
+   ],
+   "emoji": "🔭",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:30~21:00",
+   "babyCarriage": null,
+   "homepage": "https://yfac.kr/",
+   "tip": "가족과 이웃, 세대가 어울리고 연결되는 문화 축제로서 양천구 신정네거리역 일대 900M의 도로에서 펼쳐진다. 2026년 축제 주제는 [위로], [꿈], [품]을 주제로 어린이부터 어르신까지 모든 세…",
+   "detailFetched": "2026-10-17"
+  },
+  {
    "id": "1105980",
    "contentTypeId": "12",
    "name": "양천구어린이교통안전교육장",
@@ -15745,7 +15711,7 @@
    "lat": 37.5154,
    "lon": 127.62885,
    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3337867_image2_1.jpg",
-   "tel": "031-774-4512",
+   "tel": null,
    "modified": "2026-10-15",
    "setting": "outdoor",
    "tags": [
@@ -16719,8 +16685,8 @@
    "lat": 37.25958,
    "lon": 127.07309,
    "image": "https://tong.visitkorea.or.kr/cms/resource/47/4093547_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-07-28",
+   "tel": "031-369-2390",
+   "modified": "2026-10-16",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -16742,13 +16708,13 @@
    ],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일",
+   "restText": "매주 월요일 (단, 월요일이 공휴일인 경우 그 다음 첫 번째 평일)",
    "seasonText": null,
    "hours": "09:30~17:30",
    "babyCarriage": null,
-   "homepage": null,
-   "tip": "영흥수목원은 영흥숲공원이 둘러싸고 있는 산지 지형을 살려 조성된 식물원이다. 수목원에 들어서면 푸른 잔디밭과 다양한 테마의 숲과 공원을 볼 수 있고 이곳의 랜드마크인 온실에는 이국적인 느낌을 주는 …",
-   "detailFetched": "2026-10-09"
+   "homepage": "https://www.suwon.go.kr",
+   "tip": "영흥수목원은 영흥숲공원이 둘러싸고 있는 산지 지형을 살려 조성된 식물원이다. 수목원에 들어서면 푸른 잔디밭과 다양한 테마의 숲과 공원을 볼 수 있고 이곳의 랜드마크인 온실에서는 이국적인 느낌을 주는…",
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "3426388",
@@ -17012,6 +16978,47 @@
    "homepage": null,
    "tip": "오정공원은 부천시 오정구청사 뒤편 49,400㎡ 부지에 조성된 복합문화체육공원이다. 정규 규격의 인조잔디 축구장을 중심으로 산책로, 실개천, 분수대, 야외무대 등이 함께 조성되어 있다. 자전거문화센…",
    "detailFetched": "2026-10-10"
+  },
+  {
+   "id": "3113222",
+   "contentTypeId": "15",
+   "name": "온 가족 책 잔치",
+   "area": "서울특별시 종로구",
+   "lat": 37.57968,
+   "lon": 126.98236,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/36/4128436_image2_1.jpg",
+   "tel": "02-2011-5742",
+   "modified": "2026-10-16",
+   "period": {
+    "start": "2026-11-07",
+    "end": "2026-11-07"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft"
+   ],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "11:00~17:00",
+   "babyCarriage": null,
+   "homepage": "https://jdlib.sen.go.kr/jdlib/board/index.do?menu_idx=242&manage_idx=2478",
+   "tip": "온 가족 책 잔치는 2013년부터 매년 가을 정독도서관에서 열려온 서울시교육청 대표 독서문화 축제이다. 책을 매개로 가족과 이웃이 함께 어울리며 소통할 수 있는 장을 마련하고, 다양한 체험과 공연,…",
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "2747797",
@@ -17882,7 +17889,7 @@
    "lat": 37.4692,
    "lon": 127.0171,
    "image": "https://tong.visitkorea.or.kr/cms/resource/96/3540696_image2_1.jpg",
-   "tel": "서초구청 푸른도시과 02-2155-6883",
+   "tel": null,
    "modified": "2026-10-15",
    "setting": "outdoor",
    "tags": [
@@ -19138,11 +19145,11 @@
    "contentTypeId": "14",
    "name": "이화여대 자연사박물관",
    "area": "서울특별시 서대문구",
-   "lat": 37.56176,
-   "lon": 126.9466,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/46/3305246_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-03-17",
+   "lat": 37.56171,
+   "lon": 126.94658,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/46/3305246_image2_1.jpg",
+   "tel": "02-3277-4700",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "animals",
@@ -19160,7 +19167,7 @@
     "child": 0
    },
    "parking": 1000,
-   "parkingText": "가능 / - 입차 후 15분 이하 1,000원 / - 입차 후 30분 이하 2,000원 / - 1일 최고요금 30,000원 / ※ 입차 후 30분 이후 2시간까지 10분당 500원씩 할증 / ※ 입차 후 2시간 이후 10분당 1,000원씩 할증",
+   "parkingText": "- 입차 후 15분 이하 1,000원- 입차 후 30분 이하 2,000원- 1일 최고요금 30,000원※ 입차 후 30분 이후 2시간까지 10분당 500원씩 할증※ 입차 후 2시간 이후 10분당 1,000원씩 할증",
    "closedDays": [
     0,
     6
@@ -19171,9 +19178,9 @@
    "seasonText": null,
    "hours": "10:00~16:00",
    "babyCarriage": "없음",
-   "homepage": "https://cms.ewha.ac.kr/user/indexMain.action?siteId=nhm",
+   "homepage": "https://cms.ewha.ac.kr",
    "tip": "이화여자대학교 자연사박물관은 자연에 대한 학교교육과 사회교육에 이바지할 목적으로 1969년 11월 20일 국내 최초로 설립되었다. 자연사박물관은 동물, 식물, 광물, 암석, 화석의 다양한 표본들과 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "3354488",
@@ -19961,8 +19968,8 @@
    "lat": 37.2881,
    "lon": 126.97702,
    "image": "https://tong.visitkorea.or.kr/cms/resource/85/4092785_image2_1.JPG",
-   "tel": null,
-   "modified": "2026-07-27",
+   "tel": "031-369-2380",
+   "modified": "2026-10-16",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -19990,7 +19997,7 @@
    "babyCarriage": null,
    "homepage": "https://www.suwon.go.kr",
    "tip": "일월수목원은 경기도 수원시 일월호수공원 내에 위치한 도심형 거점 수목원으로 2023년 5월 개관했다. 2,100여 종의 다양한 식물을 보유하고 있으며 다산정원과 숲정원, 침엽수원, 초지원, 건조정원…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "2773317",
@@ -20657,11 +20664,11 @@
    "contentTypeId": "14",
    "name": "전기박물관",
    "area": "서울특별시 서초구",
-   "lat": 37.48564,
-   "lon": 127.02809,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/11/3540611_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-18",
+   "lat": 37.48559,
+   "lon": 127.02807,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/11/3540611_image2_1.jpg",
+   "tel": "02-2105-8190",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "science",
@@ -20677,7 +20684,7 @@
     "child": 0
    },
    "parking": 0,
-   "parkingText": "가능 / 관람객에게 한하여 2시간 무료 주차",
+   "parkingText": "관람객에게 한하여 2시간 무료 주차",
    "closedDays": [
     0,
     1
@@ -20688,9 +20695,9 @@
    "seasonText": null,
    "hours": "10:00~17:30",
    "babyCarriage": null,
-   "homepage": "https://www.kepco.co.kr/art/space/museum/museumList.do",
-   "tip": "한국전력은 1887년 경복궁에 처음으로 전기불이 켜진 이후 일제의 강점과 남북분단, 그리고 한국전쟁이라는 민족상잔의 아픔을 국민들과 함께 이겨내면서 오늘날 우리 사회의 중추적인 기간산업으로 자리하게…",
-   "detailFetched": "2026-10-10"
+   "homepage": "https://www.kepco.co.kr/art",
+   "tip": "한국전력은 1887년 경복궁에 처음으로 전기불이 켜진 이후 일제의 강점과 남북 분단, 그리고 한국전쟁이라는 민족상잔의 아픔을 국민들과 함께 이겨내면서 오늘날 우리 사회의 중추적인 기간산업으로 자리하…",
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "142233",
@@ -25916,11 +25923,11 @@
    "contentTypeId": "14",
    "name": "호림박물관 신림본관",
    "area": "서울특별시 관악구",
-   "lat": 37.48082,
-   "lon": 126.91879,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/80/3540180_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-17",
+   "lat": 37.48076,
+   "lon": 126.91878,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/80/3540180_image2_1.jpg",
+   "tel": "02-858-2500",
+   "modified": "2026-10-16",
    "setting": "indoor",
    "tags": [
     "animals",
@@ -25936,7 +25943,7 @@
     "child": 5000
    },
    "parking": 0,
-   "parkingText": "가능 (소형 20대~30대) / 무료",
+   "parkingText": "무료",
    "closedDays": [
     0,
     1,
@@ -25950,9 +25957,9 @@
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": null,
-   "homepage": "https://www.horimmuseum.org/ko",
+   "homepage": "https://www.horimmuseum.org",
    "tip": "호림박물관은 호림 윤장섭((湖林 尹章燮, 1922~2016) 선생이 출연한 문화유산과 기금을 기반으로 민족문화의 계승과 발전을 위하여 설립되었다. 윤장섭 선생은 1981년 7월 재단법인 성보문화재단…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-17"
   },
   {
    "id": "753941",
