@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18 05:24",
+ "updatedAt": "2026-10-19 05:24",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -43,47 +43,6 @@
    "homepage": "https://www.instagram.com/dmzopen_official/",
    "tip": "DMZ OPEN Festival은 비무장지대(DMZ)가 지닌 평화·생태·역사적 가치를 예술, 학술 등 다양한 방식으로 경험할 수 있도록 구성한 경기도의 대표 복합 문화 행사이다. 단순히 DMZ를 분…",
    "detailFetched": "2026-10-15"
-  },
-  {
-   "id": "4117084",
-   "contentTypeId": "15",
-   "name": "2026 HELLO DDC FESTIVAL",
-   "area": "경기도 동두천시",
-   "lat": 37.91317,
-   "lon": 127.05612,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/85/4117085_image2_1.jpg",
-   "tel": "010-3014-2816",
-   "modified": "2026-10-02",
-   "period": {
-    "start": "2026-10-18",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "13:00~21:00",
-   "babyCarriage": null,
-   "homepage": "https://www.helloddc.co.kr/",
-   "tip": "2026 HELLO DDC FESTIVAL은 경기도 동두천시에서 주최하는 도심재생 야간축제이다. 보산동 외국인관광특구의 독특한 도심문화예술 자원을 선보며 경기 북부를 대표하는 야간 축제로 개최된다.…",
-   "detailFetched": "2026-10-09"
   },
   {
    "id": "3488421",
@@ -1166,47 +1125,6 @@
    "homepage": null,
    "tip": "우리 겨레는 반만년이라는 유구한 세월 동안 외래문화를 수용하면서도 전통문화의 주체성과 독자성을 잘 지켜왔다. 그러나 오늘날 산업이 발달하고 생활양식이 급변하면서 우리의 전통문화는 점차 퇴색되어만 가…",
    "detailFetched": "2026-10-17"
-  },
-  {
-   "id": "1307813",
-   "contentTypeId": "15",
-   "name": "강동선사문화축제",
-   "area": "서울특별시 강동구",
-   "lat": 37.55906,
-   "lon": 127.1306,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/75/4114675_image2_1.JPG",
-   "tel": "02-3425-5247",
-   "modified": "2026-10-13",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~21:00",
-   "babyCarriage": null,
-   "homepage": "https://www.gdsunsa.com/",
-   "tip": "제31회 강동선사문화축제는 서울 강동구 암사동 일대에서 개최되는 선사문화 주제의 역사문화축제이다. 서울을 대표하는 신석기시대 유적인 서울 암사동 유적을 중심으로, 선사시대의 생활문화와 역사적 가치를…",
-   "detailFetched": "2026-10-15"
   },
   {
    "id": "3536896",
@@ -2555,47 +2473,6 @@
    "homepage": "https://www.guri.go.kr/eco",
    "tip": "2001년에 개관한 경기도 구리시 수택동에 위치한 곤충생태관은 곤충을 관찰하며 체험할 기회를 제공하는 생태문화 공간이다. 이곳은 하수 처리장에서 수질 기준에 적합하도록 처리된 방류수를 조경수와 화장…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "2612274",
-   "contentTypeId": "15",
-   "name": "관악강감찬축제",
-   "area": "서울특별시 관악구",
-   "lat": 37.47159,
-   "lon": 126.95872,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/31/4073831_image2_1.jpg",
-   "tel": "02-828-5766",
-   "modified": "2026-10-12",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "animals"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "12:00~21:00",
-   "babyCarriage": null,
-   "homepage": "https://www.ggcfest.com/",
-   "tip": "관악강감찬축제는 역사를 품은 도시 관악에서 귀주대첩의 영웅 강감찬 장군의 호국정신과 위업을 기리고자 개최되는 서울의 대표적인 역사문화 축제이다. 관악강감찬축제는 고려 명장 강감찬 장군의 호국정신을 …",
-   "detailFetched": "2026-10-13"
   },
   {
    "id": "126513",
@@ -5542,45 +5419,6 @@
    "detailFetched": "2026-10-10"
   },
   {
-   "id": "2865258",
-   "contentTypeId": "15",
-   "name": "노원 북 페스티벌",
-   "area": "서울특별시 노원구",
-   "lat": 37.63204,
-   "lon": 127.06795,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/70/4117270_image2_1.jpg",
-   "tel": "02-2116-0701",
-   "modified": "2026-10-07",
-   "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "12:00~20:00",
-   "babyCarriage": null,
-   "homepage": "https://www.nowonlib.kr/",
-   "tip": "2026 노원 야외도서관 낭만보장은 ‘AI 시대 결국, 사람’을 주제로 책과 독서, 문화 프로그램을 야외 공간에서 함께 운영하는 독서문화행사이다. 인공지능과 알고리즘이 일상생활에 폭넓게 활용되는 환…",
-   "detailFetched": "2026-10-09"
-  },
-  {
    "id": "2862358",
    "contentTypeId": "15",
    "name": "노원달빛산책",
@@ -6776,49 +6614,6 @@
    "homepage": "https://www.xn--2q1b02ej2dgza95qi9ucii.com/default/",
    "tip": "동물카라반 펜션 캠핑장은 경기도 가평군 상면에 있다. 카라반이 동물 캐릭터 모양이라 어린이들에게 인기다. 캠핑장은 아침고요수목원 초입에 있는데 지대가 높아 조망이 좋으며 울창한 전나무 숲에 둘러싸여…",
    "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "4116560",
-   "contentTypeId": "15",
-   "name": "동물행복페스타",
-   "area": "서울특별시 영등포구",
-   "lat": 37.53186,
-   "lon": 126.92323,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/64/4116564_image2_1.png",
-   "tel": "02-724-2798",
-   "modified": "2026-09-30",
-   "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "animals",
-    "nature"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 10000,
-    "child": 10000
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://www.animalhappy.kr/",
-   "tip": "2026 서울동물행복페스타는 서울 동물보호의 날을 기념해 사람과 동물이 함께 살아가는 문화를 시민들과 나누는 참여형 축제이다. 10월 17일부터 18일까지 여의도한강공원 물빛무대 앞 광장에서 열리며…",
-   "detailFetched": "2026-10-09"
   },
   {
    "id": "2732160",
@@ -12867,48 +12662,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3544911",
-   "contentTypeId": "15",
-   "name": "수봉산 페스티벌",
-   "area": "인천광역시 미추홀구",
-   "lat": 37.45983,
-   "lon": 126.66329,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/40/4116440_image2_1.jpg",
-   "tel": "032-880-7976",
-   "modified": "2026-10-15",
-   "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "nature"
-   ],
-   "emoji": "🌳",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "14:00~20:30",
-   "babyCarriage": null,
-   "homepage": "https://www.michuhol.go.kr/",
-   "tip": "2021년부터 시작된 수봉산 페스티벌은 인천 미추홀구의 대표적인 문화축제로, 수봉산의 자연경관과 다채로운 문화예술을 한자리에서 즐길 수 있는 관광연계형 축제이다. 수봉산을 찾은 주민과 관광객이 자연…",
-   "detailFetched": "2026-10-16"
-  },
-  {
    "id": "3351028",
    "contentTypeId": "14",
    "name": "수원 월드컵경기장 축구박물관",
@@ -14194,11 +13947,11 @@
    "contentTypeId": "14",
    "name": "아해박물관",
    "area": "경기도 과천시",
-   "lat": 37.45768,
-   "lon": 127.03001,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/71/3565371_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-11-11",
+   "lat": 37.45763,
+   "lon": 127.03,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/06/4123606_image2_1.jpg",
+   "tel": "02-3418-5501※ 사전예약 필수(유선)",
+   "modified": "2026-10-18",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -14217,7 +13970,7 @@
     "child": 5000
    },
    "parking": null,
-   "parkingText": "가능",
+   "parkingText": null,
    "closedDays": [
     0,
     6
@@ -14228,9 +13981,9 @@
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": null,
-   "homepage": "http://www.ahaemuseum.org/",
+   "homepage": "http://www.ahaemuseum.org",
    "tip": "아해박물관은 유아, 초등학생을 대상으로 한 전통 놀잇감을 전시한 박물관이다. 아해박물관 명칭 중 ‘아해’는 어린이의 순우리말이다. 이 박물관에서는 한국의 5천 년 역사를 간직한 놀잇감들을 수집 보존…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-19"
   },
   {
    "id": "2761640",
@@ -17736,45 +17489,6 @@
    "homepage": null,
    "tip": "우이령 숲속문화마을은 북한산 자락에 자리하고 있어 수려한 자연환경과 옛 정취를 간직한 곳이다. 우이동과 우이동공원유원지 일대를 말하는데, 이 일대에 많은 음식점들이 즐비해 있다. 우이신설경전철 종점…",
    "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "2952759",
-   "contentTypeId": "15",
-   "name": "우이천변 페스타 2026 이상한 나라의 웰니스",
-   "area": "서울특별시 강북구",
-   "lat": 37.64336,
-   "lon": 127.02964,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/66/4115066_image2_1.png",
-   "tel": "02-901-6216",
-   "modified": "2026-09-23",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "animals",
-    "nature"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "13:00~20:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "강북구 대표 관광자원 북한산에서 발원한 우이천은 구민의 생활공간이자 접근성이 용이하여 많은 외지인이 방문하는 장소이다. 하천 특성과 지역성을 반영한 문화, 관광이 결합된 축제를 통해 강북구만의 새로…",
-   "detailFetched": "2026-10-09"
   },
   {
    "id": "660640",
@@ -22941,48 +22655,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3113045",
-   "contentTypeId": "15",
-   "name": "파주페어 북앤컬처",
-   "area": "경기도 파주시",
-   "lat": 37.70859,
-   "lon": 126.6872,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/24/4110424_image2_1.JPG",
-   "tel": "031-955-0075",
-   "modified": "2026-10-07",
-   "period": {
-    "start": "2026-10-09",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "animals"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~20:00",
-   "babyCarriage": null,
-   "homepage": "https://pajufair.com/",
-   "tip": "파주페어 북앤컬처는 주요 출판사, 작가와 독자, 서점이 한 자리에 모여 책을 단순히 읽는 대상에 그치지 않고 새로운 시각에서 들여다보고 즐길 수 있는 특별한 장을 제공한다. 책이라는 원천 콘텐츠에서…",
-   "detailFetched": "2026-10-09"
-  },
-  {
    "id": "2371204",
    "contentTypeId": "14",
    "name": "판교박물관",
@@ -23247,49 +22919,6 @@
    "homepage": "https://www.pyeongtaek.go.kr/agro-ecopark/",
    "tip": "평택시농업생태원은 2018년 10월에 개장하여 114.654㎡ 면적에 농업·농촌 볼거리 외에 어린이 놀이터와 다양한 시설 및 꽃축제, 농촌문화체험, 농업교육, 텃밭 등 다양한 체험을 진행하며 사람들…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "623666",
-   "contentTypeId": "15",
-   "name": "포천 산정호수 명성산 억새꽃축제",
-   "area": "경기도 포천시",
-   "lat": 38.06831,
-   "lon": 127.32395,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/83/3555383_image2_1.jpg",
-   "tel": "031-535-5013, 5135",
-   "modified": "2026-10-12",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-10-18"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "bloom",
-    "animals"
-   ],
-   "emoji": "🌷",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://pcfac.or.kr/sub03/sub07-1.php?type=view&uid=1817323",
-   "tip": "제29회 포천 산정호수 명성산 억새꽃축제는 아름다운 산정호수와 명성산 일원에서 2026년 10월 16일부터 18일까지 3일간 열린다. ‘가을, 억새로 가장 빛나는 우리의 순간들’이라는 주제로 펼쳐지…",
-   "detailFetched": "2026-10-13"
   },
   {
    "id": "3352029",
@@ -24613,11 +24242,11 @@
    "contentTypeId": "14",
    "name": "한국카메라박물관",
    "area": "경기도 과천시",
-   "lat": 37.43508,
-   "lon": 127.00566,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/81/3329881_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-03-13",
+   "lat": 37.43503,
+   "lon": 127.00564,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/81/3329881_image2_1.jpg",
+   "tel": "02-502-4123",
+   "modified": "2026-10-18",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -24632,7 +24261,7 @@
     "child": 3000
    },
    "parking": null,
-   "parkingText": "가능",
+   "parkingText": null,
    "closedDays": [
     0,
     1
@@ -24645,7 +24274,7 @@
    "babyCarriage": "없음",
    "homepage": "http://www.kcpm.or.kr/",
    "tip": "한국카메라박물관은 사설 카메라 전문 박물관으로 사진작가이자 사업가인 김종세가 설립하였다. 전시관은 기획전시관, 주전시관, 부전시관으로 이루어져 있다. 3,000여 점이 넘는 카메라와 6,000여 점…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-19"
   },
   {
    "id": "2569495",
