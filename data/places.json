@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22 06:28",
+ "updatedAt": "2026-10-23 06:23",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -166,6 +166,47 @@
    "homepage": null,
    "tip": "대한불교조계종이 주최하는 국제선명상대회와 선명상축제는 국민 정신건강 증진을 위하여 진행하고 있으며, 지난 2024년부터 시작하여 올해로 3회를 맞이하였다. 올해는 [AI시대의 선명상]이라는 주제하에…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "2769990",
+   "contentTypeId": "15",
+   "name": "2026 대한민국 우리술 대축제",
+   "area": "서울특별시 서초구",
+   "lat": 37.46734,
+   "lon": 127.04074,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/38/4132038_image2_1.jpg",
+   "tel": "02-6952-9498",
+   "modified": "2026-10-21",
+   "period": {
+    "start": "2026-11-13",
+    "end": "2026-11-15"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "museum"
+   ],
+   "emoji": "🏛️",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 15000,
+    "child": 15000
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "13:00~20:00",
+   "babyCarriage": null,
+   "homepage": "https://thesool.com/",
+   "tip": "2026 대한민국 우리술대축제는 전통주의 가치와 다양성을 널리 알리고 국내외 소비자와의 소통을 강화하기 위해 마련된 국내 최대 규모의 전통주 축제이다. 서울 양재동 aT센터 제1전시관에서 2026년…",
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "3390190",
@@ -830,11 +871,11 @@
    "contentTypeId": "12",
    "name": "K-컬처 스크린(대한민국역사박물관)",
    "area": "서울특별시 종로구",
-   "lat": 37.57413,
-   "lon": 126.97757,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/06/2987806_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-01-07",
+   "lat": 37.57408,
+   "lon": 126.97756,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/06/2987806_image2_1.jpg",
+   "tel": "K-컬처 스퀘어 운영사무국 02-2068-1176",
+   "modified": "2026-10-22",
    "setting": "indoor",
    "tags": [
     "feeding",
@@ -858,9 +899,9 @@
    "seasonText": null,
    "hours": "06:00~22:00",
    "babyCarriage": "없음",
-   "homepage": "https://kculturesquare.kocca.kr/ko/main",
+   "homepage": "https://linktr.ee/k_culture_square",
    "tip": "K-컬처 스퀘어는 우리나라의 매력적인 문화자원을 3차원 미디어아트 등 신기술 융합 콘텐츠로 구현해 광화문 일대에 전시하고 국내외 관람객들에게 문화체험을 제공하기 위해 조성된 공간이다. 전 세계 창작…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "4064519",
@@ -983,7 +1024,7 @@
    "lat": 37.47609,
    "lon": 126.80704,
    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3575567_image2_1.jpg",
-   "tel": "부천시청 콘텐츠관광과 032-625-9353",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "indoor",
    "tags": [
@@ -1018,7 +1059,7 @@
    "lat": 37.52433,
    "lon": 126.81694,
    "image": "https://tong.visitkorea.or.kr/cms/resource/19/3554719_image2_1.jpg",
-   "tel": "부천시청 콘텐츠관광과 032-625-9353",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "indoor",
    "tags": [
@@ -1054,7 +1095,7 @@
    "lat": 37.4822,
    "lon": 126.7593,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3575612_image2_1.jpg",
-   "tel": "부천시청 콘텐츠관광과 032-625-9353",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "indoor",
    "tags": [
@@ -1090,7 +1131,7 @@
    "lat": 37.4848,
    "lon": 126.7829,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3575549_image2_1.jpg",
-   "tel": "부천시청 콘텐츠관광과 032-625-9353",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "indoor",
    "tags": [
@@ -2697,7 +2738,7 @@
    "lat": 37.36347,
    "lon": 127.33094,
    "image": "https://tong.visitkorea.or.kr/cms/resource/65/4123965_image2_1.jpg",
-   "tel": "031-761-3206",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "outdoor",
    "tags": [
@@ -3150,7 +3191,7 @@
    "lat": 37.4828,
    "lon": 126.88363,
    "image": "https://tong.visitkorea.or.kr/cms/resource/88/3400288_image2_1.JPG",
-   "tel": "02-830-8426",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "indoor",
    "tags": [
@@ -3988,7 +4029,7 @@
    "lat": 37.75179,
    "lon": 127.1694,
    "image": "https://tong.visitkorea.or.kr/cms/resource/43/3039043_image2_1.jpg",
-   "tel": "031-540-2000",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "indoor",
    "tags": [
@@ -6619,7 +6660,7 @@
    "lon": 127.04727,
    "image": "https://tong.visitkorea.or.kr/cms/resource/62/3543062_image2_1.jpg",
    "tel": "02-3423-7552",
-   "modified": "2026-09-28",
+   "modified": "2026-10-22",
    "period": {
     "start": "2026-10-24",
     "end": "2026-10-24"
@@ -6647,9 +6688,9 @@
    "seasonText": null,
    "hours": "11:00~18:00",
    "babyCarriage": null,
-   "homepage": null,
+   "homepage": "https://dogokmrf.com/",
    "tip": "올해 개최 되는 도곡 메타세쿼이아 로드 페스타 시즌3는 마켓 스트리트(프리마켓), 뮤직 스트리트(음악회), 푸드 스트리트(먹거리존), 플레이 스트리트(원데이클래스)와 더불어 '메타세쿼이아 산책길 도…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "3012120",
@@ -7237,7 +7278,7 @@
    "lat": 38.04553,
    "lon": 127.11171,
    "image": "https://tong.visitkorea.or.kr/cms/resource/36/3589036_image2_1.jpg",
-   "tel": "010-2684-7956",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "outdoor",
    "tags": [
@@ -7423,9 +7464,9 @@
    "area": "경기도 과천시",
    "lat": 37.44401,
    "lon": 127.00864,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/53/3527153_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-08-24",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/22/4127022_image2_1.jpg",
+   "tel": "02-509-128702-509-1275",
+   "modified": "2026-10-22",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -7441,7 +7482,7 @@
     "child": 2000
    },
    "parking": 3000,
-   "parkingText": "- 1시간 이하 무료- 3시간 이하~1시간 초과 3,000원- 3시간 초과 6,000원",
+   "parkingText": "- 1시간 이하 무료- 1시간 초과~3시간 이하 3,000원- 3시간 초과 6,000원",
    "closedDays": [
     1,
     2
@@ -7456,7 +7497,7 @@
    "babyCarriage": null,
    "homepage": "https://park.kra.co.kr/cms/guide/horse-museum",
    "tip": "유구한 역사를 지닌 한국의 마문화를 발굴·보전하기 위해 한국마사회는 1988년 국내 유일의 말 전문박물관인 말박물관을 개관하였다. 마구, 미술품, 민속품 등 각종 마문화 관련 자료의 수집·전시와 학…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "4041453",
@@ -7682,7 +7723,7 @@
    "lat": 37.51411,
    "lon": 127.10406,
    "image": "https://tong.visitkorea.or.kr/cms/resource/04/4126304_image2_1.jpg",
-   "tel": "02-3213-5000",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "outdoor",
    "tags": [
@@ -7827,7 +7868,7 @@
    "lat": 37.37028,
    "lon": 127.10752,
    "image": "https://tong.visitkorea.or.kr/cms/resource/39/4124139_image2_1.jpg",
-   "tel": "031-711-0154",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "indoor",
    "tags": [
@@ -7910,7 +7951,7 @@
    "lat": 37.04479,
    "lon": 126.75216,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/4122615_image2_1.jpg",
-   "tel": "화성시 관광진흥과 031-5189-6015",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "outdoor",
    "tags": [
@@ -7983,7 +8024,7 @@
    "lat": 37.40526,
    "lon": 127.14201,
    "image": "https://tong.visitkorea.or.kr/cms/resource/09/3055209_image2_1.jpg",
-   "tel": "031-702-1192",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "outdoor",
    "tags": [
@@ -9530,7 +9571,7 @@
    "lat": 37.50864,
    "lon": 126.82106,
    "image": "https://tong.visitkorea.or.kr/cms/resource/39/4130939_image2_1.jpg",
-   "tel": "032-625-3399",
+   "tel": null,
    "modified": "2026-10-20",
    "setting": "indoor",
    "tags": [
@@ -10874,7 +10915,7 @@
    "lat": 37.57661,
    "lon": 126.98326,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/4131732_image2_1.jpg",
-   "tel": "02-6450-7000",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "indoor",
    "tags": [
@@ -12161,11 +12202,11 @@
    "contentTypeId": "12",
    "name": "성남시 식물원",
    "area": "경기도 성남시",
-   "lat": 37.45304,
-   "lon": 127.16783,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/37/3053337_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-05-20",
+   "lat": 37.45299,
+   "lon": 127.16782,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/37/3053337_image2_1.jpg",
+   "tel": "031-729-4319",
+   "modified": "2026-10-22",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -12188,9 +12229,9 @@
    "seasonText": null,
    "hours": "09:00~19:00",
    "babyCarriage": "없음",
-   "homepage": "https://epark.seongnam.go.kr:10010/main/index.asp",
+   "homepage": "https://epark.seongnam.go.kr",
    "tip": "성남시 중원구 은행 1동에 양묘장과 용도 폐기된 배수지를 이용하여 재 활용 공간으로 조성된 식물원이다. 식물원엔 다양한 식물과 야생화, 곤충류들이 서식하고 있어 어린이들에게는 자연교육 학습장으로 인…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "2553911",
@@ -13203,6 +13244,49 @@
    "detailFetched": "2026-10-10"
   },
   {
+   "id": "4132933",
+   "contentTypeId": "15",
+   "name": "수원특례시 반려동물 한마음축제",
+   "area": "경기도 수원시",
+   "lat": 37.29077,
+   "lon": 127.064,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/36/4132936_image2_1.jpg",
+   "tel": "031-5191-3328",
+   "modified": "2026-10-22",
+   "period": {
+    "start": "2026-10-24",
+    "end": "2026-10-24"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "feeding",
+    "animals",
+    "nature"
+   ],
+   "emoji": "🐑",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~17:00",
+   "babyCarriage": null,
+   "homepage": "https://www.suwon.go.kr",
+   "tip": "수원시가 주최하고 KCMC문화원이 주관하는 '2026 수원특례시 반려동물 한마음 축제'는 전국 최초 '반려동물 교육도시' 비전 선포의 일환으로 개최되었으며, 시민과 반려동물이 함께 배우고 즐기는 교…",
+   "detailFetched": "2026-10-23"
+  },
+  {
    "id": "1921150",
    "contentTypeId": "14",
    "name": "수원화성박물관",
@@ -13249,7 +13333,7 @@
    "lat": 37.32414,
    "lon": 127.0859,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/4124241_image2_1.jpg",
-   "tel": "용인시청 서부공원관리과 031-6193-9089",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "outdoor",
    "tags": [
@@ -14264,7 +14348,7 @@
    "lat": 37.74769,
    "lon": 127.36047,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/2602797_image2_1.bmp",
-   "tel": "031-8078-7115",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "outdoor",
    "tags": [
@@ -14489,6 +14573,48 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "3555835",
+   "contentTypeId": "15",
+   "name": "안산사이언스밸리(ASV) 과학축제",
+   "area": "경기도 안산시",
+   "lat": 37.30016,
+   "lon": 126.83771,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image2_1.jpg",
+   "tel": "02-780-6881",
+   "modified": "2026-10-22",
+   "period": {
+    "start": "2026-11-07",
+    "end": "2026-11-08"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "science",
+    "play"
+   ],
+   "emoji": "🔭",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~16:00",
+   "babyCarriage": null,
+   "homepage": "https://asv-2026-delta.vercel.app/",
+   "tip": "2026 안산사이언스밸리(ASV) 과학축제는 AI, 로봇 등 미래 과학기술을 한자리에서 만나볼 수 있는 시민 참여형 과학문화축제이다. 안산시가 ASV 유관기관 및 대학, 연구기관, 기업, 재단, 단…",
+   "detailFetched": "2026-10-23"
+  },
+  {
    "id": "3081404",
    "contentTypeId": "14",
    "name": "안산산업역사박물관",
@@ -14577,7 +14703,7 @@
    "lat": 37.31403,
    "lon": 126.86104,
    "image": "https://tong.visitkorea.or.kr/cms/resource/98/3072598_image2_1.jpg",
-   "tel": "안산시 공원과 031-481-3168",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "outdoor",
    "tags": [
@@ -15336,11 +15462,11 @@
    "contentTypeId": "12",
    "name": "양천구어린이교통안전교육장",
    "area": "서울특별시 양천구",
-   "lat": 37.50987,
-   "lon": 126.87004,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/40/3399340_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-04-04",
+   "lat": 37.50981,
+   "lon": 126.87002,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/40/3399340_image2_1.JPG",
+   "tel": "양천구청 교통과 02-2620-3709 교육예약 070-7008-9870",
+   "modified": "2026-10-22",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -15363,11 +15489,11 @@
    "months": null,
    "restText": "매주 토요일~일요일 / 법정공휴일",
    "seasonText": null,
-   "hours": "10:00 / 11:00 / 13:00",
+   "hours": "09:00~18:00",
    "babyCarriage": "없음",
-   "homepage": "http://www.safelife.or.kr/edu/edu_1_1_10.php",
+   "homepage": "http://www.safelife.or.kr",
    "tip": "갈산공원 내에 위치한 양천구어린이교통안전교육장은 어린이들에게 자주 발생하는 교통사고 사례들을 중심으로 체험교육을 통해서 어린이들이 교통사고 예방법을 배울 수 있는 학습장이다. 이곳에서는 신호등과 횡…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "1113537",
@@ -17467,8 +17593,8 @@
    "lat": 37.24963,
    "lon": 127.16516,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/3566761_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-05-07",
+   "tel": "031-323-6500",
+   "modified": "2026-10-22",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -17487,15 +17613,18 @@
    "closedDays": [
     1
    ],
-   "closedDates": [],
+   "closedDates": [
+    "03-05",
+    "05-05"
+   ],
    "months": null,
-   "restText": "매주 월요일 / 공휴일(단, 어린이날은 운영)",
+   "restText": "매주 월요일 / 공휴일 / 용인문화재단 창립기념일(3월 5일) / 설·추석 연휴※ 어린이날(5월 5일) 및 주말과 겹친 공휴일은 정상 운영",
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": null,
    "homepage": "https://www.yicf.or.kr/",
-   "tip": "용인시민체육공원 내에 위치하고 있는 용인어린이상상의숲은 세상의 모든 어린이들이 마음껏 문화예술로 상상하고 뛰어 놀 수 있는 어린이 문화공간이다. 1층에서는 어린이들의 생각을 마음껏 다양한 방식으로 …",
-   "detailFetched": "2026-10-09"
+   "tip": "용인시민체육공원 내에 위치하고 있는 용인어린이상상의숲은 세상의 모든 어린이들이 마음껏 문화예술로 상상하고 뛰어놀 수 있는 어린이 문화공간이다. 1층에서는 어린이들의 생각을 마음껏 다양한 방식으로 확…",
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "3012524",
@@ -20049,7 +20178,7 @@
    "lat": 37.94244,
    "lon": 127.06601,
    "image": "https://tong.visitkorea.or.kr/cms/resource/03/4124103_image2_1.jpg",
-   "tel": "031-860-3330~3",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "indoor",
    "tags": [
@@ -21404,9 +21533,9 @@
    "area": "경기도 의왕시",
    "lat": 37.4096,
    "lon": 127.03459,
-   "image": null,
-   "tel": null,
-   "modified": "2026-03-05",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/47/4122347_image2_1.jpg",
+   "tel": "의왕시청 공원녹지과 031-345-3533",
+   "modified": "2026-10-22",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -21430,7 +21559,7 @@
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "청계산맑은숲공원은 의왕시의 자연환경 및 경관을 활용한 여가와 교류, 휴식의 공간이다. 숲에서의 피톤치드욕, 산림욕을 통한 자연치유력 증진과 정신건강 치료활동을 목적으로 지어졌다. 전나무와 메타세쿼이…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "130658",
@@ -22083,7 +22212,7 @@
    "lat": 37.5476,
    "lon": 127.58125,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3078430_image2_1.jpg",
-   "tel": "031-772-3370",
+   "tel": null,
    "modified": "2026-10-21",
    "setting": "indoor",
    "tags": [
@@ -23311,6 +23440,48 @@
    "homepage": "https://www.pyeongtaek.go.kr/agro-ecopark/",
    "tip": "평택시농업생태원은 2018년 10월에 개장하여 114.654㎡ 면적에 농업·농촌 볼거리 외에 어린이 놀이터와 다양한 시설 및 꽃축제, 농촌문화체험, 농업교육, 텃밭 등 다양한 체험을 진행하며 사람들…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "4063702",
+   "contentTypeId": "15",
+   "name": "평화온담",
+   "area": "경상북도 경주시",
+   "lat": 35.83531,
+   "lon": 129.21806,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/09/4133309_image2_1.png",
+   "tel": "02-6958-7225",
+   "modified": "2026-10-22",
+   "period": {
+    "start": "2026-11-07",
+    "end": "2026-11-07"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "animals"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "11:00~17:00",
+   "babyCarriage": null,
+   "homepage": "https://peaceon.oopy.io/",
+   "tip": "‘경주에 평화온:담’은 2026년 통일부의 하반기 평화·통일문화행사로, 역사·문화예술도시 경주에서 지역주민과 예술가, 관광객이 함께 어우러지며 평화·통일의 의미를 일상 속에서 체감하는 문화행사이다.…",
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "3352029",
@@ -25261,11 +25432,11 @@
    "contentTypeId": "12",
    "name": "한터농원(한터조랑말농장)",
    "area": "경기도 용인시",
-   "lat": 37.27126,
-   "lon": 127.2653,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/79/3466579_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-07-21",
+   "lat": 37.27121,
+   "lon": 127.26529,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/79/3466579_image2_1.jpg",
+   "tel": "안내 및 단체예약 문의 031-332-3695",
+   "modified": "2026-10-22",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -25282,20 +25453,16 @@
    "price": null,
    "parking": null,
    "parkingText": "가능",
-   "closedDays": [
-    1,
-    2,
-    3
-   ],
+   "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일~수요일",
+   "restText": "매주 평일(단체체험 운영)",
    "seasonText": null,
    "hours": "10:00~18:00",
    "babyCarriage": null,
    "homepage": "http://www.gohanter.com",
    "tip": "한터농원은 어린이들의 농촌체험학습장이다. 아이들이 농작물을 심어보고 동물을 만져보고 타보며 흙을 밟아 봄으로써 자연과 멀어져 가는 아이들에게 자연의 소중함을 일깨워주고 꿈을 심어주는 체험학습농장이다…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-23"
   },
   {
    "id": "1160010",
