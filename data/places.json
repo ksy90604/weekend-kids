@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27 07:31",
+ "updatedAt": "2026-10-28 07:00",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -1764,8 +1764,8 @@
    "lat": 37.26692,
    "lon": 127.10742,
    "image": "https://tong.visitkorea.or.kr/cms/resource/26/3058026_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-05-06",
+   "tel": "031-270-8600",
+   "modified": "2026-10-27",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -1793,11 +1793,11 @@
    "months": null,
    "restText": "매주 월요일(단, 월요일이 공휴일인 경우 다음날 휴관) / 1월 1일 / 설∙추석 당일",
    "seasonText": null,
-   "hours": "10:00~13:30",
+   "hours": "10:00~17:30",
    "babyCarriage": "없음",
    "homepage": "http://gcm.ggcf.kr",
    "tip": "경기도박물관 내에 있는 경기도어린이박물관은 어린이들을 위한 체험식 박물관으로 2011년 9월 개관하였다. 어린이들이 전시물과의 상호작용을 통해 스스로 배우고 알아가는 재미를 느낄 수 있도록 고안되어…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "130358",
@@ -2101,11 +2101,11 @@
    "contentTypeId": "12",
    "name": "경희천문대",
    "area": "경기도 용인시",
-   "lat": 37.248,
-   "lon": 127.08088,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/56/3062556_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-07-04",
+   "lat": 37.24795,
+   "lon": 127.08087,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/56/3062556_image2_1.jpg",
+   "tel": "031-201-2470",
+   "modified": "2026-10-27",
    "setting": "indoor",
    "tags": [
     "bloom",
@@ -2121,7 +2121,7 @@
    ],
    "price": null,
    "parking": 0,
-   "parkingText": "가능 / 요금 (무료)",
+   "parkingText": "가능요금 (무료)",
    "closedDays": [],
    "closedDates": [],
    "months": null,
@@ -2131,7 +2131,7 @@
    "babyCarriage": "없음",
    "homepage": "https://cafe.naver.com/khaospace",
    "tip": "경희대학교 국제캠퍼스 내에 있는 경희천문대는 1992년 건립하여 연구시설로 활용하고 있다. 영상실, 플라네타리움, 주관측실(원형돔), 야외 관측실 등의 시설을 갖추고 있으며, 30인치 대형망원경 시…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "3034128",
@@ -3201,11 +3201,11 @@
    "contentTypeId": "12",
    "name": "국립 운악산자연휴양림",
    "area": "경기도 포천시",
-   "lat": 37.88317,
-   "lon": 127.30652,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/93/3024393_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-08-05",
+   "lat": 37.88311,
+   "lon": 127.3065,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/93/3024393_image2_1.jpg",
+   "tel": "031-534-6330",
+   "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -3234,7 +3234,7 @@
    "babyCarriage": null,
    "homepage": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=0224",
    "tip": "현등산(운악산)은 해발 934.7m의 기암과 봉으로 이루어져 있으며, 산세가 아름다워 소금강이라고도 불리워져 왔다. 궁예의 성터가 남아있어 옛 후고구려의 역사적 유래가 남아 있다. 또한, 주봉인 만…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "2782735",
@@ -4214,7 +4214,7 @@
    "lat": 37.27574,
    "lon": 127.05491,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/3543028_image2_1.jpg",
-   "tel": "031-210-2667",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -5174,7 +5174,7 @@
    "lat": 37.3877,
    "lon": 127.106,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/3541792_image2_1.jpg",
-   "tel": "성남시청 공원과 031-729-4390",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "outdoor",
    "tags": [
@@ -5910,7 +5910,7 @@
    "lat": 37.73753,
    "lon": 126.57444,
    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3335767_image2_1.jpg",
-   "tel": "031-998-1000",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -8451,7 +8451,7 @@
    "lat": 37.26886,
    "lon": 127.05237,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3475897_image2_1.JPG",
-   "tel": "031-216-9933",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -8491,7 +8491,7 @@
    "lat": 37.49403,
    "lon": 127.30229,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/3527317_image2_1.jpg",
-   "tel": "031-765-3522",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -12062,7 +12062,7 @@
    "lat": 37.31508,
    "lon": 126.85958,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/3072592_image2_1.jpg",
-   "tel": "031-481-2574",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -12104,7 +12104,7 @@
    "lat": 37.78939,
    "lon": 126.69933,
    "image": "https://tong.visitkorea.or.kr/cms/resource/31/3382831_image2_1.JPG",
-   "tel": "031-946-9838",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -12877,11 +12877,11 @@
    "contentTypeId": "12",
    "name": "수원어린이교통공원",
    "area": "경기도 수원시",
-   "lat": 37.24545,
-   "lon": 127.06278,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/17/3539217_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-19",
+   "lat": 37.2454,
+   "lon": 127.06277,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/17/3539217_image2_1.jpg",
+   "tel": "031-202-0386",
+   "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -12905,7 +12905,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "수원어린이교통공원은 아이들이 교통법규와 안전을 재미있게 배울 수 있는 공원이다. 실제 도로와 동일하게 조성된 환경에서 횡단보도를 안전하게 건너는 방법, 교통 표지판 이해하기 등의 기본적인 교통 규칙…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "1921150",
@@ -13175,7 +13175,7 @@
    "lat": 37.29758,
    "lon": 126.99911,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/3057856_image2_1.JPG",
-   "tel": "031-242-6633",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -13527,7 +13527,7 @@
    "lat": 37.47024,
    "lon": 126.89704,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/3468029_image2_1.jpg",
-   "tel": "금천구 공원녹지과 02-2627-1654",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "outdoor",
    "tags": [
@@ -14838,7 +14838,7 @@
    "lon": 127.03361,
    "image": "https://tong.visitkorea.or.kr/cms/resource/13/4120813_image2_1.jpg",
    "tel": "02-3486-4043",
-   "modified": "2026-10-12",
+   "modified": "2026-10-27",
    "period": {
     "start": "2026-10-10",
     "end": "2026-11-08"
@@ -14870,7 +14870,7 @@
    "babyCarriage": null,
    "homepage": "https://yangjae.seocholib.or.kr/NoticeInfoDetail/26288",
    "tip": "서초구 야외도서관 「양재천을 품은 양재도서관: 물길 따라 그림책 여행」은 도심 속 자연공간인 양재천에서 책과 문화예술을 함께 경험할 수 있도록 마련한 야외 독서문화축제이다. 2026년 10월 10일…",
-   "detailFetched": "2026-10-13"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "2754295",
@@ -15099,11 +15099,11 @@
    "contentTypeId": "12",
    "name": "양평 백운봉자연휴양림",
    "area": "경기도 양평군",
-   "lat": 37.51638,
-   "lon": 127.51917,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/01/3040601_image2_1.jpeg",
-   "tel": null,
-   "modified": "2025-06-24",
+   "lat": 37.51632,
+   "lon": 127.51915,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/01/3040601_image2_1.jpeg",
+   "tel": "031-775-4005",
+   "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -15116,8 +15116,8 @@
     "school"
    ],
    "price": null,
-   "parking": null,
-   "parkingText": "가능",
+   "parking": 3000,
+   "parkingText": "가능(유료)소, 중형 3,000원/ 경차 1,500원",
    "closedDays": [
     2
    ],
@@ -15125,11 +15125,11 @@
    "months": null,
    "restText": "매주 화요일",
    "seasonText": null,
-   "hours": "09:00~18:00",
+   "hours": "00:00~24:00",
    "babyCarriage": "없음",
    "homepage": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030087",
    "tip": "양평 백운봉자연휴양림은 수도권 근교의 숲 속 힐링 공간으로 용문산줄기 백운봉 등산로 입구에 위치하고 있다. 숲 속의 집 등 총 20실의 숙박시설과 20면의 야영데크가 조성되어 있으며 양평공사에서 직…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "3070082",
@@ -15591,7 +15591,7 @@
    "lat": 37.24332,
    "lon": 127.70818,
    "image": "https://tong.visitkorea.or.kr/cms/resource/36/3563636_image2_1.jpg",
-   "tel": "031-882-8100",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -17153,11 +17153,11 @@
    "contentTypeId": "12",
    "name": "우농타조농장",
    "area": "경기도 파주시",
-   "lat": 37.70552,
-   "lon": 126.71358,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/60/3531060_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-03",
+   "lat": 37.70547,
+   "lon": 126.71356,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/60/3531060_image2_1.jpg",
+   "tel": "031-935-6275",
+   "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -17183,7 +17183,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/tajo.gram",
    "tip": "파주시 교하읍 동패리에 위치한 ‘우농타조마을’은 아름답고 아담한 동물농장에서 동물과 농촌체험을 테마로 자연을 배우고 동시에 즐길 수 있는 자연 학습공간이다. 타조 및 양, 오리, 토끼, 거위 등 동…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "2372228",
@@ -17268,7 +17268,7 @@
    "lat": 37.69798,
    "lon": 127.16122,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3077130_image2_1.jpg",
-   "tel": "031-572-9555",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -17871,11 +17871,11 @@
    "contentTypeId": "12",
    "name": "육영재단 어린이회관",
    "area": "서울특별시 광진구",
-   "lat": 37.54705,
-   "lon": 127.07819,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/37/3393937_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-03-16",
+   "lat": 37.547,
+   "lon": 127.07817,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/37/3393937_image2_1.JPG",
+   "tel": "02-2204-6028",
+   "modified": "2026-10-27",
    "setting": "mixed",
    "tags": [
     "craft",
@@ -17901,9 +17901,9 @@
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": "없음",
-   "homepage": "http://www.yookyoung.org/",
+   "homepage": null,
    "tip": "어린이회관은 어린이들의 복지 증진과 보육 환경을 조성하는 것을 목적으로 재단법인 육영재단이 설립한 복지 회관이다. 어린이를 위한 다양한 교육, 전시, 문화, 체육 시설들이 갖춰져 있으며, 10,00…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "2673974",
@@ -19584,11 +19584,11 @@
    "contentTypeId": "12",
    "name": "자전거생태공원",
    "area": "경기도 광주시",
-   "lat": 37.39046,
-   "lon": 127.25188,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/00/3344900_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-03-14",
+   "lat": 37.39041,
+   "lon": 127.25186,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/00/3344900_image2_1.jpg",
+   "tel": "광주시 관광안내소 031-762-3010",
+   "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
     "nature",
@@ -19612,7 +19612,7 @@
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "경기도 광주시 오포읍에 위치한 자전거공원이다. 경안천 천변에 조성되어 자전거를 처음 접하는 이들이 연습할 수 있는 자전거 연습장과 교육할 수 있는 야외 교육장이 있다. 운동할 수 있는 배드민턴장과 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "1179315",
@@ -19888,11 +19888,11 @@
    "contentTypeId": "12",
    "name": "장흥자연휴양림",
    "area": "경기도 양주시",
-   "lat": 37.75822,
-   "lon": 126.96854,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/46/3409546_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-12-09",
+   "lat": 37.75816,
+   "lon": 126.96853,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/46/3409546_image2_1.jpg",
+   "tel": "전화번호 070-7789-0414",
+   "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
     "snow",
@@ -19922,7 +19922,7 @@
    "babyCarriage": null,
    "homepage": "http://www.fes-artvalley.com/",
    "tip": "보편적으로 휴양림은 국립으로 운영되고 있지만 장흥자연휴양림은 크라운제과에서 운영하는 아트밸리로, 넓은 부지에 세계 최초로 시도되고 있는 드라이브스루(Driver-Thru) 방식으로 견생조각작품전을 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "130719",
@@ -20090,7 +20090,7 @@
    "lat": 37.8367,
    "lon": 126.96917,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3559497_image2_1.jpg",
-   "tel": "070-7780-8911",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -20481,7 +20481,7 @@
    "lat": 37.24808,
    "lon": 127.03991,
    "image": "https://tong.visitkorea.or.kr/cms/resource/35/3584735_image2_1.jpg",
-   "tel": "031-225-5566",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -21471,7 +21471,7 @@
    "lat": 37.43346,
    "lon": 126.87827,
    "image": "https://tong.visitkorea.or.kr/cms/resource/10/3563410_image2_1.jpg",
-   "tel": "02-898-0505",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -23312,7 +23312,7 @@
    "lat": 37.54546,
    "lon": 127.20608,
    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3078540_image2_1.jpg",
-   "tel": "031-790-7990",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
@@ -23542,8 +23542,8 @@
    "lat": 38.06837,
    "lon": 127.30359,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/4076895_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-06-18",
+   "tel": "031-533-8121",
+   "modified": "2026-10-27",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -23561,19 +23561,17 @@
    "parking": 0,
    "parkingText": "무료",
    "closedDays": [
-    1,
-    2,
-    3
+    1
    ],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일, 화요일, 수요일",
+   "restText": "매주 월요일",
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "한과문화박물관 한가원은 국내 최초로 한과를 테마로 세워진 박물관이다. 이곳에서는 한과의 역사와 유래, 한과의 제작 도구 등 전시 설명과 유물 전시 중심으로 한과에 대하여 종합적인 정보를 전달한다. …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-28"
   },
   {
    "id": "2554064",
@@ -23741,7 +23739,7 @@
    "lat": 37.22281,
    "lon": 127.49925,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3068812_image2_1.jpg",
-   "tel": "031-632-1391",
+   "tel": null,
    "modified": "2026-10-26",
    "setting": "indoor",
    "tags": [
