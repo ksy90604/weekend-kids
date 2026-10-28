@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28 07:00",
+ "updatedAt": "2026-10-29 07:25",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -1764,7 +1764,7 @@
    "lat": 37.26692,
    "lon": 127.10742,
    "image": "https://tong.visitkorea.or.kr/cms/resource/26/3058026_image2_1.jpg",
-   "tel": "031-270-8600",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "indoor",
    "tags": [
@@ -2104,7 +2104,7 @@
    "lat": 37.24795,
    "lon": 127.08087,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/3062556_image2_1.jpg",
-   "tel": "031-201-2470",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "indoor",
    "tags": [
@@ -2517,6 +2517,47 @@
    "homepage": "https://www.goyangcm.or.kr/",
    "tip": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "3383613",
+   "contentTypeId": "15",
+   "name": "고양행주한우 숯불구이축제",
+   "area": "경기도 고양시",
+   "lat": 37.65467,
+   "lon": 126.83276,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/73/4066273_image2_1.JPG",
+   "tel": "031-960-3034,3050",
+   "modified": "2026-10-28",
+   "period": {
+    "start": "2026-10-31",
+    "end": "2026-11-01"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "play"
+   ],
+   "emoji": "🎠",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~17:00",
+   "babyCarriage": null,
+   "homepage": "http://gyfestival.kr/",
+   "tip": "행주한우 숯불구이 축제는 고양특례시를 대표하는 명품 한우 브랜드 ‘행주한우’의 우수성을 널리 알리고 시민과 함께 즐거움을 나누기 위해 마련된 지역 축제이다. 철저한 품질관리로 생산된 안전하고 건강한…",
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "2867659",
@@ -3157,46 +3198,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "127171",
-   "contentTypeId": "12",
-   "name": "국립 산음자연휴양림",
-   "area": "경기도 양평군",
-   "lat": 37.59613,
-   "lon": 127.57518,
-   "image": null,
-   "tel": null,
-   "modified": "2025-12-22",
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "water",
-    "bloom",
-    "foliage",
-    "nature"
-   ],
-   "emoji": "🏊",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": "가능",
-   "closedDays": [
-    2
-   ],
-   "closedDates": [],
-   "months": null,
-   "restText": "매주 화요일",
-   "seasonText": null,
-   "hours": "09:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=0103",
-   "tip": "경기도 양평군에 위치한 이곳은 높은 봉우리가 병풍처럼 둘러싸고 있고 9갈래의 계곡을 따라 흐르는 맑은 물이 풍부하고 아름답다. 또한 수도권에서 차량으로 1시간 30분이면 도착할 수 있다. 숙박시설을…",
-   "detailFetched": "2026-10-10"
-  },
-  {
    "id": "407234",
    "contentTypeId": "12",
    "name": "국립 운악산자연휴양림",
@@ -3204,7 +3205,7 @@
    "lat": 37.88311,
    "lon": 127.3065,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3024393_image2_1.jpg",
-   "tel": "031-534-6330",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
@@ -3725,6 +3726,46 @@
    "homepage": "https://www.nfm.go.kr/home/index.do",
    "tip": "국립민속박물관은 경복궁 내 본관과 파주관으로 구성된 민속생활사 전문 국립박물관으로 약 4,000여 점의 전통 생활 민속자료를 소장·전시하고 있다. 본관에는 어린이박물관이 함께 운영되며 전시실은 한국…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "127171",
+   "contentTypeId": "12",
+   "name": "국립산음자연휴양림",
+   "area": "경기도 양평군",
+   "lat": 37.59608,
+   "lon": 127.57516,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/18/4130418_image2_1.jpg",
+   "tel": "031-774-8133",
+   "modified": "2026-10-28",
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "water",
+    "bloom",
+    "foliage",
+    "nature"
+   ],
+   "emoji": "🏊",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": null,
+   "parking": null,
+   "parkingText": "가능",
+   "closedDays": [
+    2
+   ],
+   "closedDates": [],
+   "months": null,
+   "restText": "매주 화요일 / 동절기(11월~3월)",
+   "seasonText": null,
+   "hours": "09:00~18:00",
+   "babyCarriage": null,
+   "homepage": "https://www.foresttrip.go.kr",
+   "tip": "경기도 양평군에 위치한 이곳은 높은 봉우리가 병풍처럼 둘러싸고 있고 9갈래의 계곡을 따라 흐르는 맑은 물이 풍부하고 아름답다. 또한 수도권에서 차량으로 1시간 30분이면 도착할 수 있다. 숙박시설을…",
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "3097744",
@@ -5013,10 +5054,10 @@
    "name": "꽃재체험농원",
    "area": "경기도 파주시",
    "lat": 37.75619,
-   "lon": 126.8418,
-   "image": null,
-   "tel": null,
-   "modified": "2026-02-11",
+   "lon": 126.84178,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/63/4130563_image2_1.jpg",
+   "tel": "0507-1318-6273",
+   "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -5040,13 +5081,13 @@
    ],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일 정기 휴무",
+   "restText": "매주 월요일",
    "seasonText": null,
    "hours": "10:00~16:00",
    "babyCarriage": null,
    "homepage": "https://blog.naver.com/flower_jay_",
    "tip": "하니랜드 부근에 위치한 꽃재체험농원은 꽃과 자연을 테마로 한 이색체험과 놀이공간이 있는 팜크닉 농원이다. 아이들이 자연물을 가지고 다양한 체험을 할 수 있어 아이를 동반한 가족들에게 인기가 많은 곳…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "2770963",
@@ -5835,8 +5876,8 @@
    "lat": 37.33031,
    "lon": 126.91536,
    "image": "https://tong.visitkorea.or.kr/cms/resource/86/3344586_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-02-05",
+   "tel": "031-501-7100",
+   "modified": "2026-10-28",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -5850,7 +5891,7 @@
    ],
    "price": null,
    "parking": null,
-   "parkingText": null,
+   "parkingText": "가능",
    "closedDays": [
     0
    ],
@@ -5862,7 +5903,7 @@
    "babyCarriage": "없음",
    "homepage": "https://www.gunpolib.go.kr/",
    "tip": "누리천문대는 군포시 대야도서관에서 운영하는 천문대로서 대야도서관 옥상 정원에 천체관측실과 천체투영실을, 4층에 천문우주체험관과 4D입체영상관을 설치하여 운영하는 시민천문대이다. 천체관측실, 천문우주…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "2767582",
@@ -10802,11 +10843,11 @@
    "contentTypeId": "12",
    "name": "서울랜드",
    "area": "경기도 과천시",
-   "lat": 37.43556,
-   "lon": 127.02384,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/43/3345743_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-12-12",
+   "lat": 37.43551,
+   "lon": 127.02382,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/43/3345743_image2_1.jpg",
+   "tel": "02-509-6000",
+   "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -10832,11 +10873,11 @@
    "months": null,
    "restText": "연중무휴",
    "seasonText": null,
-   "hours": "10:00~19:00",
+   "hours": "10:00~21:00",
    "babyCarriage": null,
-   "homepage": "http://www.seoulland.co.kr/",
+   "homepage": "http://www.seoulland.co.kr",
    "tip": "한국 최초의 놀이공원이라는 타이틀을 가진 서울랜드는 개장과 동시에 대한민국 대표 테마파크로 자리매김했다. 서울역과 명동역에서 30분 내외 거리에 위치해 있어 교통이 편리하고, 인근에는 서울대공원의 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "131433",
@@ -11973,47 +12014,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3348362",
-   "contentTypeId": "15",
-   "name": "성북거리문화축제 다다페스타",
-   "area": "서울특별시 성북구",
-   "lat": 37.61822,
-   "lon": 127.05109,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/37/4113337_image2_1.JPG",
-   "tel": "02-6906-9298",
-   "modified": "2026-10-26",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-10-31"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://dadafesta.github.io/",
-   "tip": "제3회 성북거리문화축제 다다페스타는 성북구의 거리와 그 거리문화를 특색있게 소개하고 즐기는 행사로 다양한 주민들과 함께 만들어가는 지역밀착형 축제이다. 올해는 특별히 성북구의 장위뉴타운 일대에서 개…",
-   "detailFetched": "2026-10-27"
-  },
-  {
    "id": "3043911",
    "contentTypeId": "14",
    "name": "성북선잠박물관",
@@ -12487,11 +12487,11 @@
    "contentTypeId": "28",
    "name": "소요별앤숲테마파크",
    "area": "경기도 동두천시",
-   "lat": 37.95023,
-   "lon": 127.06597,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/70/2798670_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-05-16",
+   "lat": 37.95017,
+   "lon": 127.06596,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/46/4130346_image2_1.jpg",
+   "tel": "031-865-6105",
+   "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -12515,13 +12515,13 @@
    "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": null,
+   "restText": "연중무휴",
    "seasonText": null,
-   "hours": "이용시간 정보 없음",
+   "hours": "[카라반]- 입실 15:00- 퇴실 11:00[데크]- 입실 13:00-",
    "babyCarriage": null,
-   "homepage": null,
+   "homepage": "https://www.ddcsiseol.or.kr/",
    "tip": "소요별앤숲테마파크는 동두천의 대표 관광지인 소요산에 2020년 7월 개장한 자연 테마파크다. 약 27만 ㎡의 면적에 숙박 시설과 체험 시설이 조성되어 있다. 숙박시설로는 꿈야영장에 카라반 10개 동…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "2606231",
@@ -12880,7 +12880,7 @@
    "lat": 37.2454,
    "lon": 127.06277,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/3539217_image2_1.jpg",
-   "tel": "031-202-0386",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
@@ -15102,7 +15102,7 @@
    "lat": 37.51632,
    "lon": 127.51915,
    "image": "https://tong.visitkorea.or.kr/cms/resource/01/3040601_image2_1.jpeg",
-   "tel": "031-775-4005",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
@@ -17156,7 +17156,7 @@
    "lat": 37.70547,
    "lon": 126.71356,
    "image": "https://tong.visitkorea.or.kr/cms/resource/60/3531060_image2_1.jpg",
-   "tel": "031-935-6275",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
@@ -17874,7 +17874,7 @@
    "lat": 37.547,
    "lon": 127.07817,
    "image": "https://tong.visitkorea.or.kr/cms/resource/37/3393937_image2_1.JPG",
-   "tel": "02-2204-6028",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "mixed",
    "tags": [
@@ -19587,7 +19587,7 @@
    "lat": 37.39041,
    "lon": 127.25186,
    "image": "https://tong.visitkorea.or.kr/cms/resource/00/3344900_image2_1.jpg",
-   "tel": "광주시 관광안내소 031-762-3010",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
@@ -19847,11 +19847,11 @@
    "contentTypeId": "12",
    "name": "장흥자생수목원",
    "area": "경기도 양주시",
-   "lat": 37.74446,
-   "lon": 126.95064,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/54/1592054_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-02-24",
+   "lat": 37.74351,
+   "lon": 126.94819,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/22/4124222_image2_1.jpg",
+   "tel": "031-826-0933",
+   "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -19870,8 +19870,8 @@
     "school"
    ],
    "price": null,
-   "parking": 0,
-   "parkingText": "가능무료",
+   "parking": null,
+   "parkingText": "가능",
    "closedDays": [],
    "closedDates": [],
    "months": null,
@@ -19879,9 +19879,9 @@
    "seasonText": null,
    "hours": "09:00~19:00",
    "babyCarriage": "없음",
-   "homepage": "http://www.장흥자생수목원.kr",
+   "homepage": null,
    "tip": "장흥관광지 내에 있는 장흥자생수목원은 양주시와 파주시의 경계를 이루는 개명산(해발 559m) 동쪽 형제봉 능선의 자연림을 활용한 사립수목원이다. 장흥자생수목원의 특징은 기존 산림의 형태와 식생을 최…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "2751550",
@@ -19891,7 +19891,7 @@
    "lat": 37.75816,
    "lon": 126.96853,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3409546_image2_1.jpg",
-   "tel": "전화번호 070-7789-0414",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "outdoor",
    "tags": [
@@ -20389,11 +20389,11 @@
    "contentTypeId": "12",
    "name": "중미산자연휴양림",
    "area": "경기도 양평군",
-   "lat": 37.5818,
-   "lon": 127.45715,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/86/607986_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-04-24",
+   "lat": 37.58175,
+   "lon": 127.45714,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/12/4130412_image2_1.jpg",
+   "tel": "031-771-7166",
+   "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -20407,71 +20407,20 @@
     "school"
    ],
    "price": null,
-   "parking": 1500,
-   "parkingText": "가능 / 요금([1일 주차요금] 경형 1,500원 / 중형 /3,000원 / 대형 5,000원)",
+   "parking": null,
+   "parkingText": "가능",
    "closedDays": [
     2
    ],
    "closedDates": [],
-   "months": [
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11
-   ],
-   "restText": "매주 화요일",
-   "seasonText": "매년 3월~11월",
-   "hours": "15:00~익일 11:00",
-   "babyCarriage": "없음",
-   "homepage": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=0108",
-   "tip": "중미산자연휴양림은 양평군 옥천면에 위치하고 있으며, 드라이브 코스인 농다치 고갯길까지 올라가면 울창한 숲과 남한강이 조화롭게 배치되어 시야가 탁 트이는 느낌을 준다. 산 정상에 오르면 용문산의 전경…",
-   "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "4134834",
-   "contentTypeId": "15",
-   "name": "지평전통발효축제",
-   "area": "경기도 양평군",
-   "lat": 37.47449,
-   "lon": 127.63932,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/35/4134835_image2_1.jpg",
-   "tel": "010-3868-2099",
-   "modified": "2026-10-23",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-11-01"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
    "months": null,
-   "restText": null,
+   "restText": "매주 화요일",
    "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://jipyeongfestival.com/",
-   "tip": "올해로 3회를 맞이하는 지평전통발효축제는 전통 발효문화의 가치를 널리 알리고, 지역의 우수한 농특산물과 먹거리를 통해 주민과 방문객이 함께 어우러지는 지역 화합형 축제다. 특히 지평전통발효축제는 우…",
-   "detailFetched": "2026-10-25"
+   "hours": "[숙박시설]- 입실 15:00- 퇴실 11:00[야영시설]- 입실 14:",
+   "babyCarriage": "없음",
+   "homepage": "https://www.foresttrip.go.kr",
+   "tip": "중미산자연휴양림은 양평군 옥천면에 위치하고 있으며, 드라이브 코스인 농다치 고갯길까지 올라가면 울창한 숲과 남한강이 조화롭게 배치되어 시야가 탁 트이는 느낌을 준다. 산 정상에 오르면 용문산의 전경…",
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "130825",
@@ -21169,11 +21118,11 @@
    "contentTypeId": "12",
    "name": "청평자연휴양림",
    "area": "경기도 가평군",
-   "lat": 37.71314,
-   "lon": 127.40548,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/70/3077270_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-07-29",
+   "lat": 37.71309,
+   "lon": 127.40546,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/70/3077270_image2_1.jpg",
+   "tel": "청평자연휴양림 031-584-0528",
+   "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -21196,9 +21145,9 @@
    "seasonText": null,
    "hours": "09:00~19:00",
    "babyCarriage": null,
-   "homepage": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID04030007",
+   "homepage": "https://www.foresttrip.go.kr/",
    "tip": "경기도 가평군에 위치한 청평 자연휴양림은 깨끗한 약수를 마시며 여유롭게 산책도 할 수 있고 자연 속에서 호젓하고 여유로운 한때를 보내기에 좋은 곳이다. 소나무, 잣나무, 참나무 사이로 내다보이는 맑…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-29"
   },
   {
    "id": "2751296",
@@ -23542,7 +23491,7 @@
    "lat": 38.06837,
    "lon": 127.30359,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/4076895_image2_1.jpg",
-   "tel": "031-533-8121",
+   "tel": null,
    "modified": "2026-10-27",
    "setting": "indoor",
    "tags": [
