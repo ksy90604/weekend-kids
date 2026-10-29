@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29 07:25",
+ "updatedAt": "2026-10-30 07:38",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -92,9 +92,9 @@
    "area": "경기도 파주시",
    "lat": 37.78328,
    "lon": 126.69469,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/50/4127750_image2_1.jpg",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/22/4140222_image2_1.jpg",
    "tel": "031-870-9110",
-   "modified": "2026-10-16",
+   "modified": "2026-10-29",
    "period": {
     "start": "2026-03-14",
     "end": "2026-12-26"
@@ -124,7 +124,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "2026 국립극장 쏙쏙들이 페스티벌은 국립극장 무대예술지원센터에서 진행하는 축제 프로그램이다. 본 행사는 시민들이 일상 속에서 공연예술을 쉽게 접할 수 있도록 기획된 행사이다. 해당 페스티벌은 매월…",
-   "detailFetched": "2026-10-17"
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "3377038",
@@ -166,6 +166,47 @@
    "homepage": null,
    "tip": "대한불교조계종이 주최하는 국제선명상대회와 선명상축제는 국민 정신건강 증진을 위하여 진행하고 있으며, 지난 2024년부터 시작하여 올해로 3회를 맞이하였다. 올해는 [AI시대의 선명상]이라는 주제하에…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "2854855",
+   "contentTypeId": "15",
+   "name": "2026 대한민국 관광기념품 박람회",
+   "area": "서울특별시 중구",
+   "lat": 37.56605,
+   "lon": 127.00955,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/49/4135249_image2_1.jpg",
+   "tel": "010-3489-3637",
+   "modified": "2026-10-26",
+   "period": {
+    "start": "2026-11-20",
+    "end": "2026-11-22"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft"
+   ],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~19:00",
+   "babyCarriage": null,
+   "homepage": "https://kto.visitkorea.or.kr/",
+   "tip": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 1…",
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "2769990",
@@ -490,6 +531,48 @@
    "homepage": null,
    "tip": "2026 안성맞춤 상설공연 ‘톡톡달콤 페스티벌(톡톡 튀는 공연+달콤한 체험)’은 안성 예총의 대표적인 문화예술 축제로, 지역민과 가족 단위 관객 모두가 함께 즐길 수 있는 세대 통합형 프로그램으로 …",
    "detailFetched": "2026-10-22"
+  },
+  {
+   "id": "4101384",
+   "contentTypeId": "15",
+   "name": "20세기 사진 거장전 - 빛, 시간을 멈추다",
+   "area": "서울특별시 중구",
+   "lat": 37.56785,
+   "lon": 126.9759,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/61/4103061_image2_1.jpg",
+   "tel": "02-724-6319",
+   "modified": "2026-08-31",
+   "period": {
+    "start": "2026-11-20",
+    "end": "2027-03-28"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "bloom",
+    "animals"
+   ],
+   "emoji": "🌷",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 12000,
+    "child": 12000
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~18:00",
+   "babyCarriage": null,
+   "homepage": "https://www.instagram.com/artchosun_space/",
+   "tip": "하루에도 수억 장의 이미지가 액정 화면 위에서 쉽게 태어나고 손가락 한 번에 가볍게 소멸하는 시대. 디지털 기술과 인공지능의 범람 속에서 누구나 순간을 쉽게 포착하고 복제할 수 있게 됐다. 가벼운 …",
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "3113265",
@@ -1994,11 +2077,11 @@
    "contentTypeId": "12",
    "name": "경안천 습지생태공원",
    "area": "경기도 광주시",
-   "lat": 37.45735,
-   "lon": 127.30322,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/08/3527208_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-04",
+   "lat": 37.4573,
+   "lon": 127.3032,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/08/3527208_image2_1.jpg",
+   "tel": "광주시청 031-762-1039",
+   "modified": "2026-10-29",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -2021,9 +2104,9 @@
    "seasonText": null,
    "hours": "05:00~20:00",
    "babyCarriage": null,
-   "homepage": "https://www.gjcity.go.kr/tour/contents.do?mId=0101030000",
+   "homepage": "https://www.gjcity.go.kr/tour",
    "tip": "봄, 여름, 가을에 신록과 갈대가 어우러지는 경안습지생태공원은 일 년 내내 온갖 철새가 노니는 장소이다. 호숫가 갈대숲 사이로 보이는 몇 그루의 나무들이 운치를 더한다. 이곳은 1973년 팔당댐이 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "2553819",
@@ -2527,7 +2610,7 @@
    "lon": 126.83276,
    "image": "https://tong.visitkorea.or.kr/cms/resource/73/4066273_image2_1.JPG",
    "tel": "031-960-3034,3050",
-   "modified": "2026-10-28",
+   "modified": "2026-10-29",
    "period": {
     "start": "2026-10-31",
     "end": "2026-11-01"
@@ -2557,7 +2640,7 @@
    "babyCarriage": null,
    "homepage": "http://gyfestival.kr/",
    "tip": "행주한우 숯불구이 축제는 고양특례시를 대표하는 명품 한우 브랜드 ‘행주한우’의 우수성을 널리 알리고 시민과 함께 즐거움을 나누기 위해 마련된 지역 축제이다. 철저한 품질관리로 생산된 안전하고 건강한…",
-   "detailFetched": "2026-10-29"
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "2867659",
@@ -3735,7 +3818,7 @@
    "lat": 37.59608,
    "lon": 127.57516,
    "image": "https://tong.visitkorea.or.kr/cms/resource/18/4130418_image2_1.jpg",
-   "tel": "031-774-8133",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
@@ -5056,7 +5139,7 @@
    "lat": 37.75619,
    "lon": 126.84178,
    "image": "https://tong.visitkorea.or.kr/cms/resource/63/4130563_image2_1.jpg",
-   "tel": "0507-1318-6273",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
@@ -5876,7 +5959,7 @@
    "lat": 37.33031,
    "lon": 126.91536,
    "image": "https://tong.visitkorea.or.kr/cms/resource/86/3344586_image2_1.jpg",
-   "tel": "031-501-7100",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "indoor",
    "tags": [
@@ -7654,8 +7737,8 @@
    "lat": 37.04479,
    "lon": 126.75216,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/4122615_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-10-20",
+   "tel": "화성시 관광진흥과 031-5189-6015",
+   "modified": "2026-10-29",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -7680,7 +7763,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "경기도 화성시 우정읍 매향리에 있는 공원이다. 54년간 미 공군사령부의 공군사격장으로 사용하던 쿠니사격장 부지였던 곳을 생태공원으로 조성하였다. 주민들의 노력으로 2005년 8월에 사격장을 폐쇄하였…",
-   "detailFetched": "2026-10-22"
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "1131275",
@@ -10846,7 +10929,7 @@
    "lat": 37.43551,
    "lon": 127.02382,
    "image": "https://tong.visitkorea.or.kr/cms/resource/43/3345743_image2_1.jpg",
-   "tel": "02-509-6000",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
@@ -12490,7 +12573,7 @@
    "lat": 37.95017,
    "lon": 127.06596,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/4130346_image2_1.jpg",
-   "tel": "031-865-6105",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
@@ -19355,9 +19438,9 @@
    "area": "서울특별시 강동구",
    "lat": 37.5373,
    "lon": 127.15421,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/49/2780649_image2_1.png",
-   "tel": null,
-   "modified": "2026-03-05",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/77/4123077_image2_1.jpg",
+   "tel": "서울 강동구청 푸른도시과 02-3425-6452",
+   "modified": "2026-10-29",
    "setting": "indoor",
    "tags": [
     "animals",
@@ -19371,7 +19454,7 @@
    ],
    "price": null,
    "parking": null,
-   "parkingText": null,
+   "parkingText": "가능",
    "closedDays": [],
    "closedDates": [],
    "months": null,
@@ -19381,7 +19464,7 @@
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "일자산근린공원에 포함되어 있는 공원으로, 길동생태공원 맞은편에 허브천문공원이 위치하고 있다. 허브천문공원의 구조는 한민족 고유의 전통사상인 천·지·인의 삼재사상에서 공간개념을 도출하여 우주공간을 담…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "2764960",
@@ -19850,7 +19933,7 @@
    "lat": 37.74351,
    "lon": 126.94819,
    "image": "https://tong.visitkorea.or.kr/cms/resource/22/4124222_image2_1.jpg",
-   "tel": "031-826-0933",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
@@ -20392,7 +20475,7 @@
    "lat": 37.58175,
    "lon": 127.45714,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/4130412_image2_1.jpg",
-   "tel": "031-771-7166",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
@@ -21121,7 +21204,7 @@
    "lat": 37.71309,
    "lon": 127.40546,
    "image": "https://tong.visitkorea.or.kr/cms/resource/70/3077270_image2_1.jpg",
-   "tel": "청평자연휴양림 031-584-0528",
+   "tel": null,
    "modified": "2026-10-28",
    "setting": "outdoor",
    "tags": [
@@ -22962,7 +23045,7 @@
    "lon": 127.2365,
    "image": "https://tong.visitkorea.or.kr/cms/resource/07/4133507_image2_1.jpg",
    "tel": "0502-1949-0514",
-   "modified": "2026-10-23",
+   "modified": "2026-10-29",
    "period": {
     "start": "2026-11-14",
     "end": "2026-11-14"
@@ -22970,11 +23053,12 @@
    "setting": "outdoor",
    "tags": [
     "craft",
+    "foliage",
     "animals",
     "nature",
     "play"
    ],
-   "emoji": "🐾",
+   "emoji": "🍁",
    "ages": [
     "baby",
     "kid",
@@ -22991,8 +23075,8 @@
    "hours": "10:00~18:00",
    "babyCarriage": null,
    "homepage": "https://p-petstar.imweb.me/",
-   "tip": "2026 포천 펫스타 in 아트밸리는 반려가족 그리고 반려동물을 사랑하는 누구나 함께 즐길 수 있는 참여형 반려문화 축제이다. 아름다운 한탄강 생태경관단지를 배경으로 반려견과 함께 걷는 댕댕트레킹을…",
-   "detailFetched": "2026-10-25"
+   "tip": "2026 포천 펫스타 in 아트밸리는 반려가족과 시민이 함께 즐기고 소통하는 참여형 반려동물 문화축제이다. 아름다운 자연경관과 예술이 어우러진 포천아트밸리를 배경으로 반려견과 함께 도전하는 '멍파서…",
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "1553067",
@@ -24824,11 +24908,11 @@
    "contentTypeId": "12",
    "name": "할아버지동물농장",
    "area": "경기도 화성시",
-   "lat": 37.0645,
-   "lon": 126.78537,
-   "image": null,
-   "tel": null,
-   "modified": "2025-03-21",
+   "lat": 37.06444,
+   "lon": 126.78536,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/97/4124297_image2_1.jpg",
+   "tel": "0507-1365-7507",
+   "modified": "2026-10-29",
    "setting": "mixed",
    "tags": [
     "feeding",
@@ -24843,21 +24927,22 @@
     "school"
    ],
    "price": null,
-   "parking": 0,
-   "parkingText": "가능 / 요금 (무료)",
+   "parking": null,
+   "parkingText": "가능",
    "closedDays": [
     1,
-    2
+    2,
+    3
    ],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일~화요일",
+   "restText": "매주 월요일~수요일",
    "seasonText": null,
-   "hours": "10:00~18:00",
+   "hours": "10:30~18:00",
    "babyCarriage": "없음",
    "homepage": "https://www.instagram.com/grandpa_animalfarm/",
    "tip": "할아버지 동물농장은 경기 화성시 우정읍에 위치한 동물 체험 공간이다. 13세 이하 어린이는 보호자 동반 시 입장할 수 있다. 반려동물은 입장 불가지만 내부에서 생활하는 강아지가 목줄 없이 자유롭게 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-30"
   },
   {
    "id": "701642",
