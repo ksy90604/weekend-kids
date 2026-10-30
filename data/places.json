@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30 07:38",
+ "updatedAt": "2026-10-31 07:08",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -326,6 +326,45 @@
    "homepage": null,
    "tip": "문화가 있는 날 는 도서·벽지·접경지역, 산업단지, 문화환경취약지역 등 문화접근성이 낮은 지역을 찾아가는 문화 예술 지원사업이다. 청년·실버 공연팀이 일상 가까운 공간에서 다양한 거리공연을 선보이며…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "2410727",
+   "contentTypeId": "15",
+   "name": "2026 보드게임페스타(시즌2)",
+   "area": "서울특별시 강남구",
+   "lat": 37.49604,
+   "lon": 127.07075,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/27/4118327_image2_1.png",
+   "tel": "070-8611-9803",
+   "modified": "2026-10-07",
+   "period": {
+    "start": "2026-11-21",
+    "end": "2026-11-22"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "play"
+   ],
+   "emoji": "🎠",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": null,
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~18:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "‘보드게임페스타’는 서울시 후원, 서울산업진흥원과 (사)한국보드게임산업협회가 공동 주관하는 보드게임 체험 박람회로 2015년부터 '서울보드게임페스타'로 개최하였으며, 2022년부터는 '보드게임페스타…",
+   "detailFetched": "2026-10-31"
   },
   {
    "id": "3552019",
@@ -1957,6 +1996,47 @@
    "detailFetched": "2026-10-10"
   },
   {
+   "id": "3368470",
+   "contentTypeId": "15",
+   "name": "경기미 디저트 페스타",
+   "area": "경기도 수원시",
+   "lat": 37.26681,
+   "lon": 126.99718,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/09/4106209_image2_1.jpg",
+   "tel": "031-774-3312",
+   "modified": "2026-08-31",
+   "period": {
+    "start": "2026-11-21",
+    "end": "2026-11-22"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft"
+   ],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "11:00~17:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "경기미디저트페스타는 우수한 경기미를 이용한 다양한 디저트를 발굴하고 소비자에게 소개하여 경기미 소비와 함께 건강한 쌀디저트문화를 확산하기 위해 만들어진 박람회이다. 올해 경기미 디저트 페스타는 쌀베…",
+   "detailFetched": "2026-10-31"
+  },
+  {
    "id": "2493039",
    "contentTypeId": "14",
    "name": "경기북부어린이박물관",
@@ -2080,7 +2160,7 @@
    "lat": 37.4573,
    "lon": 127.3032,
    "image": "https://tong.visitkorea.or.kr/cms/resource/08/3527208_image2_1.jpg",
-   "tel": "광주시청 031-762-1039",
+   "tel": null,
    "modified": "2026-10-29",
    "setting": "outdoor",
    "tags": [
@@ -3210,11 +3290,11 @@
    "contentTypeId": "12",
    "name": "구봉솔숲해수욕장",
    "area": "경기도 안산시",
-   "lat": 37.28205,
-   "lon": 126.55311,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/29/3539229_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-22",
+   "lat": 37.282,
+   "lon": 126.5531,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/29/3539229_image2_1.jpg",
+   "tel": "031-481-2720",
+   "modified": "2026-10-30",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -3241,7 +3321,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "구봉솔숲해수욕장은 경기도 안산시 단원구 대부북동에 위치한 해수욕장이다. 해수욕과 갯벌 체험을 할 수 있고, 아름다운 낙조를 감상할 수 있어 대부도의 낙조 명소로 유명하다. 해수욕장 앞으로 카페나 식…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-10-31"
   },
   {
    "id": "3394562",
@@ -7737,7 +7817,7 @@
    "lat": 37.04479,
    "lon": 126.75216,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/4122615_image2_1.jpg",
-   "tel": "화성시 관광진흥과 031-5189-6015",
+   "tel": null,
    "modified": "2026-10-29",
    "setting": "outdoor",
    "tags": [
@@ -18742,8 +18822,8 @@
    "lat": 37.42067,
    "lon": 126.65312,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/4056045_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-08-25",
+   "tel": "032-440-6750",
+   "modified": "2026-10-30",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -18773,7 +18853,7 @@
    "babyCarriage": "없음",
    "homepage": "https://www.incheon.go.kr/museum/index",
    "tip": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다.…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-10-31"
   },
   {
    "id": "3441847",
@@ -19439,7 +19519,7 @@
    "lat": 37.5373,
    "lon": 127.15421,
    "image": "https://tong.visitkorea.or.kr/cms/resource/77/4123077_image2_1.jpg",
-   "tel": "서울 강동구청 푸른도시과 02-3425-6452",
+   "tel": null,
    "modified": "2026-10-29",
    "setting": "indoor",
    "tags": [
@@ -23037,48 +23117,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3545306",
-   "contentTypeId": "15",
-   "name": "포천펫스타",
-   "area": "경기도 포천시",
-   "lat": 37.92345,
-   "lon": 127.2365,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/07/4133507_image2_1.jpg",
-   "tel": "0502-1949-0514",
-   "modified": "2026-10-29",
-   "period": {
-    "start": "2026-11-14",
-    "end": "2026-11-14"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "foliage",
-    "animals",
-    "nature",
-    "play"
-   ],
-   "emoji": "🍁",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://p-petstar.imweb.me/",
-   "tip": "2026 포천 펫스타 in 아트밸리는 반려가족과 시민이 함께 즐기고 소통하는 참여형 반려동물 문화축제이다. 아름다운 자연경관과 예술이 어우러진 포천아트밸리를 배경으로 반려견과 함께 도전하는 '멍파서…",
-   "detailFetched": "2026-10-30"
-  },
-  {
    "id": "1553067",
    "contentTypeId": "12",
    "name": "푸르내마을 [농촌체험]",
@@ -24911,7 +24949,7 @@
    "lat": 37.06444,
    "lon": 126.78536,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/4124297_image2_1.jpg",
-   "tel": "0507-1365-7507",
+   "tel": null,
    "modified": "2026-10-29",
    "setting": "mixed",
    "tags": [
