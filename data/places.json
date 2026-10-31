@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31 07:08",
+ "updatedAt": "2026-11-01 06:16",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -286,45 +286,6 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "청춘마이크 수도·강원권은 다양한 관객의 취향을 추적하며 방방곡곡을 누빈다. 문화가 있는 날 청년·실버 공연팀이 만들어내는 특별한 거리공연이 수도·강원권 전역을 무대로 펼쳐진다. 지금 이 순간 무대에…",
-   "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3495437",
-   "contentTypeId": "15",
-   "name": "2026 문화가 있는날 - 문화배달",
-   "area": "경기도 연천군",
-   "lat": 38.13452,
-   "lon": 127.02748,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/93/4080593_image2_1.jpg",
-   "tel": "033-253-7111",
-   "modified": "2026-07-01",
-   "period": {
-    "start": "2026-06-24",
-    "end": "2026-10-31"
-   },
-   "setting": "outdoor",
-   "tags": [],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~20:30",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "문화가 있는 날 는 도서·벽지·접경지역, 산업단지, 문화환경취약지역 등 문화접근성이 낮은 지역을 찾아가는 문화 예술 지원사업이다. 청년·실버 공연팀이 일상 가까운 공간에서 다양한 거리공연을 선보이며…",
    "detailFetched": "2026-10-09"
   },
   {
@@ -3293,7 +3254,7 @@
    "lat": 37.282,
    "lon": 126.5531,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/3539229_image2_1.jpg",
-   "tel": "031-481-2720",
+   "tel": null,
    "modified": "2026-10-30",
    "setting": "outdoor",
    "tags": [
@@ -6828,48 +6789,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "4121348",
-   "contentTypeId": "15",
-   "name": "동두천시 책문화축제",
-   "area": "경기도 동두천시",
-   "lat": 37.90974,
-   "lon": 127.05669,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/51/4121351_image2_1.JPG",
-   "tel": "031-860-2707",
-   "modified": "2026-10-12",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-10-31"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "animals"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "15:30~19:00",
-   "babyCarriage": null,
-   "homepage": "https://lib.ddc.go.kr/",
-   "tip": "동두천시 책문화축제는 책과 독서를 매개로 시민 모두가 함께 즐기고 소통하는 문화축제이다. 임영주 박사와 함께하는 명사초청강연과 윈드오케스트라,동두천시립합창단 및 매직버블쇼의 다채로운 공연, 어린이 …",
-   "detailFetched": "2026-10-13"
-  },
-  {
    "id": "2661425",
    "contentTypeId": "12",
    "name": "동두천자연휴양림",
@@ -7767,47 +7686,6 @@
    "homepage": "https://hlsi.co.kr/main/main.php",
    "tip": "마이크로(Micro) 과학박물관은 국내 최초의 현미경 전문과학박물관으로 교육과학기술부가 인가한 비영리 재단법인 21세기 생명과학 문화 재단에서 운영하고 있다. 마이크로 과학박물관에서는 전자현미경과 …",
    "detailFetched": "2026-10-22"
-  },
-  {
-   "id": "1841539",
-   "contentTypeId": "15",
-   "name": "마토예술제",
-   "area": "경기도 평택시",
-   "lat": 36.95961,
-   "lon": 127.04414,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/61/4108761_image2_1.jpg",
-   "tel": "031-669-0974",
-   "modified": "2026-09-08",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-10-31"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "16:00~20:00",
-   "babyCarriage": null,
-   "homepage": "https://www.pccf.or.kr/evnt/evntView.do?evntSn=2609040001",
-   "tip": "마토예술제는 ‘마지막 주 토요일에 하는 예술제’라는 의미를 담은 안정리 대표 문화예술축제로, 6월과 10월 각 회차별 주제를 선정하여 계절과 지역의 특색을 반영한 테마형 축제로 운영된다. 10월에는…",
-   "detailFetched": "2026-10-10"
   },
   {
    "id": "2863621",
@@ -10306,48 +10184,6 @@
    "homepage": "http://museum.buddhism.or.kr",
    "tip": "불교중앙박물관은 대한불교조계종에서 설립하여 2007년 3월 17일 개관한 불교전문 박물관이다. 불교의 문화와 역사, 전국 각 사찰에서 수장하기 어려운 불교문화유산을 보존하고 전시하기 위해서 만들었다…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "4099101",
-   "contentTypeId": "15",
-   "name": "불취무귀야시장 시즌2",
-   "area": "경기도 수원시",
-   "lat": 37.27775,
-   "lon": 127.01847,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/22/4123922_image2_1.jpg",
-   "tel": "031-8001-1101",
-   "modified": "2026-10-14",
-   "period": {
-    "start": "2026-10-10",
-    "end": "2026-10-31"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "animals"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "17:00~22:00",
-   "babyCarriage": null,
-   "homepage": "https://sscf2016.or.kr/",
-   "tip": "“취하지 않으면 돌아가지 못하리!” 정조대왕의 역사적 이야기를 담은 왕의 야시장 〈불취무귀〉가 더욱 풍성해진 시즌2로 돌아온다. 2026년 10월 10일부터 31일까지 매주 토요일, 총 4회에 걸쳐…",
-   "detailFetched": "2026-10-15"
   },
   {
    "id": "2765498",
@@ -18456,48 +18292,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3497454",
-   "contentTypeId": "15",
-   "name": "의정부지 상설 전통문화행사",
-   "area": "서울특별시 종로구",
-   "lat": 37.57462,
-   "lon": 126.97838,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/13/4056513_image2_1.jpg",
-   "tel": "02-737-6444",
-   "modified": "2026-04-08",
-   "period": {
-    "start": "2026-04-11",
-    "end": "2026-10-31"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "play"
-   ],
-   "emoji": "🎠",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~15:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "의정부지 상설 전통문화행사는 의정부지 역사유적광장을 찾는 시민 및 관광객들에게 우리의 전통문화를 널리 알려 역사도시 서울 이미지를 높이고, 평소에 경험하기 어려운 전통무예행사를 통해 문화 향유 기회…",
-   "detailFetched": "2026-10-09"
-  },
-  {
    "id": "4065899",
    "contentTypeId": "12",
    "name": "의정부천문대",
@@ -18822,7 +18616,7 @@
    "lat": 37.42067,
    "lon": 126.65312,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/4056045_image2_1.jpg",
-   "tel": "032-440-6750",
+   "tel": null,
    "modified": "2026-10-30",
    "setting": "indoor",
    "tags": [
