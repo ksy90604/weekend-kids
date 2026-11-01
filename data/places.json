@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01 06:16",
+ "updatedAt": "2026-11-02 06:54",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -1673,47 +1673,6 @@
    "detailFetched": "2026-10-10"
   },
   {
-   "id": "3113995",
-   "contentTypeId": "15",
-   "name": "경기‧양주‧지작사 드론봇 페스티벌",
-   "area": "경기도 양주시",
-   "lat": 37.83355,
-   "lon": 126.9898,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image2_1.JPG",
-   "tel": "031-8082-6161",
-   "modified": "2026-10-19",
-   "period": {
-    "start": "2026-10-30",
-    "end": "2026-11-01"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "09:00~21:00",
-   "babyCarriage": null,
-   "homepage": "https://www.yangju.go.kr/",
-   "tip": "경기‧양주‧지작사 드론봇 페스티벌은 경기도, 양주시, 지상작전사령부가 공동 주최하는 민ㆍ관ㆍ군 상생 페스티벌이다. 2026년 10월 30일부터 11월 1일까지 3일간 양주시 광적면 가납리비행장에서 …",
-   "detailFetched": "2026-10-20"
-  },
-  {
    "id": "128226",
    "contentTypeId": "12",
    "name": "경기도 민물고기 생태학습관",
@@ -2476,49 +2435,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "4134876",
-   "contentTypeId": "15",
-   "name": "고양도시농업축제",
-   "area": "경기도 고양시",
-   "lat": 37.65793,
-   "lon": 126.77006,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/77/4134877_image2_1.png",
-   "tel": "031-8075-4279",
-   "modified": "2026-10-23",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-11-01"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "bloom",
-    "animals"
-   ],
-   "emoji": "🌷",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://www.goyang.go.kr/",
-   "tip": "고양시농업기술센터가 오는 31일부터 11월 1일까지 ‘제13회 고양시 도시농업축제’를 연다. 이번 축제는 흙에서 싹트고 도시에서 자라는 도시농업의 순환 과정과 고양시민이 함께 만드는 농부 공동체 가…",
-   "detailFetched": "2026-10-25"
-  },
-  {
    "id": "2732164",
    "contentTypeId": "12",
    "name": "고양생태공원",
@@ -2641,47 +2557,6 @@
    "homepage": "https://www.goyangcm.or.kr/",
    "tip": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3383613",
-   "contentTypeId": "15",
-   "name": "고양행주한우 숯불구이축제",
-   "area": "경기도 고양시",
-   "lat": 37.65467,
-   "lon": 126.83276,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/73/4066273_image2_1.JPG",
-   "tel": "031-960-3034,3050",
-   "modified": "2026-10-29",
-   "period": {
-    "start": "2026-10-31",
-    "end": "2026-11-01"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "play"
-   ],
-   "emoji": "🎠",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": "http://gyfestival.kr/",
-   "tip": "행주한우 숯불구이 축제는 고양특례시를 대표하는 명품 한우 브랜드 ‘행주한우’의 우수성을 널리 알리고 시민과 함께 즐거움을 나누기 위해 마련된 지역 축제이다. 철저한 품질관리로 생산된 안전하고 건강한…",
-   "detailFetched": "2026-10-30"
   },
   {
    "id": "2867659",
@@ -16760,11 +16635,11 @@
    "contentTypeId": "12",
    "name": "용인농촌테마파크",
    "area": "경기도 용인시",
-   "lat": 37.17282,
-   "lon": 127.29843,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/84/3566784_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-12-03",
+   "lat": 37.17277,
+   "lon": 127.29842,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/66/4127166_image2_1.jpg",
+   "tel": "031-6193-1099",
+   "modified": "2026-11-01",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -16792,9 +16667,9 @@
    "seasonText": null,
    "hours": "09:30~17:30",
    "babyCarriage": null,
-   "homepage": "https://www.yongin.go.kr/home/yitour/ytour01/yttour05.jsp",
+   "homepage": "https://www.yongin.go.kr/",
    "tip": "용인농촌테마파크는 주변 관광자원과 연계를 고려한 농촌, 전원 특성에 맞는 규모 있는 종합 체험 시설물이다. 도시민에게 차별화된 ‘일상을 벗어난 체험 공간’과 ‘가족단위의 쾌적한 휴식 공간’을 테마별…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-02"
   },
   {
    "id": "2629751",
@@ -22797,46 +22672,6 @@
    "homepage": "https://peaceon.oopy.io/",
    "tip": "‘경주에 평화온:담’은 2026년 통일부의 하반기 평화·통일문화행사로, 역사·문화예술도시 경주에서 지역주민과 예술가, 관광객이 함께 어우러지며 평화·통일의 의미를 일상 속에서 체감하는 문화행사이다.…",
    "detailFetched": "2026-10-23"
-  },
-  {
-   "id": "3352029",
-   "contentTypeId": "15",
-   "name": "포천 한탄강 가든페스타",
-   "area": "경기도 포천시",
-   "lat": 38.08293,
-   "lon": 127.20858,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/47/4114547_image2_1.jpeg",
-   "tel": "031-538-3030",
-   "modified": "2026-10-14",
-   "period": {
-    "start": "2026-09-12",
-    "end": "2026-11-01"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "bloom",
-    "nature"
-   ],
-   "emoji": "🌷",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "09:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://www.pocheon-gardenfesta.kr/",
-   "tip": "'2026 포천 한탄강 가든페스타'는 포천 한탄강 생태경관단지에서 열리는 계절꽃과 자연을 주제로 한 대규모 생태・정원 축제이다. 유네스코 세계지질공원으로 등재 된 한탄강 지역의 광활한 자연 경관과 …",
-   "detailFetched": "2026-10-15"
   },
   {
    "id": "3011153",
