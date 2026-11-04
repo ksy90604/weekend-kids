@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04 08:04",
+ "updatedAt": "2026-11-05 08:27",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -43,47 +43,6 @@
    "homepage": "https://www.instagram.com/dmzopen_official/",
    "tip": "DMZ OPEN Festival은 비무장지대(DMZ)가 지닌 평화·생태·역사적 가치를 예술, 학술 등 다양한 방식으로 경험할 수 있도록 구성한 경기도의 대표 복합 문화 행사이다. 단순히 DMZ를 분…",
    "detailFetched": "2026-10-15"
-  },
-  {
-   "id": "2622167",
-   "contentTypeId": "15",
-   "name": "2026 경북사과홍보행사",
-   "area": "서울특별시 중구",
-   "lat": 37.56545,
-   "lon": 126.97878,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/12/4132112_image2_1.jpg",
-   "tel": "대경사과원예농협 053-740-3033경상북도 스마트농업혁신과 054-880-3376",
-   "modified": "2026-10-21",
-   "period": {
-    "start": "2026-11-02",
-    "end": "2026-11-04"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "bloom"
-   ],
-   "emoji": "🌷",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "2026 경북사과 홍보행사는 경북사과의 우수한 품질과 가치를 알리고 소비 촉진을 도모하기 위해 마련된 행사이다. 11월 2일부터 4일까지 3일간 서울광장에서 개최되며, ‘가을 왕국이 선택한 가장 빛…",
-   "detailFetched": "2026-10-22"
   },
   {
    "id": "3488421",
@@ -732,6 +691,46 @@
    "detailFetched": "2026-10-23"
   },
   {
+   "id": "4144229",
+   "contentTypeId": "15",
+   "name": "MATERIALISM｜비야케 잉겔스 그룹 기획 전시",
+   "area": "서울특별시 중구",
+   "lat": 37.56688,
+   "lon": 126.9767,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/31/4144231_image2_1.jpg",
+   "tel": "070-7178-5840",
+   "modified": "2026-11-04",
+   "period": {
+    "start": "2026-11-07",
+    "end": "2027-02-28"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "museum"
+   ],
+   "emoji": "🏛️",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~18:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "국내 최초 세계적인 건축설계그룹 BIG 기획전이 서울도시건축전시관에서 진행된다. 독특하고 실험적인 동시에 사용자의 목적과 경험을 함께 고려하는 건축 스타일로 유명한 BIG 설립자인 비야케 잉겔스. …",
+   "detailFetched": "2026-11-05"
+  },
+  {
    "id": "4064519",
    "contentTypeId": "14",
    "name": "X:PORT 엑스포트 인천국제공항 디지털전시체험관",
@@ -1065,7 +1064,7 @@
    "lat": 37.37952,
    "lon": 126.80327,
    "image": "https://tong.visitkorea.or.kr/cms/resource/82/3550082_image2_1.jpg",
-   "tel": "시흥시청 녹지과 031-310-2342",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -1483,7 +1482,7 @@
    "lat": 37.77368,
    "lon": 126.43527,
    "image": "https://tong.visitkorea.or.kr/cms/resource/21/3383821_image2_1.JPG",
-   "tel": "032-934-7887",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -4366,11 +4365,11 @@
    "contentTypeId": "12",
    "name": "국망봉자연휴양림",
    "area": "경기도 포천시",
-   "lat": 38.02897,
-   "lon": 127.39629,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/09/3580909_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-12-10",
+   "lat": 38.02892,
+   "lon": 127.39627,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/09/3580909_image2_1.jpg",
+   "tel": "031-532-0014",
+   "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -4395,7 +4394,7 @@
    "babyCarriage": null,
    "homepage": "http://www.kookmang.co.kr",
    "tip": "포천 최고봉 중 하나로 손꼽히는 국망봉은 수려한 경관을 자랑한다. 맑은 계곡물과 천연림이 울창한 곳에 자리 잡고 있는 국망봉자연휴양림은 피톤치드가 풍부해 산림욕에 적합하며 자연 생태계의 온전한 모습…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-05"
   },
   {
    "id": "4060434",
@@ -4488,7 +4487,7 @@
    "lat": 38.1045,
    "lon": 127.0215,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/3467445_image2_1.JPG",
-   "tel": "031-830-4311",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -4897,47 +4896,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3401306",
-   "contentTypeId": "15",
-   "name": "김포 해병대 문화축제 in 대명항",
-   "area": "경기도 김포시",
-   "lat": 37.64001,
-   "lon": 126.53945,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image2_1.jpg",
-   "tel": "031-980-5110",
-   "modified": "2026-10-20",
-   "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-07"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~19:00",
-   "babyCarriage": null,
-   "homepage": "https://www.gimpo.go.kr/u/53850",
-   "tip": "김포 해병대 문화축제 in 대명항은 해병대 제2사단 주둔지라는 지역적 특성을 살려 해병대의 강인한 정신과 전통을 기리는 축제이다. 해병대 장비 전시와 군악대·의장대 공연을 비롯해 강철근육 선발대회,…",
-   "detailFetched": "2026-10-22"
-  },
-  {
    "id": "3081486",
    "contentTypeId": "12",
    "name": "김포곤충농장",
@@ -4983,7 +4941,7 @@
    "lat": 37.7209,
    "lon": 126.55567,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/3350415_image2_1.JPG",
-   "tel": "031-981-7300",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -5214,7 +5172,7 @@
    "lat": 37.3877,
    "lon": 127.106,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/3541792_image2_1.jpg",
-   "tel": "성남시청 공원과 031-729-4390",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -6063,7 +6021,7 @@
    "lat": 37.49107,
    "lon": 126.90321,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3399393_image2_1.JPG",
-   "tel": "영등포구청 정원도시과 02-2670-3764",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -7606,7 +7564,7 @@
    "lat": 37.46911,
    "lon": 127.03682,
    "image": "https://tong.visitkorea.or.kr/cms/resource/02/3571602_image2_1.jpg",
-   "tel": "02-575-3895",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -7908,7 +7866,7 @@
    "lat": 37.28775,
    "lon": 127.68787,
    "image": "https://tong.visitkorea.or.kr/cms/resource/03/3540503_image2_1.jpg",
-   "tel": "031-885-9952",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -10568,7 +10526,7 @@
    "lat": 37.50966,
    "lon": 127.09809,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3584997_image2_1.jpg",
-   "tel": "송파구 문화예술과 02-2147-2801",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -11596,11 +11554,11 @@
    "contentTypeId": "12",
    "name": "선감어촌체험마을",
    "area": "경기도 안산시",
-   "lat": 37.22056,
-   "lon": 126.62989,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/34/3345134_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-03-19",
+   "lat": 37.22051,
+   "lon": 126.62988,
+   "image": null,
+   "tel": "010-7152-6133",
+   "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
     "craft"
@@ -11621,9 +11579,9 @@
    "seasonText": null,
    "hours": "09:00~17:00",
    "babyCarriage": "없음",
-   "homepage": "http://www.xn--439a53xdvf83eg7bu8mura767c.kr/GK001/index.do",
+   "homepage": "http://www.선감어촌체험마을.kr",
    "tip": "멀리서 보면 섬 같지 않고 큰 언덕처럼 보인다고 하여 부르기 시작한 대부도는 섬이다. 오이도와 대부도 방아머리를 잇는 총연장 12.676m의 국내 제일의 방조제인 시화방조제를 통해 안산시와 시흥시까…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-05"
   },
   {
    "id": "2743349",
@@ -11633,7 +11591,7 @@
    "lat": 37.2117,
    "lon": 127.1078,
    "image": "https://tong.visitkorea.or.kr/cms/resource/19/3538719_image2_1.jpg",
-   "tel": "화성시 동부공원관리과 031-5189-6606",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -12131,7 +12089,7 @@
    "lat": 37.59093,
    "lon": 127.04267,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/4062532_image2_1.jpg",
-   "tel": "02-969-8851",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -14226,7 +14184,7 @@
    "lat": 37.01132,
    "lon": 127.22836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/2996017_image2_1.jpg",
-   "tel": "031-676-4352",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -14458,7 +14416,7 @@
    "lat": 37.5071,
    "lon": 126.8745,
    "image": "https://tong.visitkorea.or.kr/cms/resource/80/3526880_image2_1.jpg",
-   "tel": "구로구청 체육진흥과 02-860-2547",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -14756,7 +14714,7 @@
    "lat": 37.78632,
    "lon": 127.03155,
    "image": "https://tong.visitkorea.or.kr/cms/resource/70/4093670_image2_1.jpg",
-   "tel": "031-840-9986",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -15509,7 +15467,7 @@
    "lat": 37.51872,
    "lon": 126.92195,
    "image": "https://tong.visitkorea.or.kr/cms/resource/74/3569374_image2_1.jpg",
-   "tel": "여의도샛강생태공원 02-3780-0561",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -17335,11 +17293,11 @@
    "contentTypeId": "12",
    "name": "원당종마목장 (렛츠런팜 원당)",
    "area": "경기도 고양시",
-   "lat": 37.6615,
-   "lon": 126.8683,
+   "lat": 37.66145,
+   "lon": 126.86829,
    "image": null,
-   "tel": null,
-   "modified": "2025-04-17",
+   "tel": "02-1566-3333",
+   "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -17353,8 +17311,8 @@
     "school"
    ],
    "price": null,
-   "parking": 0,
-   "parkingText": "가능 / 요금 (무료)",
+   "parking": null,
+   "parkingText": "가능",
    "closedDays": [
     1,
     2
@@ -17363,11 +17321,11 @@
    "months": null,
    "restText": "매주 월요일~화요일 / 공휴일 / 설·추석 연휴/ 한국마사회 휴일",
    "seasonText": null,
-   "hours": "09:00~16:00",
+   "hours": "09:00~17:00",
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "서울 근교 고양시 서삼릉에 인접한 원당 종마목장은 한국마사회에서 설치하여 운영하는 곳이다. 1988년 서울 올림픽 게임이 있을 때는 크로스컨트리 종목의 경기장으로도 활용되었다. 목장의 목가적 풍경에…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-05"
   },
   {
    "id": "3022646",
@@ -17710,7 +17668,7 @@
    "lat": 37.62296,
    "lon": 127.10128,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3412649_image2_1.JPG",
-   "tel": "평일 02-2197-6128주말 02-2197-5910",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -21139,11 +21097,11 @@
    "contentTypeId": "12",
    "name": "축령산자연휴양림",
    "area": "경기도 남양주시",
-   "lat": 37.75296,
-   "lon": 127.30917,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/83/3077083_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-07-29",
+   "lat": 37.75291,
+   "lon": 127.30915,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/83/3077083_image2_1.jpg",
+   "tel": "031-8008-6690",
+   "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -21169,7 +21127,7 @@
    "babyCarriage": null,
    "homepage": "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030050",
    "tip": "경기도 남양주시 수동면 외방리에 소재한 축령산자연휴양림은 서울에서 약 1시간 거리에 있다. 주요 시설물로는 숲속의집 7동, 산림휴양관 1동 18실, 축령관 1동, 야영장 30개, 공중화장실 3동을 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-05"
   },
   {
    "id": "774640",
@@ -21704,11 +21662,11 @@
    "contentTypeId": "12",
    "name": "큰무리어촌체험마을",
    "area": "인천광역시 영종구",
-   "lat": 37.40927,
-   "lon": 126.41351,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/56/3047256_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-06-30",
+   "lat": 37.40922,
+   "lon": 126.4135,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/56/3047256_image2_1.jpg",
+   "tel": "032-751-0310",
+   "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -21722,17 +21680,17 @@
    ],
    "price": null,
    "parking": 0,
-   "parkingText": "가능 / 요금 (무료)",
+   "parkingText": "가능요금 (무료)",
    "closedDays": [],
    "closedDates": [],
    "months": null,
    "restText": "연중무휴",
    "seasonText": null,
-   "hours": "상시 개방",
+   "hours": "10:00~17:00",
    "babyCarriage": "없음",
-   "homepage": "http://xn--oy2b2b23di5xg1bu8mura20tbsn.kr/IC001/index.do",
+   "homepage": "https://itour.incheon.go.kr/",
    "tip": "큰무리어촌체험마을은 서해안 특유의 넓은 갯벌이 발달한 곳으로, 갯벌 체험은 물론 바다낚시, 어장 체험, 횃불 게잡이 등 다양한 어촌 활동을 즐길 수 있는 마을이다. 씨름, 미니축구 같은 갯벌 체육 …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-05"
   },
   {
    "id": "3014808",
@@ -21846,7 +21804,7 @@
    "lat": 37.54931,
    "lon": 127.07628,
    "image": "https://tong.visitkorea.or.kr/cms/resource/03/3567303_image2_1.jpg",
-   "tel": "02-455-7119",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "outdoor",
    "tags": [
@@ -23056,7 +23014,7 @@
    "lat": 37.54546,
    "lon": 127.20608,
    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3078540_image2_1.jpg",
-   "tel": "031-790-7990",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -24150,7 +24108,7 @@
    "lat": 37.5936,
    "lon": 127.00094,
    "image": "https://tong.visitkorea.or.kr/cms/resource/71/3013371_image2_1.jpg",
-   "tel": "0507-1319-1545",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -24894,7 +24852,7 @@
    "lat": 37.47185,
    "lon": 126.62204,
    "image": null,
-   "tel": "032-868-5898",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -24933,7 +24891,7 @@
    "lat": 37.48076,
    "lon": 126.91878,
    "image": "https://tong.visitkorea.or.kr/cms/resource/80/3540180_image2_1.jpg",
-   "tel": "02-858-2500",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -24976,7 +24934,7 @@
    "lat": 37.5227,
    "lon": 127.03636,
    "image": "https://tong.visitkorea.or.kr/cms/resource/54/3507854_image2_1.jpg",
-   "tel": "02-541-3523~5",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
@@ -25054,11 +25012,11 @@
    "contentTypeId": "12",
    "name": "화성 궁평어촌체험휴양마을",
    "area": "경기도 화성시",
-   "lat": 37.11621,
-   "lon": 126.68339,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/29/3031629_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-10-23",
+   "lat": 37.11616,
+   "lon": 126.68337,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/29/3031629_image2_1.JPG",
+   "tel": "0507-1428-7339",
+   "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -25079,11 +25037,11 @@
    "months": null,
    "restText": "연중무휴",
    "seasonText": null,
-   "hours": "상시 개방 / ※ 체험별 이용시간은 상이하므로 방문 전 문의 요망",
+   "hours": "09:00~17:00",
    "babyCarriage": null,
-   "homepage": "http://www.xn--of0bw6uujj0qb27lcpaj19at4d.kr/GK004/index.do",
+   "homepage": "https://ggtour.or.kr",
    "tip": "화성 궁평어촌체험휴양마을은 깨끗하고 조용한 어촌마을로서 휴양과 어촌체험을 동시에 즐길 수 있는 마을이다. [궁평리]란 지명은 옛날 궁(국가)에서 관리하던 땅이 많아 [궁평] 또는[궁들]이라 불리던 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-05"
   },
   {
    "id": "2514563",
@@ -25137,7 +25095,7 @@
    "lat": 37.13259,
    "lon": 126.92806,
    "image": "https://tong.visitkorea.or.kr/cms/resource/00/3563100_image2_1.jpg",
-   "tel": "031-5189-7038",
+   "tel": null,
    "modified": "2026-11-03",
    "setting": "indoor",
    "tags": [
