@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05 08:27",
+ "updatedAt": "2026-11-06 08:29",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -490,6 +490,48 @@
    "homepage": null,
    "tip": "2026 안성맞춤 상설공연 ‘톡톡달콤 페스티벌(톡톡 튀는 공연+달콤한 체험)’은 안성 예총의 대표적인 문화예술 축제로, 지역민과 가족 단위 관객 모두가 함께 즐길 수 있는 세대 통합형 프로그램으로 …",
    "detailFetched": "2026-10-22"
+  },
+  {
+   "id": "3367339",
+   "contentTypeId": "15",
+   "name": "2026 우리쌀 우리술 K-라이스페스타",
+   "area": "경기도 고양시",
+   "lat": 37.66893,
+   "lon": 126.7458,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/60/4111660_image2_1.jpg",
+   "tel": "070-4681-5717",
+   "modified": "2026-09-16",
+   "period": {
+    "start": "2026-11-27",
+    "end": "2026-11-29"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "animals"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~18:00",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "K-라이스페스타는 대국민 국산 쌀 소비 확대와 우리쌀의 새로운 가치를 알리기 위해 우리 술 및 쌀 가공식품을 발굴·홍보·판매하는 축제이다. 전국의 다양한 우리술과 쌀가공식품을 한자리에서 만나보고 직…",
+   "detailFetched": "2026-11-06"
   },
   {
    "id": "4101384",
@@ -3053,11 +3095,11 @@
    "contentTypeId": "12",
    "name": "구로리어린이공원",
    "area": "서울특별시 구로구",
-   "lat": 37.49143,
-   "lon": 126.89184,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/43/3468043_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-06-10",
+   "lat": 37.49138,
+   "lon": 126.89183,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/43/3468043_image2_1.jpg",
+   "tel": "구로구 공원녹지과 02-860-2396",
+   "modified": "2026-11-05",
    "setting": "outdoor",
    "tags": [
     "animals",
@@ -3081,7 +3123,7 @@
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "구로리공원은 서울시 구로구 구로동에 위치한 어린이 공원이다. 기존의 단조롭고 노후된 어린이 공원을 창의력을 키울 수 있는 공원으로 새롭게 단장하여 조성되었다. 어린이가 이용할 수 있는 다양한 시설과…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-06"
   },
   {
    "id": "3007378",
@@ -4368,7 +4410,7 @@
    "lat": 38.02892,
    "lon": 127.39627,
    "image": "https://tong.visitkorea.or.kr/cms/resource/09/3580909_image2_1.jpg",
-   "tel": "031-532-0014",
+   "tel": null,
    "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
@@ -4894,6 +4936,47 @@
    "homepage": "https://ayac.or.kr/museum/",
    "tip": "건축가 김중업이 설계한 옛 유유산업 안양공장을 새롭게 단장해 2014년 개관한 국내 최초의 건축 전문 공립박물관이다. 1959년 설계된 공장은 김중업의 초기 작품으로, 건축물에 조각 작품을 결합하고…",
    "detailFetched": "2026-10-09"
+  },
+  {
+   "id": "3401306",
+   "contentTypeId": "15",
+   "name": "김포 해병대 문화축제 in 대명항",
+   "area": "경기도 김포시",
+   "lat": 37.64001,
+   "lon": 126.53945,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image2_1.jpg",
+   "tel": "031-980-5110",
+   "modified": "2026-11-05",
+   "period": {
+    "start": "2026-11-07",
+    "end": "2026-11-07"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft"
+   ],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "11:00~19:00",
+   "babyCarriage": null,
+   "homepage": "https://www.gimpo.go.kr/u/53850",
+   "tip": "김포 해병대 문화축제 in 대명항은 해병대 제2사단 주둔지라는 지역적 특성을 살려 해병대의 강인한 정신과 전통을 기리는 축제이다. 해병대 장비 전시와 군악대·의장대 공연을 비롯해 강철근육 선발대회,…",
+   "detailFetched": "2026-11-06"
   },
   {
    "id": "3081486",
@@ -11557,7 +11640,7 @@
    "lat": 37.22051,
    "lon": 126.62988,
    "image": null,
-   "tel": "010-7152-6133",
+   "tel": null,
    "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
@@ -13982,6 +14065,48 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "3555835",
+   "contentTypeId": "15",
+   "name": "안산사이언스밸리(ASV) 과학축제",
+   "area": "경기도 안산시",
+   "lat": 37.30016,
+   "lon": 126.83771,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image2_1.jpg",
+   "tel": "02-780-6881",
+   "modified": "2026-11-05",
+   "period": {
+    "start": "2026-11-07",
+    "end": "2026-11-08"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "science",
+    "play"
+   ],
+   "emoji": "🔭",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~16:00",
+   "babyCarriage": null,
+   "homepage": "https://asv-2026-delta.vercel.app/",
+   "tip": "2026 안산사이언스밸리(ASV) 과학축제는 AI, 로봇 등 미래 과학기술을 한자리에서 만나볼 수 있는 시민 참여형 과학문화축제이다. 안산시가 ASV 유관기관 및 대학, 연구기관, 기업, 재단, 단…",
+   "detailFetched": "2026-11-06"
+  },
+  {
    "id": "3081404",
    "contentTypeId": "14",
    "name": "안산산업역사박물관",
@@ -15811,6 +15936,48 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "2613615",
+   "contentTypeId": "15",
+   "name": "영주 사과축제",
+   "area": "서울 중구",
+   "lat": 37.56907,
+   "lon": 126.97759,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/79/4139579_image2_1.jpg",
+   "tel": "054-630-8706",
+   "modified": "2026-11-05",
+   "period": {
+    "start": "2026-11-13",
+    "end": "2026-11-15"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "nature"
+   ],
+   "emoji": "🌳",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~19:00",
+   "babyCarriage": null,
+   "homepage": "https://yctf.or.kr/aspf/",
+   "tip": "2026 영주사과축제는 영주의 맑은 자연 속에서 자란 최고 품질의 영주 사과를 오감으로 즐기는 가을 축제로, 올해 영주사과축제는 영주 사과의 맛과 매력을 산지와 도심에서 동시에 전한다. 10월 30…",
+   "detailFetched": "2026-11-06"
+  },
+  {
    "id": "130716",
    "contentTypeId": "14",
    "name": "영집궁시박물관",
@@ -16081,44 +16248,6 @@
    "homepage": "https://www.instagram.com/ohshanyy",
    "tip": "오산반려동물테마파크는 오산시에서 설립한 반려동물 복합 문화공간으로 다양한 교육 프로그램을 진행하고 반려동물과 함께 즐길 수 있는 공간을 제공한다. 예비 및 초보 견주들에게 필요한 교감, 산책, 펫티…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3351644",
-   "contentTypeId": "12",
-   "name": "오산시청물놀이장",
-   "area": "경기도 오산시",
-   "lat": 37.14893,
-   "lon": 127.0773,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/89/3386989_image2_1.jpg",
-   "tel": null,
-   "modified": "2024-11-06",
-   "setting": "outdoor",
-   "tags": [
-    "water",
-    "nature",
-    "play"
-   ],
-   "emoji": "🏊",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [
-    1
-   ],
-   "closedDates": [],
-   "months": null,
-   "restText": "매주 월요일, 우천 시",
-   "seasonText": null,
-   "hours": "10:00~16:50",
-   "babyCarriage": null,
-   "homepage": "http://www.osan.go.kr",
-   "tip": "오산의 여름 랜드마크로 손꼽히는 오산시청물놀이장은 2023년에는 7월 8일에 개장하였으며 조합놀이대, 워터드롭, 워터샤워 등 8가지의 시원한 놀이시설이 설치되어 있어 아이들이 놀기에 좋다. 근방의 …",
-   "detailFetched": "2026-10-10"
   },
   {
    "id": "2736380",
@@ -17296,7 +17425,7 @@
    "lat": 37.66145,
    "lon": 126.86829,
    "image": null,
-   "tel": "02-1566-3333",
+   "tel": null,
    "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
@@ -21100,7 +21229,7 @@
    "lat": 37.75291,
    "lon": 127.30915,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3077083_image2_1.jpg",
-   "tel": "031-8008-6690",
+   "tel": null,
    "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
@@ -21665,7 +21794,7 @@
    "lat": 37.40922,
    "lon": 126.4135,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/3047256_image2_1.jpg",
-   "tel": "032-751-0310",
+   "tel": null,
    "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
@@ -25015,7 +25144,7 @@
    "lat": 37.11616,
    "lon": 126.68337,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/3031629_image2_1.JPG",
-   "tel": "0507-1428-7339",
+   "tel": null,
    "modified": "2026-11-04",
    "setting": "outdoor",
    "tags": [
