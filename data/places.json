@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06 08:29",
+ "updatedAt": "2026-11-07 07:55",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -414,12 +414,12 @@
    "area": "서울특별시 강동구",
    "lat": 37.54525,
    "lon": 127.11798,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/08/4124908_image2_1.jpg",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/63/4147163_image2_1.jpg",
    "tel": "1644-6155",
-   "modified": "2026-10-19",
+   "modified": "2026-11-06",
    "period": {
     "start": "2026-10-18",
-    "end": "2026-11-29"
+    "end": "2026-11-22"
    },
    "setting": "outdoor",
    "tags": [
@@ -447,7 +447,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "누구나 자신의 속도로 즐기는 주말 아침, ‘쉬엄쉬엄모닝’이 열린다. 걷기·달리기·자전거는 물론 유아차와 반려견 동반까지, 자신의 체력에 맞춰 원하는 방식으로 참여할 수 있는 서울형 아침 운동 프로그…",
-   "detailFetched": "2026-10-20"
+   "detailFetched": "2026-11-07"
   },
   {
    "id": "3399435",
@@ -1484,11 +1484,11 @@
    "contentTypeId": "12",
    "name": "강화도령 화문석 체험장",
    "area": "인천광역시 강화군",
-   "lat": 37.7679,
-   "lon": 126.44575,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/55/3499155_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-07-08",
+   "lat": 37.76784,
+   "lon": 126.44565,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/55/3499155_image2_1.jpg",
+   "tel": "032-934-6858",
+   "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -1510,11 +1510,11 @@
    "months": null,
    "restText": "매주 일요일",
    "seasonText": null,
-   "hours": "09:00~17:30",
+   "hours": "10:00~16:00",
    "babyCarriage": "없음",
    "homepage": "http://hwamunseok.com",
    "tip": "강화도령화문석은 100년 전통의 왕골 공예 기술을 계승하며, 강화도에서 직접 왕골을 재배하고 화문석을 짜는 유일한 전통 공방이다. 이곳은 단순한 전시 공간을 넘어, 관람객이 직접 참여하고 체험할 수…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-07"
   },
   {
    "id": "129810",
@@ -1918,43 +1918,6 @@
    "homepage": "https://www.kocef.org",
    "tip": "경기도자박물관은 조선시대 500년간 왕실용 도자기를 생산했던 관요의 고장 경기도 광주에 위치하고 있다. 박물관은 광주 관요는 물론, 경기도에 소재하는 초기 청자 및 백자에서부터 근·현대 도자에 이르…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3408892",
-   "contentTypeId": "14",
-   "name": "경기도해양수산자원연구소민물고기생태학습관",
-   "area": "경기도 양평군",
-   "lat": 37.51175,
-   "lon": 127.63847,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/49/3408849_image2_1.jpg",
-   "tel": null,
-   "modified": "2024-11-07",
-   "setting": "indoor",
-   "tags": [
-    "craft",
-    "nature"
-   ],
-   "emoji": "🌳",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [
-    1
-   ],
-   "closedDates": [],
-   "months": null,
-   "restText": "매주 월요일 휴무",
-   "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "양평군 용문면 광탄리에 위치한 민물고기 생태학습관은 경기도민물고기연구소에서 운영하고 있다. 민물고기의 생태를 학습하기 위해 2003년 7월에 개관했으며 학습관 1층에는 민물고기 65종 3500여 마…",
-   "detailFetched": "2026-10-10"
   },
   {
    "id": "3368470",
@@ -3098,7 +3061,7 @@
    "lat": 37.49138,
    "lon": 126.89183,
    "image": "https://tong.visitkorea.or.kr/cms/resource/43/3468043_image2_1.jpg",
-   "tel": "구로구 공원녹지과 02-860-2396",
+   "tel": null,
    "modified": "2026-11-05",
    "setting": "outdoor",
    "tags": [
@@ -4561,12 +4524,12 @@
    "id": "1619098",
    "contentTypeId": "12",
    "name": "굴포천 생태하천",
-   "area": "인천광역시 부평구",
-   "lat": 37.51191,
-   "lon": 126.73665,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/60/3523760_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-01",
+   "area": "인천 부평구",
+   "lat": 37.51186,
+   "lon": 126.73664,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/60/3523760_image2_1.jpg",
+   "tel": "032-509-7451~4",
+   "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -4589,9 +4552,9 @@
    "seasonText": null,
    "hours": "상시 개방",
    "babyCarriage": null,
-   "homepage": "https://www.icbp.go.kr/tour/info/ecology_gulpo.jsp",
+   "homepage": "https://www.icbp.go.kr/tour",
    "tip": "굴포천 생태하천은 물길을 벗 삼아 휴식을 누릴 수 있는 인천광역시 부평구를 대표하는 친수 공간이다. 2008년에 굴포천 자연형 하천 사업을 통해 부평구청에서 부천 경계까지 6㎞ 구간을 생태하천으로 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-07"
   },
   {
    "id": "2591809",
@@ -12286,8 +12249,8 @@
    "lat": 37.40736,
    "lon": 126.74633,
    "image": null,
-   "tel": null,
-   "modified": "2026-02-27",
+   "tel": "032-435-7076",
+   "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -12302,8 +12265,8 @@
     "school"
    ],
    "price": null,
-   "parking": 300,
-   "parkingText": "가능요금 (최초 30분 300원 / 이후 15분 당 150원 추가 요금 발생)",
+   "parking": null,
+   "parkingText": "가능",
    "closedDays": [
     1
    ],
@@ -12313,11 +12276,11 @@
    "months": null,
    "restText": "매주 월요일 (단, 월요일이 공휴일인 경우 그 다음날) / 1월 1일 / 법정 공휴일 다음날 / 설·추석 연휴",
    "seasonText": null,
-   "hours": "04:00~21:00",
+   "hours": "※ 시설별로 이용시간 상이 자세한 사항은 전화문의",
    "babyCarriage": null,
    "homepage": null,
    "tip": "소래습지생태공원은 갯벌, 갯골과 폐염전 지역을 다양한 생물 군락지 및 철새 도래지로 복원시키기 위한 공원 조성 사업을 2009년 5월 완료했다. 약 350만㎡에 달하는 넓은 부지에서 습지 내에서 각…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-07"
   },
   {
    "id": "2611136",
@@ -14073,7 +14036,7 @@
    "lon": 126.83771,
    "image": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image2_1.jpg",
    "tel": "02-780-6881",
-   "modified": "2026-11-05",
+   "modified": "2026-11-06",
    "period": {
     "start": "2026-11-07",
     "end": "2026-11-08"
@@ -14104,7 +14067,7 @@
    "babyCarriage": null,
    "homepage": "https://asv-2026-delta.vercel.app/",
    "tip": "2026 안산사이언스밸리(ASV) 과학축제는 AI, 로봇 등 미래 과학기술을 한자리에서 만나볼 수 있는 시민 참여형 과학문화축제이다. 안산시가 ASV 유관기관 및 대학, 연구기관, 기업, 재단, 단…",
-   "detailFetched": "2026-11-06"
+   "detailFetched": "2026-11-07"
   },
   {
    "id": "3081404",
@@ -17536,8 +17499,8 @@
    "lat": 37.51313,
    "lon": 126.69426,
    "image": null,
-   "tel": null,
-   "modified": "2026-02-27",
+   "tel": "032-440-5817",
+   "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -17561,7 +17524,7 @@
    "babyCarriage": null,
    "homepage": "https://www.incheon.go.kr/park/park010601",
    "tip": "인천광역시 부평구 산곡동에 위치한 원적산공원 은행나무숲은 자연과 휴식을 동시에 즐길 수 있는 아름다운 공간이다. 이곳은 원적산의 일부분으로, 특히 가을에 은행나무가 황금빛으로 물들어 많은 사람들에게…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-07"
   },
   {
    "id": "2733099",
