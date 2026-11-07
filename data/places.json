@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07 07:55",
+ "updatedAt": "2026-11-08 06:39",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -287,49 +287,6 @@
    "detailFetched": "2026-10-31"
   },
   {
-   "id": "3552019",
-   "contentTypeId": "15",
-   "name": "2026 뷰티썸 수원",
-   "area": "경기도 수원시",
-   "lat": 37.28583,
-   "lon": 127.05945,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/86/4114586_image2_1.jpg",
-   "tel": "02-6121-6229",
-   "modified": "2026-09-22",
-   "period": {
-    "start": "2026-11-05",
-    "end": "2026-11-07"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "animals",
-    "play"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 10000,
-    "child": 10000
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~17:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "탐색을 넘어 결정을 내리는 곳, K-뷰티의 모든 가치가 하나로 연결되는 〈2026 뷰티썸 수원(BeautySum Korea Suwon 2026)〉은 오는 11월 5일(목)부터 7일(토)까지 3일간 …",
-   "detailFetched": "2026-10-15"
-  },
-  {
    "id": "2720203",
    "contentTypeId": "15",
    "name": "2026 서울거리공연 구석구석라이브",
@@ -448,48 +405,6 @@
    "homepage": null,
    "tip": "누구나 자신의 속도로 즐기는 주말 아침, ‘쉬엄쉬엄모닝’이 열린다. 걷기·달리기·자전거는 물론 유아차와 반려견 동반까지, 자신의 체력에 맞춰 원하는 방식으로 참여할 수 있는 서울형 아침 운동 프로그…",
    "detailFetched": "2026-11-07"
-  },
-  {
-   "id": "3399435",
-   "contentTypeId": "15",
-   "name": "2026 안성맞춤 상설공연 “톡톡달콤 페스티벌”",
-   "area": "경기도 안성시",
-   "lat": 37.05638,
-   "lon": 127.45166,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/50/4130950_image2_1.jpg",
-   "tel": "031-677-2554",
-   "modified": "2026-10-20",
-   "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-07"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "play"
-   ],
-   "emoji": "🎠",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~16:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "2026 안성맞춤 상설공연 ‘톡톡달콤 페스티벌(톡톡 튀는 공연+달콤한 체험)’은 안성 예총의 대표적인 문화예술 축제로, 지역민과 가족 단위 관객 모두가 함께 즐길 수 있는 세대 통합형 프로그램으로 …",
-   "detailFetched": "2026-10-22"
   },
   {
    "id": "3367339",
@@ -1487,7 +1402,7 @@
    "lat": 37.76784,
    "lon": 126.44565,
    "image": "https://tong.visitkorea.or.kr/cms/resource/55/3499155_image2_1.jpg",
-   "tel": "032-934-6858",
+   "tel": null,
    "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
@@ -4528,7 +4443,7 @@
    "lat": 37.51186,
    "lon": 126.73664,
    "image": "https://tong.visitkorea.or.kr/cms/resource/60/3523760_image2_1.jpg",
-   "tel": "032-509-7451~4",
+   "tel": null,
    "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
@@ -4899,47 +4814,6 @@
    "homepage": "https://ayac.or.kr/museum/",
    "tip": "건축가 김중업이 설계한 옛 유유산업 안양공장을 새롭게 단장해 2014년 개관한 국내 최초의 건축 전문 공립박물관이다. 1959년 설계된 공장은 김중업의 초기 작품으로, 건축물에 조각 작품을 결합하고…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3401306",
-   "contentTypeId": "15",
-   "name": "김포 해병대 문화축제 in 대명항",
-   "area": "경기도 김포시",
-   "lat": 37.64001,
-   "lon": 126.53945,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image2_1.jpg",
-   "tel": "031-980-5110",
-   "modified": "2026-11-05",
-   "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-07"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~19:00",
-   "babyCarriage": null,
-   "homepage": "https://www.gimpo.go.kr/u/53850",
-   "tip": "김포 해병대 문화축제 in 대명항은 해병대 제2사단 주둔지라는 지역적 특성을 살려 해병대의 강인한 정신과 전통을 기리는 축제이다. 해병대 장비 전시와 군악대·의장대 공연을 비롯해 강철근육 선발대회,…",
-   "detailFetched": "2026-11-06"
   },
   {
    "id": "3081486",
@@ -12249,7 +12123,7 @@
    "lat": 37.40736,
    "lon": 126.74633,
    "image": null,
-   "tel": "032-435-7076",
+   "tel": null,
    "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
@@ -16247,47 +16121,6 @@
    "detailFetched": "2026-10-10"
   },
   {
-   "id": "3113222",
-   "contentTypeId": "15",
-   "name": "온 가족 책 잔치",
-   "area": "서울특별시 종로구",
-   "lat": 37.57968,
-   "lon": 126.98236,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/36/4128436_image2_1.jpg",
-   "tel": "02-2011-5742",
-   "modified": "2026-10-16",
-   "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-07"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://jdlib.sen.go.kr/jdlib/board/index.do?menu_idx=242&manage_idx=2478",
-   "tip": "온 가족 책 잔치는 2013년부터 매년 가을 정독도서관에서 열려온 서울시교육청 대표 독서문화 축제이다. 책을 매개로 가족과 이웃이 함께 어울리며 소통할 수 있는 장을 마련하고, 다양한 체험과 공연,…",
-   "detailFetched": "2026-10-17"
-  },
-  {
    "id": "2747797",
    "contentTypeId": "12",
    "name": "온동물체험농장",
@@ -17499,7 +17332,7 @@
    "lat": 37.51313,
    "lon": 126.69426,
    "image": null,
-   "tel": "032-440-5817",
+   "tel": null,
    "modified": "2026-11-06",
    "setting": "outdoor",
    "tags": [
@@ -20881,44 +20714,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "4056606",
-   "contentTypeId": "15",
-   "name": "청백리의 집, 오늘을 비추다",
-   "area": "경기도 광명시",
-   "lat": 37.43393,
-   "lon": 126.87773,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/72/4096372_image2_1.jpg",
-   "tel": "02-6015-2592",
-   "modified": "2026-08-11",
-   "period": {
-    "start": "2026-09-05",
-    "end": "2026-11-07"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "museum"
-   ],
-   "emoji": "🏛️",
-   "ages": [
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~15:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "오리이원익 종택 및 관감당(충현박물관)에서 전통 문화 행사 '청백리의 집, 오늘을 비추다'를 운영한다. 조선의 대표 청백리 오리 이원익 대감의 청렴한 삶과 인조 임금이 하사했던 관감당을 주제로 연극…",
-   "detailFetched": "2026-10-09"
-  },
-  {
    "id": "3498409",
    "contentTypeId": "12",
    "name": "청사초롱 유아숲체험원",
@@ -22682,48 +22477,6 @@
    "homepage": "https://www.pyeongtaek.go.kr/agro-ecopark/",
    "tip": "평택시농업생태원은 2018년 10월에 개장하여 114.654㎡ 면적에 농업·농촌 볼거리 외에 어린이 놀이터와 다양한 시설 및 꽃축제, 농촌문화체험, 농업교육, 텃밭 등 다양한 체험을 진행하며 사람들…",
    "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "4063702",
-   "contentTypeId": "15",
-   "name": "평화온담",
-   "area": "경상북도 경주시",
-   "lat": 35.83531,
-   "lon": 129.21806,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/09/4133309_image2_1.png",
-   "tel": "02-6958-7225",
-   "modified": "2026-10-22",
-   "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-07"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "animals"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://peaceon.oopy.io/",
-   "tip": "‘경주에 평화온:담’은 2026년 통일부의 하반기 평화·통일문화행사로, 역사·문화예술도시 경주에서 지역주민과 예술가, 관광객이 함께 어우러지며 평화·통일의 의미를 일상 속에서 체감하는 문화행사이다.…",
-   "detailFetched": "2026-10-23"
   },
   {
    "id": "3011153",
