@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08 06:39",
+ "updatedAt": "2026-11-09 06:53",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -5503,48 +5503,6 @@
    "homepage": "https://netmarblegamemuseum.org/ko",
    "tip": "넷마블게임박물관은 게임의 역사와 문화적 가치를 조명하고 있다. 국내외 게임 소장품을 만나볼 수 있는 전시 공간이며 다양한 게임 자료를 열람할 수 있는 학습 공간이자 게임을 직접 플레이할 수 있는 놀…",
    "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "2862358",
-   "contentTypeId": "15",
-   "name": "노원달빛산책",
-   "area": "서울특별시 노원구",
-   "lat": 37.64944,
-   "lon": 127.06569,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/35/3547735_image2_1.jpg",
-   "tel": "02-2289-346102-2116-7143",
-   "modified": "2026-10-15",
-   "period": {
-    "start": "2026-10-16",
-    "end": "2026-11-08"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "animals",
-    "nature"
-   ],
-   "emoji": "🐾",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "17:30~22:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "친환경 생태하천인 당현천에 대중성과 예술성을 동시에 갖춘 등(燈)·빛 조각 작품을 전시하고 작품 제작 및 해설 등 구민이 직접 참여하는 콘텐츠를 기획·운영하는, 노원구만의 주제의식을 갖춘 야간 공공…",
-   "detailFetched": "2026-10-16"
   },
   {
    "id": "2745731",
@@ -13902,48 +13860,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "3555835",
-   "contentTypeId": "15",
-   "name": "안산사이언스밸리(ASV) 과학축제",
-   "area": "경기도 안산시",
-   "lat": 37.30016,
-   "lon": 126.83771,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image2_1.jpg",
-   "tel": "02-780-6881",
-   "modified": "2026-11-06",
-   "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-08"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "science",
-    "play"
-   ],
-   "emoji": "🔭",
-   "ages": [
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~16:00",
-   "babyCarriage": null,
-   "homepage": "https://asv-2026-delta.vercel.app/",
-   "tip": "2026 안산사이언스밸리(ASV) 과학축제는 AI, 로봇 등 미래 과학기술을 한자리에서 만나볼 수 있는 시민 참여형 과학문화축제이다. 안산시가 ASV 유관기관 및 대학, 연구기관, 기업, 재단, 단…",
-   "detailFetched": "2026-11-07"
-  },
-  {
    "id": "3081404",
    "contentTypeId": "14",
    "name": "안산산업역사박물관",
@@ -14624,49 +14540,6 @@
    "homepage": "http://www.daesik.co.kr",
    "tip": "양수리 두물머리에서 딸기농사만을 전문적으로 짓는 딸기 전문 체험농장이다. 유치원과 어린이집 체험학습 전문농장으로 유아, 어린이들이 즐겁고 편안하게 놀 수 있는 총 2,500여 평의 넓은 딸기농장이다…",
    "detailFetched": "2026-10-10"
-  },
-  {
-   "id": "4120802",
-   "contentTypeId": "15",
-   "name": "양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
-   "area": "서울특별시 서초구",
-   "lat": 37.4737,
-   "lon": 127.03361,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/13/4120813_image2_1.jpg",
-   "tel": "02-3486-4043",
-   "modified": "2026-10-27",
-   "period": {
-    "start": "2026-10-10",
-    "end": "2026-11-08"
-   },
-   "setting": "indoor",
-   "tags": [
-    "craft",
-    "foliage",
-    "nature"
-   ],
-   "emoji": "🍁",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "11:00~17:00",
-   "babyCarriage": null,
-   "homepage": "https://yangjae.seocholib.or.kr/NoticeInfoDetail/26288",
-   "tip": "서초구 야외도서관 「양재천을 품은 양재도서관: 물길 따라 그림책 여행」은 도심 속 자연공간인 양재천에서 책과 문화예술을 함께 경험할 수 있도록 마련한 야외 독서문화축제이다. 2026년 10월 10일…",
-   "detailFetched": "2026-10-28"
   },
   {
    "id": "2754295",
