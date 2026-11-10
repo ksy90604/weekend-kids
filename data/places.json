@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09 06:53",
+ "updatedAt": "2026-11-11 08:05",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -135,7 +135,7 @@
    "lon": 127.00955,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/4135249_image2_1.jpg",
    "tel": "010-3489-3637",
-   "modified": "2026-10-26",
+   "modified": "2026-11-09",
    "period": {
     "start": "2026-11-20",
     "end": "2026-11-22"
@@ -165,7 +165,7 @@
    "babyCarriage": null,
    "homepage": "https://kto.visitkorea.or.kr/",
    "tip": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 1…",
-   "detailFetched": "2026-10-30"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "2769990",
@@ -1598,11 +1598,11 @@
    "contentTypeId": "12",
    "name": "개봉유수지 생태공원",
    "area": "서울특별시 구로구",
-   "lat": 37.49245,
-   "lon": 126.86321,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/55/3558655_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-10-29",
+   "lat": 37.4924,
+   "lon": 126.8632,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/55/3558655_image2_1.jpg",
+   "tel": "구로구청 공원녹지과 02-860-2395",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "nature",
@@ -1625,8 +1625,8 @@
    "hours": "상시 개방",
    "babyCarriage": null,
    "homepage": null,
-   "tip": "개봉유수지 생태공원은 유수지의 특성을 고려한 안정적인 생태기반환경 복원으로 조성하였다. 주변 주거지역과 연계한 다양한 서식공간 조성으로 종다양성을 증진하고 목감천의 하천생태축과 연계한 도시생태 네트…",
-   "detailFetched": "2026-10-10"
+   "tip": "개봉유수지 생태공원은 유수지의 특성을 고려한 안정적인 생태기반 환경 복원으로 조성하였다. 주변 주거지역과 연계한 다양한 서식공간 조성으로 종다양성을 증진하고 목감천의 하천생태축과 연계한 도시생태 네…",
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "128226",
@@ -8580,50 +8580,15 @@
    "detailFetched": "2026-10-13"
   },
   {
-   "id": "2737291",
-   "contentTypeId": "12",
-   "name": "백미리갯벌체험장",
-   "area": "경기도 화성시",
-   "lat": 37.14364,
-   "lon": 126.67993,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/35/3540135_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-09-23",
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "tide"
-   ],
-   "emoji": "🦀",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": "가능",
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": "전화 문의",
-   "seasonText": null,
-   "hours": "전화 문의",
-   "babyCarriage": null,
-   "homepage": "http://www.xn--oy2b2bw6grgz84bvicm0oduan74d.kr/GK005/index.do",
-   "tip": "경기도 화성에 위치한 백미리 마을은 눈부신 바다와 끝없이 펼쳐진 갯벌이 인상적인 아름다운 어촌이다. 특히 갯벌은 바지락이 많아 아이들이 체험하기에 좋다. 백미리 마을은 ‘백 가지 맛이 있는 마을’이…",
-   "detailFetched": "2026-10-10"
-  },
-  {
    "id": "129410",
    "contentTypeId": "12",
    "name": "백미리어촌체험휴양마을",
    "area": "경기도 화성시",
-   "lat": 37.14343,
-   "lon": 126.68013,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/92/3558892_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-10-30",
+   "lat": 37.14346,
+   "lon": 126.68014,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/37/3540137_image2_1.jpg",
+   "tel": "031-357-3379",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -8645,9 +8610,9 @@
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": null,
-   "homepage": "http://www.xn--oy2b2bw6grgz84bvicm0oduan74d.kr/GK005/index.do",
-   "tip": "경기도 화성에 위치한 백미리어촌체험휴양마을은 눈부신 바다와 끝없이 펼쳐진 갯벌이 인상적인 아름다운 어촌이다. 이곳은 바닷가와 인접하여 해산물의 종류가 많은데 특히 갯벌에 바지락이 많아 체험하기 좋은…",
-   "detailFetched": "2026-10-10"
+   "homepage": "http://www.백미리어촌체험마을.kr",
+   "tip": "백미리어촌체험휴양마을은 눈부신 바다와 끝없이 펼쳐진 갯벌이 인상적인 아름다운 어촌이다. 이곳은 바닷가와 인접하여 해산물의 종류가 많은데 특히 갯벌에 바지락이 많아 체험하기 좋은 장소이다. 봄철에는 …",
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "2891556",
@@ -10091,11 +10056,11 @@
    "contentTypeId": "12",
    "name": "삼각어린이공원",
    "area": "서울특별시 구로구",
-   "lat": 37.50145,
-   "lon": 126.89201,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/37/3558637_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-10-29",
+   "lat": 37.5014,
+   "lon": 126.892,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/37/3558637_image2_1.jpg",
+   "tel": "구로구청 공원녹지과 02-860-3165",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "nature",
@@ -10109,7 +10074,7 @@
    ],
    "price": null,
    "parking": null,
-   "parkingText": "가능",
+   "parkingText": null,
    "closedDays": [],
    "closedDates": [],
    "months": null,
@@ -10119,7 +10084,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "서울 구로구 구로동에 위치한 삼각어린이공원은 지역 내 아이들이 넓고 쾌적한 공간에서 안심하고 마음껏 뛰어놀 수 있도록 만들어졌다. 공원은 지구 주위에 있는 태양, 달, 혜성 등의 놀이 행성으로 모험…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "130931",
@@ -11250,11 +11215,11 @@
    "contentTypeId": "12",
    "name": "서후리숲",
    "area": "경기도 양평군",
-   "lat": 37.56637,
-   "lon": 127.43018,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/95/3352495_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-12-26",
+   "lat": 37.56632,
+   "lon": 127.43016,
+   "image": null,
+   "tel": "0507-1369-2387",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -11281,7 +11246,7 @@
    "babyCarriage": null,
    "homepage": "http://seohuri.com/",
    "tip": "2014년 개장한 10만 평 규모의 수목원이다. 자연 그대로의 숲을 신조로 하면서도 자연스러움을 해치지 않는 조경이 섬세하게 느껴지는 아름다운 공간이다. 숲 내부는 나무들의 수종에 따라 잣나무숲, …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "2763838",
@@ -11397,11 +11362,11 @@
    "contentTypeId": "12",
    "name": "석포숲공원",
    "area": "경기도 용인시",
-   "lat": 37.15975,
-   "lon": 127.25762,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/21/3559721_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-11-03",
+   "lat": 37.1597,
+   "lon": 127.2576,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/21/3559721_image2_1.jpg",
+   "tel": "용인시청 1577-1122",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -11423,9 +11388,9 @@
    "seasonText": null,
    "hours": "상시 개방",
    "babyCarriage": null,
-   "homepage": null,
+   "homepage": "https://ggtour.or.kr",
    "tip": "석포숲공원은 자연 속에서 휴식과 여가를 즐길 수 있는 생태공원이다. 산속에 위치한 공원이기 때문에 조금은 등산하는 듯한 느낌으로 걸어 올라가야 한다. 정산에 오르기 위해서는 2가지 코스가 있는데, …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "128599",
@@ -14062,8 +14027,8 @@
    "lat": 37.01132,
    "lon": 127.22836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/2996017_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-03",
+   "tel": "031-676-4352",
+   "modified": "2026-11-09",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -14092,7 +14057,7 @@
    "babyCarriage": null,
    "homepage": "https://www.anseong.go.kr",
    "tip": "중앙대학교 다빈치캠퍼스 입구에 세워진 안성맞춤 박물관은 유기를 중심으로 안성의 풍부한 문화유산을 함께 접할 수 있는 테마 박물관이다. 흔히 사람들은 매우 잘 맞음을 비유하여 안성맞춤이라는 말을 쓰는…",
-   "detailFetched": "2026-11-04"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "2048905",
@@ -15339,9 +15304,9 @@
    "area": "경기도 여주시",
    "lat": 37.25946,
    "lon": 127.66277,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/93/2992393_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-10-07",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/94/4142094_image2_1.jpg",
+   "tel": "031-885-1400",
+   "modified": "2026-11-09",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -15370,9 +15335,9 @@
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": "불가",
-   "homepage": "http://www.xn--699a3bx02d1ya237aooepxj.kr/",
-   "tip": "곤충의 아름답고 신비로운 모습을 볼 수 있으며, 곤충생태를 연구하고 이를 이용한 체험학습을 통해 곤충에 관심있는 사람에게 좀 더 많은 생태환경을 제공하는 곳으로 곤충 생명과학, 곤충 해설사교육을 진…",
-   "detailFetched": "2026-10-09"
+   "homepage": "https://www.xn--699a3bx02d1ya237aooepxj.kr",
+   "tip": "곤충의 아름답고 신비로운 모습을 볼 수 있으며, 곤충생태를 연구하고 이를 이용한 체험학습을 통해 곤충에 관심 있는 사람에게 좀 더 많은 생태환경을 제공하는 곳으로 곤충 생명과학, 곤충 해설사교육을 …",
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "130965",
@@ -19285,11 +19250,11 @@
    "contentTypeId": "12",
    "name": "잣향기푸른숲",
    "area": "경기도 가평군",
-   "lat": 37.77077,
-   "lon": 127.33657,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/23/3037123_image2_1.jpg",
-   "tel": null,
-   "modified": "2025-04-08",
+   "lat": 37.77071,
+   "lon": 127.33655,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/23/3037123_image2_1.jpg",
+   "tel": "031-8008-6769, 6771(매표소)",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -19304,19 +19269,20 @@
    ],
    "price": null,
    "parking": null,
-   "parkingText": "가능",
+   "parkingText": "가능(68대)※ 대형버스는 상부 주차장",
    "closedDays": [
-    1
+    1,
+    2
    ],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일",
+   "restText": "매주 월요일(다만 월요일이 공휴일인 경우 화요일 휴관)",
    "seasonText": null,
-   "hours": "09:00~18:00",
+   "hours": "10:00~18:00",
    "babyCarriage": "없음",
-   "homepage": "https://www.gptour.go.kr/tour/tour_view.jsp?menu=tour&submenu=nature&l_code=&paramidx=TL0000120&page=10&pageBlock=2",
+   "homepage": "https://forest.gg.go.kr",
    "tip": "축령산과 서리산 자락 해발 450~600m에 위치하고 있는 잣향기푸른숲은 수령 80년 이상의 잣나무가 국내 최대로 식생하고 있는 곳이다. 또한 숲체험과 산림치유 프로그램 등 다양한 체험 프로그램을 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "3487717",
@@ -20093,11 +20059,11 @@
    "contentTypeId": "12",
    "name": "진주목장 낙농체험",
    "area": "경기도 화성시",
-   "lat": 37.24133,
-   "lon": 126.87934,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/12/3396512_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-03-21",
+   "lat": 37.24127,
+   "lon": 126.87933,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/12/3396512_image2_1.JPG",
+   "tel": "031-356-0073",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -20113,17 +20079,19 @@
    ],
    "price": null,
    "parking": 0,
-   "parkingText": "가능 / 요금 (무료)",
-   "closedDays": [],
+   "parkingText": "가능요금 (무료)",
+   "closedDays": [
+    0
+   ],
    "closedDates": [],
    "months": null,
-   "restText": "연중무휴",
+   "restText": "매주 일요일",
    "seasonText": null,
-   "hours": "09:00~18:00",
+   "hours": "10:00~14:30",
    "babyCarriage": "없음",
-   "homepage": "https://www.ggtour.or.kr/travel-info/tourism-info/72617481-746a-11ee-b910-0242ac120002",
+   "homepage": "https://www.ggtour.or.kr/main",
    "tip": "경기도 화성 서해안 고속도로 비봉 I.C 옆에 위치한 진주목장은 농촌이라고 하기에는 도심에서 매우 가까운 곳에 위치하고 있다. 진주목장의 젖소들은 로봇 착유기를 이용하여 착유(젖소에서 우유를 짜는 …",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "129804",
@@ -22807,11 +22775,11 @@
    "contentTypeId": "12",
    "name": "하동천 생태탐방로",
    "area": "경기도 김포시",
-   "lat": 37.69166,
-   "lon": 126.65331,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/16/3404816_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-03-25",
+   "lat": 37.69161,
+   "lon": 126.6533,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/16/3404816_image2_1.JPG",
+   "tel": "031-996-5323",
+   "modified": "2026-11-09",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -22833,11 +22801,11 @@
    "months": null,
    "restText": "연중무휴",
    "seasonText": null,
-   "hours": "상시 개방",
+   "hours": "09:00~18:00",
    "babyCarriage": "없음",
-   "homepage": "https://www.guc.or.kr/facility/park_hadongcheon.asp",
+   "homepage": null,
    "tip": "하동천 생태탐방로는 생물의 서식처를 제공하고 종 다양성을 증진시키며, 자연생태계의 생물들을 관찰, 체험할 수 있도록 하여 시민들에게 건강한 생태공간을 제공하고 환경의 중요성을 일깨워 주기 위한 공간…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-11"
   },
   {
    "id": "1148818",
