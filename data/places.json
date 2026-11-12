@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12 09:32",
+ "updatedAt": "2026-11-13 08:25",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -84,47 +84,6 @@
    "homepage": null,
    "tip": "2026 국립극장 쏙쏙들이 페스티벌은 국립극장 무대예술지원센터에서 진행하는 축제 프로그램이다. 본 행사는 시민들이 일상 속에서 공연예술을 쉽게 접할 수 있도록 기획된 행사이다. 해당 페스티벌은 매월…",
    "detailFetched": "2026-10-30"
-  },
-  {
-   "id": "3377038",
-   "contentTypeId": "15",
-   "name": "2026 국제선명상대회",
-   "area": "서울특별시 강남구",
-   "lat": 37.51583,
-   "lon": 127.05773,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/90/4054090_image2_1.jpg",
-   "tel": "010-8441-2371",
-   "modified": "2026-03-30",
-   "period": {
-    "start": "2026-04-03",
-    "end": "2026-11-12"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~18:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "대한불교조계종이 주최하는 국제선명상대회와 선명상축제는 국민 정신건강 증진을 위하여 진행하고 있으며, 지난 2024년부터 시작하여 올해로 3회를 맞이하였다. 올해는 [AI시대의 선명상]이라는 주제하에…",
-   "detailFetched": "2026-10-09"
   },
   {
    "id": "2854855",
@@ -449,6 +408,46 @@
    "detailFetched": "2026-11-06"
   },
   {
+   "id": "4151220",
+   "contentTypeId": "15",
+   "name": "2026년 제7회 김치의 날 X 제4회 위킴 페스티벌",
+   "area": "서울특별시 서초구",
+   "lat": 37.46828,
+   "lon": 127.03914,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/59/4155259_image2_1.jpg",
+   "tel": "02-6405-3641",
+   "modified": "2026-11-12",
+   "period": {
+    "start": "2026-11-20",
+    "end": "2026-11-20"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "science"
+   ],
+   "emoji": "🔭",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~18:00",
+   "babyCarriage": null,
+   "homepage": "https://www.instagram.com/kimchiday_1122/",
+   "tip": "「2026년 제7회 김치의 날 기념행사」는 법정기념일인 김치의 날(11월 22일)을 기념하여 개최하는 행사이다. 김치의 날은 「김치산업 진흥법」에 따라 지정된 기념일로, 김치 소재 하나하나(11)가…",
+   "detailFetched": "2026-11-13"
+  },
+  {
    "id": "4101384",
    "contentTypeId": "15",
    "name": "20세기 사진 거장전 - 빛, 시간을 멈추다",
@@ -540,7 +539,7 @@
    "lat": 37.39483,
    "lon": 127.73729,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/3563615_image2_1.jpg",
-   "tel": "031-775-6945",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1096,7 +1095,7 @@
    "lat": 37.41817,
    "lon": 126.65759,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/4099992_image2_1.jpg",
-   "tel": "032-833-4747",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1292,7 +1291,7 @@
    "lat": 37.58581,
    "lon": 126.81832,
    "image": "https://tong.visitkorea.or.kr/cms/resource/69/3526769_image2_1.jpg",
-   "tel": "한강사업본부 강서안내센터 02-3780-0621~3",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -1439,7 +1438,7 @@
    "lat": 37.77368,
    "lon": 126.43527,
    "image": "https://tong.visitkorea.or.kr/cms/resource/54/4147554_image2_1.jpg",
-   "tel": "032-934-7887",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1480,7 +1479,7 @@
    "lat": 37.7746,
    "lon": 126.43472,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/4056132_image2_1.jpg",
-   "tel": "032-930-7090",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1523,7 +1522,7 @@
    "lat": 37.73358,
    "lon": 126.51605,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/3532928_image2_1.jpg",
-   "tel": "032-930-7077",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1636,7 +1635,7 @@
    "lat": 37.51196,
    "lon": 127.63955,
    "image": "https://tong.visitkorea.or.kr/cms/resource/88/3505388_image2_1.jpg",
-   "tel": "031-8008-6523",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -1716,7 +1715,7 @@
    "lat": 37.26692,
    "lon": 127.10742,
    "image": "https://tong.visitkorea.or.kr/cms/resource/25/4106425_image2_1.jpg",
-   "tel": "031-288-5400",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1805,7 +1804,7 @@
    "lat": 37.35028,
    "lon": 127.33479,
    "image": "https://tong.visitkorea.or.kr/cms/resource/44/4004644_image2_1.jpg",
-   "tel": "031-799-1500",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1842,7 +1841,7 @@
    "lat": 37.5117,
    "lon": 127.63845,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3408849_image2_1.jpg",
-   "tel": "031-8008-6523",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1920,7 +1919,7 @@
    "lat": 37.94467,
    "lon": 127.06445,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/4005842_image2_1.jpg",
-   "tel": "031-868-9610",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -1961,7 +1960,7 @@
    "lat": 37.4867,
    "lon": 127.06566,
    "image": "https://tong.visitkorea.or.kr/cms/resource/99/3393799_image2_1.JPG",
-   "tel": "02-3463-1336",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -2108,7 +2107,7 @@
    "lat": 37.63157,
    "lon": 127.0694,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/4126256_image2_1.jpg",
-   "tel": "경춘선숲길 방문자센터 02-3783-5977",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -2215,7 +2214,7 @@
    "lat": 37.54802,
    "lon": 126.72702,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/4063230_image2_1.jpg",
-   "tel": "032-552-8313~4",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -2398,7 +2397,7 @@
    "lat": 37.68395,
    "lon": 126.74413,
    "image": "https://tong.visitkorea.or.kr/cms/resource/18/4120918_image2_1.jpg",
-   "tel": "031-909-9000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -2439,7 +2438,7 @@
    "lat": 37.66846,
    "lon": 126.7565,
    "image": "https://tong.visitkorea.or.kr/cms/resource/50/3590250_image2_1.jpg",
-   "tel": "031-8075-9168",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -2479,7 +2478,7 @@
    "lat": 37.62942,
    "lon": 126.83091,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/4070841_image2_1.jpg",
-   "tel": "031-839-0300",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -2565,7 +2564,7 @@
    "lat": 37.5902,
    "lon": 127.16056,
    "image": "https://tong.visitkorea.or.kr/cms/resource/89/3430689_image2_1.jpg",
-   "tel": "031-550-2586",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -2642,7 +2641,7 @@
    "lat": 37.4556,
    "lon": 126.94575,
    "image": "https://tong.visitkorea.or.kr/cms/resource/09/3502109_image2_1.jpeg",
-   "tel": "관악구청 여가도시과 02-879-6551",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -2788,7 +2787,7 @@
    "lat": 37.55126,
    "lon": 127.07715,
    "image": "https://tong.visitkorea.or.kr/cms/resource/02/3540002_image2_1.jpg",
-   "tel": "02-2049-4061",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -2865,7 +2864,7 @@
    "lat": 37.7479,
    "lon": 127.1878,
    "image": "https://tong.visitkorea.or.kr/cms/resource/34/3507334_image2_1.jpg",
-   "tel": "남양주시청 휴양시설관리과 031-590-2417",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -2901,7 +2900,7 @@
    "lat": 37.4243,
    "lon": 126.86488,
    "image": "https://tong.visitkorea.or.kr/cms/resource/27/4095727_image2_1.jpg",
-   "tel": "070-4277-8902",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3160,7 +3159,7 @@
    "lat": 37.88311,
    "lon": 127.3065,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3024393_image2_1.jpg",
-   "tel": "031-534-6330",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -3200,7 +3199,7 @@
    "lat": 37.57206,
    "lon": 126.9622,
    "image": "https://tong.visitkorea.or.kr/cms/resource/68/3505668_image2_1.jpg",
-   "tel": "0507-1327-3681",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3281,7 +3280,7 @@
    "lat": 37.6871,
    "lon": 127.03516,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3512846_image2_1.jpg",
-   "tel": "02-901-0788",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3323,7 +3322,7 @@
    "lat": 37.43812,
    "lon": 127.00578,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/4065392_image2_1.jpg",
-   "tel": "02-3677-1500",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3364,7 +3363,7 @@
    "lat": 37.51812,
    "lon": 127.03363,
    "image": "https://tong.visitkorea.or.kr/cms/resource/25/3503425_image2_1.jpg",
-   "tel": "02-510-1089",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3404,7 +3403,7 @@
    "lat": 37.47835,
    "lon": 127.00904,
    "image": "https://tong.visitkorea.or.kr/cms/resource/74/3540474_image2_1.jpg",
-   "tel": "02-580-3130",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3488,7 +3487,7 @@
    "lat": 37.56957,
    "lon": 126.96662,
    "image": "https://tong.visitkorea.or.kr/cms/resource/38/3456038_image2_1.jpg",
-   "tel": "02-2181-0893",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3531,7 +3530,7 @@
    "lat": 37.27464,
    "lon": 126.98267,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
-   "tel": "031-324-9114",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3612,7 +3611,7 @@
    "lat": 37.78667,
    "lon": 126.69392,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/3505445_image2_1.jpg",
-   "tel": "031-580-5800",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3653,7 +3652,7 @@
    "lat": 37.58167,
    "lon": 126.97889,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3512693_image2_1.jpg",
-   "tel": "02-3704-3114",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3690,7 +3689,7 @@
    "lat": 37.59608,
    "lon": 127.57516,
    "image": "https://tong.visitkorea.or.kr/cms/resource/18/4130418_image2_1.jpg",
-   "tel": "031-774-8133",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -3730,7 +3729,7 @@
    "lat": 37.39471,
    "lon": 126.63795,
    "image": "https://tong.visitkorea.or.kr/cms/resource/31/4090531_image2_1.jpg",
-   "tel": "032-290-2000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3772,7 +3771,7 @@
    "lat": 37.75954,
    "lon": 127.16892,
    "image": "https://tong.visitkorea.or.kr/cms/resource/63/3493563_image2_1.jpg",
-   "tel": "031-540-2000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -3813,7 +3812,7 @@
    "lat": 37.75179,
    "lon": 127.1694,
    "image": "https://tong.visitkorea.or.kr/cms/resource/43/3039043_image2_1.jpg",
-   "tel": "031-540-2000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -3895,7 +3894,7 @@
    "lat": 37.46113,
    "lon": 127.71809,
    "image": "https://tong.visitkorea.or.kr/cms/resource/82/3501782_image2_1.jpg",
-   "tel": "031-8079-7950",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -3933,7 +3932,7 @@
    "lat": 37.58177,
    "lon": 126.99678,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/2545812_image2_1.jpg",
-   "tel": "02-3668-3350",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -4015,7 +4014,7 @@
    "lat": 37.5932,
    "lon": 127.49145,
    "image": null,
-   "tel": "031-589-5487",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -4094,7 +4093,7 @@
    "lat": 37.52112,
    "lon": 126.97911,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3495012_image2_1.jpg",
-   "tel": "02-2077-9000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -4132,7 +4131,7 @@
    "lat": 37.52401,
    "lon": 126.98034,
    "image": "https://tong.visitkorea.or.kr/cms/resource/10/3505410_image2_1.jpg",
-   "tel": "02-2077-9647",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -4210,7 +4209,7 @@
    "lat": 37.27574,
    "lon": 127.05491,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/3543028_image2_1.jpg",
-   "tel": "031-210-2667",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -4249,7 +4248,7 @@
    "lat": 37.55687,
    "lon": 126.80887,
    "image": "https://tong.visitkorea.or.kr/cms/resource/14/3569014_image2_1.jpg",
-   "tel": "02-6940-3198",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -4290,7 +4289,7 @@
    "lat": 37.55687,
    "lon": 126.80887,
    "image": "https://tong.visitkorea.or.kr/cms/resource/71/3441671_image2_1.JPG",
-   "tel": "02-6940-3175",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -4444,7 +4443,7 @@
    "lat": 38.1045,
    "lon": 127.0215,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/3467445_image2_1.JPG",
-   "tel": "031-830-4311",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -4704,7 +4703,7 @@
    "lat": 37.2539,
    "lon": 127.0953,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3559630_image2_1.jpg",
-   "tel": "용인시청 동물보호과 031-6193-3473",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -4743,7 +4742,7 @@
    "lat": 37.54126,
    "lon": 127.15682,
    "image": "https://tong.visitkorea.or.kr/cms/resource/63/4123063_image2_1.jpg",
-   "tel": "길동생태공원 02-472-2770",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -4821,7 +4820,7 @@
    "lat": 37.41775,
    "lon": 126.91774,
    "image": "https://tong.visitkorea.or.kr/cms/resource/96/4090496_image2_1.jpg",
-   "tel": "031-687-0909",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -4934,7 +4933,7 @@
    "lat": 37.65478,
    "lon": 126.69935,
    "image": "https://tong.visitkorea.or.kr/cms/resource/75/4062875_image2_1.JPG",
-   "tel": "김포시 공원도시사업본부 공원과 031-5186-4633",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -5201,7 +5200,7 @@
    "lat": 37.47048,
    "lon": 126.82746,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/4002156_image2_1.jpg",
-   "tel": "02-2060-4855",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -5237,7 +5236,7 @@
    "lat": 37.5426,
    "lon": 126.9949,
    "image": "https://tong.visitkorea.or.kr/cms/resource/19/4062319_image2_1.jpg",
-   "tel": "02-798-3771",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -5387,7 +5386,7 @@
    "lat": 37.71709,
    "lon": 127.19105,
    "image": "https://tong.visitkorea.or.kr/cms/resource/04/3467404_image2_1.JPG",
-   "tel": "031-560-1561~2",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -5428,7 +5427,7 @@
    "lat": 37.54639,
    "lon": 127.24437,
    "image": "https://tong.visitkorea.or.kr/cms/resource/16/3381916_image2_1.JPG",
-   "tel": "031-590-8600",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -5469,7 +5468,7 @@
    "lat": 37.5917,
    "lon": 126.90805,
    "image": "https://tong.visitkorea.or.kr/cms/resource/73/3450473_image2_1.jpg",
-   "tel": "02-307-6701",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -5587,7 +5586,7 @@
    "lat": 37.55845,
    "lon": 126.65637,
    "image": "https://tong.visitkorea.or.kr/cms/resource/55/4131055_image2_1.jpg",
-   "tel": "032-560-2932",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -5708,7 +5707,7 @@
    "lat": 37.56684,
    "lon": 126.96805,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3439149_image2_1.jpg",
-   "tel": "02-2080-5727",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -5748,7 +5747,7 @@
    "lat": 37.33031,
    "lon": 126.91536,
    "image": "https://tong.visitkorea.or.kr/cms/resource/86/3344586_image2_1.jpg",
-   "tel": "031-501-7100",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -5785,7 +5784,7 @@
    "lat": 37.39452,
    "lon": 126.71978,
    "image": "https://tong.visitkorea.or.kr/cms/resource/80/3524080_image2_1.jpg",
-   "tel": "032-453-2857",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -5866,7 +5865,7 @@
    "lat": 37.51436,
    "lon": 127.29838,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/4129530_image2_1.jpg",
-   "tel": "남양주시 하천공원관리과 031-590-8634",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -5901,7 +5900,7 @@
    "lat": 37.71208,
    "lon": 127.10018,
    "image": "https://tong.visitkorea.or.kr/cms/resource/21/2687521_image2_1.jpg",
-   "tel": "031-848-8523",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -6043,7 +6042,7 @@
    "lat": 37.29048,
    "lon": 126.58067,
    "image": "https://tong.visitkorea.or.kr/cms/resource/31/3533931_image2_1.jpg",
-   "tel": "대부도관광안내소 1899-1720",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -6119,7 +6118,7 @@
    "lat": 37.57408,
    "lon": 126.97756,
    "image": "https://tong.visitkorea.or.kr/cms/resource/91/3082991_image2_1.JPG",
-   "tel": "0507-1414-9202",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -6158,7 +6157,7 @@
    "lat": 37.67369,
    "lon": 126.7381,
    "image": "https://tong.visitkorea.or.kr/cms/resource/22/4077522_image2_1.jpg",
-   "tel": "031-8075-4271",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -6278,7 +6277,7 @@
    "lat": 37.23357,
    "lon": 127.33842,
    "image": "https://tong.visitkorea.or.kr/cms/resource/80/3304780_image2_1.jpg",
-   "tel": "031-633-5029",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -6389,43 +6388,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "2763821",
-   "contentTypeId": "12",
-   "name": "도드람테마파크",
-   "area": "경기도 이천시",
-   "lat": 37.24119,
-   "lon": 127.50252,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/51/2763951_image2_1.png",
-   "tel": null,
-   "modified": "2026-10-07",
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "play"
-   ],
-   "emoji": "🎠",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": "가능",
-   "closedDays": [
-    1
-   ],
-   "closedDates": [],
-   "months": null,
-   "restText": "매주 월요일",
-   "seasonText": null,
-   "hours": "10:00~19:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "경기도 이천시 부발읍에 있는 돼지복합문화 공간이다. ‘돼지’를 테마로 돼지의 일생과 다양한 정보를 이해하고 직접 수제 햄을 만들 수 있는 체험스쿨과 키즈랜드, 신선한 농축산물을 구매할 수 있는 하나…",
-   "detailFetched": "2026-10-09"
-  },
-  {
    "id": "1944709",
    "contentTypeId": "14",
    "name": "도자기체험미술관 비즘",
@@ -6433,7 +6395,7 @@
    "lat": 37.59544,
    "lon": 127.38326,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/3392241_image2_1.jpg",
-   "tel": "010-5264-0244",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -6544,7 +6506,7 @@
    "lat": 37.88987,
    "lon": 127.13712,
    "image": null,
-   "tel": "031-860-3257",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -6886,7 +6848,7 @@
    "lat": 37.5749,
    "lon": 126.99064,
    "image": "https://tong.visitkorea.or.kr/cms/resource/39/3540839_image2_1.jpg",
-   "tel": "02-741-5447",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -6998,7 +6960,7 @@
    "lat": 37.44401,
    "lon": 127.00864,
    "image": "https://tong.visitkorea.or.kr/cms/resource/22/4127022_image2_1.jpg",
-   "tel": "02-509-128702-509-1275",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -7078,7 +7040,7 @@
    "lat": 37.51233,
    "lon": 127.09762,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3501149_image2_1.jpg",
-   "tel": "02-411-4764",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -7116,7 +7078,7 @@
    "lat": 37.51233,
    "lon": 127.09762,
    "image": "https://tong.visitkorea.or.kr/cms/resource/94/3584594_image2_1.jpg",
-   "tel": "02-1661-2000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "mixed",
    "tags": [
@@ -7151,7 +7113,7 @@
    "lat": 37.51411,
    "lon": 127.10406,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/2384845_image2_1.jpg",
-   "tel": "1661-2000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -7190,7 +7152,7 @@
    "lat": 37.5113,
    "lon": 127.09788,
    "image": "https://tong.visitkorea.or.kr/cms/resource/00/3304300_image2_1.jpg",
-   "tel": "1661-2000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "mixed",
    "tags": [
@@ -7225,7 +7187,7 @@
    "lat": 37.51252,
    "lon": 127.10232,
    "image": "https://tong.visitkorea.or.kr/cms/resource/66/3092766_image2_1.jpg",
-   "tel": "02-1661-2000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -7259,7 +7221,7 @@
    "lat": 37.51411,
    "lon": 127.10406,
    "image": "https://tong.visitkorea.or.kr/cms/resource/04/4126304_image2_1.jpg",
-   "tel": "02-3213-5000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -7294,7 +7256,7 @@
    "lat": 37.55527,
    "lon": 126.82493,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3331246_image2_1.JPG",
-   "tel": "02-2600-4262~3",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -7482,7 +7444,7 @@
    "lat": 37.46911,
    "lon": 127.03682,
    "image": "https://tong.visitkorea.or.kr/cms/resource/02/3571602_image2_1.jpg",
-   "tel": "02-575-3895",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -7638,7 +7600,7 @@
    "lat": 37.93605,
    "lon": 127.48792,
    "image": "https://tong.visitkorea.or.kr/cms/resource/74/3503974_image2_1.jpg",
-   "tel": "031-582-7426",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -7676,11 +7638,11 @@
    "contentTypeId": "12",
    "name": "모산목장",
    "area": "경기도 파주시",
-   "lat": 37.80235,
-   "lon": 126.72403,
-   "image": "http://tong.visitkorea.or.kr/cms/resource/91/3382791_image2_1.JPG",
-   "tel": null,
-   "modified": "2025-08-04",
+   "lat": 37.80229,
+   "lon": 126.72401,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/91/3382791_image2_1.JPG",
+   "tel": "010-7176-6480",
+   "modified": "2026-11-12",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -7705,9 +7667,9 @@
    "seasonText": null,
    "hours": "10:00~16:00",
    "babyCarriage": null,
-   "homepage": "http://www.mosanfarm.com/",
+   "homepage": null,
    "tip": "모산목장은 젖소를 키우고 아이들에게 젖소체험을 제공하고 있는 낙농체험목장이다. 이곳이 추구하는 기본원칙은 우유의 소중함을 많은 사람들에게 제대로 알리는 것이다. 이를 위해 목장의 구조도 언제든 찾아…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-13"
   },
   {
    "id": "2966354",
@@ -7784,7 +7746,7 @@
    "lat": 37.28775,
    "lon": 127.68787,
    "image": "https://tong.visitkorea.or.kr/cms/resource/03/3540503_image2_1.jpg",
-   "tel": "031-885-9952",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -7857,7 +7819,7 @@
    "lat": 37.5033,
    "lon": 126.8182,
    "image": "https://tong.visitkorea.or.kr/cms/resource/06/2782006_image2_1.jpg",
-   "tel": "032-625-3503, 4877",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -7899,7 +7861,7 @@
    "lat": 37.20864,
    "lon": 127.12734,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3392093_image2_1.jpg",
-   "tel": "031-373-1162~3",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -8009,7 +7971,7 @@
    "lat": 37.70577,
    "lon": 127.2956,
    "image": "https://tong.visitkorea.or.kr/cms/resource/36/3507936_image2_1.jpg",
-   "tel": "0507-1352-4078",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -8089,7 +8051,7 @@
    "lat": 37.16737,
    "lon": 127.0622,
    "image": "https://tong.visitkorea.or.kr/cms/resource/05/4079305_image2_1.jpg",
-   "tel": "031-378-1261",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -8170,7 +8132,7 @@
    "lat": 37.22502,
    "lon": 126.64651,
    "image": "https://tong.visitkorea.or.kr/cms/resource/78/3500078_image2_1.jpg",
-   "tel": "031-8008-6795",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -8365,7 +8327,7 @@
    "lat": 37.6538,
    "lon": 127.00856,
    "image": "https://tong.visitkorea.or.kr/cms/resource/14/3589314_image2_1.jpg",
-   "tel": "02-990-7000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -8546,7 +8508,7 @@
    "lat": 37.57844,
    "lon": 127.06274,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3455797_image2_1.jpg",
-   "tel": "0222151959",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -8698,7 +8660,7 @@
    "lat": 37.38042,
    "lon": 127.00283,
    "image": "https://tong.visitkorea.or.kr/cms/resource/66/3508466_image2_1.jpg",
-   "tel": "의왕시청 공원녹지과 031-345-3533",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -8809,7 +8771,7 @@
    "lat": 37.80143,
    "lon": 126.87406,
    "image": "https://tong.visitkorea.or.kr/cms/resource/16/3527116_image2_1.jpg",
-   "tel": "0507-1421-2022",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -8953,7 +8915,7 @@
    "lat": 37.49277,
    "lon": 126.91702,
    "image": "https://tong.visitkorea.or.kr/cms/resource/47/3499947_image2_1.jpg",
-   "tel": "02-2027-4100",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -9031,7 +8993,7 @@
    "lat": 37.50864,
    "lon": 126.82106,
    "image": "https://tong.visitkorea.or.kr/cms/resource/39/4130939_image2_1.jpg",
-   "tel": "032-625-3399",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -9071,7 +9033,7 @@
    "lat": 37.51364,
    "lon": 126.80175,
    "image": "https://tong.visitkorea.or.kr/cms/resource/70/4119570_image2_1.jpg",
-   "tel": "032-684-9057~8",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -9112,7 +9074,7 @@
    "lat": 37.50557,
    "lon": 126.81566,
    "image": "https://tong.visitkorea.or.kr/cms/resource/34/4117734_image2_1.jpg",
-   "tel": "032-320-3000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -9267,7 +9229,7 @@
    "lat": 37.50556,
    "lon": 126.74651,
    "image": "https://tong.visitkorea.or.kr/cms/resource/23/3075223_image2_1.jpg",
-   "tel": "032-327-5777",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -9308,7 +9270,7 @@
    "lat": 37.5008,
    "lon": 126.79739,
    "image": "https://tong.visitkorea.or.kr/cms/resource/05/3502805_image2_1.jpg",
-   "tel": "032-614-2678",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -9349,7 +9311,7 @@
    "lat": 19.69448,
    "lon": 117.9926,
    "image": "https://tong.visitkorea.or.kr/cms/resource/89/3456089_image2_1.jpg",
-   "tel": "032-509-3900",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -9386,7 +9348,7 @@
    "lat": 37.51207,
    "lon": 126.73785,
    "image": "https://tong.visitkorea.or.kr/cms/resource/37/3073237_image2_1.jpg",
-   "tel": "032-515-6471",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -9462,7 +9424,7 @@
    "lat": 37.61967,
    "lon": 127.04453,
    "image": "https://tong.visitkorea.or.kr/cms/resource/44/3540144_image2_1.jpg",
-   "tel": "02-2289-4000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -9499,7 +9461,7 @@
    "lat": 37.62142,
    "lon": 127.03856,
    "image": "https://tong.visitkorea.or.kr/cms/resource/35/3589335_image2_1.jpg",
-   "tel": "꿈의숲 아트센터 02-2289-5401",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -9573,7 +9535,7 @@
    "lat": 37.58038,
    "lon": 126.98485,
    "image": "https://tong.visitkorea.or.kr/cms/resource/16/3303716_image2_1.jpg",
-   "tel": "02-766-8402",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10025,7 +9987,7 @@
    "lat": 37.57569,
    "lon": 127.01235,
    "image": "https://tong.visitkorea.or.kr/cms/resource/98/4002298_image2_1.jpg",
-   "tel": "070-8181-0502",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -10174,7 +10136,7 @@
    "lat": 37.57669,
    "lon": 126.93784,
    "image": "https://tong.visitkorea.or.kr/cms/resource/76/3502776_image2_1.jpg",
-   "tel": "02-330-8899",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10216,7 +10178,7 @@
    "lat": 37.55963,
    "lon": 126.96935,
    "image": null,
-   "tel": "02-3147-2401",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10333,7 +10295,7 @@
    "lat": 37.57661,
    "lon": 126.98326,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/4131732_image2_1.jpg",
-   "tel": "02-6450-7000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10373,7 +10335,7 @@
    "lat": 37.57968,
    "lon": 126.98236,
    "image": "https://tong.visitkorea.or.kr/cms/resource/71/3496671_image2_1.jpg",
-   "tel": "02-2011-5780",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10409,7 +10371,7 @@
    "lat": 37.50966,
    "lon": 127.09809,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3584997_image2_1.jpg",
-   "tel": "송파구 문화예술과 02-2147-2801",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10448,7 +10410,7 @@
    "lat": 37.43645,
    "lon": 127.0139,
    "image": "https://tong.visitkorea.or.kr/cms/resource_photo/23/3539123_image2_1.jpg",
-   "tel": "02-500-7335",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -10561,7 +10523,7 @@
    "lat": 37.43551,
    "lon": 127.02382,
    "image": "https://tong.visitkorea.or.kr/cms/resource/43/3345743_image2_1.jpg",
-   "tel": "02-509-6000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -10715,7 +10677,7 @@
    "lat": 37.57474,
    "lon": 126.83284,
    "image": null,
-   "tel": "02-3660-2148",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10793,7 +10755,7 @@
    "lat": 37.61908,
    "lon": 127.07696,
    "image": "https://tong.visitkorea.or.kr/cms/resource/84/3540384_image2_1.jpg",
-   "tel": "02-3399-2900",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -10902,7 +10864,7 @@
    "lat": 37.54307,
    "lon": 127.0418,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/3442117_image2_1.JPG",
-   "tel": "02-460-2905",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -10986,7 +10948,7 @@
    "lat": 37.56917,
    "lon": 126.836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/23/4078223_image2_1.jpg",
-   "tel": "02-2104-9716",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11022,7 +10984,7 @@
    "lat": 37.56917,
    "lon": 126.836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/07/3509807_image2_1.jpg",
-   "tel": "02-2104-9716",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11061,7 +11023,7 @@
    "lat": 37.58061,
    "lon": 127.03721,
    "image": "https://tong.visitkorea.or.kr/cms/resource/54/3505454_image2_1.jpg",
-   "tel": "02-969-9241",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -11099,7 +11061,7 @@
    "lat": 37.5493,
    "lon": 127.07626,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/3355161_image2_1.JPG",
-   "tel": "02-450-9311",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "mixed",
    "tags": [
@@ -11136,7 +11098,7 @@
    "lat": 37.56984,
    "lon": 126.97076,
    "image": "https://tong.visitkorea.or.kr/cms/resource/87/2661487_image2_1.JPG",
-   "tel": "02-724-0274~6",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -11177,7 +11139,7 @@
    "lat": 37.57717,
    "lon": 126.9896,
    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3499440_image2_1.jpg",
-   "tel": "02-742-2600",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -11258,7 +11220,7 @@
    "lat": 37.56632,
    "lon": 127.43016,
    "image": null,
-   "tel": "0507-1369-2387",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11296,7 +11258,7 @@
    "lat": 37.27691,
    "lon": 127.48198,
    "image": null,
-   "tel": "031-645-3657",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11332,7 +11294,7 @@
    "lat": 37.69102,
    "lon": 126.32639,
    "image": "https://tong.visitkorea.or.kr/cms/resource/48/4025148_image2_1.jpg",
-   "tel": "032-932-5432",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11370,7 +11332,7 @@
    "lat": 37.69943,
    "lon": 126.31535,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/3528542_image2_1.jpg",
-   "tel": "032-932-1100",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11474,7 +11436,7 @@
    "lat": 37.2117,
    "lon": 127.1078,
    "image": "https://tong.visitkorea.or.kr/cms/resource/19/3538719_image2_1.jpg",
-   "tel": "화성시 동부공원관리과 031-5189-6606",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11659,7 +11621,7 @@
    "lat": 37.55467,
    "lon": 127.04049,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/4097428_image2_1.jpg",
-   "tel": "02-6235-5064",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -11777,7 +11739,7 @@
    "lat": 37.31508,
    "lon": 126.85958,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/3072592_image2_1.jpg",
-   "tel": "031-481-2574",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -11972,7 +11934,7 @@
    "lat": 37.59093,
    "lon": 127.04267,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/4062532_image2_1.jpg",
-   "tel": "02-969-8851",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12086,7 +12048,7 @@
    "lat": 37.40736,
    "lon": 126.74633,
    "image": null,
-   "tel": "032-435-7076",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -12246,7 +12208,7 @@
    "lat": 37.7456,
    "lon": 126.4851,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/3537442_image2_1.jpg",
-   "tel": "032-934-2500",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12402,7 +12364,7 @@
    "lat": 37.53983,
    "lon": 127.04226,
    "image": "https://tong.visitkorea.or.kr/cms/resource/76/3309176_image2_1.jpg",
-   "tel": "02-3146-5921",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12479,7 +12441,7 @@
    "lat": 37.2861,
    "lon": 127.03595,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3350997_image2_1.jpg",
-   "tel": "031-259-2070",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12519,7 +12481,7 @@
    "lat": 37.29634,
    "lon": 127.05143,
    "image": null,
-   "tel": "031-5191-4175",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12559,7 +12521,7 @@
    "lat": 37.29765,
    "lon": 127.03563,
    "image": "https://tong.visitkorea.or.kr/cms/resource/81/4056581_image2_1.jpg",
-   "tel": "031-5191-4150",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12599,7 +12561,7 @@
    "lat": 37.2454,
    "lon": 127.06277,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/3539217_image2_1.jpg",
-   "tel": "031-202-0386",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -12634,7 +12596,7 @@
    "lat": 37.28209,
    "lon": 127.01908,
    "image": "https://tong.visitkorea.or.kr/cms/resource/73/3020673_image2_1.jpeg",
-   "tel": "031-228-4242",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12673,7 +12635,7 @@
    "lat": 37.32414,
    "lon": 127.0859,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/4124241_image2_1.jpg",
-   "tel": "용인시청 서부공원관리과 031-6193-9089",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -12894,7 +12856,7 @@
    "lat": 37.29758,
    "lon": 126.99911,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/3057856_image2_1.JPG",
-   "tel": "031-242-6633",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -12969,7 +12931,7 @@
    "lat": 37.38977,
    "lon": 126.78124,
    "image": "https://tong.visitkorea.or.kr/cms/resource/11/3304111_image2_1.JPG",
-   "tel": "031-488-6900",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -13049,7 +13011,7 @@
    "lat": 37.33466,
    "lon": 126.69176,
    "image": "https://tong.visitkorea.or.kr/cms/resource/08/2947308_image2_1.jpg",
-   "tel": "031-310-3052",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -13168,7 +13130,7 @@
    "lat": 37.56982,
    "lon": 126.97763,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/3556615_image2_1.jpg",
-   "tel": "02-2020-1880",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -13249,7 +13211,7 @@
    "lat": 37.47024,
    "lon": 126.89704,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/3468029_image2_1.jpg",
-   "tel": "금천구 공원녹지과 02-2627-1654",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -13647,7 +13609,7 @@
    "lat": 37.74769,
    "lon": 127.36047,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/2602797_image2_1.bmp",
-   "tel": "031-8078-7115",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -13683,7 +13645,7 @@
    "lat": 37.74396,
    "lon": 127.35254,
    "image": "https://tong.visitkorea.or.kr/cms/resource/38/4079238_image2_1.jpg",
-   "tel": "1544-6703",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -13800,7 +13762,7 @@
    "lat": 37.19251,
    "lon": 126.64612,
    "image": "https://tong.visitkorea.or.kr/cms/resource/47/3342647_image2_1.jpg",
-   "tel": "031-440-8310",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -13879,7 +13841,7 @@
    "lat": 37.32296,
    "lon": 126.81722,
    "image": "https://tong.visitkorea.or.kr/cms/resource/96/3081396_image2_1.JPG",
-   "tel": "031-369-1694",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -13960,7 +13922,7 @@
    "lat": 37.31403,
    "lon": 126.86104,
    "image": "https://tong.visitkorea.or.kr/cms/resource/98/3072598_image2_1.jpg",
-   "tel": "안산시 공원과 031-481-3168",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -13997,7 +13959,7 @@
    "lat": 37.29874,
    "lon": 126.84887,
    "image": "https://tong.visitkorea.or.kr/cms/resource/31/3408831_image2_1.jpg",
-   "tel": "031-415-0041",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -14074,7 +14036,7 @@
    "lat": 37.01132,
    "lon": 127.22836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/2996017_image2_1.jpg",
-   "tel": "031-676-4352",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -14415,7 +14377,7 @@
    "lat": 37.55906,
    "lon": 127.1306,
    "image": "https://tong.visitkorea.or.kr/cms/resource/71/3514471_image2_1.jpg",
-   "tel": "02-3425-6520",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -14453,7 +14415,7 @@
    "lat": 37.75289,
    "lon": 126.5946,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/4062892_image2_1.JPG",
-   "tel": "031-999-3949",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -14599,7 +14561,7 @@
    "lat": 37.84122,
    "lon": 127.10297,
    "image": "https://tong.visitkorea.or.kr/cms/resource/58/3559458_image2_1.jpg",
-   "tel": "031-8082-4187",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -14639,7 +14601,7 @@
    "lat": 37.50981,
    "lon": 126.87002,
    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3399340_image2_1.JPG",
-   "tel": "양천구청 교통과 02-2620-3709 교육예약 070-7008-9870",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -14677,7 +14639,7 @@
    "lat": 37.5164,
    "lon": 126.8633,
    "image": "https://tong.visitkorea.or.kr/cms/resource/54/3432554_image2_1.jpg",
-   "tel": "02-2021-8900",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -14711,7 +14673,7 @@
    "lat": 37.51673,
    "lon": 126.86373,
    "image": "https://tong.visitkorea.or.kr/cms/resource/69/2611569_image2_1.bmp",
-   "tel": "02-2620-4397~9",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -14746,7 +14708,7 @@
    "lat": 37.56199,
    "lon": 127.73438,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3392283_image2_1.jpg",
-   "tel": "010-4334-0070",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -14859,7 +14821,7 @@
    "lat": 37.50923,
    "lon": 127.44925,
    "image": "https://tong.visitkorea.or.kr/cms/resource/75/4110975_image2_1.jpg",
-   "tel": "031-775-8022",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -15016,7 +14978,7 @@
    "lat": 37.55848,
    "lon": 127.0361,
    "image": null,
-   "tel": "02-2286-5664",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -15165,7 +15127,7 @@
    "lat": 37.29407,
    "lon": 127.20213,
    "image": "https://tong.visitkorea.or.kr/cms/resource/53/3486453_image2_1.jpg",
-   "tel": "031-320-5000",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -15272,7 +15234,7 @@
    "lat": 37.24332,
    "lon": 127.70818,
    "image": "https://tong.visitkorea.or.kr/cms/resource/36/3563636_image2_1.jpg",
-   "tel": "031-882-8100",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -15314,7 +15276,7 @@
    "lat": 37.51872,
    "lon": 126.92195,
    "image": "https://tong.visitkorea.or.kr/cms/resource/74/3569374_image2_1.jpg",
-   "tel": "여의도샛강생태공원 02-3780-0561",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -15352,7 +15314,7 @@
    "lat": 37.25946,
    "lon": 127.66277,
    "image": "https://tong.visitkorea.or.kr/cms/resource/94/4142094_image2_1.jpg",
-   "tel": "031-885-1400",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -15436,7 +15398,7 @@
    "lat": 37.29331,
    "lon": 127.66734,
    "image": "https://tong.visitkorea.or.kr/cms/resource/27/3541727_image2_1.jpg",
-   "tel": "031-881-9760",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -15478,7 +15440,7 @@
    "lat": 37.4007,
    "lon": 126.8084,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/3558695_image2_1.jpg",
-   "tel": "시흥시청 농업기술과 031-310-6224",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -15589,7 +15551,7 @@
    "lat": 37.70897,
    "lon": 126.68467,
    "image": "https://tong.visitkorea.or.kr/cms/resource/53/4002953_image2_1.jpg",
-   "tel": "031-955-7020",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -15749,7 +15711,7 @@
    "lat": 37.25958,
    "lon": 127.07309,
    "image": "https://tong.visitkorea.or.kr/cms/resource/47/4093547_image2_1.jpg",
-   "tel": "031-369-2390",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -15827,7 +15789,7 @@
    "lat": 37.14215,
    "lon": 127.36295,
    "image": "https://tong.visitkorea.or.kr/cms/resource/88/3383488_image2_1.jpg",
-   "tel": "031-323-7277",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -15867,7 +15829,7 @@
    "lat": 37.61014,
    "lon": 127.04097,
    "image": "https://tong.visitkorea.or.kr/cms/resource/81/3516281_image2_1.jpg",
-   "tel": "02-6952-1806",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -15979,7 +15941,7 @@
    "lat": 37.5299,
    "lon": 126.79615,
    "image": "https://tong.visitkorea.or.kr/cms/resource/58/3508058_image2_1.jpg",
-   "tel": "032-625-4853",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -16090,7 +16052,7 @@
    "lat": 37.34121,
    "lon": 126.82121,
    "image": "https://tong.visitkorea.or.kr/cms/resource/08/3020008_image2_1.jpg",
-   "tel": "031-481-6082",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -16324,7 +16286,7 @@
    "lat": 37.52567,
    "lon": 126.96577,
    "image": "https://tong.visitkorea.or.kr/cms/resource/27/3075427_image2_1.JPG",
-   "tel": "02-2199-4620",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -16408,7 +16370,7 @@
    "lat": 37.17277,
    "lon": 127.29842,
    "image": "https://tong.visitkorea.or.kr/cms/resource/66/4127166_image2_1.jpg",
-   "tel": "031-6193-1099",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -16449,7 +16411,7 @@
    "lat": 37.17277,
    "lon": 127.29842,
    "image": "https://tong.visitkorea.or.kr/cms/resource/25/3068725_image2_1.jpg",
-   "tel": "031-324-4081",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -16531,7 +16493,7 @@
    "lat": 37.2739,
    "lon": 127.15713,
    "image": "https://tong.visitkorea.or.kr/cms/resource/86/3584786_image2_1.jpg",
-   "tel": "031-324-4796",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -16608,7 +16570,7 @@
    "lat": 37.24963,
    "lon": 127.16516,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/3566761_image2_1.jpg",
-   "tel": "031-323-6500",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -16685,7 +16647,7 @@
    "lat": 37.31479,
    "lon": 127.26779,
    "image": "https://tong.visitkorea.or.kr/cms/resource/69/3493769_image2_1.jpg",
-   "tel": "031-336-0040",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -16763,7 +16725,7 @@
    "lat": 37.23855,
    "lon": 127.18054,
    "image": "https://tong.visitkorea.or.kr/cms/resource/58/3455458_image2_1.jpg",
-   "tel": "0507-1388-5646",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -16837,7 +16799,7 @@
    "lat": 37.6009,
    "lon": 126.99013,
    "image": "https://tong.visitkorea.or.kr/cms/resource/15/3503215_image2_1.jpg",
-   "tel": "02-986-1001",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -16912,7 +16874,7 @@
    "lat": 37.69798,
    "lon": 127.16122,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3077130_image2_1.jpg",
-   "tel": "031-572-9555",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -16951,7 +16913,7 @@
    "lat": 37.67165,
    "lon": 127.00621,
    "image": "https://tong.visitkorea.or.kr/cms/resource/31/3393931_image2_1.JPG",
-   "tel": "서울시 강북구 문화관광과 02-901-6202",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -16986,7 +16948,7 @@
    "lat": 37.5616,
    "lon": 126.98217,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/3569042_image2_1.jpg",
-   "tel": "0507-1404-5634",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -17179,7 +17141,7 @@
    "lat": 37.66455,
    "lon": 126.75453,
    "image": "https://tong.visitkorea.or.kr/cms/resource/78/3491778_image2_1.jpg",
-   "tel": "1566-2232",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "mixed",
    "tags": [
@@ -17217,7 +17179,7 @@
    "lat": 37.51313,
    "lon": 126.69426,
    "image": null,
-   "tel": "032-440-5817",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -17252,7 +17214,7 @@
    "lat": 37.0018,
    "lon": 126.8222,
    "image": "https://tong.visitkorea.or.kr/cms/resource/88/3528188_image2_1.jpg",
-   "tel": "031-682-3169",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -17407,7 +17369,7 @@
    "lat": 37.21975,
    "lon": 126.60242,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/3563445_image2_1.jpg",
-   "tel": "032-885-6262",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -17564,7 +17526,7 @@
    "lat": 37.89831,
    "lon": 126.82286,
    "image": "https://tong.visitkorea.or.kr/cms/resource/48/3547148_image2_1.jpg",
-   "tel": "031-940-4377",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -17602,7 +17564,7 @@
    "lat": 37.47149,
    "lon": 127.2714,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/3507395_image2_1.jpg",
-   "tel": "031-798-3119",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -17674,7 +17636,7 @@
    "lat": 37.14103,
    "lon": 127.03711,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3541746_image2_1.jpg",
-   "tel": "010-4396-0508",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -17712,7 +17674,7 @@
    "lat": 37.21173,
    "lon": 127.62047,
    "image": "https://tong.visitkorea.or.kr/cms/resource/27/3392227_image2_1.jpg",
-   "tel": "0507-1304-5868",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -17789,7 +17751,7 @@
    "lat": 37.64033,
    "lon": 126.93801,
    "image": "https://tong.visitkorea.or.kr/cms/resource/89/3337389_image2_1.JPG",
-   "tel": "02-351-8556",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -17869,7 +17831,7 @@
    "lat": 37.31087,
    "lon": 126.95026,
    "image": "https://tong.visitkorea.or.kr/cms/resource/92/4077192_image2_1.jpg",
-   "tel": "031-8086-7490",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -17913,7 +17875,7 @@
    "lat": 37.31401,
    "lon": 126.95003,
    "image": "https://tong.visitkorea.or.kr/cms/resource/00/4097700_image2_1.jpg",
-   "tel": "031-461-3610",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -17988,7 +17950,7 @@
    "lat": 37.05657,
    "lon": 127.36284,
    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3558740_image2_1.jpg",
-   "tel": "031-670-6938",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18024,7 +17986,7 @@
    "lat": 37.17985,
    "lon": 127.44485,
    "image": "https://tong.visitkorea.or.kr/cms/resource/51/3559551_image2_1.jpg",
-   "tel": "공원 031-632-6607 숙박 031-632-6430",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -18062,7 +18024,7 @@
    "lat": 37.27489,
    "lon": 127.42732,
    "image": "https://tong.visitkorea.or.kr/cms/resource/65/3023965_image2_1.jpg",
-   "tel": "031-633-9734",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18106,7 +18068,7 @@
    "lat": 37.56171,
    "lon": 126.94658,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3305246_image2_1.jpg",
-   "tel": "02-3277-4700",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18228,7 +18190,7 @@
    "lat": 37.59437,
    "lon": 126.69863,
    "image": "https://tong.visitkorea.or.kr/cms/resource/96/3529296_image2_1.jpg",
-   "tel": "032-440-6790",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18268,7 +18230,7 @@
    "lat": 37.42067,
    "lon": 126.65312,
    "image": "https://tong.visitkorea.or.kr/cms/resource/45/4056045_image2_1.jpg",
-   "tel": "032-440-6750",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18309,7 +18271,7 @@
    "lat": 37.52195,
    "lon": 126.67651,
    "image": "https://tong.visitkorea.or.kr/cms/resource/78/4091078_image2_1.JPG",
-   "tel": "032-899-7600",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18346,7 +18308,7 @@
    "lat": 37.45762,
    "lon": 126.74926,
    "image": "https://tong.visitkorea.or.kr/cms/resource/53/4061653_image2_1.jpg",
-   "tel": "032-440-5815",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -18538,7 +18500,7 @@
    "lat": 37.44756,
    "lon": 126.70002,
    "image": "https://tong.visitkorea.or.kr/cms/resource/68/4085068_image2_1.JPG",
-   "tel": "032-427-8401",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18614,7 +18576,7 @@
    "lat": 37.55157,
    "lon": 126.73995,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/3516517_image2_1.jpg",
-   "tel": "032-456-2500",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18657,7 +18619,7 @@
    "lat": 37.43728,
    "lon": 126.69072,
    "image": null,
-   "tel": "032-432-5600",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18735,7 +18697,7 @@
    "lat": 37.49089,
    "lon": 126.50804,
    "image": "https://tong.visitkorea.or.kr/cms/resource/75/3533575_image2_1.jpg",
-   "tel": "032-880-0792",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -18889,7 +18851,7 @@
    "lat": 37.67548,
    "lon": 126.92374,
    "image": "https://tong.visitkorea.or.kr/cms/resource/18/3559518_image2_1.jpg",
-   "tel": "031-871-4387",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -18926,7 +18888,7 @@
    "lat": 37.2881,
    "lon": 126.97702,
    "image": "https://tong.visitkorea.or.kr/cms/resource/85/4092785_image2_1.JPG",
-   "tel": "031-369-2380",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -18965,7 +18927,7 @@
    "lat": 37.5373,
    "lon": 127.15421,
    "image": "https://tong.visitkorea.or.kr/cms/resource/77/4123077_image2_1.jpg",
-   "tel": "서울 강동구청 푸른도시과 02-3425-6452",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -19155,7 +19117,7 @@
    "lat": 37.94244,
    "lon": 127.06601,
    "image": "https://tong.visitkorea.or.kr/cms/resource/03/4124103_image2_1.jpg",
-   "tel": "031-860-3330~3",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -19270,7 +19232,7 @@
    "lat": 37.51763,
    "lon": 127.08674,
    "image": null,
-   "tel": "02-3431-8475~6",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -19382,7 +19344,7 @@
    "lat": 37.58313,
    "lon": 127.13859,
    "image": "https://tong.visitkorea.or.kr/cms/resource/06/3447406_image2_1.jpg",
-   "tel": "031-550-8317",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -19582,7 +19544,7 @@
    "lat": 38.01122,
    "lon": 127.06643,
    "image": "https://tong.visitkorea.or.kr/cms/resource/17/4117117_image2_1.jpg",
-   "tel": "031-830-5600",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -19624,7 +19586,7 @@
    "lat": 37.48559,
    "lon": 127.02807,
    "image": "https://tong.visitkorea.or.kr/cms/resource/11/3540611_image2_1.jpg",
-   "tel": "02-2105-8190",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -19700,7 +19662,7 @@
    "lat": 37.8367,
    "lon": 126.96917,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/3559497_image2_1.jpg",
-   "tel": "070-7780-8911",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -19740,7 +19702,7 @@
    "lat": 37.55964,
    "lon": 127.00616,
    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3556967_image2_1.jpg",
-   "tel": "02-2279-7901",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -19778,7 +19740,7 @@
    "lat": 37.28037,
    "lon": 126.54753,
    "image": "https://tong.visitkorea.or.kr/cms/resource/33/3532233_image2_1.jpg",
-   "tel": "032-886-6044",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -20040,7 +20002,7 @@
    "lat": 37.24808,
    "lon": 127.03991,
    "image": "https://tong.visitkorea.or.kr/cms/resource/35/3584735_image2_1.jpg",
-   "tel": "031-225-5566",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20081,7 +20043,7 @@
    "lat": 37.7086,
    "lon": 126.68722,
    "image": "https://tong.visitkorea.or.kr/cms/resource/23/3039023_image2_1.jpg",
-   "tel": "0507-1335-0144",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20194,7 +20156,7 @@
    "lat": 37.47479,
    "lon": 126.61817,
    "image": "https://tong.visitkorea.or.kr/cms/resource/22/4056222_image2_1.jpg",
-   "tel": "032-773-9812",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20272,7 +20234,7 @@
    "lat": 37.4333,
    "lon": 126.78646,
    "image": "https://tong.visitkorea.or.kr/cms/resource/90/4100390_image2_1.jpg",
-   "tel": "031-435-1009",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20316,7 +20278,7 @@
    "lat": 37.38266,
    "lon": 127.15096,
    "image": "https://tong.visitkorea.or.kr/cms/resource/86/3333286_image2_1.jpg",
-   "tel": "031-729-1765",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20428,7 +20390,7 @@
    "lat": 37.20505,
    "lon": 127.35561,
    "image": "https://tong.visitkorea.or.kr/cms/resource/20/3392220_image2_1.jpg",
-   "tel": "031-639-5790",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20539,7 +20501,7 @@
    "lat": 37.57127,
    "lon": 127.03504,
    "image": "https://tong.visitkorea.or.kr/cms/resource/11/3503011_image2_1.jpg",
-   "tel": "02-2286-3410",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20653,7 +20615,7 @@
    "lat": 37.7224,
    "lon": 126.94679,
    "image": "https://tong.visitkorea.or.kr/cms/resource/71/3565971_image2_1.jpg",
-   "tel": "031-855-5100",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20731,7 +20693,7 @@
    "lat": 37.34907,
    "lon": 126.91828,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/4078083_image2_1.jpg",
-   "tel": "문화예술과 031-390-0667",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -20841,7 +20803,7 @@
    "lat": 37.45264,
    "lon": 127.0283,
    "image": "https://tong.visitkorea.or.kr/cms/resource/48/4114748_image2_1.jpg",
-   "tel": "02-2150-3650",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -20882,7 +20844,7 @@
    "lat": 37.75291,
    "lon": 127.30915,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3077083_image2_1.jpg",
-   "tel": "031-8008-6690",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -20957,7 +20919,7 @@
    "lat": 37.7086,
    "lon": 126.68722,
    "image": "https://tong.visitkorea.or.kr/cms/resource/75/3540675_image2_1.jpg",
-   "tel": "031-955-7955",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -21144,7 +21106,7 @@
    "lat": 37.5476,
    "lon": 127.58125,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3078430_image2_1.jpg",
-   "tel": "031-772-3370",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -21182,7 +21144,7 @@
    "lat": 37.83624,
    "lon": 127.46534,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3490493_image2_1.jpg",
-   "tel": "031-8078-8062",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -21259,7 +21221,7 @@
    "lat": 37.52401,
    "lon": 127.03277,
    "image": "https://tong.visitkorea.or.kr/cms/resource/94/3507894_image2_1.jpg",
-   "tel": "02-547-9177",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -21299,7 +21261,7 @@
    "lat": 37.51176,
    "lon": 127.05912,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3081283_image2_1.jpg",
-   "tel": "02-700-7200",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -21408,7 +21370,7 @@
    "lat": 37.54071,
    "lon": 126.97364,
    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3399730_image2_1.JPG",
-   "tel": "02-709-7403",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -21586,7 +21548,7 @@
    "lat": 37.54931,
    "lon": 127.07628,
    "image": "https://tong.visitkorea.or.kr/cms/resource/03/3567303_image2_1.jpg",
-   "tel": "02-455-7119",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -21734,7 +21696,7 @@
    "lat": 37.47898,
    "lon": 127.10295,
    "image": "https://tong.visitkorea.or.kr/cms/resource/55/3511055_image2_1.jpg",
-   "tel": "02-445-8486",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -21920,7 +21882,7 @@
    "lat": 37.72289,
    "lon": 126.69309,
    "image": "https://tong.visitkorea.or.kr/cms/resource/26/3496426_image2_1.JPG",
-   "tel": "031-955-1550",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -21994,7 +21956,7 @@
    "lat": 37.71485,
    "lon": 126.6869,
    "image": "https://tong.visitkorea.or.kr/cms/resource/52/3540652_image2_1.jpg",
-   "tel": "031-955-3727",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -22115,7 +22077,7 @@
    "lat": 37.40093,
    "lon": 127.09558,
    "image": "https://tong.visitkorea.or.kr/cms/resource/07/3053407_image2_1.jpg",
-   "tel": "031-729-1792~4",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -22305,7 +22267,7 @@
    "lat": 36.99402,
    "lon": 126.85245,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3367412_image2_1.jpg",
-   "tel": "010-8207-1023",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -22340,7 +22302,7 @@
    "lat": 37.01262,
    "lon": 126.98354,
    "image": "https://tong.visitkorea.or.kr/cms/resource/59/3514159_image2_1.jpg",
-   "tel": "031-8024-4566",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -22416,7 +22378,7 @@
    "lat": 37.92475,
    "lon": 127.2434,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3502149_image2_1.jpg",
-   "tel": "031-535-5020",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -22454,10 +22416,10 @@
    "lon": 127.2365,
    "image": "https://tong.visitkorea.or.kr/cms/resource/07/4133507_image2_1.jpg",
    "tel": "0502-1949-0514",
-   "modified": "2026-11-11",
+   "modified": "2026-11-12",
    "period": {
-    "start": "2026-11-14",
-    "end": "2026-11-14"
+    "start": "2026-11-29",
+    "end": "2026-11-29"
    },
    "setting": "outdoor",
    "tags": [
@@ -22485,7 +22447,7 @@
    "babyCarriage": null,
    "homepage": "https://p-petstar.imweb.me/",
    "tip": "2026 포천 펫스타 in 아트밸리는 반려가족과 시민이 함께 즐기고 소통하는 참여형 반려동물 문화축제이다. 아름다운 자연경관과 예술이 어우러진 포천아트밸리를 배경으로 반려견과 함께 도전하는 '멍파서…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-13"
   },
   {
    "id": "1553067",
@@ -22495,7 +22457,7 @@
    "lat": 38.03472,
    "lon": 127.10668,
    "image": "https://tong.visitkorea.or.kr/cms/resource/22/2566722_image2_1.jpg",
-   "tel": "- 0507-1349-5299 - 체험 및 숙박 문의 010-2654-5299",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -22529,7 +22491,7 @@
    "lat": 37.48197,
    "lon": 126.82367,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3545146_image2_1.jpg",
-   "tel": "02-2686-3203",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -22605,7 +22567,7 @@
    "lat": 37.56845,
    "lon": 127.22701,
    "image": "https://tong.visitkorea.or.kr/cms/resource/13/3507813_image2_1.jpg",
-   "tel": "031-521-6043",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -22754,7 +22716,7 @@
    "lat": 37.54546,
    "lon": 127.20608,
    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3078540_image2_1.jpg",
-   "tel": "031-790-7990",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -22984,7 +22946,7 @@
    "lat": 38.06837,
    "lon": 127.30359,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/4076895_image2_1.jpg",
-   "tel": "031-533-8121",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -23181,7 +23143,7 @@
    "lat": 37.22281,
    "lon": 127.49925,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3068812_image2_1.jpg",
-   "tel": "031-632-1391",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -23224,7 +23186,7 @@
    "lat": 37.33659,
    "lon": 127.17788,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/3584961_image2_1.jpg",
-   "tel": "031-334-0797",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -23305,7 +23267,7 @@
    "lat": 37.25671,
    "lon": 127.11458,
    "image": "https://tong.visitkorea.or.kr/cms/resource/80/3490580_image2_1.jpg",
-   "tel": "031-286-2111",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -23460,7 +23422,7 @@
    "lat": 37.47007,
    "lon": 126.60024,
    "image": null,
-   "tel": "032-440-4710",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -23624,7 +23586,7 @@
    "lat": 37.54414,
    "lon": 126.91179,
    "image": "https://tong.visitkorea.or.kr/cms/resource/07/4089107_image2_1.jpg",
-   "tel": "절두산순교성지 02-3142-4434",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -23735,7 +23697,7 @@
    "lat": 37.62358,
    "lon": 127.06869,
    "image": "https://tong.visitkorea.or.kr/cms/resource/65/3363265_image2_1.jpg",
-   "tel": "02-979-7420",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24083,7 +24045,7 @@
    "lat": 37.51545,
    "lon": 127.12065,
    "image": "https://tong.visitkorea.or.kr/cms/resource/55/3502855_image2_1.jpg",
-   "tel": "02-2152-5800",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24166,7 +24128,7 @@
    "lat": 38.01545,
    "lon": 127.05853,
    "image": "https://tong.visitkorea.or.kr/cms/resource/71/3490571_image2_1.jpg",
-   "tel": "031-833-0514",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -24204,7 +24166,7 @@
    "lat": 37.09401,
    "lon": 127.40975,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/4100661_image2_1.jpg",
-   "tel": "031-333-3558",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -24278,7 +24240,7 @@
    "lat": 37.78995,
    "lon": 126.70092,
    "image": "https://tong.visitkorea.or.kr/cms/resource/33/3527733_image2_1.jpg",
-   "tel": "070-4161-7271",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24361,7 +24323,7 @@
    "lat": 37.49869,
    "lon": 126.66065,
    "image": null,
-   "tel": "032-577-3600",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -24434,7 +24396,7 @@
    "lat": 37.56778,
    "lon": 126.85103,
    "image": "https://tong.visitkorea.or.kr/cms/resource/57/3579657_image2_1.jpg",
-   "tel": "02-3661-8686",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24477,7 +24439,7 @@
    "lat": 37.46419,
    "lon": 127.081,
    "image": "https://tong.visitkorea.or.kr/cms/resource/20/3499820_image2_1.jpg",
-   "tel": "헌릉관리소 02-445-0347 서울시청 자연생태과 02-2133-2151",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -24551,7 +24513,7 @@
    "lat": 37.39279,
    "lon": 127.11209,
    "image": "https://tong.visitkorea.or.kr/cms/resource/36/3568936_image2_1.jpg",
-   "tel": "031-5170-3700",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24674,7 +24636,7 @@
    "lat": 37.5227,
    "lon": 127.03636,
    "image": "https://tong.visitkorea.or.kr/cms/resource/54/3507854_image2_1.jpg",
-   "tel": "02-541-3523~5",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24716,7 +24678,7 @@
    "lat": 37.34076,
    "lon": 127.28942,
    "image": "https://tong.visitkorea.or.kr/cms/resource/90/3494890_image2_1.jpg",
-   "tel": "031-8026-6666",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -24755,7 +24717,7 @@
    "lat": 37.11616,
    "lon": 126.68337,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/3031629_image2_1.JPG",
-   "tel": "0507-1428-7339",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -24791,7 +24753,7 @@
    "lat": 37.11482,
    "lon": 126.88286,
    "image": "https://tong.visitkorea.or.kr/cms/resource/38/4006438_image2_1.jpg",
-   "tel": "031-5189-6160",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
@@ -24835,7 +24797,7 @@
    "lat": 37.13259,
    "lon": 126.92806,
    "image": "https://tong.visitkorea.or.kr/cms/resource/00/3563100_image2_1.jpg",
-   "tel": "031-5189-7038",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24877,7 +24839,7 @@
    "lat": 37.21233,
    "lon": 126.9608,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/3538741_image2_1.jpg",
-   "tel": "031-5183-3200",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "indoor",
    "tags": [
@@ -24951,7 +24913,7 @@
    "lat": 37.27858,
    "lon": 127.64897,
    "image": "https://tong.visitkorea.or.kr/cms/resource/21/2665621_image2_1.jpg",
-   "tel": "여주시 산림공원과 031-887-2744",
+   "tel": null,
    "modified": "2026-11-11",
    "setting": "outdoor",
    "tags": [
