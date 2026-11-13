@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13 08:25",
+ "updatedAt": "2026-11-14 08:25",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -43,6 +43,44 @@
    "homepage": "https://www.instagram.com/dmzopen_official/",
    "tip": "DMZ OPEN Festival은 비무장지대(DMZ)가 지닌 평화·생태·역사적 가치를 예술, 학술 등 다양한 방식으로 경험할 수 있도록 구성한 경기도의 대표 복합 문화 행사이다. 단순히 DMZ를 분…",
    "detailFetched": "2026-10-15"
+  },
+  {
+   "id": "4108260",
+   "contentTypeId": "15",
+   "name": "2026 HUG RUN 허그런",
+   "area": "서울특별시 마포구",
+   "lat": 37.56591,
+   "lon": 126.89646,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/70/4109170_image2_1.jpg",
+   "tel": "02-332-3997",
+   "modified": "2026-09-10",
+   "period": {
+    "start": "2026-12-05",
+    "end": "2026-12-05"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "nature"
+   ],
+   "emoji": "🌳",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": null,
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "07:00~11:00",
+   "babyCarriage": null,
+   "homepage": "https://hugrun.kr/",
+   "tip": "아이들을 위해 멈추지 않고 달리는 기부 마라톤 '2026 허그런(HUG RUN)'이 오는 12월 5일 토요일 상암 월드컵공원 평화광장에서 개최된다. 허그런은 학대, 유기, 방임 등 위기 상황에 놓인…",
+   "detailFetched": "2026-11-14"
   },
   {
    "id": "3488421",
@@ -7641,7 +7679,7 @@
    "lat": 37.80229,
    "lon": 126.72401,
    "image": "https://tong.visitkorea.or.kr/cms/resource/91/3382791_image2_1.JPG",
-   "tel": "010-7176-6480",
+   "tel": null,
    "modified": "2026-11-12",
    "setting": "outdoor",
    "tags": [
@@ -7816,11 +7854,11 @@
    "contentTypeId": "12",
    "name": "무릉도원수목원",
    "area": "경기도 부천시",
-   "lat": 37.5033,
-   "lon": 126.8182,
+   "lat": 37.50289,
+   "lon": 126.81862,
    "image": "https://tong.visitkorea.or.kr/cms/resource/06/2782006_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "032-625-3503",
+   "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -7850,8 +7888,8 @@
    "hours": "09:30~18:00",
    "babyCarriage": "없음",
    "homepage": "http://ecopark.bucheon.go.kr/",
-   "tip": "천무릉도원수목원은 2012년 10월 개원하였으며, 총면적은 210,298㎡에 1,334종의 수목을 보유하고 있다. 수목원 입구에 있는 오리연못에는 무릉도원수목원의 상징인 절리석의 기암절벽과 폭포가 …",
-   "detailFetched": "2026-11-12"
+   "tip": "부천에 위치한 무릉도원수목원은 2012년 10월 개원하였으며, 총면적은 210,298㎡에 1,334종의 수목을 보유하고 있다. 수목원 입구에 있는 오리연못에는 무릉도원수목원의 상징인 절리석의 기암절…",
+   "detailFetched": "2026-11-14"
   },
   {
    "id": "3392732",
@@ -10827,8 +10865,8 @@
    "lat": 37.54307,
    "lon": 127.0418,
    "image": "https://tong.visitkorea.or.kr/cms/resource_photo/99/3580599_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-06-19",
+   "tel": "02-460-2905~6",
+   "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -10852,9 +10890,9 @@
    "seasonText": null,
    "hours": "상시 개방※ 시설별 이용시간 상이하므로 홈페이지 참조",
    "babyCarriage": null,
-   "homepage": "https://parks.seoul.go.kr/",
+   "homepage": null,
    "tip": "서울숲은 1908년 설치된 서울 최초의 상수원 수원지였으며, 2005년에 뚝섬체육공원 일대를 대규모 도시 숲으로 만들기 위해 새롭게 개원하였다. 현재는 문화예술공원, 체험학습원, 생태숲, 습지생태원…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-14"
   },
   {
    "id": "3442142",
@@ -12208,8 +12246,8 @@
    "lat": 37.7456,
    "lon": 126.4851,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/3537442_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "032-934-2500",
+   "modified": "2026-11-13",
    "setting": "indoor",
    "tags": [
     "craft"
@@ -12236,7 +12274,7 @@
    "babyCarriage": null,
    "homepage": "https://www.ganghwa.go.kr/tour/",
    "tip": "소창 체험관은 1938년에 건축된 한옥과 염색공장이었던 옛 평화 직물 터를 2016년에 리모델링하며 꾸며졌다. 강화군 전통산업인 소창에 대한 전통문화유산 보존과 가치를 재조명하는 공간으로, 화문석에…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-14"
   },
   {
    "id": "2741575",
@@ -21772,8 +21810,8 @@
    "lat": 37.44289,
    "lon": 127.11851,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3001246_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-04-14",
+   "tel": "성남시청 도시미관과 031-729-5453 성남시청 생태하천과 031-729-4341~5",
+   "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -21798,9 +21836,9 @@
    "seasonText": null,
    "hours": "10:00~17:00",
    "babyCarriage": null,
-   "homepage": "https://www.seongnam.go.kr/park/",
+   "homepage": null,
    "tip": "성남시의 벚꽃 9경 중 한 곳인 태평동 탄천은 봄에는 벚꽃, 여름에는 어린이를 위한 물놀이장, 가을에는 환하게 핀 코스모스와 단풍을 즐길 수 있는 성남시 명소이다. 태평동 물놀이장은 수인분당선 태평…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-14"
   },
   {
    "id": "3082235",
@@ -24717,8 +24755,8 @@
    "lat": 37.11616,
    "lon": 126.68337,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/3031629_image2_1.JPG",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "0507-1428-7339",
+   "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -24743,7 +24781,7 @@
    "babyCarriage": null,
    "homepage": "https://ggtour.or.kr",
    "tip": "화성 궁평어촌체험휴양마을은 깨끗하고 조용한 어촌마을로서 휴양과 어촌체험을 동시에 즐길 수 있는 마을이다. [궁평리]란 지명은 옛날 궁(국가)에서 관리하던 땅이 많아 [궁평] 또는[궁들]이라 불리던 …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-14"
   },
   {
    "id": "2514563",
