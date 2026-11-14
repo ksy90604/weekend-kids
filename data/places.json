@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14 08:25",
+ "updatedAt": "2026-11-15 07:11",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -7857,7 +7857,7 @@
    "lat": 37.50289,
    "lon": 126.81862,
    "image": "https://tong.visitkorea.or.kr/cms/resource/06/2782006_image2_1.jpg",
-   "tel": "032-625-3503",
+   "tel": null,
    "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
@@ -10865,7 +10865,7 @@
    "lat": 37.54307,
    "lon": 127.0418,
    "image": "https://tong.visitkorea.or.kr/cms/resource_photo/99/3580599_image2_1.jpg",
-   "tel": "02-460-2905~6",
+   "tel": null,
    "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
@@ -12246,7 +12246,7 @@
    "lat": 37.7456,
    "lon": 126.4851,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/3537442_image2_1.jpg",
-   "tel": "032-934-2500",
+   "tel": null,
    "modified": "2026-11-13",
    "setting": "indoor",
    "tags": [
@@ -21810,7 +21810,7 @@
    "lat": 37.44289,
    "lon": 127.11851,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3001246_image2_1.jpg",
-   "tel": "성남시청 도시미관과 031-729-5453 성남시청 생태하천과 031-729-4341~5",
+   "tel": null,
    "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
@@ -24755,7 +24755,7 @@
    "lat": 37.11616,
    "lon": 126.68337,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/3031629_image2_1.JPG",
-   "tel": "0507-1428-7339",
+   "tel": null,
    "modified": "2026-11-13",
    "setting": "outdoor",
    "tags": [
