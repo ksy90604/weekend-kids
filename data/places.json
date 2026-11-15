@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15 07:11",
+ "updatedAt": "2026-11-16 07:40",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -163,47 +163,6 @@
    "homepage": "https://kto.visitkorea.or.kr/",
    "tip": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 1…",
    "detailFetched": "2026-11-11"
-  },
-  {
-   "id": "2769990",
-   "contentTypeId": "15",
-   "name": "2026 대한민국 우리술 대축제",
-   "area": "서울특별시 서초구",
-   "lat": 37.46734,
-   "lon": 127.04074,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/38/4132038_image2_1.jpg",
-   "tel": "02-6952-9498",
-   "modified": "2026-10-21",
-   "period": {
-    "start": "2026-11-13",
-    "end": "2026-11-15"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "museum"
-   ],
-   "emoji": "🏛️",
-   "ages": [
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 15000,
-    "child": 15000
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "13:00~20:00",
-   "babyCarriage": null,
-   "homepage": "https://thesool.com/",
-   "tip": "2026 대한민국 우리술대축제는 전통주의 가치와 다양성을 널리 알리고 국내외 소비자와의 소통을 강화하기 위해 마련된 국내 최대 규모의 전통주 축제이다. 서울 양재동 aT센터 제1전시관에서 2026년…",
-   "detailFetched": "2026-10-23"
   },
   {
    "id": "3492276",
@@ -15658,48 +15617,6 @@
    "detailFetched": "2026-10-09"
   },
   {
-   "id": "2613615",
-   "contentTypeId": "15",
-   "name": "영주 사과축제",
-   "area": "서울 중구",
-   "lat": 37.56907,
-   "lon": 126.97759,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/85/4139585_image2_1.jpg",
-   "tel": "054-630-8706",
-   "modified": "2026-11-11",
-   "period": {
-    "start": "2026-11-13",
-    "end": "2026-11-15"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft",
-    "nature"
-   ],
-   "emoji": "🌳",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~19:00",
-   "babyCarriage": null,
-   "homepage": "https://yctf.or.kr/aspf/",
-   "tip": "2026 영주사과축제는 영주의 맑은 자연 속에서 자란 최고 품질의 영주 사과를 오감으로 즐기는 가을 축제로, 올해 영주사과축제는 영주 사과의 맛과 매력을 산지와 도심에서 동시에 전한다. 10월 30…",
-   "detailFetched": "2026-11-12"
-  },
-  {
    "id": "130716",
    "contentTypeId": "14",
    "name": "영집궁시박물관",
@@ -22933,47 +22850,6 @@
    "babyCarriage": null,
    "homepage": "https://www.nyj.go.kr/",
    "tip": "한강시민공원삼패지구물놀이장은 남양주 고산로에 위치한 무료 물놀이장으로 남양주에서 운영하는 야외 물놀이장 중에서 규모가 제일 크다. 한강시민공원은 강변을 따라 자전거 길과 산책로가 이어져 있으며 화려…",
-   "detailFetched": "2026-10-09"
-  },
-  {
-   "id": "3111722",
-   "contentTypeId": "15",
-   "name": "한강역사탐방",
-   "area": "서울특별시 영등포구",
-   "lat": 37.52635,
-   "lon": 126.9336,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/49/4058449_image2_1.png",
-   "tel": "02-6953-9239",
-   "modified": "2026-06-01",
-   "period": {
-    "start": "2026-04-20",
-    "end": "2026-11-15"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "craft"
-   ],
-   "emoji": "📍",
-   "ages": [
-    "baby",
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~12:00",
-   "babyCarriage": null,
-   "homepage": null,
-   "tip": "'한강역사탐방' 프로그램은 한강 경관 및 역사·문화자원을 감상·공유하는 매력적인 관광해설과 교육을 제공하여 시민 및 관광객에게 한강변을 체험·감상한다. 또한 체험활동 등 시민들이 능동적으로 참여하고…",
    "detailFetched": "2026-10-09"
   },
   {
