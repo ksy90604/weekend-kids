@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16 07:40",
+ "updatedAt": "2026-11-17 10:46",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -453,7 +453,7 @@
    "lon": 126.9759,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/4103061_image2_1.jpg",
    "tel": "02-724-6319",
-   "modified": "2026-08-31",
+   "modified": "2026-11-16",
    "period": {
     "start": "2026-11-20",
     "end": "2027-03-28"
@@ -482,9 +482,9 @@
    "seasonText": null,
    "hours": "10:00~18:00",
    "babyCarriage": null,
-   "homepage": "https://www.instagram.com/artchosun_space/",
+   "homepage": null,
    "tip": "하루에도 수억 장의 이미지가 액정 화면 위에서 쉽게 태어나고 손가락 한 번에 가볍게 소멸하는 시대. 디지털 기술과 인공지능의 범람 속에서 누구나 순간을 쉽게 포착하고 복제할 수 있게 됐다. 가벼운 …",
-   "detailFetched": "2026-10-30"
+   "detailFetched": "2026-11-17"
   },
   {
    "id": "3113265",
@@ -2934,8 +2934,8 @@
    "lat": 37.4938,
    "lon": 126.8697,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/3000641_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-10-07",
+   "tel": "1688-3399",
+   "modified": "2026-11-16",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -2959,9 +2959,9 @@
    "seasonText": "매년 여름마다 한시적 운영",
    "hours": "10:00~18:00",
    "babyCarriage": null,
-   "homepage": "https://www.gm.go.kr/tr/trmt/lsls/ls05.jsp",
+   "homepage": null,
    "tip": "안양천 둔치 구일역아래에 위치하고 있으며 안양천에 조성된 물놀이장 중 가장 큰 규모(총면적 6,320㎡)를 자랑하는 물놀이장으로 총 3개(30·40·60㎝)의 다양한 수심의 풀장이 곳곳에 마련되어 …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-17"
   },
   {
    "id": "2553960",
@@ -11291,8 +11291,8 @@
    "lat": 37.69102,
    "lon": 126.32639,
    "image": "https://tong.visitkorea.or.kr/cms/resource/48/4025148_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "032-932-5432",
+   "modified": "2026-11-16",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -11317,9 +11317,9 @@
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": "없음",
-   "homepage": "https://forest.ganghwa.go.kr",
+   "homepage": null,
    "tip": "석모도수목원은 인천광역시 강화군에서 운영하는 곳으로 2019년 5월 개관하였다. 이곳은 기후온난화에 대비하여 북방한계성 식물 및 해양성 식물연구에 적합한 점을 인정받아 석모도에 자리 잡게 되었다. …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-17"
   },
   {
    "id": "2490906",
@@ -20835,9 +20835,9 @@
    "area": "서울특별시 종로구",
    "lat": 37.57144,
    "lon": 126.99021,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/26/2022426_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-02-09",
+   "image": "https://tong.visitkorea.or.kr/cms/resource/25/4153325_image2_1.jpg",
+   "tel": "02-3672-2005",
+   "modified": "2026-11-16",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -20848,8 +20848,8 @@
     "school"
    ],
    "price": {
-    "adult": 2000,
-    "child": 1000
+    "adult": 5000,
+    "child": 3000
    },
    "parking": null,
    "parkingText": null,
@@ -20864,7 +20864,7 @@
    "babyCarriage": null,
    "homepage": "http://cwdmuseum.com",
    "tip": "2008년에 개관한 춘원당 한방 박물관은 한의학의 살아있는 역사와 전통을 느낄 수 있는 한방 복합문화공간으로 한의학에 관련된 다양한 유물을 수집·보존·연구하며, 상설전을 비롯한 특별전을 개최함으로써…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-17"
   },
   {
    "id": "2498600",
