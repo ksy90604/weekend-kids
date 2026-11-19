@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18 09:49",
+ "updatedAt": "2026-11-19 09:07",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -1360,8 +1360,8 @@
    "lat": 37.60736,
    "lon": 126.51839,
    "image": "https://tong.visitkorea.or.kr/cms/resource/06/3000906_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-04-06",
+   "tel": "0507-1386-2307",
+   "modified": "2026-11-18",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -1388,7 +1388,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/gnfarm_",
    "tip": "강화도 길상면에 위치한 자연 체험농장은 다양한 대상에 맞춤형 서비스를 제공하는 체험학습장이다. 말 아저씨의 오랜 경험과 노하우를 바탕으로 말과 교감하며 배우는 승마 체험을 비롯하여 사륜 오토바이를 …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "2599177",
@@ -5819,8 +5819,8 @@
    "lat": 37.73753,
    "lon": 126.57444,
    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3335767_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-10-26",
+   "tel": "031-998-1000",
+   "modified": "2026-11-18",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -5852,7 +5852,7 @@
    "babyCarriage": "없음",
    "homepage": "http://www.gimpoteamuseum.org",
    "tip": "김포다도박물관은 한국 차[茶] 문화역사를 재조명할 수 있도록 개관한 전통 다도 전문 사립 박물관이다. 1만여 평 부지 위에 조각공원, 팔도장독 전시, 갤러리 등의 부대시설을 갖추고 있다. 박물관 뒤…",
-   "detailFetched": "2026-10-27"
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "2500687",
@@ -10175,7 +10175,7 @@
    "lat": 37.55963,
    "lon": 126.96935,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/4153083_image2_1.jpg",
-   "tel": "02-3147-2401",
+   "tel": null,
    "modified": "2026-11-17",
    "setting": "indoor",
    "tags": [
@@ -11291,8 +11291,8 @@
    "lat": 37.69102,
    "lon": 126.32639,
    "image": "https://tong.visitkorea.or.kr/cms/resource/48/4025148_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-16",
+   "tel": "032-932-5432",
+   "modified": "2026-11-18",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -11319,7 +11319,7 @@
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "석모도수목원은 인천광역시 강화군에서 운영하는 곳으로 2019년 5월 개관하였다. 이곳은 기후온난화에 대비하여 북방한계성 식물 및 해양성 식물연구에 적합한 점을 인정받아 석모도에 자리 잡게 되었다. …",
-   "detailFetched": "2026-11-17"
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "2490906",
@@ -12361,8 +12361,8 @@
    "lat": 37.53983,
    "lon": 127.04226,
    "image": "https://tong.visitkorea.or.kr/cms/resource/76/3309176_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "02-3146-5921",
+   "modified": "2026-11-18",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -12387,9 +12387,9 @@
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": "가능",
-   "homepage": "https://arisu.seoul.go.kr/arisumuseum",
+   "homepage": null,
    "tip": "수도박물관이 있는 이곳 뚝섬 지역에 우리나라 최초 정수장인 뚝도수원지 제1정수장이 들어섰다. 1903년 12월 9일 미국 기업인 콜브란(C.H.Collbran)과 보스트위크(H.R.Bostwick)…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "3504884",
@@ -14852,6 +14852,46 @@
    "homepage": "https://www.yp21.go.kr",
    "tip": "2011년 11월 양평에 개관한 양평곤충박물관은 도심에서 쉽게 볼 수 없는 다양한 종류의 곤충을 만날 수 있는 곳이다. 다녀간 사람들이 적극적으로 추천하는 곳으로, 어린 자녀를 둔 가족단위의 방문객…",
    "detailFetched": "2026-11-12"
+  },
+  {
+   "id": "1762432",
+   "contentTypeId": "15",
+   "name": "양평빙송어축제",
+   "area": "경기도 양평군",
+   "lat": 37.5145,
+   "lon": 127.65739,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/82/4164382_image2_1.JPG",
+   "tel": "031-775-5205",
+   "modified": "2026-11-18",
+   "period": {
+    "start": "2026-12-05",
+    "end": "2027-03-07"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "snow",
+    "nature"
+   ],
+   "emoji": "🛷",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": null,
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "10:00~17:00",
+   "babyCarriage": null,
+   "homepage": "https://soomyland.com/main/main.php",
+   "tip": "양평 수미마을은 물맑은 양평에 위치한 농촌체험 휴양마을이다. 2013년에는 “대한민국 농촌마을대상” 대통령상을 수상하였으며 녹색농촌체험을 테마로 365일 농촌 체험이 열리고 있다. 체험은 마을의 농…",
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "2791836",
@@ -17591,8 +17631,8 @@
    "lat": 37.14103,
    "lon": 127.03711,
    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3541746_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "0507-1494-0872",
+   "modified": "2026-11-18",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -17619,7 +17659,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/eunsanmuseum",
    "tip": "은산어울림생태박물관은 양서류와 파충류를 만나볼 수 있는 박물관이다. 도마뱀, 뱀, 거북이, 개구리 등 양서‧파충류를 직접 보고 관찰할 수 있다. 양서류, 파충류를 중심으로 1시간 30분 해설 프로그…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "2021559",
@@ -19848,8 +19888,8 @@
    "lat": 37.20186,
    "lon": 127.65639,
    "image": "https://tong.visitkorea.or.kr/cms/resource/87/3002787_image2_1.JPG",
-   "tel": null,
-   "modified": "2026-04-07",
+   "tel": "031-886-7646",
+   "modified": "2026-11-18",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -19874,7 +19914,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/zoo.zoofarm/",
    "tip": "유리벽에 갇혀 스트레스를 받는 동물원이 아닌, 동물들이 자유롭게 뛰어놀며 아이들과 교감하는 체험 농장인 주주팜은 버림받거나 파양 된 동물들을 보호하며 동물들과의 교감을 통한 아이들에게 생명의 중요성…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "127961",
@@ -20720,7 +20760,7 @@
    "lat": 37.55813,
    "lon": 126.98423,
    "image": "https://tong.visitkorea.or.kr/cms/resource/29/4152329_image2_1.jpg",
-   "tel": "02-753-4074",
+   "tel": null,
    "modified": "2026-11-17",
    "setting": "indoor",
    "tags": [
@@ -20987,8 +21027,8 @@
    "lat": 37.09968,
    "lon": 126.8836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/3466232_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-03-19",
+   "tel": "0507-1339-2943",
+   "modified": "2026-11-18",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -21015,7 +21055,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/healing.and.strawberry/#",
    "tip": "치유앤 딸기 체험 농장은 경기도 화성시 팔탄면에 위치한 친환경 농장이다. 이곳은 제철 농산물을 활용하한 전문 체험 농장으로 가족과 함께 즐길 수 있는 특별한 시간을 제공한다. 농장은 깨끗하고 잘 관…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-19"
   },
   {
    "id": "2739386",
