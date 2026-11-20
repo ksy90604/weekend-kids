@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20 09:29",
+ "updatedAt": "2026-11-21 08:51",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -363,6 +363,45 @@
    "detailFetched": "2026-11-07"
   },
   {
+   "id": "4144190",
+   "contentTypeId": "15",
+   "name": "2026 인천공항 온-아트 페스티벌",
+   "area": "인천광역시 영종구",
+   "lat": 37.44767,
+   "lon": 126.45217,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/92/4144192_image2_1.jpg",
+   "tel": "02-2138-0094",
+   "modified": "2026-11-20",
+   "period": {
+    "start": "2026-12-05",
+    "end": "2026-12-05"
+   },
+   "setting": "outdoor",
+   "tags": [],
+   "emoji": "📍",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "16:00~17:30",
+   "babyCarriage": null,
+   "homepage": null,
+   "tip": "〈2026 인천공항 온-아트 페스티벌〉은 문화예술을 통해 전 세대가 소통하고, 다채롭고 활기찬 지역사회를 만들어가고자 기획된 인천국제공항공사의 특별한 문화교육 행사이다. '꿈을 향한 비행, 함께하는…",
+   "detailFetched": "2026-11-21"
+  },
+  {
    "id": "4163259",
    "contentTypeId": "15",
    "name": "2026 전남 콘텐츠 페어 수도권 특별 체험전 〈10개의 이야기, 하나의 만남〉",
@@ -403,46 +442,6 @@
    "homepage": "https://www.jcia.or.kr/",
    "tip": "전라남도의 다채로운 문화와 고유한 이야기를 바탕으로 탄생한 9개의 대표 캐릭터·애니메이션·게임·웹툰 IP를 한자리에서 만나볼 수 있는 특별한 체험 전시이다. 각기 다른 매력을 지닌 콘텐츠를 눈으로 …",
    "detailFetched": "2026-11-18"
-  },
-  {
-   "id": "4151220",
-   "contentTypeId": "15",
-   "name": "2026년 제7회 김치의 날 X 제4회 위킴 페스티벌",
-   "area": "서울특별시 서초구",
-   "lat": 37.46828,
-   "lon": 127.03914,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/59/4155259_image2_1.jpg",
-   "tel": "02-6405-3641",
-   "modified": "2026-11-12",
-   "period": {
-    "start": "2026-11-20",
-    "end": "2026-11-20"
-   },
-   "setting": "outdoor",
-   "tags": [
-    "science"
-   ],
-   "emoji": "🔭",
-   "ages": [
-    "kid",
-    "school"
-   ],
-   "price": {
-    "adult": 0,
-    "child": 0
-   },
-   "parking": null,
-   "parkingText": null,
-   "closedDays": [],
-   "closedDates": [],
-   "months": null,
-   "restText": null,
-   "seasonText": null,
-   "hours": "10:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://www.instagram.com/kimchiday_1122/",
-   "tip": "「2026년 제7회 김치의 날 기념행사」는 법정기념일인 김치의 날(11월 22일)을 기념하여 개최하는 행사이다. 김치의 날은 「김치산업 진흥법」에 따라 지정된 기념일로, 김치 소재 하나하나(11)가…",
-   "detailFetched": "2026-11-13"
   },
   {
    "id": "4101384",
@@ -5664,8 +5663,8 @@
    "lat": 37.88987,
    "lon": 127.13712,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/3549328_image2_1.JPG",
-   "tel": null,
-   "modified": "2026-04-21",
+   "tel": "0507-1364-5572",
+   "modified": "2026-11-20",
    "setting": "mixed",
    "tags": [
     "craft",
@@ -5694,7 +5693,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "동두천시의 대표적인 관광자원인 숲에서 즐길 수 있는 수도권 유일의 숲 테마파크이다. 왕방산 자락에 위치한 18만 ㎡의 산에 둘러싸여 자연친화적인 숲 놀이터이다. 산에서 부는 시원한 바람과 계곡물이 …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-21"
   },
   {
    "id": "2762852",
@@ -6771,7 +6770,7 @@
    "lon": 127.11171,
    "image": "https://tong.visitkorea.or.kr/cms/resource/36/3589036_image2_1.jpg",
    "tel": null,
-   "modified": "2026-10-20",
+   "modified": "2026-11-20",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -6797,9 +6796,9 @@
    "seasonText": null,
    "hours": "11:00~17:30",
    "babyCarriage": null,
-   "homepage": "https://www.instagram.com",
+   "homepage": "https://www.instagram.com/farm_deulkkotgaram/",
    "tip": "들꽃가람농장은 경기도 연천군애 위치한 체험농장이다. 수확 체험과 쿠킹클래스, 팜크닉을 즐길 수 있다. 식물원과 같이 잘 꾸며진 농장과 다양한 체험, 놀이공간이 마련되어 있어 많은 사랑을 받는 곳이다…",
-   "detailFetched": "2026-10-22"
+   "detailFetched": "2026-11-21"
   },
   {
    "id": "2734980",
@@ -10445,7 +10444,7 @@
    "lat": 37.4252,
    "lon": 127.0156,
    "image": "https://tong.visitkorea.or.kr/cms/resource/81/3537381_image2_1.jpg",
-   "tel": "서울대공원 조경과 02-500-7541",
+   "tel": null,
    "modified": "2026-11-19",
    "setting": "outdoor",
    "tags": [
@@ -11440,8 +11439,8 @@
    "lat": 37.22051,
    "lon": 126.62988,
    "image": null,
-   "tel": null,
-   "modified": "2026-11-04",
+   "tel": "032-886-6133",
+   "modified": "2026-11-20",
    "setting": "outdoor",
    "tags": [
     "craft"
@@ -11462,9 +11461,9 @@
    "seasonText": null,
    "hours": "09:00~17:00",
    "babyCarriage": "없음",
-   "homepage": "http://www.선감어촌체험마을.kr",
+   "homepage": "https://cms.seantour.com/seongam/index.do",
    "tip": "멀리서 보면 섬 같지 않고 큰 언덕처럼 보인다고 하여 부르기 시작한 대부도는 섬이다. 오이도와 대부도 방아머리를 잇는 총연장 12.676m의 국내 제일의 방조제인 시화방조제를 통해 안산시와 시흥시까…",
-   "detailFetched": "2026-11-05"
+   "detailFetched": "2026-11-21"
   },
   {
    "id": "2743349",
@@ -21889,7 +21888,7 @@
    "lon": 127.32999,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/3082228_image2_1.JPG",
    "tel": null,
-   "modified": "2026-10-12",
+   "modified": "2026-11-20",
    "setting": "outdoor",
    "tags": [
     "craft"
@@ -21912,9 +21911,9 @@
    "seasonText": null,
    "hours": "11:30~16:30",
    "babyCarriage": null,
-   "homepage": "https://www.instagram.com/tc_farmer/",
+   "homepage": null,
    "tip": "맛다냐 딸기체험농장은 인공수정이 아닌 벌로 수정하는 친환경농법을 활용하여 수경재배한 딸기를 맛볼 수 있는 곳이다. 부모님을 도와 농사꾼 경력을 오래 쌓아온 청년 농부의 아이디어로 출발한 딸기 농장과…",
-   "detailFetched": "2026-10-13"
+   "detailFetched": "2026-11-21"
   },
   {
    "id": "2750853",
@@ -22346,7 +22345,7 @@
    "lon": 126.85245,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3367412_image2_1.jpg",
    "tel": null,
-   "modified": "2026-11-11",
+   "modified": "2026-11-20",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -22370,7 +22369,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/uncle_farmer_",
    "tip": "평택 삼촌농장은 소규모 예약제 프라이빗 체험농장이다. 농장에서는 방문객들이 직접 딸기를 따는 체험 프로그램을 운영하고 있어 가족 단위 방문객들에게 인기가 많다. 농장 내에는 편안한 휴식 공간과 어린…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-21"
   },
   {
    "id": "2633945",
@@ -22535,8 +22534,8 @@
    "lat": 38.03472,
    "lon": 127.10668,
    "image": "https://tong.visitkorea.or.kr/cms/resource/22/2566722_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "- 0507-1349-5299",
+   "modified": "2026-11-20",
    "setting": "outdoor",
    "tags": [
     "craft"
@@ -22559,7 +22558,7 @@
    "babyCarriage": "없음",
    "homepage": "http://www.purnevil.com",
    "tip": "푸르내 마을은 동쪽에는 종현산, 북쪽에는 한탄강 상류 아우라지강이 굽이쳐 흐르고 벌판에는 청정지역의 농산물이 풍요롭게 자라고 있다. 푸르내 마을 주변에는 연천군 관광지인 제인폭포와 아름다운 선봉 바…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-21"
   },
   {
    "id": "2675098",
