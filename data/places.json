@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21 08:51",
+ "updatedAt": "2026-11-22 07:56",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -5663,7 +5663,7 @@
    "lat": 37.88987,
    "lon": 127.13712,
    "image": "https://tong.visitkorea.or.kr/cms/resource/28/3549328_image2_1.JPG",
-   "tel": "0507-1364-5572",
+   "tel": null,
    "modified": "2026-11-20",
    "setting": "mixed",
    "tags": [
@@ -11439,7 +11439,7 @@
    "lat": 37.22051,
    "lon": 126.62988,
    "image": null,
-   "tel": "032-886-6133",
+   "tel": null,
    "modified": "2026-11-20",
    "setting": "outdoor",
    "tags": [
@@ -22534,7 +22534,7 @@
    "lat": 38.03472,
    "lon": 127.10668,
    "image": "https://tong.visitkorea.or.kr/cms/resource/22/2566722_image2_1.jpg",
-   "tel": "- 0507-1349-5299",
+   "tel": null,
    "modified": "2026-11-20",
    "setting": "outdoor",
    "tags": [
