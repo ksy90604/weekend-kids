@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23 08:27",
+ "updatedAt": "2026-11-24 12:54",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -14541,7 +14541,7 @@
    "lon": 127.73438,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3392283_image2_1.jpg",
    "tel": null,
-   "modified": "2026-11-19",
+   "modified": "2026-11-23",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -14563,11 +14563,11 @@
    "months": null,
    "restText": "연중무휴",
    "seasonText": null,
-   "hours": "시설별 상이하므로 홈페이지 참고",
+   "hours": "09:00~18:00",
    "babyCarriage": "불가",
    "homepage": null,
    "tip": "맑은숲캠프는 물맑은 양평에서 자연이 가장 잘 보존되어 있는 양평군 청운면 오목골 자락에 위치하고 있다. 계절마다 지천에 피어나는 야생화와 산채나물 그리고 여름이면 시원한 계곡물에서 물놀이를 즐기고 …",
-   "detailFetched": "2026-11-20"
+   "detailFetched": "2026-11-24"
   },
   {
    "id": "407259",
