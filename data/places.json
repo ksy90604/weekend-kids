@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24 12:54",
+ "updatedAt": "2026-11-25 11:08",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -1547,8 +1547,8 @@
    "lat": 37.26692,
    "lon": 127.10742,
    "image": "https://tong.visitkorea.or.kr/cms/resource/25/4106425_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-288-5400",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -1583,7 +1583,7 @@
    "babyCarriage": "없음",
    "homepage": "http://musenet.ggcf.kr/",
    "tip": "경기도어린이박물관과 이웃하고 있는 경기도박물관은 경기도의 역사와 전통문화를 계승하고 발전시키기 위해 1996년 6월 개관하였다. 국보 1점과 보물 4점을 보유하고 정기 도슨트 프로그램을 운영하고 있…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "1605877",
@@ -1593,8 +1593,8 @@
    "lat": 37.26692,
    "lon": 127.10742,
    "image": "https://tong.visitkorea.or.kr/cms/resource/26/3058026_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-10-27",
+   "tel": "031-270-8600",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -1626,7 +1626,7 @@
    "babyCarriage": "없음",
    "homepage": "http://gcm.ggcf.kr",
    "tip": "경기도박물관 내에 있는 경기도어린이박물관은 어린이들을 위한 체험식 박물관으로 2011년 9월 개관하였다. 어린이들이 전시물과의 상호작용을 통해 스스로 배우고 알아가는 재미를 느낄 수 있도록 고안되어…",
-   "detailFetched": "2026-10-28"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "130358",
@@ -1636,8 +1636,8 @@
    "lat": 37.35028,
    "lon": 127.33479,
    "image": "https://tong.visitkorea.or.kr/cms/resource/44/4004644_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-799-1500",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -1663,7 +1663,7 @@
    "babyCarriage": "없음",
    "homepage": "https://www.kocef.org",
    "tip": "경기도자박물관은 조선시대 500년간 왕실용 도자기를 생산했던 관요의 고장 경기도 광주에 위치하고 있다. 박물관은 광주 관요는 물론, 경기도에 소재하는 초기 청자 및 백자에서부터 근·현대 도자에 이르…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "3408892",
@@ -1710,8 +1710,8 @@
    "lat": 37.94467,
    "lon": 127.06445,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/4005842_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-868-9610",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -1741,7 +1741,7 @@
    "babyCarriage": "가능",
    "homepage": null,
    "tip": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "2552251",
@@ -3443,8 +3443,8 @@
    "lat": 37.58167,
    "lon": 126.97889,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3512693_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "02-3704-3114",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -3470,7 +3470,7 @@
    "babyCarriage": null,
    "homepage": "https://www.nfm.go.kr/home/index.do",
    "tip": "국립민속박물관은 경복궁 내 본관과 파주관으로 구성된 민속생활사 전문 국립박물관으로 약 4,000여 점의 전통 생활 민속자료를 소장·전시하고 있다. 본관에는 어린이박물관이 함께 운영되며 전시실은 한국…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "127171",
@@ -3922,8 +3922,8 @@
    "lat": 37.52401,
    "lon": 126.98034,
    "image": "https://tong.visitkorea.or.kr/cms/resource/10/3505410_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "02-2077-9647",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -3952,7 +3952,7 @@
    "babyCarriage": null,
    "homepage": "http://www.museum.go.kr/site/child",
    "tip": "서울 용산구에 있는 국립중앙박물관 어린이박물관은 체험과 놀이를 통해 어린이들의 눈으로 보고, 손으로 만지며 느낄 수 있는 체험식 박물관이다. 상설전시관에 전시된 유물과 동일한 형태와 크기로 복제된 …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "1604580",
@@ -5613,8 +5613,8 @@
    "lat": 37.73753,
    "lon": 126.57444,
    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3335767_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-18",
+   "tel": "031-998-1000",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -5646,7 +5646,7 @@
    "babyCarriage": "없음",
    "homepage": "http://www.gimpoteamuseum.org",
    "tip": "김포다도박물관은 한국 차[茶] 문화역사를 재조명할 수 있도록 개관한 전통 다도 전문 사립 박물관이다. 1만여 평 부지 위에 조각공원, 팔도장독 전시, 갤러리 등의 부대시설을 갖추고 있다. 박물관 뒤…",
-   "detailFetched": "2026-11-19"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "2500687",
@@ -6186,8 +6186,8 @@
    "lat": 37.59544,
    "lon": 127.38326,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/3392241_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "010-5264-0244",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -6212,7 +6212,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "경기도 양평군 서종면에 있는 도자기체험미술관 비즘은 1992년부터 도자기체험교육을 시작하여 현재까지 강의와 문화 행사 및 다양한 체험 프로그램을 진행하고 있다.",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "2792564",
@@ -6978,8 +6978,8 @@
    "lat": 37.51252,
    "lon": 127.10232,
    "image": "https://tong.visitkorea.or.kr/cms/resource/66/3092766_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "02-1661-2000",
+   "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
     "craft"
@@ -7002,7 +7002,7 @@
    "babyCarriage": null,
    "homepage": "https://seoulsky.lotteworld.com",
    "tip": "롯데월드타워에서 가장 높은 곳에 위치한 서울스카이 전망대는 국내에서 가장 높은 곳이다. 대한민국의 가장 찬란한 역사와 역동적인 현대문화를 함축하고 있는 수도 서울을 360도 뷰를 통해 한눈에 담을 …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "2003909",
@@ -7607,20 +7607,19 @@
    "contentTypeId": "12",
    "name": "무릉도원수목원",
    "area": "경기도 부천시",
-   "lat": 37.50289,
-   "lon": 126.81862,
+   "lat": 37.50512,
+   "lon": 126.81576,
    "image": "https://tong.visitkorea.or.kr/cms/resource/06/2782006_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-13",
+   "tel": "032-625-3503",
+   "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
-    "feeding",
     "bloom",
     "foliage",
     "animals",
     "nature"
    ],
-   "emoji": "🐑",
+   "emoji": "🌷",
    "ages": [
     "baby",
     "kid",
@@ -7642,7 +7641,7 @@
    "babyCarriage": "없음",
    "homepage": "http://ecopark.bucheon.go.kr/",
    "tip": "부천에 위치한 무릉도원수목원은 2012년 10월 개원하였으며, 총면적은 210,298㎡에 1,334종의 수목을 보유하고 있다. 수목원 입구에 있는 오리연못에는 무릉도원수목원의 상징인 절리석의 기암절…",
-   "detailFetched": "2026-11-14"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "3392732",
@@ -8943,8 +8942,8 @@
    "lat": 37.50512,
    "lon": 126.81576,
    "image": "https://tong.visitkorea.or.kr/cms/resource/19/4075619_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-06-23",
+   "tel": "032-320-3000",
+   "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -8974,7 +8973,7 @@
    "babyCarriage": null,
    "homepage": null,
    "tip": "부천자연생태공원은 부천식물원, 자연생태박물관, 농경유물전시관, 부천무릉도원수목원 등의 시설이 함께 모여 있는 자연생태공원으로 서부수도권을 대표하는 어린이 학습장이자 시민 휴식처이다. 2000년 자연…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "3534509",
@@ -15312,8 +15311,8 @@
    "lat": 37.4007,
    "lon": 126.8084,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/3558695_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "시흥시청 농업기술과 031-310-6224",
+   "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -15337,7 +15336,7 @@
    "babyCarriage": null,
    "homepage": "https://www.siheung.go.kr/cultour",
    "tip": "시흥시에서는 관곡지가 갖는 상징성과 역사성을 기리기 위하여 관곡지 주변 19.3ha의 논에 연꽃테마파크를 조성하여 운영하고 있다. 여름철이 되면 수련, 홍련, 백련, 물양귀비 등 80여 종의 다양한…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "3007401",
@@ -17980,8 +17979,8 @@
    "lat": 37.476,
    "lon": 126.61849,
    "image": "https://tong.visitkorea.or.kr/cms/resource/59/4102059_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-08-27",
+   "tel": "032-764-0488",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -18010,7 +18009,7 @@
    "babyCarriage": "없음",
    "homepage": "https://ijcf.or.kr",
    "tip": "인천광역시 유형문화유산으로 지정되어 있는 인천개항박물관은 옛 일본 제1은행 인천지점 건물로 중앙 돔형식의 후기 르네상스 양식 석조 건축물로 건축된 근대건축물이다. 총 4개의 상설전시실로 구성되어 개…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "864987",
@@ -18718,8 +18717,8 @@
    "lat": 37.2881,
    "lon": 126.97702,
    "image": "https://tong.visitkorea.or.kr/cms/resource/85/4092785_image2_1.JPG",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-369-2380",
+   "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -18747,7 +18746,7 @@
    "babyCarriage": null,
    "homepage": "https://www.suwon.go.kr",
    "tip": "일월수목원은 경기도 수원시 일월호수공원 내에 위치한 도심형 거점 수목원으로 2023년 5월 개관했다. 2,100여 종의 다양한 식물을 보유하고 있으며 다산정원과 숲정원, 침엽수원, 초지원, 건조정원…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "2773317",
@@ -19333,9 +19332,9 @@
    "area": "인천광역시 제물포구",
    "lat": 37.47311,
    "lon": 126.62086,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/09/4061709_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-06-30",
+   "image": null,
+   "tel": "032-765-0780",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -19364,7 +19363,7 @@
    "babyCarriage": "없음",
    "homepage": "http://www.funkr.com",
    "tip": "재미난 박물관은 이름처럼 재미가 가득한 아이들을 위한 박물관이다. 신기한 전시물을 아이들이 직접 만지고 체험할 수 있다. 빛·소리·움직임, 생활·날씨·우주, 인터랙티브 로봇 체험, 수학적 도구로의 …",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "1284966",
@@ -20108,15 +20107,14 @@
    "lat": 37.38266,
    "lon": 127.15096,
    "image": "https://tong.visitkorea.or.kr/cms/resource/86/3333286_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-729-1765",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
-    "animals",
     "play"
    ],
-   "emoji": "🐾",
+   "emoji": "🎠",
    "ages": [
     "baby",
     "kid",
@@ -20135,8 +20133,8 @@
    "hours": "09:00~18:00",
    "babyCarriage": "불가",
    "homepage": "https://www.snlib.go.kr/bt/",
-   "tip": "책테마파크도서관은 국내 최초의 책을 테마로 만든 공간으로, 2005년 11월 개관하였다. 개관 당시에는 주로 전시공간으로 이용했으나, 리모델링 공사를 거쳐 그림책 특성화 도서관으로 탈바꿈했다. 도서…",
-   "detailFetched": "2026-11-12"
+   "tip": "책테마파크도서관은 국내 최초의 책을 테마로 만든 공간이다. 2022년 11월 성남시 도서관사업소 소속으로 리모델링 후 책테마파크도서관으로 개관했다. 도서관에는 8,000여 권의 장서가 있는 대형서점…",
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "2545035",
@@ -22250,8 +22248,8 @@
    "lat": 37.92475,
    "lon": 127.2434,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3502149_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-535-5020",
+   "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -22277,7 +22275,7 @@
    "babyCarriage": null,
    "homepage": "http://artvalley.pocheon.go.kr/star",
    "tip": "포천아트밸리 천문과학관은 포천문화관광재단에서 운영하는 과학문화시설로 천문 및 과학의 대중화와 교육 활성화를 목적으로 설립되었다. 전시·교육·관측·체험 기능을 통합한 복합형 과학관으로서 지역 사회의 …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-25"
   },
   {
    "id": "3545306",
