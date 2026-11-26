@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25 11:08",
+ "updatedAt": "2026-11-26 10:44",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -1547,7 +1547,7 @@
    "lat": 37.26692,
    "lon": 127.10742,
    "image": "https://tong.visitkorea.or.kr/cms/resource/25/4106425_image2_1.jpg",
-   "tel": "031-288-5400",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -1593,7 +1593,7 @@
    "lat": 37.26692,
    "lon": 127.10742,
    "image": "https://tong.visitkorea.or.kr/cms/resource/26/3058026_image2_1.jpg",
-   "tel": "031-270-8600",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -1636,7 +1636,7 @@
    "lat": 37.35028,
    "lon": 127.33479,
    "image": "https://tong.visitkorea.or.kr/cms/resource/44/4004644_image2_1.jpg",
-   "tel": "031-799-1500",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -1710,7 +1710,7 @@
    "lat": 37.94467,
    "lon": 127.06445,
    "image": "https://tong.visitkorea.or.kr/cms/resource/42/4005842_image2_1.jpg",
-   "tel": "031-868-9610",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -3395,6 +3395,81 @@
    "detailFetched": "2026-10-09"
   },
   {
+   "id": "2608977",
+   "contentTypeId": "12",
+   "name": "국립민속박물관",
+   "area": "서울특별시 종로구",
+   "lat": 37.58167,
+   "lon": 126.97889,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/93/3512693_image2_1.jpg",
+   "tel": "02-3704-3114",
+   "modified": "2026-11-25",
+   "setting": "indoor",
+   "tags": [
+    "museum"
+   ],
+   "emoji": "🏛️",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": null,
+   "parking": null,
+   "parkingText": "가능",
+   "closedDays": [],
+   "closedDates": [
+    "01-01"
+   ],
+   "months": null,
+   "restText": "1월 1일 / 설·추석 당일",
+   "seasonText": null,
+   "hours": "09:00~18:00",
+   "babyCarriage": null,
+   "homepage": "https://www.nfm.go.kr/home/index.do",
+   "tip": "국립민속박물관은 경복궁 내 본관과 파주관으로 구성된 민속생활사 전문 국립박물관으로 약 4,000여 점의 전통 생활 민속자료를 소장·전시하고 있다. 본관에는 어린이박물관이 함께 운영되며 전시실은 한국…",
+   "detailFetched": "2026-11-26"
+  },
+  {
+   "id": "130536",
+   "contentTypeId": "14",
+   "name": "국립민속박물관 어린이박물관",
+   "area": "서울특별시 종로구",
+   "lat": 37.58167,
+   "lon": 126.97889,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/88/3512688_image2_1.jpg",
+   "tel": "02-3704-3014~5",
+   "modified": "2026-11-25",
+   "setting": "indoor",
+   "tags": [
+    "craft",
+    "museum",
+    "nature"
+   ],
+   "emoji": "🏛️",
+   "ages": [
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [
+    "01-01"
+   ],
+   "months": null,
+   "restText": "1월 1일 / 설·추석 당일※ 자세한 사항은 홈페이지 확인",
+   "seasonText": null,
+   "hours": "09:30~16:50",
+   "babyCarriage": null,
+   "homepage": "https://www.nfm.go.kr/kids/",
+   "tip": "국립어린이민속박물관은 어린이를 대상으로 한국의 전통문화를 쉽고 재미있게 배울 수 있도록 구성된 체험 중심 박물관이다. 국립민속박물관 본관 제2전시실 옆에 위치해 있으며, 입장료는 무료이다. 하루 3…",
+   "detailFetched": "2026-11-26"
+  },
+  {
    "id": "2738515",
    "contentTypeId": "14",
    "name": "국립민속박물관 파주",
@@ -3434,43 +3509,6 @@
    "homepage": "https://www.nfm.go.kr/paju",
    "tip": "국립민속박물관 파주는 경기도 북부지역 첫 국립박물관으로 2021년 7월 경기도 파주시 탄현면에 개관하였다. 유물과 아카이브 자료를 보관하고 관리하는 동시에 전시기법을 접목한 개방형 수장고이다. 총 …",
    "detailFetched": "2026-11-12"
-  },
-  {
-   "id": "2608977",
-   "contentTypeId": "12",
-   "name": "국립민속박물관과 국립민속박물관 어린이박물관",
-   "area": "서울특별시 종로구",
-   "lat": 37.58167,
-   "lon": 126.97889,
-   "image": "https://tong.visitkorea.or.kr/cms/resource/93/3512693_image2_1.jpg",
-   "tel": "02-3704-3114",
-   "modified": "2026-11-24",
-   "setting": "indoor",
-   "tags": [
-    "craft",
-    "museum",
-    "nature"
-   ],
-   "emoji": "🏛️",
-   "ages": [
-    "kid",
-    "school"
-   ],
-   "price": null,
-   "parking": null,
-   "parkingText": "가능",
-   "closedDays": [],
-   "closedDates": [
-    "01-01"
-   ],
-   "months": null,
-   "restText": "1월 1일 / 설·추석 당일",
-   "seasonText": null,
-   "hours": "09:00~18:00",
-   "babyCarriage": null,
-   "homepage": "https://www.nfm.go.kr/home/index.do",
-   "tip": "국립민속박물관은 경복궁 내 본관과 파주관으로 구성된 민속생활사 전문 국립박물관으로 약 4,000여 점의 전통 생활 민속자료를 소장·전시하고 있다. 본관에는 어린이박물관이 함께 운영되며 전시실은 한국…",
-   "detailFetched": "2026-11-25"
   },
   {
    "id": "127171",
@@ -3884,8 +3922,8 @@
    "lat": 37.52112,
    "lon": 126.97911,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3495012_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "02-2077-9000",
+   "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
     "museum"
@@ -3899,20 +3937,20 @@
     "adult": 0,
     "child": 0
    },
-   "parking": 900,
-   "parkingText": "[승용차(15인승 이하)] 기본 30분 900원 / 초과 시 매 10분당 300원[중·대형차(16인승 이상)] 기본 30분 1,800원 / 초과 시 매 10분당 600원",
+   "parking": 1000,
+   "parkingText": "[승용차(15인승 이하)] 기본 30분 1,000원 / 초과 시 매 10분당 500원[중·대형차(16인승 이상)] 기본 30분 2,000원 / 초과 시 매 10분당 1,000원",
    "closedDays": [],
    "closedDates": [
     "01-01"
    ],
    "months": null,
-   "restText": "[휴관일]1월 1일 / 설·추석 당일[정기휴실일]매년 3월, 6월, 9월, 12월 첫 번째 월요일",
+   "restText": "[휴관일]1월 1일 / 설·추석 당일[정기휴실일]매년 3월/6월/9월/12월 첫 번째 월요일",
    "seasonText": null,
    "hours": "09:30~17:30",
    "babyCarriage": null,
    "homepage": "http://www.museum.go.kr",
    "tip": "국립중앙박물관은 용산으로 이전하여 2005년 개관한 이래 사람들에게 많은 관심과 사랑을 받은 곳이다. 시대와 주제별로 구성된 7개의 상설전시관, 다양한 내용을 선보이는 특별전시관, 관람의 이해를 돕…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "1177980",
@@ -3922,7 +3960,7 @@
    "lat": 37.52401,
    "lon": 126.98034,
    "image": "https://tong.visitkorea.or.kr/cms/resource/10/3505410_image2_1.jpg",
-   "tel": "02-2077-9647",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -5613,7 +5651,7 @@
    "lat": 37.73753,
    "lon": 126.57444,
    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3335767_image2_1.jpg",
-   "tel": "031-998-1000",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -6186,7 +6224,7 @@
    "lat": 37.59544,
    "lon": 127.38326,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/3392241_image2_1.jpg",
-   "tel": "010-5264-0244",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -6978,7 +7016,7 @@
    "lat": 37.51252,
    "lon": 127.10232,
    "image": "https://tong.visitkorea.or.kr/cms/resource/66/3092766_image2_1.jpg",
-   "tel": "02-1661-2000",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
@@ -7610,7 +7648,7 @@
    "lat": 37.50512,
    "lon": 126.81576,
    "image": "https://tong.visitkorea.or.kr/cms/resource/06/2782006_image2_1.jpg",
-   "tel": "032-625-3503",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
@@ -7648,11 +7686,11 @@
    "contentTypeId": "12",
    "name": "무봉산 자연휴양림",
    "area": "경기도 화성시",
-   "lat": 37.20864,
-   "lon": 127.12734,
+   "lat": 37.20881,
+   "lon": 127.12746,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3392093_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-373-1162~3",
+   "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
     "foliage",
@@ -7676,7 +7714,7 @@
    "babyCarriage": null,
    "homepage": "https://www.foresttrip.go.kr",
    "tip": "무봉산자연휴양림은 경기도 화성시 중동에 위치한 자연 친화적인 휴양지이다. 이곳은 무봉산의 아름다운 자연경관을 배경으로 다양한 레저활동과 힐링을 즐길 수 있는 장소이다. 산책로와 트레킹 코스가 잘 마…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "2762874",
@@ -8942,7 +8980,7 @@
    "lat": 37.50512,
    "lon": 126.81576,
    "image": "https://tong.visitkorea.or.kr/cms/resource/19/4075619_image2_1.jpg",
-   "tel": "032-320-3000",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
@@ -11805,8 +11843,8 @@
    "lat": 37.18827,
    "lon": 126.97699,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3004083_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-04-24",
+   "tel": "0507-1423-5014",
+   "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
     "feeding",
@@ -11833,7 +11871,7 @@
    "babyCarriage": null,
    "homepage": "https://www.smallzoo.kr/",
    "tip": "화성 보통저수지 근처에 위치한 센트럴곤충생태농장은 곤충과 동물을 체험할 수 있으며 곤충 분양까지 가능한 생태농장이다. 실내·외로 농장이 운영되고 있으며 실내 80평 실외 400평 규모로 50여 종의…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "3031895",
@@ -15311,7 +15349,7 @@
    "lat": 37.4007,
    "lon": 126.8084,
    "image": "https://tong.visitkorea.or.kr/cms/resource/95/3558695_image2_1.jpg",
-   "tel": "시흥시청 농업기술과 031-310-6224",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
@@ -17238,11 +17276,11 @@
    "contentTypeId": "28",
    "name": "유앤아이센터",
    "area": "경기도 화성시",
-   "lat": 37.2039,
-   "lon": 127.03357,
+   "lat": 37.20297,
+   "lon": 127.03316,
    "image": "https://tong.visitkorea.or.kr/cms/resource/94/2795394_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-08-14",
+   "tel": "031-267-8800",
+   "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
     "water",
@@ -17266,7 +17304,7 @@
    "babyCarriage": null,
    "homepage": "https://www.hswf.or.kr/unicenter/180",
    "tip": "2008년 12월에 개관한 대규모 복합 문화 공간으로 화성시여성가족청소년재단에서 운영하고 있다. 지하 3층, 지상 4층 규모의 건물에 스포츠 시설과 문화 시설, 여성과 청소년 관련 시설, 공연 시설…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "3413066",
@@ -17979,7 +18017,7 @@
    "lat": 37.476,
    "lon": 126.61849,
    "image": "https://tong.visitkorea.or.kr/cms/resource/59/4102059_image2_1.jpg",
-   "tel": "032-764-0488",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -18717,7 +18755,7 @@
    "lat": 37.2881,
    "lon": 126.97702,
    "image": "https://tong.visitkorea.or.kr/cms/resource/85/4092785_image2_1.JPG",
-   "tel": "031-369-2380",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "outdoor",
    "tags": [
@@ -19333,7 +19371,7 @@
    "lat": 37.47311,
    "lon": 126.62086,
    "image": null,
-   "tel": "032-765-0780",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -19455,8 +19493,8 @@
    "lat": 37.15997,
    "lon": 126.61935,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/3004056_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-04-28",
+   "tel": "0507-1306-6604",
+   "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -19481,7 +19519,7 @@
    "babyCarriage": null,
    "homepage": "https://cms.seantour.com/GK009/",
    "tip": "제부도는 예부터 육지에서 멀리 보이는 섬이라는 뜻으로 저비섬 또는 접비섬으로 불렸으나, 조선 중기 이후 송교리와 이곳을 연결한 갯벌을 어린아이는 업고 노인은 부축해서 건넌다는 뜻의 제약부경이라는 말…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "130742",
@@ -19602,11 +19640,11 @@
    "contentTypeId": "12",
    "name": "주니어천문스쿨 동탄점",
    "area": "경기도 화성시",
-   "lat": 37.20142,
-   "lon": 127.13521,
+   "lat": 37.20144,
+   "lon": 127.13518,
    "image": "https://tong.visitkorea.or.kr/cms/resource/48/3004148_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-04-24",
+   "tel": "0507-1416-1152",
+   "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -19632,7 +19670,7 @@
    "babyCarriage": null,
    "homepage": "http://justar.co.kr",
    "tip": "주니어천문스쿨 동탄점은 어린이들에게 별과 우주에 대한 지식을 이론, 실습, 체험이라는 형태로 아이들의 눈높이에 맞춰 이야기하는 곳이다. 2014년 천안을 시작으로 동탄, 세종, 수지, 대구점이 차례…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "3023343",
@@ -19678,11 +19716,11 @@
    "contentTypeId": "12",
    "name": "주렁주렁 동물원 동탄점",
    "area": "경기도 화성시",
-   "lat": 37.16689,
-   "lon": 127.10515,
+   "lat": 37.16695,
+   "lon": 127.10531,
    "image": "https://tong.visitkorea.or.kr/cms/resource/89/3003989_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-09-10",
+   "tel": "1644-2153",
+   "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
     "feeding",
@@ -19712,7 +19750,7 @@
    "babyCarriage": null,
    "homepage": "https://www.zoolungzoolung.com",
    "tip": "주렁주렁은 날씨 걱정 없이 아이들과 실내에서 놀 수 있는 실내 동물원이다. 3층 매표소에서 올라가면 4층은 주렁주렁 BASIC 존으로, 다양한 육지동물들을 만날 수 있다. 5층은 숲속 정원에 숨겨진…",
-   "detailFetched": "2026-10-09"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "3046815",
@@ -20107,7 +20145,7 @@
    "lat": 37.38266,
    "lon": 127.15096,
    "image": "https://tong.visitkorea.or.kr/cms/resource/86/3333286_image2_1.jpg",
-   "tel": "031-729-1765",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -20902,8 +20940,8 @@
    "lat": 37.09968,
    "lon": 126.8836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/3466232_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-18",
+   "tel": "0507-1339-2943",
+   "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -20930,7 +20968,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/healing.and.strawberry/#",
    "tip": "치유앤 딸기 체험 농장은 경기도 화성시 팔탄면에 위치한 친환경 농장이다. 이곳은 제철 농산물을 활용하한 전문 체험 농장으로 가족과 함께 즐길 수 있는 특별한 시간을 제공한다. 농장은 깨끗하고 잘 관…",
-   "detailFetched": "2026-11-19"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "2739386",
@@ -22248,7 +22286,7 @@
    "lat": 37.92475,
    "lon": 127.2434,
    "image": "https://tong.visitkorea.or.kr/cms/resource/49/3502149_image2_1.jpg",
-   "tel": "031-535-5020",
+   "tel": null,
    "modified": "2026-11-24",
    "setting": "indoor",
    "tags": [
@@ -24108,11 +24146,11 @@
    "contentTypeId": "12",
    "name": "할아버지동물농장",
    "area": "경기도 화성시",
-   "lat": 37.06444,
-   "lon": 126.78536,
+   "lat": 37.06445,
+   "lon": 126.78538,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/4124297_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-10-29",
+   "tel": "0507-1365-7507",
+   "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
     "feeding",
@@ -24142,7 +24180,7 @@
    "babyCarriage": "없음",
    "homepage": "https://www.instagram.com/grandpa_animalfarm/",
    "tip": "할아버지 동물농장은 경기 화성시 우정읍에 위치한 동물 체험 공간이다. 13세 이하 어린이는 보호자 동반 시 입장할 수 있다. 반려동물은 입장 불가지만 내부에서 생활하는 강아지가 목줄 없이 자유롭게 …",
-   "detailFetched": "2026-10-30"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "701642",
@@ -24579,11 +24617,11 @@
    "contentTypeId": "12",
    "name": "화성시 우리꽃식물원",
    "area": "경기도 화성시",
-   "lat": 37.11482,
-   "lon": 126.88286,
+   "lat": 37.11598,
+   "lon": 126.88168,
    "image": "https://tong.visitkorea.or.kr/cms/resource/38/4006438_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-5189-6160",
+   "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -24616,18 +24654,18 @@
    "babyCarriage": "없음",
    "homepage": "https://botanic.hscity.go.kr",
    "tip": "화성시 팔탄에 위치한 우리꽃식물원은 사계절에 약 1,100여 종의 식물을 관람할 수 있는 식물원이다. 우리나라 전통 한옥 양식으로 지어진 유리온실인 사계절관의 경우 중부지방의 환경으로 조성되어 있어…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "2757395",
    "contentTypeId": "14",
    "name": "화성시 향토박물관",
    "area": "경기도 화성시",
-   "lat": 37.13259,
-   "lon": 126.92806,
+   "lat": 37.13264,
+   "lon": 126.92811,
    "image": "https://tong.visitkorea.or.kr/cms/resource/00/3563100_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-5189-7038",
+   "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
     "craft",
@@ -24658,18 +24696,18 @@
    "babyCarriage": null,
    "homepage": "https://hsmuseum.hscity.go.kr/hsMuseum/index.jsp",
    "tip": "화성지역의 문화와 역사를 담은 박물관이다. 1층 어린이 문화실은 각종 체험이 가능하다. 상설 전시실과 기획 전시실을 운영한다. 생활문화실과 역사문화실은 자연과 더불어 살아가던 화성 사람들의 역사와 …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "2610168",
    "contentTypeId": "14",
    "name": "화성시어린이문화센터",
    "area": "경기도 화성시",
-   "lat": 37.21233,
-   "lon": 126.9608,
+   "lat": 37.21229,
+   "lon": 126.96091,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/3538741_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-5183-3200",
+   "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
     "craft"
@@ -24696,7 +24734,7 @@
    "babyCarriage": null,
    "homepage": "http://childrenjob.hscity.go.kr",
    "tip": "화성시어린이문화센터는 화성시에서 마련한 복합문화시설로 어린이들과 함께 ‘미래를 꿈꾸는 어울림의 공간’이다. 호기심과 상상력을 자극하는 다양한 체험과 전시로 어린이의 무한한 꿈을 응원하고 격려한다. …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-26"
   },
   {
    "id": "4078790",
