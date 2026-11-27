@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26 10:44",
+ "updatedAt": "2026-11-27 10:36",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -2613,6 +2613,42 @@
    "detailFetched": "2026-11-12"
   },
   {
+   "id": "131314",
+   "contentTypeId": "28",
+   "name": "광나루한강공원 광나루물놀이장",
+   "area": "서울특별시 강동구",
+   "lat": 37.54865,
+   "lon": 127.12131,
+   "image": null,
+   "tel": "광나루 물놀이장 02-470-9561광나루안내센터 02-3780-0501~4",
+   "modified": "2026-11-26",
+   "setting": "outdoor",
+   "tags": [
+    "water",
+    "nature",
+    "play"
+   ],
+   "emoji": "🏊",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": null,
+   "parking": 1000,
+   "parkingText": "최초30분 1,000원 / 초과 10분당 200원",
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": "운영기간 중 연중무휴※ 기상 상황에 따라 운영 중단 가능",
+   "seasonText": "여름철 운영(연도별 일정은 홈페이지 확인)",
+   "hours": "09:00~18:00",
+   "babyCarriage": null,
+   "homepage": "https://hangang.seoul.go.kr/",
+   "tip": "광나루물놀이장은 광나루한강공원 안에 있는 야외 물놀이 시설이다. 기존 광나루수영장을 재조성하여 2026년 여름 물놀이장으로 운영했다. 광나루안내센터와 제2주차장 사이에 자리하며, 지하철 8호선 암사…",
+   "detailFetched": "2026-11-27"
+  },
+  {
    "id": "814195",
    "contentTypeId": "12",
    "name": "광나루한강공원 암사생태공원",
@@ -3402,7 +3438,7 @@
    "lat": 37.58167,
    "lon": 126.97889,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3512693_image2_1.jpg",
-   "tel": "02-3704-3114",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
@@ -3437,7 +3473,7 @@
    "lat": 37.58167,
    "lon": 126.97889,
    "image": "https://tong.visitkorea.or.kr/cms/resource/88/3512688_image2_1.jpg",
-   "tel": "02-3704-3014~5",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
@@ -3922,7 +3958,7 @@
    "lat": 37.52112,
    "lon": 126.97911,
    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3495012_image2_1.jpg",
-   "tel": "02-2077-9000",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
@@ -7689,7 +7725,7 @@
    "lat": 37.20881,
    "lon": 127.12746,
    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3392093_image2_1.jpg",
-   "tel": "031-373-1162~3",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
@@ -7879,8 +7915,8 @@
    "lat": 37.16737,
    "lon": 127.0622,
    "image": "https://tong.visitkorea.or.kr/cms/resource/05/4079305_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-378-1261",
+   "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -7910,7 +7946,7 @@
    "babyCarriage": "없음",
    "homepage": "https://forest.gg.go.kr",
    "tip": "경기도 오산시에 위치한 물향기수목원은 도심 속 자연생태를 보전하고 다양한 식물자원을 전시·교육하는 공립수목원이다. 과거 임업시험장으로 활용되던 부지를 기반으로 조성되어 오랜 기간 축적된 식생과 수십…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-27"
   },
   {
    "id": "2765519",
@@ -11082,6 +11118,48 @@
    "detailFetched": "2026-10-17"
   },
   {
+   "id": "4178037",
+   "contentTypeId": "15",
+   "name": "서울한국춤페스티벌",
+   "area": "서울특별시 중구",
+   "lat": 37.55954,
+   "lon": 126.99474,
+   "image": "https://tong.visitkorea.or.kr/cms/resource/40/4178040_image2_1.JPG",
+   "tel": "1800-4746",
+   "modified": "2026-11-26",
+   "period": {
+    "start": "2026-12-07",
+    "end": "2026-12-08"
+   },
+   "setting": "outdoor",
+   "tags": [
+    "craft",
+    "animals"
+   ],
+   "emoji": "🐾",
+   "ages": [
+    "baby",
+    "kid",
+    "school"
+   ],
+   "price": {
+    "adult": 0,
+    "child": 0
+   },
+   "parking": null,
+   "parkingText": null,
+   "closedDays": [],
+   "closedDates": [],
+   "months": null,
+   "restText": null,
+   "seasonText": null,
+   "hours": "11:00~20:30",
+   "babyCarriage": null,
+   "homepage": "https://www.moveseoul.kr/",
+   "tip": "2026 서울 한국춤 페스티벌은 전통에서 컨템포러리까지 한국춤의 흐름을 시민과 함께 즐기는 서울형 한국춤 축제로, 12월 7일부터 8일까지 서울남산국악당과 천우각 일대에서 개최된다.방문객들은 공연·…",
+   "detailFetched": "2026-11-27"
+  },
+  {
    "id": "2674763",
    "contentTypeId": "12",
    "name": "서후리숲",
@@ -11843,7 +11921,7 @@
    "lat": 37.18827,
    "lon": 126.97699,
    "image": "https://tong.visitkorea.or.kr/cms/resource/83/3004083_image2_1.jpg",
-   "tel": "0507-1423-5014",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
@@ -13187,8 +13265,8 @@
    "lat": 37.56477,
    "lon": 127.31917,
    "image": null,
-   "tel": null,
-   "modified": "2026-01-23",
+   "tel": "010-3092-1683",
+   "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
     "craft"
@@ -13205,13 +13283,13 @@
    "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일~일요일",
+   "restText": "전화 문의",
    "seasonText": null,
-   "hours": "매주 토요일~일요일 11:00 / 14:00※ 사전 예약 필수",
+   "hours": "11:00 / 14:00※ 사전 예약 필수",
    "babyCarriage": null,
    "homepage": "http://www.haneumfarm.com",
    "tip": "아띠딸기체험농장은 경기도 남양주시에 위치한 어린이딸기체험 전문농장이다. 이곳에는 딸기수확체험, 딸기잼 만들기 체험, 딸기피자 만들기 체험 등의 프로그램을 운영하고 있다. 체험은 주말에만 운영하고 있…",
-   "detailFetched": "2026-10-10"
+   "detailFetched": "2026-11-27"
   },
   {
    "id": "3061215",
@@ -16935,8 +17013,8 @@
    "lat": 37.66145,
    "lon": 126.86829,
    "image": null,
-   "tel": null,
-   "modified": "2026-11-04",
+   "tel": "02-1566-3333",
+   "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -16964,7 +17042,7 @@
    "babyCarriage": "없음",
    "homepage": null,
    "tip": "서울 근교 고양시 서삼릉에 인접한 원당 종마목장은 한국마사회에서 설치하여 운영하는 곳이다. 1988년 서울 올림픽 게임이 있을 때는 크로스컨트리 종목의 경기장으로도 활용되었다. 목장의 목가적 풍경에…",
-   "detailFetched": "2026-11-05"
+   "detailFetched": "2026-11-27"
   },
   {
    "id": "3022646",
@@ -17279,7 +17357,7 @@
    "lat": 37.20297,
    "lon": 127.03316,
    "image": "https://tong.visitkorea.or.kr/cms/resource/94/2795394_image2_1.jpg",
-   "tel": "031-267-8800",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
@@ -19099,8 +19177,8 @@
    "lat": 37.51763,
    "lon": 127.08674,
    "image": null,
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "잠실안내센터 02-3780-0511~4 서울시청 공원시설과 02-3780-0844",
+   "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
     "water",
@@ -19115,18 +19193,18 @@
     "school"
    ],
    "price": null,
-   "parking": null,
-   "parkingText": null,
+   "parking": 1000,
+   "parkingText": "최초 30분 1,000원 / 초과 10분당 200원",
    "closedDays": [],
    "closedDates": [],
    "months": null,
-   "restText": "개장 기간 중 연중무휴※ 단, 폭우로 인한 침수 위험 시 일시 중단",
+   "restText": "운영기간 중 연중무휴※ 기상 상황에 따라 운영 중단 가능",
    "seasonText": null,
    "hours": "09:00~22:00",
    "babyCarriage": null,
    "homepage": "https://hangang.seoul.go.kr",
    "tip": "뚝섬, 여의도, 잠원한강공원에는 수영장이, 잠실, 난지, 양화한강공원에는 물놀이장이 매년 여름마다 운영되고 있다. 이용요금은 저렴하며, 철저한 수질관리로 안심하고 이용할 수 있다. 잠실물놀이장은 기…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-27"
   },
   {
    "id": "2407108",
@@ -19493,7 +19571,7 @@
    "lat": 37.15997,
    "lon": 126.61935,
    "image": "https://tong.visitkorea.or.kr/cms/resource/56/3004056_image2_1.jpg",
-   "tel": "0507-1306-6604",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
@@ -19643,7 +19721,7 @@
    "lat": 37.20144,
    "lon": 127.13518,
    "image": "https://tong.visitkorea.or.kr/cms/resource/48/3004148_image2_1.jpg",
-   "tel": "0507-1416-1152",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
@@ -19719,7 +19797,7 @@
    "lat": 37.16695,
    "lon": 127.10531,
    "image": "https://tong.visitkorea.or.kr/cms/resource/89/3003989_image2_1.jpg",
-   "tel": "1644-2153",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
@@ -19760,8 +19838,8 @@
    "lat": 37.20186,
    "lon": 127.65639,
    "image": "https://tong.visitkorea.or.kr/cms/resource/87/3002787_image2_1.JPG",
-   "tel": null,
-   "modified": "2026-11-18",
+   "tel": "031-886-7646",
+   "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
     "feeding",
@@ -19786,7 +19864,7 @@
    "babyCarriage": null,
    "homepage": "https://www.instagram.com/zoo.zoofarm/",
    "tip": "유리벽에 갇혀 스트레스를 받는 동물원이 아닌, 동물들이 자유롭게 뛰어놀며 아이들과 교감하는 체험 농장인 주주팜은 버림받거나 파양 된 동물들을 보호하며 동물들과의 교감을 통한 아이들에게 생명의 중요성…",
-   "detailFetched": "2026-11-19"
+   "detailFetched": "2026-11-27"
   },
   {
    "id": "127961",
@@ -20940,7 +21018,7 @@
    "lat": 37.09968,
    "lon": 126.8836,
    "image": "https://tong.visitkorea.or.kr/cms/resource/32/3466232_image2_1.jpg",
-   "tel": "0507-1339-2943",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
@@ -24033,8 +24111,8 @@
    "lat": 37.09401,
    "lon": 127.40975,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/4100661_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-333-3558",
+   "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
     "craft",
@@ -24060,7 +24138,7 @@
    "babyCarriage": "가능",
    "homepage": "http://www.hantaek.co.kr",
    "tip": "재단법인 한택식물원은 1979년 설립 이래 20만 평의 규모에 자생식물 2,400종과 7,300종의 외래식물 등 1만여 종, 총 730여만 본의 식물을 보유한 국내 최대의 종합 식물원이다. 다양한 …",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-27"
   },
   {
    "id": "742022",
@@ -24149,7 +24227,7 @@
    "lat": 37.06445,
    "lon": 126.78538,
    "image": "https://tong.visitkorea.or.kr/cms/resource/97/4124297_image2_1.jpg",
-   "tel": "0507-1365-7507",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "mixed",
    "tags": [
@@ -24620,7 +24698,7 @@
    "lat": 37.11598,
    "lon": 126.88168,
    "image": "https://tong.visitkorea.or.kr/cms/resource/38/4006438_image2_1.jpg",
-   "tel": "031-5189-6160",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "outdoor",
    "tags": [
@@ -24664,7 +24742,7 @@
    "lat": 37.13264,
    "lon": 126.92811,
    "image": "https://tong.visitkorea.or.kr/cms/resource/00/3563100_image2_1.jpg",
-   "tel": "031-5189-7038",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
@@ -24706,7 +24784,7 @@
    "lat": 37.21229,
    "lon": 126.96091,
    "image": "https://tong.visitkorea.or.kr/cms/resource/41/3538741_image2_1.jpg",
-   "tel": "031-5183-3200",
+   "tel": null,
    "modified": "2026-11-25",
    "setting": "indoor",
    "tags": [
