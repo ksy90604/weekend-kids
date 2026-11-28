@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27 10:36",
+ "updatedAt": "2026-11-28 10:16",
  "isSample": false,
  "source": "한국관광공사 TourAPI",
  "items": [
@@ -2620,7 +2620,7 @@
    "lat": 37.54865,
    "lon": 127.12131,
    "image": null,
-   "tel": "광나루 물놀이장 02-470-9561광나루안내센터 02-3780-0501~4",
+   "tel": null,
    "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
@@ -7915,7 +7915,7 @@
    "lat": 37.16737,
    "lon": 127.0622,
    "image": "https://tong.visitkorea.or.kr/cms/resource/05/4079305_image2_1.jpg",
-   "tel": "031-378-1261",
+   "tel": null,
    "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
@@ -13265,7 +13265,7 @@
    "lat": 37.56477,
    "lon": 127.31917,
    "image": null,
-   "tel": "010-3092-1683",
+   "tel": null,
    "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
@@ -13788,8 +13788,8 @@
    "lat": 37.32296,
    "lon": 126.81722,
    "image": "https://tong.visitkorea.or.kr/cms/resource/96/3081396_image2_1.JPG",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "031-369-1694",
+   "modified": "2026-11-27",
    "setting": "indoor",
    "tags": [
     "animals",
@@ -13819,7 +13819,7 @@
    "babyCarriage": null,
    "homepage": "https://ansan.go.kr",
    "tip": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-28"
   },
   {
    "id": "3035802",
@@ -17013,7 +17013,7 @@
    "lat": 37.66145,
    "lon": 126.86829,
    "image": null,
-   "tel": "02-1566-3333",
+   "tel": null,
    "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
@@ -19177,7 +19177,7 @@
    "lat": 37.51763,
    "lon": 127.08674,
    "image": null,
-   "tel": "잠실안내센터 02-3780-0511~4 서울시청 공원시설과 02-3780-0844",
+   "tel": null,
    "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
@@ -19838,7 +19838,7 @@
    "lat": 37.20186,
    "lon": 127.65639,
    "image": "https://tong.visitkorea.or.kr/cms/resource/87/3002787_image2_1.JPG",
-   "tel": "031-886-7646",
+   "tel": null,
    "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
@@ -22402,7 +22402,7 @@
    "lon": 127.2365,
    "image": "https://tong.visitkorea.or.kr/cms/resource/07/4133507_image2_1.jpg",
    "tel": "0502-1949-0514",
-   "modified": "2026-11-12",
+   "modified": "2026-11-27",
    "period": {
     "start": "2026-11-29",
     "end": "2026-11-29"
@@ -22433,7 +22433,7 @@
    "babyCarriage": null,
    "homepage": "https://p-petstar.imweb.me/",
    "tip": "2026 포천 펫스타 in 아트밸리는 반려가족과 시민이 함께 즐기고 소통하는 참여형 반려동물 문화축제이다. 아름다운 자연경관과 예술이 어우러진 포천아트밸리를 배경으로 반려견과 함께 도전하는 '멍파서…",
-   "detailFetched": "2026-11-13"
+   "detailFetched": "2026-11-28"
   },
   {
    "id": "1553067",
@@ -24111,7 +24111,7 @@
    "lat": 37.09401,
    "lon": 127.40975,
    "image": "https://tong.visitkorea.or.kr/cms/resource/61/4100661_image2_1.jpg",
-   "tel": "031-333-3558",
+   "tel": null,
    "modified": "2026-11-26",
    "setting": "outdoor",
    "tags": [
@@ -24384,8 +24384,8 @@
    "lat": 37.46419,
    "lon": 127.081,
    "image": "https://tong.visitkorea.or.kr/cms/resource/20/3499820_image2_1.jpg",
-   "tel": null,
-   "modified": "2026-11-11",
+   "tel": "헌릉관리소 02-445-0347 서울시청 자연생태과 02-2133-2151",
+   "modified": "2026-11-27",
    "setting": "outdoor",
    "tags": [
     "bloom",
@@ -24407,13 +24407,13 @@
    ],
    "closedDates": [],
    "months": null,
-   "restText": "매주 월요일※ 단, 월요일이 공휴일인 경우 개방하며, 그 다음 첫 번째 평일에 휴관",
+   "restText": "매주 월요일※ 단, 월요일이 공휴일인 경우 개방하며 그 다음 첫째 평일 휴관",
    "seasonText": null,
    "hours": "09:00~18:00",
    "babyCarriage": null,
    "homepage": null,
    "tip": "헌인릉 생태경관보전지역은 대모산의 남사면 하단 산자락 헌인릉 아래쪽으로 17,000여 평의 오리나무가 군락을 이루고 있는 숲이다. 대모산 남사면의 넓은 유역으로부터 유입되는 지하수로 인해 수위가 높…",
-   "detailFetched": "2026-11-12"
+   "detailFetched": "2026-11-28"
   },
   {
    "id": "3032506",
